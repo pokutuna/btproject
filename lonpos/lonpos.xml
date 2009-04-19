@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>LONPOS Question Feed</title>
+    <link>http://www.lon-pos.com/en/areaq.htm</link>
+    <description>Feedalized LONPOS Weekly Questions</description>
+    <item>
+      <title>Magic pyramid : 15</title>
+      <link>http://www.lon-pos.com/en/55pcs.php</link>
+      <description>&lt;p class=&quot;entxt&quot;&gt;Magic pyramid&lt;/p&gt;
+                    &lt;p&gt;&lt;img src=&quot;../puzzle/2005/s55p/15.jpg&quot;  width=&quot;637&quot; height=&quot;389&quot; /&gt;&lt;/p&gt;
+                    </description>
+      <pubDate>Mon, 20 Apr 2009 04:31:07 +0900</pubDate>
+      <guid>1240169467@Magic pyramid : 15</guid>
+      <dc:date>2009-04-20T04:31:07.175274+09:00</dc:date>
+    </item>
+    <item>
+      <title>Brain gymnastic : q84-1</title>
+      <link>http://www.lon-pos.com/en/84T.htm</link>
+      <description>&lt;p class=&quot;entxt&quot;&gt;Brain gymnastic&lt;/p&gt;
+                    &lt;p&gt;&lt;img src=&quot;../puzzle/2007/q84-1.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-2.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-3.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-4.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-5.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-6.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-7.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-8.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;br&gt;
+                      &lt;img src=&quot;../puzzle/2007/q84-9.gif&quot; width=&quot;450&quot; height=&quot;450&quot; vspace=&quot;10&quot;&gt;&lt;/p&gt;
+                    </description>
+      <pubDate>Mon, 20 Apr 2009 04:31:05 +0900</pubDate>
+      <guid>1240169465@Brain gymnastic : q84-1</guid>
+      <dc:date>2009-04-20T04:31:05.896748+09:00</dc:date>
+    </item>
+    <item>
+      <title>LONPOS 505 Pyramid : 505-15</title>
+      <link>http://www.lon-pos.com/en/505.php</link>
+      <description>&lt;p class=&quot;entxt&quot;&gt;LONPOS 505 Pyramid&lt;/p&gt;
+                      &lt;p&gt;&lt;img src=&quot;../puzzle/2008/505/505-15.jpg&quot;  width=&quot;500&quot; height=&quot;500&quot; /&gt;&lt;/p&gt;
+                     </description>
+      <pubDate>Mon, 20 Apr 2009 04:31:02 +0900</pubDate>
+      <guid>1240169462@LONPOS 505 Pyramid : 505-15</guid>
+      <dc:date>2009-04-20T04:31:02.708213+09:00</dc:date>
+    </item>
+    <item>
+      <title>101 rectangle plane puzzle : 101-15</title>
+      <link>http://www.lon-pos.com/en/101.php</link>
+      <description>&lt;p class=&quot;entxt&quot;&gt;101 rectangle plane puzzle&lt;/p&gt;
+                      &lt;p&gt;&lt;img src=&quot;../puzzle/2005/101/101-15.jpg&quot;  width=&quot;637&quot; height=&quot;389&quot; /&gt;&lt;/p&gt;
+                     </description>
+      <pubDate>Mon, 20 Apr 2009 04:31:01 +0900</pubDate>
+      <guid>1240169461@101 rectangle plane puzzle : 101-15</guid>
+      <dc:date>2009-04-20T04:31:01.892022+09:00</dc:date>
+    </item>
+  </channel>
+</rss>
