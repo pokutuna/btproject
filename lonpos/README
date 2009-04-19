@@ -1,0 +1,7 @@
+LonposのさいとクロールしてRSS2.0を吐き出してFTPで上げる
+
+lonpos_yaml - 空配列のYAML
+lonpos.log - ログファイル
+questions/ - 問題画像を保存するディレクトリ
+
+が必要
