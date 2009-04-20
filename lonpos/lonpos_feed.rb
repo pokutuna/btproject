@@ -18,9 +18,7 @@ FTP_PASSWORD = 'password'
 def save_file(url)
   filename = File.basename(url)
   open(CURRENT_DIR+'/questions/'+filename, 'wb') do |file|
-    open(url) do |data|
-      file.write(data.read)
-    end
+    open(url){|data| file.write(data.read)}
   end
 end
 
@@ -72,12 +70,11 @@ rss = RSS::Maker.make('2.0') do |maker|
 					item.date = Time.now
 					item.guid.content = item.date.to_i.to_s+'@'+title
 					item.guid.isPermaLink = false
-
 				end
 			end
 		rescue OpenURI::HTTPError => e #ignore
 		rescue => e
-			logger.error(e.to_s + __LINE__.to_s)
+			logger.error(e)
 		end
 	end
 end
@@ -91,7 +88,7 @@ if new_pics != [] then
 		upload(CURRENT_DIR+'/lonpos.xml', 'lonpos.xml')
 		logger.info('uploaded lonpos.xml')
 	rescue => e
-		logger.error(e.to_s + __LINE__.to_s)
+		logger.error(e)
 	end
 else
 	logger.info('not found new questions')
