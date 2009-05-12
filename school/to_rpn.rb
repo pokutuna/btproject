@@ -2,7 +2,7 @@ def to_rpn(str)
 	op = ['(',')','+','-','*','/','%']
 	buffer = Array.new
 	rev_pn = Array.new
-	fomula = str.scan(/(\d+|[^\s])/).flatten!
+	fomula = str.scan(/([\-]{0,1}\d+|[^\s])/).flatten!
 
 	while c = fomula.shift do
 		if op.include?(c) then
@@ -46,10 +46,10 @@ def calc_rpn(rpn)
 end
 
 
-['(1 + 2) * (3 + 4)',
-	'1 + 2 * 3 * 2 + 4',
+['(-1 + 2) * (3 + 4)',
+	'-1 + (-2) * 3 * 2 + 4',
 	'(1 + 2) - (12 - 5 / ( 3 + 4))',
-	'(23 -7) /( (18 - 11) *9 )'
+	'(23 - 7) /( (18 - 11) *9 )'
 ].each do |i|
 	puts i + ' = ' + eval(i).to_s
 	rpn = to_rpn(i)
