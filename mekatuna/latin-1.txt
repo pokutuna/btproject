@@ -1,0 +1,1689 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+	<!--META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-2022-jp"-->
+	<META NAME="Author" CONTENT="NOMURA Mahito">
+	<META NAME="Abstract" CONTENT="ISO Latin-1 on Japanese Web browser">
+	<META NAME="Keywords" CONTENT="ISO Latin-1, Japanese, HTML, Web browser">
+	<LINK REV=MADE HREF="mailto:CI5M-NMR@asahi-net.or.jp">
+	<TITLE>ISO 8859-1 (Latin-1) Character Set</TITLE>
+</HEAD>
+
+<BODY>
+Last updated in Jun-1998<BR>
+Code set written: ISO-2022-JP (JIS)<BR>
+<H1>ISO 8859-1 (Latin-1) Character Set</H1>
+
+<P>
+<STRONG>このページには、一文字ずつの細かい画像が大量に含まれています。そのため、Web ブラウザで「画像も表示する」設定にしている場合、表示終了まで時間がかかります。悪しからず。</STRONG>
+</P>
+<P>
+ISO 8859-1 の Latin-1 (以降 Latin-1) は、アルファベットにウムラウトがついた文字など、英語以外のラテン系欧州語(フランス語、ドイツ語…)で使われるアルファベットを集めた文字セット (Character Set) です。<BR>
+DOS/Windows, Mac の日本語環境では、文字コードが半角カタカナ(1バイトカタカナ)や日本語漢字と重なっているため、通常、日本語と同時に Latin-1 を入力表示することはできません。<BR>
+
+Web ブラウザの場合は、HTML で Latin-1 を記述するための仕様が定められており、ブラウザが対応していれば、日本語と Latin-1 文字を同時に入力表示できることがあります。<BR>
+たまたま日本語と一緒に Latin-1 文字を使いたいことがあったので、「Latin-1 を表示できるブラウザと設定の組みあわせは?」「できない組みあわせは?」を調べるために、実際に Latin-1 を記述したテーブルを作ってみました。
+</P>
+
+<HR>
+
+<BLOCKQUOTE>
+	<DL>
+	<DT>方法
+	<DT>結果
+		<DD>検証点、結論、検証したブラウザ
+	<DT>参考資料
+	<DT>ISO Latin-1 Character Table
+	</DL>
+
+</BLOCKQUOTE>
+
+<H2>方法</H2>
+<P>
+HTML の仕様では、HTML 文書内に Latin-1 文字を記述する時、直接その文字を入力する以外に、Named Entity と Code Entity を使用する方法を提供しています。
+(「<A HREF="http://www.w3.org/TR/REC-html32.html">HTML 3.2 Reference Specification</A>」中の "<A HREF="http://www.w3.org/TR/REC-html32.html#latin1">Character Entities for ISO Latin-1</A>")<BR>
+例えば“ウムラウトつきの大文字 A”について、Named Entity は“&amp;Auml;”と名称で記述する方法、Code Entity は“&amp;#196;”と文字コードで記述する方法です。<BR>
+この Named Entity と Code Entity を一覧にした<A HREF="#Table">テーブル</A>を作成しました。これをブラウザで表示し、Latin-1 文字が表示されるかどうかを見ます。
+
+</P>
+<P>
+* Web ブラウザの「文字コード・セット」を切り換えることで、日本語以外の環境での見え方も検討することができます。
+このために、本ページのヘッダから &lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-2022-jp"&gt; の明示的指定をとりのぞいています。これがあると、文字コードセットを切り換えてあっても、自動的に日本語に切り換わってしまいます。
+</P>
+<H3>更新記録</H3>
+テーブルの &quot;Description&quot; を <A HREF="http://www.w3.org/TR/REC-html40/">HTML 4.0 Specification</A></I> (<A HREF="http://www.w3.org/">W3C - The World Wide Web Consortium</A>) の ISO 10646 (Unicode) 対応の記述にさしかえ。<SMALL>(Jun-1998)</SMALL>
+
+<H2>結果</H2>
+
+<H3>検証点</H3>
+<UL>
+	<LI><A HREF="#Table">テーブル</A>中の Named Entity による Character (1)、Code Entity による Character (2) それぞれの箇所に、Latin-1 文字が表示されるかどうかをみる。
+	確認の目安は、画像と同じ文字が表示されるかどうか。<BR>
+	画像の文字は、Windows NT 4.0 標準搭載のフォント Courier New (TrueType) 12pt を使用した。
+</UL>
+
+<H3>結論</H3>
+
+<UL>
+<LI>検証したブラウザの全部にわたり、日本語で確実に Latin-1 文字が表示されるものはない。Latin-1 文字を記述したければ、一部のブラウザで見られないことを意識しておく必要がある。
+<LI>Latin-1 文字を記述する場合は、Named Entity を使用することが望ましい。Code Entity は、環境によって別の文字になる可能性が高い。
+</UL>
+
+<H3>検証したブラウザ</H3>
+<DL>
+<DT><STRONG>NC 4.04J: Windows 95 用 Netscape Communicator 4.04 (日本語版)</STRONG></DT>
+	<DD>
+	<B>手順：</B>メニューで [表示]-[文字コード セット]-[日本語(自動選択)] を選択して表示。<BR>
+
+	<B>結果：</B>Named Entity, Code Entity とも一部の文字のみ表示可能。表示できない文字は <B>?</B> に置き換えられて表示される。
+	</DD>
+
+<DT><STRONG>NN2 2.02J: OS/2 Warp 用 Netscape Navigator 2.02 [ja]</STRONG></DT>
+	<DD>
+	<B>手順：</B>メニューで [オプション]-[文書の文字コード セット]-[日本語(自動判別)] を選択して表示。<BR>
+	<B>結果：</B>Named Entity, Code Entity とも、対応する文字コードの1バイトカタカナに置きかえられてしまう。
+	</DD>
+
+<DT><STRONG>IE 3.02J: 日本語版 Windows 95 用 Microsoft インターネット エクスプローラ 3.02 (4.70.1300)</STRONG></DT>
+	<DD>
+	<B>手順：</B>右下の文字コードアイコンで [日本語(自動判別)] を選択して表示。<BR>
+	<B>結果：</B>Named Entiry はすべて表示可能。Code Entity は、同じ文字コードを持った1バイトカタカナに置きかえられてしまう。
+	</DD>
+</DL>
+
+
+
+<H2>参考資料</H2>
+<UL>
+<LI><A HREF="http://www.w3.org/TR/REC-html32.html#latin1">Character Entities for ISO Latin-1</A> in <I><A HREF="http://www.w3.org/TR/REC-html32.html">HTML 3.2 Reference Specification</A></I> (<A HREF="http://www.w3.org/">W3C - The World Wide Web Consortium</A>)
+<LI><A HREF="http://www.w3.org/TR/REC-html40/charset.html#h-5.3">5.3 Character references</A> and <A HREF="http://www.w3.org/TR/REC-html40/sgml/entities.html">24 Character entity references in HTML 4.0</A> in <I><A HREF="http://www.w3.org/TR/REC-html40/">HTML 4.0 Specification</A></I> (<A HREF="http://www.w3.org/">W3C - The World Wide Web Consortium</A>)
+
+<LI><A HREF="http://www.htmlhelp.com/reference/charset/">ISO 8859-1 character set overview</A> (<A HREF="http://www.htmlhelp.com/">HTML Help by The Web Design Group</A>)
+</UL>
+
+
+
+<HR>
+<H2><A NAME="Table">Character entity references for ISO 8859-1 (Latin-1) characters</A></H2>
+
+<H3>凡例</H3>
+<TABLE BORDER=0>
+<TR><TH ALIGN=center>Browser</TH>	<TH></TH></TR>
+
+<TR><TD ALIGN=center>O</TD>	<TD>Latin-1 文字が再現される。</TD></TR>
+<TR><TD ALIGN=center>X</TD>	<TD>表示不可。同一文字コードの1バイトカタカナや ? など、別種の文字に置き換えられる。</TD></TR>
+</TABLE>
+
+<P>
+
+<TABLE BORDER>
+<CAPTION>Character Entities for ISO 8859-1 (Latin-1) Characters</CAPTION>
+
+<TR><TH ROWSPAN=3>
+
+	<TH COLSPAN=4>Named Entity
+	<!--TH-->
+	<!--TH-->
+	<!--TH-->
+	<!-- -->
+	<TH COLSPAN=4>Code Entity
+	<!--TH-->
+	<!--TH-->
+	<!--TH-->
+	<!-- -->
+
+	<TH ROWSPAN=3>Description
+	</TR>
+<TR><!-- -->
+	<TH ROWSPAN=2>Character <BR>(1)
+	<TH ROWSPAN=2>Entity
+	<TH COLSPAN=2>Browser
+	<!--TH-->
+	<!-- -->
+	<TH ROWSPAN=2>Character <BR>(2)
+	<TH ROWSPAN=2>Entity
+	<TH COLSPAN=2>Browser
+	<!--TH-->
+
+	<!-- -->
+	<!--TH-->
+	</TR>
+<TR><!-- -->
+	<!--TH-->
+	<!--TH-->
+	<TH>NC<BR>4.04J
+	<TH>IE<BR>3.02J
+	<!-- -->
+
+	<!--TH-->
+	<!--TH-->
+	<TH>NC<BR>4.04J
+	<TH>IE<BR>3.02J
+	<!-- -->
+	<!--TH-->
+	</TR>
+<!--Header-->
+<TR>
+	<TD ALIGN=center><IMG SRC="images/160nbsp.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&nbsp;
+	<TD>&amp;nbsp;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#160;
+	<TD>&amp;#160;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>no-break space = non-breaking space, U+00A0 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/161iexcl.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&iexcl;
+	<TD>&amp;iexcl;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#161;
+	<TD>&amp;#161;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>inverted exclamation mark, U+00A1 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/162cent.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&cent;
+	<TD>&amp;cent;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#162;
+	<TD>&amp;#162;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>cent sign, U+00A2 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/163pound.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&pound;
+	<TD>&amp;pound;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#163;
+	<TD>&amp;#163;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>pound sign, U+00A3 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/164curre.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&curren;
+	<TD>&amp;curren;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#164;
+	<TD>&amp;#164;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>currency sign, U+00A4 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/165yen.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&yen;
+	<TD>&amp;yen;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#165;
+	<TD>&amp;#165;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>yen sign = yuan sign, U+00A5 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/166brvba.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&brvbar;
+	<TD>&amp;brvbar;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#166;
+	<TD>&amp;#166;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>broken bar = broken vertical bar, U+00A6 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/167sect.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&sect;
+	<TD>&amp;sect;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#167;
+	<TD>&amp;#167;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>section sign, U+00A7 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/168uml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&uml;
+	<TD>&amp;uml;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#168;
+	<TD>&amp;#168;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>diaeresis = spacing diaeresis, U+00A8 ISOdia
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/169copy.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&copy;
+	<TD>&amp;copy;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#169;
+	<TD>&amp;#169;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>copyright sign, U+00A9 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/170ordf.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ordf;
+	<TD>&amp;ordf;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#170;
+	<TD>&amp;#170;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>feminine ordinal indicator, U+00AA ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/171laquo.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&laquo;
+	<TD>&amp;laquo;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#171;
+	<TD>&amp;#171;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>left-pointing double angle quotation mark
+ = left pointing guillemet, U+00AB ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/172not.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&not;
+	<TD>&amp;not;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#172;
+	<TD>&amp;#172;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>not sign, U+00AC ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/173shy.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&shy;
+	<TD>&amp;shy;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#173;
+	<TD>&amp;#173;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>soft hyphen = discretionary hyphen, U+00AD ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/174reg.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&reg;
+	<TD>&amp;reg;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#174;
+	<TD>&amp;#174;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>registered sign = registered trade mark sign, U+00AE ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/175macr.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&macr;
+	<TD>&amp;macr;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#175;
+	<TD>&amp;#175;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>macron = spacing macron = overline
+ = APL overbar, U+00AF ISOdia
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/176deg.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&deg;
+	<TD>&amp;deg;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#176;
+	<TD>&amp;#176;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>degree sign, U+00B0 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/177plusm.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&plusmn;
+	<TD>&amp;plusmn;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#177;
+	<TD>&amp;#177;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>plus-minus sign = plus-or-minus sign, U+00B1 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/178sup2.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&sup2;
+	<TD>&amp;sup2;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#178;
+	<TD>&amp;#178;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>superscript two = superscript digit two
+ = squared, U+00B2 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/179sup3.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&sup3;
+	<TD>&amp;sup3;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#179;
+	<TD>&amp;#179;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>superscript three = superscript digit three
+ = cubed, U+00B3 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/180acute.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&acute;
+	<TD>&amp;acute;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#180;
+	<TD>&amp;#180;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>acute accent = spacing acute, U+00B4 ISOdia
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/181micro.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&micro;
+	<TD>&amp;micro;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#181;
+	<TD>&amp;#181;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>micro sign, U+00B5 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/182para.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&para;
+	<TD>&amp;para;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#182;
+	<TD>&amp;#182;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>pilcrow sign = paragraph sign, U+00B6 ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/183middo.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&middot;
+	<TD>&amp;middot;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#183;
+	<TD>&amp;#183;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>middle dot = Georgian comma
+ = Greek middle dot, U+00B7 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/184cedil.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&cedil;
+	<TD>&amp;cedil;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#184;
+	<TD>&amp;#184;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>cedilla = spacing cedilla, U+00B8 ISOdia
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/185sup1.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&sup1;
+	<TD>&amp;sup1;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#185;
+	<TD>&amp;#185;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>superscript one = superscript digit one, U+00B9 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/186ordm.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ordm;
+	<TD>&amp;ordm;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#186;
+	<TD>&amp;#186;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>masculine ordinal indicator, U+00BA ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/187raquo.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&raquo;
+	<TD>&amp;raquo;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#187;
+	<TD>&amp;#187;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>right-pointing double angle quotation mark
+ = right pointing guillemet, U+00BB ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/188fra14.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&frac14;
+	<TD>&amp;frac14;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#188;
+	<TD>&amp;#188;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>vulgar fraction one quarter
+ = fraction one quarter, U+00BC ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/189fra12.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&frac12;
+	<TD>&amp;frac12;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#189;
+	<TD>&amp;#189;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>vulgar fraction one half
+ = fraction one half, U+00BD ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/190fra34.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&frac34;
+	<TD>&amp;frac34;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#190;
+	<TD>&amp;#190;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>vulgar fraction three quarters
+ = fraction three quarters, U+00BE ISOnum
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/191iques.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&iquest;
+	<TD>&amp;iquest;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#191;
+	<TD>&amp;#191;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>inverted question mark
+ = turned question mark, U+00BF ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/192Agrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Agrave;
+	<TD>&amp;Agrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#192;
+	<TD>&amp;#192;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with grave
+ = latin capital letter A grave, U+00C0 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/193Aacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Aacute;
+	<TD>&amp;Aacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#193;
+	<TD>&amp;#193;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with acute, U+00C1 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/194Acirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Acirc;
+	<TD>&amp;Acirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#194;
+	<TD>&amp;#194;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with circumflex, U+00C2 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/195Atild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Atilde;
+	<TD>&amp;Atilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#195;
+	<TD>&amp;#195;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with tilde, U+00C3 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/196Auml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Auml;
+	<TD>&amp;Auml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#196;
+	<TD>&amp;#196;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with diaeresis, U+00C4 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/197Aring.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Aring;
+	<TD>&amp;Aring;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#197;
+	<TD>&amp;#197;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter A with ring above
+ = latin capital letter A ring, U+00C5 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/198AElig.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&AElig;
+	<TD>&amp;AElig;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#198;
+	<TD>&amp;#198;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter AE
+ = latin capital ligature AE, U+00C6 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/199Ccedi.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ccedil;
+	<TD>&amp;Ccedil;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#199;
+	<TD>&amp;#199;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter C with cedilla, U+00C7 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/200Egrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Egrave;
+	<TD>&amp;Egrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#200;
+	<TD>&amp;#200;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter E with grave, U+00C8 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/201Eacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Eacute;
+	<TD>&amp;Eacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#201;
+	<TD>&amp;#201;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter E with acute, U+00C9 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/202Ecirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ecirc;
+	<TD>&amp;Ecirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#202;
+	<TD>&amp;#202;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter E with circumflex, U+00CA ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/203Euml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Euml;
+	<TD>&amp;Euml;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#203;
+	<TD>&amp;#203;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter E with diaeresis, U+00CB ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/204Igrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Igrave;
+	<TD>&amp;Igrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#204;
+	<TD>&amp;#204;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter I with grave, U+00CC ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/205Iacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Iacute;
+	<TD>&amp;Iacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#205;
+	<TD>&amp;#205;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter I with acute, U+00CD ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/206Icirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Icirc;
+	<TD>&amp;Icirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#206;
+	<TD>&amp;#206;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter I with circumflex, U+00CE ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/207Iuml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Iuml;
+	<TD>&amp;Iuml;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#207;
+	<TD>&amp;#207;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter I with diaeresis, U+00CF ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/208ETH.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ETH;
+	<TD>&amp;ETH;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#208;
+	<TD>&amp;#208;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter ETH, U+00D0 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/209Ntild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ntilde;
+	<TD>&amp;Ntilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#209;
+	<TD>&amp;#209;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter N with tilde, U+00D1 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/210Ograv.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ograve;
+	<TD>&amp;Ograve;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#210;
+	<TD>&amp;#210;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with grave, U+00D2 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/211Oacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Oacute;
+	<TD>&amp;Oacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#211;
+	<TD>&amp;#211;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with acute, U+00D3 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/212Ocirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ocirc;
+	<TD>&amp;Ocirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#212;
+	<TD>&amp;#212;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with circumflex, U+00D4 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/213Otild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Otilde;
+	<TD>&amp;Otilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#213;
+	<TD>&amp;#213;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with tilde, U+00D5 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/214Ouml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ouml;
+	<TD>&amp;Ouml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#214;
+	<TD>&amp;#214;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with diaeresis, U+00D6 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/215times.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&times;
+	<TD>&amp;times;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#215;
+	<TD>&amp;#215;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>multiplication sign, U+00D7 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/216Oslas.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Oslash;
+	<TD>&amp;Oslash;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#216;
+	<TD>&amp;#216;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter O with stroke
+ = latin capital letter O slash, U+00D8 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/217Ugrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ugrave;
+	<TD>&amp;Ugrave;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#217;
+	<TD>&amp;#217;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter U with grave, U+00D9 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/218Uacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Uacute;
+	<TD>&amp;Uacute;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#218;
+	<TD>&amp;#218;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter U with acute, U+00DA ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/219Ucirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Ucirc;
+	<TD>&amp;Ucirc;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#219;
+	<TD>&amp;#219;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter U with circumflex, U+00DB ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/220Uuml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Uuml;
+	<TD>&amp;Uuml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#220;
+	<TD>&amp;#220;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter U with diaeresis, U+00DC ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/221Yacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&Yacute;
+	<TD>&amp;Yacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#221;
+	<TD>&amp;#221;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter Y with acute, U+00DD ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/222THORN.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&THORN;
+	<TD>&amp;THORN;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#222;
+	<TD>&amp;#222;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin capital letter THORN, U+00DE ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/223szlig.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&szlig;
+	<TD>&amp;szlig;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#223;
+	<TD>&amp;#223;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter sharp s = ess-zed, U+00DF ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/224agrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&agrave;
+	<TD>&amp;agrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#224;
+	<TD>&amp;#224;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with grave
+ = latin small letter a grave, U+00E0 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/225aacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&aacute;
+	<TD>&amp;aacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#225;
+	<TD>&amp;#225;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with acute, U+00E1 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/226acirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&acirc;
+	<TD>&amp;acirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#226;
+	<TD>&amp;#226;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with circumflex, U+00E2 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/227atild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&atilde;
+	<TD>&amp;atilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#227;
+	<TD>&amp;#227;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with tilde, U+00E3 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/228auml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&auml;
+	<TD>&amp;auml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#228;
+	<TD>&amp;#228;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with diaeresis, U+00E4 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/229aring.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&aring;
+	<TD>&amp;aring;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#229;
+	<TD>&amp;#229;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter a with ring above
+ = latin small letter a ring, U+00E5 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/230aelig.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&aelig;
+	<TD>&amp;aelig;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#230;
+	<TD>&amp;#230;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter ae
+ = latin small ligature ae, U+00E6 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/231ccedi.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ccedil;
+	<TD>&amp;ccedil;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#231;
+	<TD>&amp;#231;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter c with cedilla, U+00E7 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/232egrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&egrave;
+	<TD>&amp;egrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#232;
+	<TD>&amp;#232;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter e with grave, U+00E8 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/233eacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&eacute;
+	<TD>&amp;eacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#233;
+	<TD>&amp;#233;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter e with acute, U+00E9 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/234ecirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ecirc;
+	<TD>&amp;ecirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#234;
+	<TD>&amp;#234;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter e with circumflex, U+00EA ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/235euml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&euml;
+	<TD>&amp;euml;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#235;
+	<TD>&amp;#235;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter e with diaeresis, U+00EB ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/236igrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&igrave;
+	<TD>&amp;igrave;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#236;
+	<TD>&amp;#236;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter i with grave, U+00EC ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/237iacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&iacute;
+	<TD>&amp;iacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#237;
+	<TD>&amp;#237;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter i with acute, U+00ED ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/238icirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&icirc;
+	<TD>&amp;icirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#238;
+	<TD>&amp;#238;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter i with circumflex, U+00EE ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/239iuml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&iuml;
+	<TD>&amp;iuml;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#239;
+	<TD>&amp;#239;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter i with diaeresis, U+00EF ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/240eth.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&eth;
+	<TD>&amp;eth;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#240;
+	<TD>&amp;#240;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter eth, U+00F0 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/241ntild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ntilde;
+	<TD>&amp;ntilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#241;
+	<TD>&amp;#241;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter n with tilde, U+00F1 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/242ograv.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ograve;
+	<TD>&amp;ograve;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#242;
+	<TD>&amp;#242;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with grave, U+00F2 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/243oacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&oacute;
+	<TD>&amp;oacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#243;
+	<TD>&amp;#243;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with acute, U+00F3 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/244ocirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ocirc;
+	<TD>&amp;ocirc;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#244;
+	<TD>&amp;#244;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with circumflex, U+00F4 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/245otild.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&otilde;
+	<TD>&amp;otilde;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#245;
+	<TD>&amp;#245;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with tilde, U+00F5 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/246ouml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ouml;
+	<TD>&amp;ouml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#246;
+	<TD>&amp;#246;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with diaeresis, U+00F6 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/247divid.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&divide;
+	<TD>&amp;divide;
+	<TD ALIGN=center>O	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#247;
+	<TD>&amp;#247;
+	<TD ALIGN=center>O	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>division sign, U+00F7 ISOnum
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/248oslas.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&oslash;
+	<TD>&amp;oslash;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#248;
+	<TD>&amp;#248;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter o with stroke, = latin small letter o slash, U+00F8 ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/249ugrav.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ugrave;
+	<TD>&amp;ugrave;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#249;
+	<TD>&amp;#249;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter u with grave, U+00F9 ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/250uacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&uacute;
+	<TD>&amp;uacute;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#250;
+	<TD>&amp;#250;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter u with acute, U+00FA ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/251ucirc.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&ucirc;
+	<TD>&amp;ucirc;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#251;
+	<TD>&amp;#251;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter u with circumflex, U+00FB ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/252uuml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&uuml;
+	<TD>&amp;uuml;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#252;
+	<TD>&amp;#252;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter u with diaeresis, U+00FC ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/253yacut.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&yacute;
+	<TD>&amp;yacute;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#253;
+	<TD>&amp;#253;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter y with acute, U+00FD ISOlat1
+	</TR>
+
+<TR>
+	<TD ALIGN=center><IMG SRC="images/254thorn.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&thorn;
+	<TD>&amp;thorn;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#254;
+	<TD>&amp;#254;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter thorn with, U+00FE ISOlat1
+	</TR>
+<TR>
+	<TD ALIGN=center><IMG SRC="images/255yuml.gif" ALT="Image" WIDTH=14 HEIGHT=21>
+	<TD ALIGN=center>&yuml;
+	<TD>&amp;yuml;
+	<TD ALIGN=center>X	<!--NC-->
+
+	<TD ALIGN=center>O	<!--IE-->
+	<!-- -->
+	<TD ALIGN=center>&#255;
+	<TD>&amp;#255;
+	<TD ALIGN=center>X	<!--NC-->
+	<TD ALIGN=center>X	<!--IE-->
+	<!-- -->
+	<TD>latin small letter y with diaeresis, U+00FF ISOlat1
+	</TR>
+
+</TABLE>
+
+<HR>
+[<A HREF="../">Back to my home page</A>]
+<HR>
+<ADDRESS>
+Copyright (C) 1998 <A href="../profile.html">NOMURA Mahito (野村 真人)</A>
+</ADDRESS>
+<P>
+Created in April 1998
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1182047-1";
+urchinTracker();
+
+</script>
+</BODY>
+</HTML>
