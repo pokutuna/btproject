@@ -1,0 +1,19 @@
+#!/usr/bin/ruby -Ku
+
+require 'yaml'
+
+require 'rubygems'
+gem 'twitter4r'
+require 'twitter'
+
+conf = YAML::load_file(File.dirname(__FILE__)+'/meka_pokutuna.conf')
+twitter = Twitter::Client.new(:login => conf['twitter_id'], :password => conf['passwd'])
+
+twitter.timeline_for(:friends) do |t|
+	puts t.user.screen_name + t.text
+end
+
+twitter.messages(:received) do |t|
+	puts t.user.screen_name + ':' + t.text
+end
+#twitter.status(:post, 'クソクソクソが')
