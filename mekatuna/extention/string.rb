@@ -105,4 +105,15 @@ class String
 		return CGI.unescapeHTML(self.gsub(/(&#\d+;)/){|pat| LATIN1_CONVERT_TABLE[pat]||pat})
 	end
 
+	def without_reply_to
+		dest = self.strip
+		dest =~ /^@\w+(.+)/
+		return $1.strip
+	end
+
+	def count_reply_to
+		dest = self.strip
+		return dest.scan(/@([0-9A-Za-z_])+/).size
+	end
+
 end
