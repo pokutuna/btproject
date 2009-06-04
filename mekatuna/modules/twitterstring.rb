@@ -1,4 +1,4 @@
-class String
+module TwitterString
 	
 	require 'cgi'
 	

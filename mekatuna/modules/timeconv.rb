@@ -1,4 +1,4 @@
-class Time
+module TimeConv
 
 	require 'parsedate'
 	
