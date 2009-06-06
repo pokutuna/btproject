@@ -116,4 +116,7 @@ module TwitterString
 		return dest.scan(/@([0-9A-Za-z_])+/).size
 	end
 
+	def scan_id
+		return self.scan(/([0-9A-Za-z_]+)/).flatten
+	end
 end
