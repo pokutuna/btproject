@@ -1,7 +1,7 @@
-module YahooAPI
+class YahooAPI
 
 	class DependencyAnalyzer
-#		include APIConfig
+		include APIConfig
 		
 		RequestURL = 'http://jlp.yahooapis.jp/DAService/V1/parse'
 
