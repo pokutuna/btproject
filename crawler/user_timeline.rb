@@ -46,7 +46,6 @@ catch(:exit){
 			count404 += 1
 			break if count404 >= 5
 			buffer404.push(pagenum)
-			p urlstr
 			p e.class.to_s + e.message.to_s + e.backtrace.to_s
 		end
 	end
