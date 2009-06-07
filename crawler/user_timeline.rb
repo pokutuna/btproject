@@ -12,7 +12,7 @@ Twitter_rss = 'http://twitter.com/statuses/user_timeline/'
 Twitter_rss_suffix = '.atom?page='
 
 user = 'pokutuna'
-File.open(user+'_posts.txt','w'){ |file|
+File.open(user+'_posts.txt','a'){ |file|
 	
 	catch(:exit){
 		begin
@@ -28,7 +28,7 @@ File.open(user+'_posts.txt','w'){ |file|
 
 		buffer404 = Array.new
 		count404 = 0
-		for pagenum in 1..500
+		for pagenum in 0..150
 			begin
 				doc = REXML::Document.new(open(Twitter_rss+user_id+Twitter_rss_suffix+pagenum.to_s).read.unescapeHTML)
 				count404 = 0

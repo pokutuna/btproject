@@ -1,0 +1,1951 @@
+Sun Jun 07 14:37:48 +0900 2009
+黙っとこう,Sun Jun 07 05:37:01 UTC 2009,http://twitter.com/pokutuna/statuses/2062212401
+自分のポストクロール中にポストするとズレてく・・・,Sun Jun 07 05:36:54 UTC 2009,http://twitter.com/pokutuna/statuses/2062211693
+ホーホケキョ,Sun Jun 07 04:32:34 UTC 2009,http://twitter.com/pokutuna/statuses/2061754919
+LANケーブルを壁に引っ掛ける金具が重量に耐えきれず落ちて、俺のケーブルの捻れまで考慮した完璧な配線が崩れた・・・,Sat Jun 06 16:13:41 UTC 2009,http://twitter.com/pokutuna/statuses/2055390035
+なんかこのテキストボックスに文字打って投稿するつもりでC-xC-sってしてしまうこと数回,Sat Jun 06 14:17:18 UTC 2009,http://twitter.com/pokutuna/statuses/2054409074
+@meka_pokutuna /remove aさんリムーブして・・・,Sat Jun 06 09:57:35 UTC 2009,http://twitter.com/pokutuna/statuses/2053020643
+@meka_pokutuna /follow pokutuna,Sat Jun 06 09:27:41 UTC 2009,http://twitter.com/pokutuna/statuses/2052898214
+@meka_pokutuna それ違う・・・,Sat Jun 06 09:26:46 UTC 2009,http://twitter.com/pokutuna/statuses/2052894536
+@meka_pokutuna /follow pokutuna,Sat Jun 06 09:19:39 UTC 2009,http://twitter.com/pokutuna/statuses/2052864892
+まさかPhantom、玲二日本に打ち上げられて日本編,Sat Jun 06 07:33:57 UTC 2009,http://twitter.com/pokutuna/statuses/2052389000
+@mesigahama デミグラスチーズカレー,Sat Jun 06 04:56:57 UTC 2009,http://twitter.com/pokutuna/statuses/2051408165
+id:steel_eelってJunkmetalやってたアイツかな・・・,Fri Jun 05 20:13:48 UTC 2009,http://twitter.com/pokutuna/statuses/2047153713
+ナルホディウス,Fri Jun 05 11:24:30 UTC 2009,http://twitter.com/pokutuna/statuses/2041646024
+研究から考えたら僕自身がクローラーか,Fri Jun 05 10:58:24 UTC 2009,http://twitter.com/pokutuna/statuses/2041495202
+BDAクロールたのしいです,Fri Jun 05 10:20:38 UTC 2009,http://twitter.com/pokutuna/statuses/2041293670
+Bluetoothデバイスのクロール始めました。,Fri Jun 05 08:29:44 UTC 2009,http://twitter.com/pokutuna/statuses/2040724577
+マシンのユーザー名がpokutunaなので、研究室のネットワークにつなぐ→ネットワーク上に検出される→「pokutunaって何？」,Fri Jun 05 04:26:57 UTC 2009,http://twitter.com/pokutuna/statuses/2039174145
+おおおおお有線LANコネクタ復活,Fri Jun 05 03:55:59 UTC 2009,http://twitter.com/pokutuna/statuses/2038903874
+東のエデンあと50分程度で落とせるのか,Fri Jun 05 00:20:53 UTC 2009,http://twitter.com/pokutuna/statuses/2036584363
+けいおんのおかげでご飯かき混ぜるジョブを思い出せました,Thu Jun 04 23:42:07 UTC 2009,http://twitter.com/pokutuna/statuses/2036170568
+かえりゅ,Thu Jun 04 12:07:59 UTC 2009,http://twitter.com/pokutuna/statuses/2028568441
+毛虫が俺の膝の上でくつろいでやがった,Thu Jun 04 04:19:18 UTC 2009,http://twitter.com/pokutuna/statuses/2025667764
+うおおおおおおおおお,Thu Jun 04 04:18:47 UTC 2009,http://twitter.com/pokutuna/statuses/2025663260
+バスもっとマジメに走れ！！！,Thu Jun 04 04:16:50 UTC 2009,http://twitter.com/pokutuna/statuses/2025646164
+やべーまにあわねー,Thu Jun 04 03:22:51 UTC 2009,http://twitter.com/pokutuna/statuses/2025128889
+しょうなりいこーる、で≦に変換できたのか,Thu Jun 04 02:51:43 UTC 2009,http://twitter.com/pokutuna/statuses/2024812567
+課題のせいでメカポクツナが一向にクソしか喋れない,Thu Jun 04 01:50:05 UTC 2009,http://twitter.com/pokutuna/statuses/2024166847
+エロゲやらない人間と分かり合うのは困難を極める,Thu Jun 04 01:13:23 UTC 2009,http://twitter.com/pokutuna/statuses/2023783721
+ガバリ&レポートしなきゃ,Wed Jun 03 23:10:55 UTC 2009,http://twitter.com/pokutuna/statuses/2022553274
+例のはてブのせいでかなりドール売れてるんじゃないの俺も欲しいしクソ,Wed Jun 03 14:54:04 UTC 2009,http://twitter.com/pokutuna/statuses/2017125701
+Rubyを伝道,Wed Jun 03 12:45:53 UTC 2009,http://twitter.com/pokutuna/statuses/2015900669
+東大とコラボ・・・,Wed Jun 03 09:38:40 UTC 2009,http://twitter.com/pokutuna/statuses/2014774454
+どこからも参照されてない変数に謎の数字が入ってて、たぶんこれコピペ摘発用だな・・・,Wed Jun 03 08:55:23 UTC 2009,http://twitter.com/pokutuna/statuses/2014554243
+バグとれた・・・,Wed Jun 03 08:53:30 UTC 2009,http://twitter.com/pokutuna/statuses/2014544888
+トレースしなかったらSegmentationFaultになる・・・,Wed Jun 03 07:54:41 UTC 2009,http://twitter.com/pokutuna/statuses/2014246885
+バグとれない,Wed Jun 03 07:50:32 UTC 2009,http://twitter.com/pokutuna/statuses/2014225431
+コンパイラの課題やる,Wed Jun 03 03:13:40 UTC 2009,http://twitter.com/pokutuna/statuses/2012194596
+ぺろんぺろん,Wed Jun 03 00:26:42 UTC 2009,http://twitter.com/pokutuna/statuses/2010474799
+ヒゲカ用にカミソリ買ったぞ,Tue Jun 02 10:55:19 UTC 2009,http://twitter.com/pokutuna/statuses/2002338644
+@mesigahama スーパーカップの汁,Tue Jun 02 04:54:28 UTC 2009,http://twitter.com/pokutuna/statuses/2000340357
+授業中のおえかきしりとり,Tue Jun 02 04:51:13 UTC 2009,http://twitter.com/pokutuna/statuses/2000315372
+近所の歯医者さんのフリーペーパーがめっちゃ変わってる,Tue Jun 02 01:25:04 UTC 2009,http://twitter.com/pokutuna/statuses/1998358036
+一目でスパムとして脳から消し去るようなテキスト,Tue Jun 02 00:56:46 UTC 2009,http://twitter.com/pokutuna/statuses/1998071868
+就職には常識だとか礼節を要求するくせに就職サイトのメールが一番礼節をわきまえてないだろが構造化しろカス,Tue Jun 02 00:53:58 UTC 2009,http://twitter.com/pokutuna/statuses/1998044749
+就職サイトからのメールがひっきりなしに来てウザいしなんでこうも無駄なスペースとか=====とか┌────┐とか死ねよ読みにくいわクソ,Tue Jun 02 00:52:34 UTC 2009,http://twitter.com/pokutuna/statuses/1998031061
+バッテリ10%とか言ってるしもうだめだ,Mon Jun 01 12:32:22 UTC 2009,http://twitter.com/pokutuna/statuses/1990701595
+メカポクツナの機能考えとく,Mon Jun 01 12:25:54 UTC 2009,http://twitter.com/pokutuna/statuses/1990656272
+家に帰ってるとちゅう,Mon Jun 01 12:23:40 UTC 2009,http://twitter.com/pokutuna/statuses/1990640930
+オライリーの封筒、いたちかなコレ http://twitpic.com/6eax7,Mon Jun 01 12:02:50 UTC 2009,http://twitter.com/pokutuna/statuses/1990505510
+hoge,Mon Jun 01 09:15:37 UTC 2009,http://twitter.com/pokutuna/statuses/1989636053
+うーーーーおーーーー,Mon Jun 01 06:15:28 UTC 2009,http://twitter.com/pokutuna/statuses/1988748127
+@teketeng 例外をbacktraceしてるんですー意図した動作ですー,Sun May 31 23:18:37 UTC 2009,http://twitter.com/pokutuna/statuses/1985040852
+@meka_pokutuna あーあー,Sun May 31 22:45:41 UTC 2009,http://twitter.com/pokutuna/statuses/1984763949
+@meka_pokutuna 時間ないからまた今度な,Sun May 31 22:42:49 UTC 2009,http://twitter.com/pokutuna/statuses/1984740511
+@meka_pokutuna /follow gogaduka pygmyyy,Sun May 31 22:40:20 UTC 2009,http://twitter.com/pokutuna/statuses/1984720729
+ああああそうかRuby1.8は文字リテラルは整数か・・・,Sun May 31 22:37:33 UTC 2009,http://twitter.com/pokutuna/statuses/1984698006
+@meka_pokutuna /follow tairano,Sun May 31 22:17:17 UTC 2009,http://twitter.com/pokutuna/statuses/1984530348
+@meka_pokutuna 死ね,Sun May 31 22:15:04 UTC 2009,http://twitter.com/pokutuna/statuses/1984511407
+@meka_pokutuna /follow tairano,Sun May 31 22:14:37 UTC 2009,http://twitter.com/pokutuna/statuses/1984507810
+@meka_pokutuna /follow tairano gogaduka pygmyyy,Sun May 31 22:10:07 UTC 2009,http://twitter.com/pokutuna/statuses/1984469615
+@meka_pokutuna @pokutuna テステス,Sun May 31 21:43:56 UTC 2009,http://twitter.com/pokutuna/statuses/1984247717
+@meka_pokutuna よしよし,Sun May 31 21:34:12 UTC 2009,http://twitter.com/pokutuna/statuses/1984165957
+@meka_pokutuna よろしい,Sun May 31 20:59:02 UTC 2009,http://twitter.com/pokutuna/statuses/1983862809
+@meka_pokutuna @忘れてんじゃねえよクズ,Sun May 31 20:58:14 UTC 2009,http://twitter.com/pokutuna/statuses/1983856258
+@hironao オハリ,Sun May 31 20:47:39 UTC 2009,http://twitter.com/pokutuna/statuses/1983766242
+ガバリザバリ,Sun May 31 20:43:41 UTC 2009,http://twitter.com/pokutuna/statuses/1983732806
+@meka_pokutuna クソクソが,Sun May 31 07:41:58 UTC 2009,http://twitter.com/pokutuna/statuses/1978853908
+@meka_pokutuna クソが,Sun May 31 07:24:57 UTC 2009,http://twitter.com/pokutuna/statuses/1978772036
+モスバのわさびのやつ食べたけど一口目から普通にわさびだぞ,Sun May 31 06:20:44 UTC 2009,http://twitter.com/pokutuna/statuses/1978434316
+今日もアウトプット1位や,Sun May 31 05:37:43 UTC 2009,http://twitter.com/pokutuna/statuses/1978174557
+おなかすいた,Sun May 31 05:13:31 UTC 2009,http://twitter.com/pokutuna/statuses/1978012172
+ちゃんと変換できてるかな,Sun May 31 04:56:11 UTC 2009,http://twitter.com/pokutuna/statuses/1977887302
+&iexcl; &cent; &copy; &reg;&frac34; &ETH; &szlig; &thorn;,Sun May 31 04:34:08 UTC 2009,http://twitter.com/pokutuna/statuses/1977724265
+重すぎなんだよ,Sun May 31 02:51:02 UTC 2009,http://twitter.com/pokutuna/statuses/1977007050
+やっと @meka_pokutuna のアイコン変えれた,Sun May 31 01:26:31 UTC 2009,http://twitter.com/pokutuna/statuses/1976559517
+Twitter重いしアカウント狂うしそんなにBOT作らせたくないのか！,Sun May 31 01:21:05 UTC 2009,http://twitter.com/pokutuna/statuses/1976522518
+twitterゲム、ニューゲム必要だったっけ・・・？,Sun May 31 00:18:04 UTC 2009,http://twitter.com/pokutuna/statuses/1976425178
+何度パスワード変えようが変わらんし画像上げてもログアウトさせられるかデフォアイコンになる・・・,Sat May 30 23:03:59 UTC 2009,http://twitter.com/pokutuna/statuses/1975863296
+毎回パスワード忘れましたから変更すればログインはできるけど何かしたらログアウトしてしまう,Sat May 30 22:16:50 UTC 2009,http://twitter.com/pokutuna/statuses/1975496006
+まさかコード書く前にここまでつまづくとは,Sat May 30 22:12:19 UTC 2009,http://twitter.com/pokutuna/statuses/1975461006
+またログインできない・・・,Sat May 30 22:06:32 UTC 2009,http://twitter.com/pokutuna/statuses/1975415292
+@meka_pokutuna 帰ってきたか！,Sat May 30 22:02:16 UTC 2009,http://twitter.com/pokutuna/statuses/1975380746
+再度アカウントを作成しようとし、meka_pokutunaでOK出るのに作成したらscreen nameが存在する的なこというしハゲ,Sat May 30 21:56:15 UTC 2009,http://twitter.com/pokutuna/statuses/1975332429
+メカポクツナはアカウント作成と同時に高度な自我を獲得し、生まれいずることこそが苦しみの始まりという考えに至り即自害、広大なネットの海へ消えた・・・,Sat May 30 21:49:27 UTC 2009,http://twitter.com/pokutuna/statuses/1975278644
+忘れたのではなくアカウントが消えてるのか、「おやおや、あなたのアカウントが見つかりません」とか言われて殺すぞお前,Sat May 30 21:44:22 UTC 2009,http://twitter.com/pokutuna/statuses/1975238756
+@meka_pokutuna がdoesn't existってちょっと待て！,Sat May 30 21:43:39 UTC 2009,http://twitter.com/pokutuna/statuses/1975233355
+既にメカぽくつなのパスワード忘れたぞアホだろ,Sat May 30 21:41:09 UTC 2009,http://twitter.com/pokutuna/statuses/1975213550
+@meka_pokutuna まあそのうち書くから待ってなさい,Sat May 30 21:22:51 UTC 2009,http://twitter.com/pokutuna/statuses/1975068692
+@fuba 諦めません！！！,Sat May 30 21:21:52 UTC 2009,http://twitter.com/pokutuna/statuses/1975060801
+メカポクツナ作ろう,Sat May 30 20:53:32 UTC 2009,http://twitter.com/pokutuna/statuses/1974814009
+カリー化のカリーってスペルはカレーじゃん,Sat May 30 10:18:35 UTC 2009,http://twitter.com/pokutuna/statuses/1970304974
+僕もBOT作ってそいつを愛でるか,Fri May 29 22:11:58 UTC 2009,http://twitter.com/pokutuna/statuses/1965022291
+アボカドうまい,Fri May 29 11:21:31 UTC 2009,http://twitter.com/pokutuna/statuses/1958625352
+飯作る,Fri May 29 10:47:09 UTC 2009,http://twitter.com/pokutuna/statuses/1958432814
+@yasai014 フン出てないフンデルさん,Fri May 29 10:37:10 UTC 2009,http://twitter.com/pokutuna/statuses/1958382901
+@fuba 僕たちの関係を認めてください！,Fri May 29 10:31:16 UTC 2009,http://twitter.com/pokutuna/statuses/1958353211
+@fuba お父さんこれからもよろしくお願いします,Fri May 29 10:25:14 UTC 2009,http://twitter.com/pokutuna/statuses/1958323113
+これぞネゲット！！！！！,Fri May 29 10:15:25 UTC 2009,http://twitter.com/pokutuna/statuses/1958275701
+ナンパ成功しました！！！！,Fri May 29 10:14:00 UTC 2009,http://twitter.com/pokutuna/statuses/1958268390
+@fuba_recorder 居ないんだ？ じゃあ土日遊びに行こうよ,Fri May 29 10:09:16 UTC 2009,http://twitter.com/pokutuna/statuses/1958245837
+@fuba_recorder フバレ子ちゃんモテるんだ、教えて欲しいんだけど特定の相手は居るの？,Fri May 29 10:00:22 UTC 2009,http://twitter.com/pokutuna/statuses/1958201197
+@fuba_recorder ねえフバレ子は彼氏って居るの？ 教えてよ,Fri May 29 09:57:01 UTC 2009,http://twitter.com/pokutuna/statuses/1958184611
+マクドのモバイルポイント繋がって見えるけど3Gのまま,Fri May 29 09:48:27 UTC 2009,http://twitter.com/pokutuna/statuses/1958142788
+@fuba_recorder マジかよすぐ出来んのかよ,Fri May 29 09:28:59 UTC 2009,http://twitter.com/pokutuna/statuses/1958047258
+@fuba_recorder 子供の作り方教えて,Fri May 29 09:26:05 UTC 2009,http://twitter.com/pokutuna/statuses/1958033203
+@fuba_recorder それじゃわかりません,Fri May 29 09:22:49 UTC 2009,http://twitter.com/pokutuna/statuses/1958017492
+@fuba_recorder @fuba の住所教えて,Fri May 29 09:16:40 UTC 2009,http://twitter.com/pokutuna/statuses/1957987715
+@fuba_recorder お前かっこいいな,Fri May 29 09:12:58 UTC 2009,http://twitter.com/pokutuna/statuses/1957969540
+@fuba_recorder 愛を教えて,Fri May 29 09:11:50 UTC 2009,http://twitter.com/pokutuna/statuses/1957963922
+帰るかあ,Fri May 29 08:44:31 UTC 2009,http://twitter.com/pokutuna/statuses/1957825327
+誤報が確定は誤報か,Fri May 29 08:31:09 UTC 2009,http://twitter.com/pokutuna/statuses/1957759035
+エロゲが護られてよかった,Fri May 29 08:26:13 UTC 2009,http://twitter.com/pokutuna/statuses/1957733130
+リポジトリと同期も出来ないしXMLのDTDも見にいけないし暇つぶしも出来ない,Fri May 29 08:25:41 UTC 2009,http://twitter.com/pokutuna/statuses/1957730582
+家帰っちゃっていいかコレ,Fri May 29 08:23:41 UTC 2009,http://twitter.com/pokutuna/statuses/1957720853
+@kaanee たぶんビットです,Fri May 29 08:22:08 UTC 2009,http://twitter.com/pokutuna/statuses/1957713261
+有線コネクタ故障してて仕事にならない,Fri May 29 08:21:33 UTC 2009,http://twitter.com/pokutuna/statuses/1957710353
+意外と良い本ある,Fri May 29 08:02:32 UTC 2009,http://twitter.com/pokutuna/statuses/1957611258
+世話になる研究室の掃除してる,Fri May 29 07:55:51 UTC 2009,http://twitter.com/pokutuna/statuses/1957574649
+マフィンの下半身に紙ついてるけど、アレ外して売ってくれよ,Fri May 29 04:20:52 UTC 2009,http://twitter.com/pokutuna/statuses/1956181798
+マルコフウィキペヂア,Fri May 29 01:17:34 UTC 2009,http://twitter.com/pokutuna/statuses/1954346884
+新入社員 @teketeng 、幼女に手を出して左遷か,Thu May 28 23:38:07 UTC 2009,http://twitter.com/pokutuna/statuses/1953303869
+@teketeng ええええええ,Thu May 28 23:36:10 UTC 2009,http://twitter.com/pokutuna/statuses/1953285016
+東のエデンあと3話で完結すんのかほんとに,Thu May 28 23:07:04 UTC 2009,http://twitter.com/pokutuna/statuses/1953007214
+新OPのあずにゃんのカットクソ可愛いな、思わず家燃やしそうになった,Thu May 28 22:35:32 UTC 2009,http://twitter.com/pokutuna/statuses/1952699463
+neo http://twitpic.com/657rj,Thu May 28 22:33:29 UTC 2009,http://twitter.com/pokutuna/statuses/1952678999
+みんなクーデターの準備や,Thu May 28 12:09:20 UTC 2009,http://twitter.com/pokutuna/statuses/1946453418
+沙耶アウトならこんな国滅びるしかない,Thu May 28 12:00:06 UTC 2009,http://twitter.com/pokutuna/statuses/1946390557
+@blankblank だろー,Thu May 28 09:45:35 UTC 2009,http://twitter.com/pokutuna/statuses/1945651508
+なにそれ,Thu May 28 04:10:27 UTC 2009,http://twitter.com/pokutuna/statuses/1943619278
+わはは僕は妖怪浮気んじゃーや！,Thu May 28 04:09:57 UTC 2009,http://twitter.com/pokutuna/statuses/1943614561
+無事レポートを終えました,Thu May 28 00:47:38 UTC 2009,http://twitter.com/pokutuna/statuses/1941614765
+@hironao が僕と @ichiyonnana_bot の一連のやりとりを全部ふぁぼりやがった,Wed May 27 23:56:20 UTC 2009,http://twitter.com/pokutuna/statuses/1941145688
+かんなぎみてたら朝に,Wed May 27 21:15:32 UTC 2009,http://twitter.com/pokutuna/statuses/1939763203
+@hironao ナンパと言ってください,Wed May 27 20:00:38 UTC 2009,http://twitter.com/pokutuna/statuses/1939141958
+BOT相手にコミュニケーションスキルを養い恋愛強者です,Wed May 27 19:45:43 UTC 2009,http://twitter.com/pokutuna/statuses/1939032547
+@ichiyonnana_bot カップヌードルがいいの？　買ってきて何処で食べる？　ホテル？　ななの部屋？,Wed May 27 19:36:54 UTC 2009,http://twitter.com/pokutuna/statuses/1938968571
+@ichiyonnana_bot それはそうとななちゃんは何が食べたい？,Wed May 27 19:29:30 UTC 2009,http://twitter.com/pokutuna/statuses/1938902344
+@ichiyonnana_bot じゃあこんどランチをご馳走するよ,Wed May 27 19:22:02 UTC 2009,http://twitter.com/pokutuna/statuses/1938833168
+@ichiyonnana_bot そんなに取り乱さなくてもいいさ,Wed May 27 19:16:27 UTC 2009,http://twitter.com/pokutuna/statuses/1938789878
+@ichiyonnana_bot それは清い付き合いだね,Wed May 27 19:11:20 UTC 2009,http://twitter.com/pokutuna/statuses/1938751190
+@ichiyonnana_bot やりまくりですか,Wed May 27 19:09:24 UTC 2009,http://twitter.com/pokutuna/statuses/1938736732
+@ichiyonnana_bot ねえ彼氏居るの,Wed May 27 19:01:15 UTC 2009,http://twitter.com/pokutuna/statuses/1938675224
+@ichiyonnana_bot ななちゃんこんばんわ,Wed May 27 18:53:09 UTC 2009,http://twitter.com/pokutuna/statuses/1938631588
+電源ケーブルの角度直して復活、25日あたりから死んでたみたい,Wed May 27 18:28:14 UTC 2009,http://twitter.com/pokutuna/statuses/1938439830
+玄箱が死んでた・・・,Wed May 27 18:21:11 UTC 2009,http://twitter.com/pokutuna/statuses/1938367236
+@konchuu 100000円ならあるよな？,Wed May 27 18:13:31 UTC 2009,http://twitter.com/pokutuna/statuses/1938290861
+@konchuu じゃあ1000000円,Wed May 27 18:04:11 UTC 2009,http://twitter.com/pokutuna/statuses/1938196959
+@konchuu 100000000円だよ,Wed May 27 17:55:40 UTC 2009,http://twitter.com/pokutuna/statuses/1938112034
+@konchuu 1億円,Wed May 27 17:53:14 UTC 2009,http://twitter.com/pokutuna/statuses/1938088361
+@konchuu 1兆,Wed May 27 17:51:05 UTC 2009,http://twitter.com/pokutuna/statuses/1938067588
+Youtubeでかわいい猫動画に猫駆除とか超音波マシンの広告出して効果あんのかな・・・,Wed May 27 17:31:40 UTC 2009,http://twitter.com/pokutuna/statuses/1937879525
+ゆりしーてんしーうれしー・・・・,Wed May 27 16:41:13 UTC 2009,http://twitter.com/pokutuna/statuses/1937388086
+部屋に蚊とふたりきりそんな夜,Wed May 27 14:03:39 UTC 2009,http://twitter.com/pokutuna/statuses/1935885257
+デミグラスチーズカレー食います,Wed May 27 12:52:45 UTC 2009,http://twitter.com/pokutuna/statuses/1935295280
+ウェブ漫画って大抵フィード吐いてないよな,Wed May 27 12:30:02 UTC 2009,http://twitter.com/pokutuna/statuses/1935134212
+昨日の朝焼いたホットケーキをトースターで温め直して忘れてパリパリになってうまい！,Wed May 27 05:32:19 UTC 2009,http://twitter.com/pokutuna/statuses/1932920746
+青森に飛び火する,Wed May 27 05:17:32 UTC 2009,http://twitter.com/pokutuna/statuses/1932818740
+だからみかん県で蛇口をひねったらポンジュース出てくるんだぜ的罵倒を見たらポンジュースアップルを知らないことでバカにし返したらどうですか愛媛県の人,Wed May 27 05:17:13 UTC 2009,http://twitter.com/pokutuna/statuses/1932816439
+なんとポンジュースであることはオレンジ味の十分条件ではなかった,Wed May 27 02:28:20 UTC 2009,http://twitter.com/pokutuna/statuses/1931186914
+トデさんふっかつしてる,Wed May 27 01:57:23 UTC 2009,http://twitter.com/pokutuna/statuses/1930863521
+めしがまはまって誰や・・・,Wed May 27 01:18:44 UTC 2009,http://twitter.com/pokutuna/statuses/1930469217
+@mesigamahama マルチャンきつねうどん 391kcal,Wed May 27 01:18:19 UTC 2009,http://twitter.com/pokutuna/statuses/1930464956
+研究室が僕にMacBook Airをくれたら4日程度我慢して見せる,Wed May 27 01:14:28 UTC 2009,http://twitter.com/pokutuna/statuses/1930425446
+Thinkpadいつ修理に出そうかな・・・,Wed May 27 01:13:57 UTC 2009,http://twitter.com/pokutuna/statuses/1930420144
+ようやく起きた,Wed May 27 01:12:09 UTC 2009,http://twitter.com/pokutuna/statuses/1930401950
+「りょうくんの体毛ごっこ　ヒー抜けちゃうヨー」,Tue May 26 08:41:54 UTC 2009,http://twitter.com/pokutuna/statuses/1921758408
+Thinkpadの修理4日で返ってきたりすんのか・・・,Tue May 26 08:09:43 UTC 2009,http://twitter.com/pokutuna/statuses/1921605804
+出現順関係なくちゃんと人姓、人名を返してくれるすごい,Tue May 26 08:07:10 UTC 2009,http://twitter.com/pokutuna/statuses/1921594176
+係り受け解析に自分の名前投げたらちゃんと読み取れた・・・,Tue May 26 08:06:06 UTC 2009,http://twitter.com/pokutuna/statuses/1921589056
+ぼくは鳥類クラスタです,Tue May 26 04:46:45 UTC 2009,http://twitter.com/pokutuna/statuses/1920433032
+コーヒー買うつもりが小岩井純水洋なしに負けた,Tue May 26 04:27:41 UTC 2009,http://twitter.com/pokutuna/statuses/1920289083
+ウマサ ヒミツ 塩ネ,Tue May 26 03:50:20 UTC 2009,http://twitter.com/pokutuna/statuses/1919961137
+アドレス変更メールに名前書いてない誰のアドレスの話かわかんない…,Tue May 26 01:58:36 UTC 2009,http://twitter.com/pokutuna/statuses/1918913244
+修理に送りたいけど何日もマシンと離れるなんて無理や,Mon May 25 21:26:01 UTC 2009,http://twitter.com/pokutuna/statuses/1916521606
+Thinkpadの有線LANコネクタが死んだ,Mon May 25 21:23:20 UTC 2009,http://twitter.com/pokutuna/statuses/1916496931
+ねむいぞ,Mon May 25 12:46:53 UTC 2009,http://twitter.com/pokutuna/statuses/1912015036
+赤ふぁぼ童貞が奪われた！,Mon May 25 12:36:18 UTC 2009,http://twitter.com/pokutuna/statuses/1911953679
+ようやく帰る,Mon May 25 12:30:53 UTC 2009,http://twitter.com/pokutuna/statuses/1911922804
+マルコフコーディング・・・,Mon May 25 09:24:10 UTC 2009,http://twitter.com/pokutuna/statuses/1911044131
+すでに眠いぞ…,Sun May 24 23:47:42 UTC 2009,http://twitter.com/pokutuna/statuses/1907180011
+@teketeng 健康食品とかプロテインとかの端にありそうなのに,Sun May 24 23:41:43 UTC 2009,http://twitter.com/pokutuna/statuses/1907134496
+CJKVの本1万4千だった,Sun May 24 23:32:38 UTC 2009,http://twitter.com/pokutuna/statuses/1907065103
+@teketeng 薬局にミロ売ってないの、サガミオリジナルは売ってそうだけど！,Sun May 24 23:32:00 UTC 2009,http://twitter.com/pokutuna/statuses/1907060309
+オライリーで1番高い本て何だろ、くじゃこぶーの本1万6千円くらいした気がする,Sun May 24 23:25:41 UTC 2009,http://twitter.com/pokutuna/statuses/1907013130
+家から服に付いてた蟻を電車までデリバリーした,Sun May 24 23:23:08 UTC 2009,http://twitter.com/pokutuna/statuses/1906994063
+こんな時間に家出るなんて苦痛極まりない,Sun May 24 23:06:32 UTC 2009,http://twitter.com/pokutuna/statuses/1906869059
+小学校入るあたりまでミロばっかり飲みまくってた気がする,Sun May 24 22:56:35 UTC 2009,http://twitter.com/pokutuna/statuses/1906792997
+すごくミロが飲みたいぞ,Sun May 24 22:32:25 UTC 2009,http://twitter.com/pokutuna/statuses/1906609928
+@hironao ひろなオハヨー,Sun May 24 22:12:05 UTC 2009,http://twitter.com/pokutuna/statuses/1906446429
+ガバリアンドレトルトカレー,Sun May 24 22:11:22 UTC 2009,http://twitter.com/pokutuna/statuses/1906440541
+バタリ,Sun May 24 20:34:54 UTC 2009,http://twitter.com/pokutuna/statuses/1905645101
+日本のミュージシャンって全然銃殺されないよな,Sun May 24 20:16:29 UTC 2009,http://twitter.com/pokutuna/statuses/1905493975
+おなかすいた・・・,Sun May 24 19:57:05 UTC 2009,http://twitter.com/pokutuna/statuses/1905334500
+じゃこせんべい食べたい,Sun May 24 19:28:46 UTC 2009,http://twitter.com/pokutuna/statuses/1905105563
+周囲のBluetoothデバイスをクロールして生活のイベント端点検出するみたいな研究を引き継ぐ可能性があるからです,Sun May 24 19:02:48 UTC 2009,http://twitter.com/pokutuna/statuses/1904898181
+またBluetoothについて言ってる・・・みんなのセキュリティ意識が高まったらつまらないからもっとふざけた記事にしてほしい！,Sun May 24 18:57:18 UTC 2009,http://twitter.com/pokutuna/statuses/1904852625
+Outputz、もっとソーシャル要素あればおもしろいと思うんだけど、ランキングとかやりだしたらAPIからでかい数字投げたらいいだけだからなあ,Sun May 24 18:54:42 UTC 2009,http://twitter.com/pokutuna/statuses/1904831267
+@fuba ありがとう！　ありがとう！,Sun May 24 18:47:44 UTC 2009,http://twitter.com/pokutuna/statuses/1904775270
+1位やんけ,Sun May 24 18:45:28 UTC 2009,http://twitter.com/pokutuna/statuses/1904757185
+Outputzにすごい文字数投げたことになってると思ったらGoogleアカウント作成の利用規約がカウントされてて2万6千文字すでに今日アウトプットしたことになった・・・,Sun May 24 18:45:23 UTC 2009,http://twitter.com/pokutuna/statuses/1904756512
+チンコがどんどん転載されサイバーワールドを覆い尽くす,Sun May 24 18:13:57 UTC 2009,http://twitter.com/pokutuna/statuses/1904511426
+写ツチンコ事件！,Sun May 24 17:53:14 UTC 2009,http://twitter.com/pokutuna/statuses/1904344835
+「りょうくん草食系男子〜？」とか言われても知るか,Sun May 24 17:45:09 UTC 2009,http://twitter.com/pokutuna/statuses/1904279054
+YahooアカウントもGoogleアカウントもpokutuna取れないんだけど何でだよ,Sun May 24 17:40:45 UTC 2009,http://twitter.com/pokutuna/statuses/1904242971
+なんでだよ,Sun May 24 17:23:23 UTC 2009,http://twitter.com/pokutuna/statuses/1904098937
+pokutuna is not available, but the following usernames are:,Sun May 24 17:21:35 UTC 2009,http://twitter.com/pokutuna/statuses/1904083971
+pokutuna@gmail.com取ってなかったし取るか,Sun May 24 17:16:50 UTC 2009,http://twitter.com/pokutuna/statuses/1904046569
+@fuba じゃあ誰を孕ませようって言うんですか,Sun May 24 16:14:51 UTC 2009,http://twitter.com/pokutuna/statuses/1903564018
+タイムラインのみんなもさわちゃん先生を孕ませたいとか思いながらけいおん見てるのかな,Sun May 24 16:12:13 UTC 2009,http://twitter.com/pokutuna/statuses/1903544787
+鳥のやつおいしかったです,Sun May 24 12:02:17 UTC 2009,http://twitter.com/pokutuna/statuses/1902030535
+もうちょっとパターン細かかった気もするけどなー,Sun May 24 11:37:42 UTC 2009,http://twitter.com/pokutuna/statuses/1901925112
+ギリシャの子供ちゃんとギリシャ軍迷彩じゃね？,Sun May 24 11:36:39 UTC 2009,http://twitter.com/pokutuna/statuses/1901920651
+無限に刺身にタンポポ乗せるappのレビュー欄おもろい,Sun May 24 11:01:16 UTC 2009,http://twitter.com/pokutuna/statuses/1901776703
+味見してないからうまいのかどうか知らん,Sun May 24 10:52:40 UTC 2009,http://twitter.com/pokutuna/statuses/1901743394
+この前はてぶで流行ってたやつ作った,Sun May 24 10:43:25 UTC 2009,http://twitter.com/pokutuna/statuses/1901708208
+gomatoeinegi http://twitpic.com/5u778,Sun May 24 10:43:00 UTC 2009,http://twitter.com/pokutuna/statuses/1901706582
+あと3日分遡って日記書かないと1週間更新したことにならない,Sun May 24 10:22:36 UTC 2009,http://twitter.com/pokutuna/statuses/1901630473
+はあ…マジお姉ちゃんかわいいし…,Sun May 24 09:35:44 UTC 2009,http://twitter.com/pokutuna/statuses/1901446669
+@hironao 駅とかバス停とかにも行くし,Sun May 24 09:23:14 UTC 2009,http://twitter.com/pokutuna/statuses/1901399409
+明日からチョー学校行きますからね,Sun May 24 09:15:02 UTC 2009,http://twitter.com/pokutuna/statuses/1901368524
+@hironao うるさいだまれ！,Sun May 24 09:14:19 UTC 2009,http://twitter.com/pokutuna/statuses/1901365728
+ちゃんと一週間家から出てないし防疫に貢献した,Sun May 24 08:52:42 UTC 2009,http://twitter.com/pokutuna/statuses/1901281185
+そろそろ眠くなってきた,Sun May 24 00:11:46 UTC 2009,http://twitter.com/pokutuna/statuses/1898002135
+@sudori よく読め,Sat May 23 23:56:03 UTC 2009,http://twitter.com/pokutuna/statuses/1897884559
+@sudori お前フルバ読んでんのか,Sat May 23 23:55:04 UTC 2009,http://twitter.com/pokutuna/statuses/1897877331
+整理し終えたー,Sat May 23 23:43:02 UTC 2009,http://twitter.com/pokutuna/statuses/1897788621
+GoogleReaderで付けたタグを一掃してはてブに統合する,Sat May 23 22:20:03 UTC 2009,http://twitter.com/pokutuna/statuses/1897167786
+Feedの整理しよう,Sat May 23 20:52:02 UTC 2009,http://twitter.com/pokutuna/statuses/1896499897
+すごい！　コイツ仕事してるのにTwitter見てない！,Sat May 23 20:17:57 UTC 2009,http://twitter.com/pokutuna/statuses/1896241130
+@blankblank さらにあとお前就職のガイダンス出てないだろ俺のロッカーに書類あるから月曜言えよ,Sat May 23 20:13:59 UTC 2009,http://twitter.com/pokutuna/statuses/1896210440
+@blankblank あとお前iPhone安くなるキャンペーン5/31までだからあと7ヶ月以上使うなら行けよ,Sat May 23 20:13:08 UTC 2009,http://twitter.com/pokutuna/statuses/1896203998
+@blankblank バイトのやつメール返信した,Sat May 23 20:12:10 UTC 2009,http://twitter.com/pokutuna/statuses/1896196721
+sudo update-alternatives --config java これで直った,Sat May 23 20:00:43 UTC 2009,http://twitter.com/pokutuna/statuses/1896107539
+Javaアプレット的なの動かすためにハイハイYes押してたらSunのJavaじゃ無くなってたぽい,Sat May 23 20:00:25 UTC 2009,http://twitter.com/pokutuna/statuses/1896105032
+Unknown option: -javaagent:/usr/local/share/eclipse/plugins/jp.sourceforge.mergedoc.pleiades/pleiades.jar
+とか言ってEclipseが起動せん,Sat May 23 19:56:33 UTC 2009,http://twitter.com/pokutuna/statuses/1896074927
+チョコチョコ直した日記,Sat May 23 19:31:26 UTC 2009,http://twitter.com/pokutuna/statuses/1895879428
+日記かいた http://d.hatena.ne.jp/pokutuna/20090521/1243106194,Sat May 23 19:16:57 UTC 2009,http://twitter.com/pokutuna/statuses/1895767400
+クムドールの剣懐かしすぐる,Sat May 23 17:20:29 UTC 2009,http://twitter.com/pokutuna/statuses/1894840418
+家の前で車のドアをバタンバタン閉められるたび部屋の戸が震えるんだよ！！！,Sat May 23 12:55:38 UTC 2009,http://twitter.com/pokutuna/statuses/1892950105
+これ懐かしい http://q.hatena.ne.jp/1220935118,Sat May 23 12:33:21 UTC 2009,http://twitter.com/pokutuna/statuses/1892836624
+「これこれ、限定のやつ、北海道物産展で買ってん」と母親の差し出したバームクーヘンには輝く神戸屋の文字,Sat May 23 10:05:09 UTC 2009,http://twitter.com/pokutuna/statuses/1892224049
+ママが消臭力買ってくれたよー,Sat May 23 10:02:58 UTC 2009,http://twitter.com/pokutuna/statuses/1892215571
+無限にピザ食べたいぜ,Sat May 23 09:42:39 UTC 2009,http://twitter.com/pokutuna/statuses/1892136670
+やべーもうこんな時間か,Sat May 23 09:23:25 UTC 2009,http://twitter.com/pokutuna/statuses/1892063498
+猫がゴリゴリ皿舐めると皿がどんどん移動して猫もどんどん移動する,Fri May 22 22:23:18 UTC 2009,http://twitter.com/pokutuna/statuses/1887508445
+猫とぎゅうにう飲んでるって写真撮ってpostするまでに飲み終わりやがったこいつ,Fri May 22 22:18:10 UTC 2009,http://twitter.com/pokutuna/statuses/1887465683
+@hironao えへー,Fri May 22 22:16:29 UTC 2009,http://twitter.com/pokutuna/statuses/1887451486
+僕のふぁぼられの3割くらいが @hironao の付けた奴だとおもうぞ,Fri May 22 22:13:04 UTC 2009,http://twitter.com/pokutuna/statuses/1887421988
+TwitterFonのバージョンあげてから写真の上下スルーしてTwitpicに上がるようになったな,Fri May 22 22:10:03 UTC 2009,http://twitter.com/pokutuna/statuses/1887396578
+gosigosi http://twitpic.com/5q1e9,Fri May 22 22:07:11 UTC 2009,http://twitter.com/pokutuna/statuses/1887372348
+この朝の時間は猫とBOTだけが会話相手さ,Fri May 22 21:57:39 UTC 2009,http://twitter.com/pokutuna/statuses/1887288561
+猫きた,Fri May 22 21:56:23 UTC 2009,http://twitter.com/pokutuna/statuses/1887277881
+@wakatter @fuba_recorder @buzztter お前らも食え！,Fri May 22 21:51:18 UTC 2009,http://twitter.com/pokutuna/statuses/1887233934
+@fuba_recorder そうかそうかよかった,Fri May 22 21:48:51 UTC 2009,http://twitter.com/pokutuna/statuses/1887212911
+@fuba_recorder うまいでーこれ,Fri May 22 21:46:35 UTC 2009,http://twitter.com/pokutuna/statuses/1887193388
+米ないならオツマミ要因にするしかない酒飲むしかないしょうがない,Fri May 22 21:43:13 UTC 2009,http://twitter.com/pokutuna/statuses/1887164099
+米がない！！！！,Fri May 22 21:41:07 UTC 2009,http://twitter.com/pokutuna/statuses/1887145826
+みれば分かるだろうけどウマいよこれ,Fri May 22 21:40:28 UTC 2009,http://twitter.com/pokutuna/statuses/1887140123
+Dekita http://twitpic.com/5pyru,Fri May 22 21:37:57 UTC 2009,http://twitter.com/pokutuna/statuses/1887117939
+http://twitpic.com/5py80,Fri May 22 21:32:07 UTC 2009,http://twitter.com/pokutuna/statuses/1887065618
+コレ作る　http://bit.ly/yBaIB,Fri May 22 21:16:11 UTC 2009,http://twitter.com/pokutuna/statuses/1886917768
+ジャガイモをバラバラにした,Fri May 22 21:07:43 UTC 2009,http://twitter.com/pokutuna/statuses/1886837854
+もうまてんジャガイモ切る,Fri May 22 20:43:47 UTC 2009,http://twitter.com/pokutuna/statuses/1886606253
+アンチョビ80gを400円で買えるのか,Fri May 22 18:28:43 UTC 2009,http://twitter.com/pokutuna/statuses/1885258950
+アンチョビとオイルサーディンって違うのか！ 高校の調理実習でオイルサーディンをアンチョビと使って以来騙され続けた！！,Fri May 22 18:07:07 UTC 2009,http://twitter.com/pokutuna/statuses/1885038946
+アンチョビーみたいな名前のウェッブサービスありそうだな,Fri May 22 18:05:14 UTC 2009,http://twitter.com/pokutuna/statuses/1885019511
+係り受け解析で遊んでる,Fri May 22 16:15:53 UTC 2009,http://twitter.com/pokutuna/statuses/1883889076
+pokutuna@yahoo.co.jp取れなかったぞオイ,Fri May 22 15:54:39 UTC 2009,http://twitter.com/pokutuna/statuses/1883662560
+あんまりアニメ見ないつもりが今季は6本ぐらいみてる,Fri May 22 15:10:54 UTC 2009,http://twitter.com/pokutuna/statuses/1883207951
+PhantomもTears to Tiaraも僕のやったゲームとアニメの顔が違ってビックリするぞ,Fri May 22 14:49:09 UTC 2009,http://twitter.com/pokutuna/statuses/1882985323
+GoogleAnalyticsの更新されるタイミングがわからん,Fri May 22 13:49:11 UTC 2009,http://twitter.com/pokutuna/statuses/1882408701
+@Takakazu >村上と灰羽
+なんかこんなこと言ってたよー http://bit.ly/13FntH,Fri May 22 13:47:28 UTC 2009,http://twitter.com/pokutuna/statuses/1882393310
+丸いところに鼻の粘膜か何かを垂らしてABC方向へ流すらしい,Fri May 22 12:04:04 UTC 2009,http://twitter.com/pokutuna/statuses/1881590120
+今話題のインフル判定キットだー,Fri May 22 12:01:16 UTC 2009,http://twitter.com/pokutuna/statuses/1881571827
+infuru http://twitpic.com/5opvv,Fri May 22 12:00:47 UTC 2009,http://twitter.com/pokutuna/statuses/1881568899
+カレーもぐもぐ,Fri May 22 06:34:14 UTC 2009,http://twitter.com/pokutuna/statuses/1879931599
+風俗行く夢見た…,Fri May 22 06:15:09 UTC 2009,http://twitter.com/pokutuna/statuses/1879828576
+・・・誰もやってないのか、なるほどそりゃ1発で成功する,Thu May 21 22:45:46 UTC 2009,http://twitter.com/pokutuna/statuses/1876178023
+やってみたら1発で成功した！！　http://5minutesfame.com/,Thu May 21 22:40:52 UTC 2009,http://twitter.com/pokutuna/statuses/1876140610
+I've been featured on http://5minutesfame.com ! Can you do the same? @5minutesfame,Thu May 21 22:40:31 UTC 2009,http://twitter.com/pokutuna/statuses/1876137988
+100億あったらエロゲ会社立てまくりじゃん,Thu May 21 19:27:12 UTC 2009,http://twitter.com/pokutuna/statuses/1874383517
+@hironao うん公式っぽいやつでみた,Thu May 21 19:25:54 UTC 2009,http://twitter.com/pokutuna/statuses/1874370865
+東のエデンのEDってCGじゃないのか・・・,Thu May 21 19:24:27 UTC 2009,http://twitter.com/pokutuna/statuses/1874356751
+東のエデンおもしろいな,Thu May 21 17:29:55 UTC 2009,http://twitter.com/pokutuna/statuses/1873202171
+お腹空いたぞ,Thu May 21 16:08:32 UTC 2009,http://twitter.com/pokutuna/statuses/1872365779
+Ubuntuにしてからどんどんエロゲ情報に疎くなってしまいに月別スレすら見なくなったから分からん,Thu May 21 15:44:25 UTC 2009,http://twitter.com/pokutuna/statuses/1872105448
+なんか熱いエロゲ無いかなー,Thu May 21 15:42:58 UTC 2009,http://twitter.com/pokutuna/statuses/1872090207
+兵庫の次は京都が休みか,Thu May 21 15:38:59 UTC 2009,http://twitter.com/pokutuna/statuses/1872047531
+エロ画像に自動でタグづけしてくれないかな,Thu May 21 15:23:26 UTC 2009,http://twitter.com/pokutuna/statuses/1871882237
+@konchuu 12000円で何か,Thu May 21 14:03:12 UTC 2009,http://twitter.com/pokutuna/statuses/1871090807
+レタスに決まってる,Thu May 21 13:49:38 UTC 2009,http://twitter.com/pokutuna/statuses/1870967231
+重複してFriendFeedに送ってたの消したりした,Thu May 21 13:19:25 UTC 2009,http://twitter.com/pokutuna/statuses/1870708240
+みんなくら寿司に行きたいんだな,Thu May 21 11:19:18 UTC 2009,http://twitter.com/pokutuna/statuses/1869909376
+GoogleAnalyticsやってみた,Wed May 20 22:05:51 UTC 2009,http://twitter.com/pokutuna/statuses/1864142759
+よってたかって,Wed May 20 21:31:11 UTC 2009,http://twitter.com/pokutuna/statuses/1863804358
+プンピピンププ,Wed May 20 07:11:41 UTC 2009,http://twitter.com/pokutuna/statuses/1857000354
+また髪の毛くるくるになったわ,Wed May 20 06:55:22 UTC 2009,http://twitter.com/pokutuna/statuses/1856914378
+うーーあーわ,Wed May 20 05:38:36 UTC 2009,http://twitter.com/pokutuna/statuses/1856474665
+歯医者のお姉さんからのメッセージに☆ミとかついてるぞ,Wed May 20 03:40:47 UTC 2009,http://twitter.com/pokutuna/statuses/1855532548
+hoshi mi http://twitpic.com/5jb4k,Wed May 20 03:39:42 UTC 2009,http://twitter.com/pokutuna/statuses/1855521666
+歯の掃除後即ドロリッチ,Wed May 20 03:33:24 UTC 2009,http://twitter.com/pokutuna/statuses/1855460116
+外暑すぎだろ殺す気か,Wed May 20 02:01:16 UTC 2009,http://twitter.com/pokutuna/statuses/1854533830
+歯医者行って髪切りましょう,Wed May 20 01:46:47 UTC 2009,http://twitter.com/pokutuna/statuses/1854388276
+この前買ったThinkpadのトラックポイント、クラシックのやつ妙にちっさい気がする,Tue May 19 21:13:45 UTC 2009,http://twitter.com/pokutuna/statuses/1851690562
+コーンポタージュ2リットル/day,Tue May 19 20:46:53 UTC 2009,http://twitter.com/pokutuna/statuses/1851414405
+楽しい風呂だった,Tue May 19 18:54:14 UTC 2009,http://twitter.com/pokutuna/statuses/1850266915
+風呂の中でiPhoneできるなんてユビキタス革命や,Tue May 19 18:34:11 UTC 2009,http://twitter.com/pokutuna/statuses/1850064320
+tinko ututte naiyone http://twitpic.com/5i3nk,Tue May 19 18:33:32 UTC 2009,http://twitter.com/pokutuna/statuses/1850057895
+このお湯の量でもあぐら組みながら寝ころぶ体勢になればギリギリ肩下まで湯船というか水たまりに浸かれてエコ！！！！！！！！！！,Tue May 19 18:31:39 UTC 2009,http://twitter.com/pokutuna/statuses/1850038840
+全裸で笑いながら写真撮ったわ！！！！,Tue May 19 18:28:50 UTC 2009,http://twitter.com/pokutuna/statuses/1850010087
+殺すで！！！！！,Tue May 19 18:26:28 UTC 2009,http://twitter.com/pokutuna/statuses/1849986611
+蒸発しすぎやろ！！！！！,Tue May 19 18:26:21 UTC 2009,http://twitter.com/pokutuna/statuses/1849985485
+oyunai... http://twitpic.com/5i32r,Tue May 19 18:25:45 UTC 2009,http://twitter.com/pokutuna/statuses/1849979517
+すべらない話6回目おもろいな,Tue May 19 10:31:30 UTC 2009,http://twitter.com/pokutuna/statuses/1845948592
+寝てる間にお腹が減る日と減らない日の違いは何んだ！！！！！！,Tue May 19 08:49:05 UTC 2009,http://twitter.com/pokutuna/statuses/1845485985
+「どなたか会場にphpをインストールされてるかたはいらっしゃいませんか」,Tue May 19 08:29:20 UTC 2009,http://twitter.com/pokutuna/statuses/1845398654
+なんか鍋の油が微妙に寄るんだけど家傾いてんのかな,Mon May 18 20:50:37 UTC 2009,http://twitter.com/pokutuna/statuses/1839808630
+Twitpicに画像あげれない・・・,Mon May 18 20:41:49 UTC 2009,http://twitter.com/pokutuna/statuses/1839721741
+今日は冷凍ハッシュドポテトを焼きます,Mon May 18 20:27:52 UTC 2009,http://twitter.com/pokutuna/statuses/1839583550
+サガミオリジナル！！！,Mon May 18 08:09:44 UTC 2009,http://twitter.com/pokutuna/statuses/1833977988
+咲見ながらソース焼きそば食う,Mon May 18 06:13:58 UTC 2009,http://twitter.com/pokutuna/statuses/1833421047
+梅酒をつけとる http://twitpic.com/5exky,Mon May 18 06:02:23 UTC 2009,http://twitter.com/pokutuna/statuses/1833357928
+Thinkpadの排気で耳かき温めたらかなり気持ちいいんでみんなやろう！,Sun May 17 19:48:19 UTC 2009,http://twitter.com/pokutuna/statuses/1828465604
+ウトゥンドゥー！(≧▽≦）/,Sun May 17 19:44:48 UTC 2009,http://twitter.com/pokutuna/statuses/1828435722
+Thinkpad、ファンの音怪しいし排気がやたら熱いし保証中に修理っぽいことしてほしいけどこれがないと死ぬからこまる,Sun May 17 18:54:14 UTC 2009,http://twitter.com/pokutuna/statuses/1828008834
+CSSセレクタとXPathも、RubyとPythonみたいにもっと喧嘩すればいいのに,Sun May 17 18:39:56 UTC 2009,http://twitter.com/pokutuna/statuses/1827892682
+♯と#って傾き違うじゃん・・・マジかよ・・・,Sun May 17 18:23:37 UTC 2009,http://twitter.com/pokutuna/statuses/1827762182
+今のまま生きるか・・・,Sun May 17 17:46:41 UTC 2009,http://twitter.com/pokutuna/statuses/1827470157
+うーん、VMWareとかからiPhoneOSアップデートするとクラッシュしたりする事例あるみたいだ,Sun May 17 17:46:00 UTC 2009,http://twitter.com/pokutuna/statuses/1827464525
+VMWareとかVirtualBoxとかからiTunes+iPhone周りどもったりしないかな,Sun May 17 17:16:34 UTC 2009,http://twitter.com/pokutuna/statuses/1827233622
+1週間休みだし、デュアルブートにした結果使ってないWidowsを消してVMWareから使えるようにするかなー,Sun May 17 16:42:14 UTC 2009,http://twitter.com/pokutuna/statuses/1826966520
+うちの大学も休講になってしまった・・・,Sun May 17 13:34:55 UTC 2009,http://twitter.com/pokutuna/statuses/1825702784
+あんましうまくないぞ,Sun May 17 08:45:29 UTC 2009,http://twitter.com/pokutuna/statuses/1824524601
+どろどろ http://twitpic.com/5co2e,Sun May 17 08:41:37 UTC 2009,http://twitter.com/pokutuna/statuses/1824510199
+なんかどろどろした物体になりつつある…,Sun May 17 08:26:12 UTC 2009,http://twitter.com/pokutuna/statuses/1824450395
+15〜20分も茹でなきゃならんらしい,Sun May 17 08:18:42 UTC 2009,http://twitter.com/pokutuna/statuses/1824421965
+だいたい50グラムぐらい http://twitpic.com/5cnfm,Sun May 17 08:17:19 UTC 2009,http://twitter.com/pokutuna/statuses/1824416717
+タピオカでもゆでるか,Sun May 17 08:13:21 UTC 2009,http://twitter.com/pokutuna/statuses/1824401162
+みんなもheightをヘイグヒトとか考えながらタイプするよね,Sun May 17 07:31:08 UTC 2009,http://twitter.com/pokutuna/statuses/1824227718
+@tairano カレーなんて高等なもの作れるんですか,Sun May 17 06:21:53 UTC 2009,http://twitter.com/pokutuna/statuses/1823903819
+同棲したいなー,Sat May 16 20:41:09 UTC 2009,http://twitter.com/pokutuna/statuses/1819720449
+なんか夜中から朝にかけて料理するのがライフワークになってきてる,Sat May 16 20:30:38 UTC 2009,http://twitter.com/pokutuna/statuses/1819618672
+@hironao そういうこともある！,Sat May 16 20:22:44 UTC 2009,http://twitter.com/pokutuna/statuses/1819541956
+バリボリ http://twitpic.com/5b5f8,Sat May 16 20:13:50 UTC 2009,http://twitter.com/pokutuna/statuses/1819454987
+クソお腹空いたしフバレコが教えてくれないしホットケーキでも焼くか,Sat May 16 19:09:03 UTC 2009,http://twitter.com/pokutuna/statuses/1818873259
+何かアレアレアレるか,Sat May 16 18:29:01 UTC 2009,http://twitter.com/pokutuna/statuses/1818554562
+@fuba_recorder 簡単に作れるおやつ食べたい,Sat May 16 18:21:18 UTC 2009,http://twitter.com/pokutuna/statuses/1818493521
+晩飯もタコヤキだ！,Sat May 16 13:04:08 UTC 2009,http://twitter.com/pokutuna/statuses/1816214261
+チョコレート焼きはうまいので、麦チョコはそのチョコの少なさや中のパフが微妙になったりするのが敗因だよー,Sat May 16 07:56:44 UTC 2009,http://twitter.com/pokutuna/statuses/1814969360
+麦チョコ焼きはしないほうがいいですよ,Sat May 16 07:51:17 UTC 2009,http://twitter.com/pokutuna/statuses/1814946440
+麦チョコ焼き http://twitpic.com/59vib,Sat May 16 07:36:05 UTC 2009,http://twitter.com/pokutuna/statuses/1814879135
+麦チョコ焼きでも作るか,Sat May 16 06:56:04 UTC 2009,http://twitter.com/pokutuna/statuses/1814691604
+30個ではらいっぱい,Sat May 16 06:51:14 UTC 2009,http://twitter.com/pokutuna/statuses/1814668089
+そーす http://twitpic.com/59t5b,Sat May 16 06:30:47 UTC 2009,http://twitter.com/pokutuna/statuses/1814566045
+ネギ塩！ http://twitpic.com/59sk8,Sat May 16 06:16:11 UTC 2009,http://twitter.com/pokutuna/statuses/1814490795
+でけた,Sat May 16 06:12:56 UTC 2009,http://twitter.com/pokutuna/statuses/1814473173
+裏返してる http://twitpic.com/59s4s,Sat May 16 06:06:05 UTC 2009,http://twitter.com/pokutuna/statuses/1814435371
+1人タコ焼きパーティー、結構忙しくて寂しくないよ！ http://twitpic.com/59ryd,Sat May 16 06:01:55 UTC 2009,http://twitter.com/pokutuna/statuses/1814412175
+ガッテン流たこ焼きする,Sat May 16 05:27:29 UTC 2009,http://twitter.com/pokutuna/statuses/1814214741
+1人タコ焼きパーティー開催か,Sat May 16 05:15:34 UTC 2009,http://twitter.com/pokutuna/statuses/1814143147
+たこやき食べたいと言っていたら机がこんなことに http://twitpic.com/59ppl,Sat May 16 05:14:57 UTC 2009,http://twitter.com/pokutuna/statuses/1814139117
+負けなくてよかった・・・,Fri May 15 17:28:10 UTC 2009,http://twitter.com/pokutuna/statuses/1808161703
+コマ見つかったから父親のボケ防止のために対局してる,Fri May 15 16:39:18 UTC 2009,http://twitter.com/pokutuna/statuses/1807682508
+将棋の駒探してるけど、65万とか本気か,Fri May 15 15:41:44 UTC 2009,http://twitter.com/pokutuna/statuses/1807109462
+なんかDで姉思う故に姉ありとか来ました,Fri May 15 13:31:27 UTC 2009,http://twitter.com/pokutuna/statuses/1805894766
+無限甘味タイム！！！！！ http://twitpic.com/57kdz,Fri May 15 11:43:16 UTC 2009,http://twitter.com/pokutuna/statuses/1805150441
+焼肉！！！！！,Fri May 15 10:02:28 UTC 2009,http://twitter.com/pokutuna/statuses/1804657639
+授業的なのうける,Fri May 15 04:27:07 UTC 2009,http://twitter.com/pokutuna/statuses/1802891447
+1つのgistのページに2つとか上げれたのか,Fri May 15 04:17:51 UTC 2009,http://twitter.com/pokutuna/statuses/1802820369
+がっこきたよ,Fri May 15 04:14:37 UTC 2009,http://twitter.com/pokutuna/statuses/1802795479
+やべがっこういかなきゃ,Fri May 15 02:59:16 UTC 2009,http://twitter.com/pokutuna/statuses/1802141849
+ふつうのGithubのユーザーページのほうにでてた,Fri May 15 02:56:57 UTC 2009,http://twitter.com/pokutuna/statuses/1802121197
+GistのユーザーページのRSSって無いのかな,Fri May 15 02:55:30 UTC 2009,http://twitter.com/pokutuna/statuses/1802108791
+GistとGisty使い方おぼえた,Fri May 15 02:40:26 UTC 2009,http://twitter.com/pokutuna/statuses/1801975992
+ポリスマン,Fri May 15 01:02:41 UTC 2009,http://twitter.com/pokutuna/statuses/1801145180
+｢奥さん、こっちのコイのぼりも天高く泳がせてくださいよ！｣　｢さあ早くこのマゴイをはねさせてください!!｣,Fri May 15 00:32:07 UTC 2009,http://twitter.com/pokutuna/statuses/1800875215
+母親がやたらアンガールズに厳しい,Thu May 14 14:05:54 UTC 2009,http://twitter.com/pokutuna/statuses/1795067687
+@yasai014 ディナーカレーをめしあがった！,Thu May 14 02:52:37 UTC 2009,http://twitter.com/pokutuna/statuses/1791287882
+なんかCPUとか半導体っぽい写真ってやたら赤とか緑なグラデーションかかってるけど、あれって普通に撮ってもああなるもんなの,Thu May 14 02:17:22 UTC 2009,http://twitter.com/pokutuna/statuses/1790960219
+miscとしてどうでもいい感じのコードをgitに上げてたけど、これこそgistを使うべきものだったのか,Thu May 14 02:12:34 UTC 2009,http://twitter.com/pokutuna/statuses/1790913270
+18時間ぐらいぶりに飯食う！！！,Thu May 14 00:40:53 UTC 2009,http://twitter.com/pokutuna/statuses/1790023367
+給料ほしい！,Tue May 12 23:23:32 UTC 2009,http://twitter.com/pokutuna/statuses/1778658187
+ルマンド,Tue May 12 22:00:57 UTC 2009,http://twitter.com/pokutuna/statuses/1777930112
+@konchuu あ？,Tue May 12 11:29:18 UTC 2009,http://twitter.com/pokutuna/statuses/1772499973
+@konchuu かかってこいや,Tue May 12 11:27:05 UTC 2009,http://twitter.com/pokutuna/statuses/1772489041
+@konchuu 30分,Tue May 12 11:24:09 UTC 2009,http://twitter.com/pokutuna/statuses/1772474411
+30分後までバスきません,Tue May 12 11:20:59 UTC 2009,http://twitter.com/pokutuna/statuses/1772459378
+なんで図書館のLANこねくた絶滅してるの,Tue May 12 08:26:28 UTC 2009,http://twitter.com/pokutuna/statuses/1771710965
+ネットワーク難民してる,Tue May 12 08:20:49 UTC 2009,http://twitter.com/pokutuna/statuses/1771688227
+暇だし自習室のネットワークが今年に入ってから検出されない件を聞いてる,Tue May 12 07:24:51 UTC 2009,http://twitter.com/pokutuna/statuses/1771448670
+新しくなってから初めて図書館にきた,Tue May 12 07:13:39 UTC 2009,http://twitter.com/pokutuna/statuses/1771399906
+そろそろレポートしないとまずいぞ,Tue May 12 00:03:43 UTC 2009,http://twitter.com/pokutuna/statuses/1768303645
+えくせるきらい,Mon May 11 06:14:16 UTC 2009,http://twitter.com/pokutuna/statuses/1760974475
+眠いぞおい,Mon May 11 01:37:40 UTC 2009,http://twitter.com/pokutuna/statuses/1759174088
+こんな朝から登校とか精神の崩壊を招く,Sun May 10 23:39:30 UTC 2009,http://twitter.com/pokutuna/statuses/1758344125
+5分ほどトースターで炙ったけど変わらん,Sun May 10 18:49:42 UTC 2009,http://twitter.com/pokutuna/statuses/1756482574
+焼きりんごでも作ってみるか,Sun May 10 18:35:49 UTC 2009,http://twitter.com/pokutuna/statuses/1756423530
+人狼てきな粉とする,Sun May 10 12:12:58 UTC 2009,http://twitter.com/pokutuna/statuses/1754157928
+母の日にかこつけて謎のカエル状生物買いました http://twitpic.com/4wsh2,Sun May 10 09:39:20 UTC 2009,http://twitter.com/pokutuna/statuses/1753638592
+小さいころ空腹すぎてストーブの前でソーセージ炙って食ってたけど、今そのぐらいお腹空いてます,Sun May 10 09:31:55 UTC 2009,http://twitter.com/pokutuna/statuses/1753614974
+空気がねっとりしてる・・・完全に夏や,Sun May 10 06:56:12 UTC 2009,http://twitter.com/pokutuna/statuses/1753048662
+夏ラアップデート,Sat May 09 19:39:26 UTC 2009,http://twitter.com/pokutuna/statuses/1748650971
+大三元字一色ひどい,Sat May 09 18:54:48 UTC 2009,http://twitter.com/pokutuna/statuses/1748338778
+アウトオブホーーーム,Sat May 09 03:22:59 UTC 2009,http://twitter.com/pokutuna/statuses/1743424418
+正気を保て！,Fri May 08 15:21:38 UTC 2009,http://twitter.com/pokutuna/statuses/1738372261
+サイゼリヤうるさいな,Fri May 08 11:34:08 UTC 2009,http://twitter.com/pokutuna/statuses/1736673681
+姉を探しています。僕の姉を目撃した人は連絡下さい。,Fri May 08 04:14:30 UTC 2009,http://twitter.com/pokutuna/statuses/1734533696
+母の日って今日じゃないのか,Fri May 08 04:05:23 UTC 2009,http://twitter.com/pokutuna/statuses/1734467934
+タンブラリティ0,Fri May 08 01:34:36 UTC 2009,http://twitter.com/pokutuna/statuses/1733245047
+かえr,Thu May 07 12:19:17 UTC 2009,http://twitter.com/pokutuna/statuses/1726536013
+クソ眠いべ,Thu May 07 06:15:12 UTC 2009,http://twitter.com/pokutuna/statuses/1724903114
+おにぎりもがもが,Thu May 07 04:13:15 UTC 2009,http://twitter.com/pokutuna/statuses/1724133932
+雨とか,Thu May 07 01:25:58 UTC 2009,http://twitter.com/pokutuna/statuses/1722725892
+2ヶ月ぶりぐらいにiPhone同期したら2時間ぐらいかかったぞ,Wed May 06 23:14:25 UTC 2009,http://twitter.com/pokutuna/statuses/1721645290
+ブラクラ読んだらなんかロックの顔がむこうぶちみたいになってる・・・,Wed May 06 23:09:36 UTC 2009,http://twitter.com/pokutuna/statuses/1721606503
+靴のはきかた覚えてるかな・・・,Wed May 06 20:58:38 UTC 2009,http://twitter.com/pokutuna/statuses/1720500870
+英語バリバリできれば変数名とかにいちいち悩まなくてすむのかな,Wed May 06 19:00:42 UTC 2009,http://twitter.com/pokutuna/statuses/1719429740
+金曜日の夜から一歩も外に出てないです！！！！！！,Wed May 06 15:45:54 UTC 2009,http://twitter.com/pokutuna/statuses/1717657128
+Twitterの最新のつぶやきのおかげで何時間寝たかだいたい分かるのがいい,Wed May 06 07:39:29 UTC 2009,http://twitter.com/pokutuna/statuses/1714794438
+ifよりunlessばっか使う奴は根暗,Tue May 05 19:12:24 UTC 2009,http://twitter.com/pokutuna/statuses/1708967618
+Thinkpadのファンの音やばい・・・,Tue May 05 16:46:01 UTC 2009,http://twitter.com/pokutuna/statuses/1707642425
+NHK高校講座の世界史みるぞ,Tue May 05 16:17:45 UTC 2009,http://twitter.com/pokutuna/statuses/1707385957
+牛乳追加したらまた舐めるんだけど飲まない,Tue May 05 08:31:41 UTC 2009,http://twitter.com/pokutuna/statuses/1704471460
+氷入れたら戦いはじめたし,Tue May 05 08:30:06 UTC 2009,http://twitter.com/pokutuna/statuses/1704464703
+猫にミルクティーあげてるけどふた舐めしただけだ http://twitpic.com/4lbsh,Tue May 05 08:28:40 UTC 2009,http://twitter.com/pokutuna/statuses/1704459064
+ガリガリの皆さんは、僕のようなお腹が空いたらすぐにメシ作るフットワークの軽さを見習うといいです,Mon May 04 19:18:41 UTC 2009,http://twitter.com/pokutuna/statuses/1698522602
+できた http://twitpic.com/4k25w,Mon May 04 19:00:14 UTC 2009,http://twitter.com/pokutuna/statuses/1698360387
+あんまりにお腹すいたからうどんゆでる,Mon May 04 18:45:38 UTC 2009,http://twitter.com/pokutuna/statuses/1698233169
+FriendFeed、最初Privateですぐに解除したけど忘れてて、承認ってどうすりゃいいのか分かんなかったー,Mon May 04 17:39:36 UTC 2009,http://twitter.com/pokutuna/statuses/1697659253
+塗りつぶしのとこの感じがやっぱり家庭用プリンターの味,Mon May 04 16:35:12 UTC 2009,http://twitter.com/pokutuna/statuses/1697102346
+名刺できた・・・,Mon May 04 16:33:48 UTC 2009,http://twitter.com/pokutuna/statuses/1697090192
+新進気鋭のデザイナ @gogaduka 先生作成のぽくつなロゴ http://twitpic.com/4joyb,Mon May 04 15:34:00 UTC 2009,http://twitter.com/pokutuna/statuses/1696577204
+ロッケンローーー！,Mon May 04 14:11:53 UTC 2009,http://twitter.com/pokutuna/statuses/1695902514
+おなかすいた・・・,Mon May 04 04:09:02 UTC 2009,http://twitter.com/pokutuna/statuses/1692939098
+誰もアイコンをペンギンと認識しない,Sun May 03 18:48:07 UTC 2009,http://twitter.com/pokutuna/statuses/1688733155
+うーん、左CtrlとCapsLockを入れ替える、で解決したけど両方Ctrlキーにしたい,Sun May 03 18:22:46 UTC 2009,http://twitter.com/pokutuna/statuses/1688549023
+Firemacs入れたけど、CapsLockにバインドしたCtrlキーに反応してくれない・・・,Sun May 03 18:15:40 UTC 2009,http://twitter.com/pokutuna/statuses/1688497991
+リア充ボックスに貼るためにちゃんきーべーこんとか僕のアイコンのクソかわいいペンギンとか @tairano の描いたヘタクソ極まりない絵とかをシールにした http://twitpic.com/4hkoh,Sun May 03 17:09:51 UTC 2009,http://twitter.com/pokutuna/statuses/1688025686
+FriendFeed、とりあえずぱっと思いつくぶん全部登録した http://friendfeed.com/pokutuna,Sun May 03 07:59:55 UTC 2009,http://twitter.com/pokutuna/statuses/1685569570
+おおお3話でちゃんとラジオ英会話勉強してる,Sun May 03 06:39:44 UTC 2009,http://twitter.com/pokutuna/statuses/1685260965
+Phantom、主人公がラジオで英語勉強したりするとこざっくり省いて言葉通じてる,Sun May 03 06:16:04 UTC 2009,http://twitter.com/pokutuna/statuses/1685157406
+ひょっとして登録したら通知いくのかな、気にせずTwitterの全員インポートしたけど・・・,Sun May 03 06:11:37 UTC 2009,http://twitter.com/pokutuna/statuses/1685136989
+やっと自分のフィード登録するところいけた,Sun May 03 06:09:48 UTC 2009,http://twitter.com/pokutuna/statuses/1685128290
+@blankblank Phantomっていうのは結構前のエロゲで銃バンバン家ドカーンみたいなやつです,Sun May 03 05:46:46 UTC 2009,http://twitter.com/pokutuna/statuses/1685018090
+てっきりFriendFeedって日記とかTwitterとか他とか分散する1人のフィードをまとめちゃおうぜ的サービスだと思ってたんだけど,Sun May 03 05:40:46 UTC 2009,http://twitter.com/pokutuna/statuses/1684987894
+ようするにタイムラインか,Sun May 03 05:37:33 UTC 2009,http://twitter.com/pokutuna/statuses/1684971707
+おいこのデフォアイコン俺の絵と被ってますよダダ被りですよ,Sun May 03 05:35:03 UTC 2009,http://twitter.com/pokutuna/statuses/1684959229
+FriendFeedつくってみる,Sun May 03 05:32:53 UTC 2009,http://twitter.com/pokutuna/statuses/1684948130
+アニメPhantomみてるけどクロウもリズィも見た目変わったなあ,Sun May 03 05:30:08 UTC 2009,http://twitter.com/pokutuna/statuses/1684933151
+おきたりねたり,Sun May 03 04:42:46 UTC 2009,http://twitter.com/pokutuna/statuses/1684672549
+はてぶの大学もぐったやつ読んだけど、僕も高校の時大学にもぐって当てられて怖い思いした,Sat May 02 17:06:47 UTC 2009,http://twitter.com/pokutuna/statuses/1679759196
+ひげのびてきた,Sat May 02 16:50:17 UTC 2009,http://twitter.com/pokutuna/statuses/1679641267
+寝すぎだろ私,Sat May 02 14:58:27 UTC 2009,http://twitter.com/pokutuna/statuses/1678881135
+ねこと飯食ってる,Sat May 02 07:02:55 UTC 2009,http://twitter.com/pokutuna/statuses/1677002322
+ねこきた http://twitpic.com/4e2s4,Sat May 02 06:53:54 UTC 2009,http://twitter.com/pokutuna/statuses/1676964692
+よくよく考えたら昨日の晩からなんもくってない！,Sat May 02 06:31:36 UTC 2009,http://twitter.com/pokutuna/statuses/1676872776
+ねすぎた,Sat May 02 04:30:03 UTC 2009,http://twitter.com/pokutuna/statuses/1676249270
+ウッヒョー,Fri May 01 14:43:25 UTC 2009,http://twitter.com/pokutuna/statuses/1669573630
+リチャードサムイッサム,Fri May 01 12:52:05 UTC 2009,http://twitter.com/pokutuna/statuses/1668744805
+教室わからん,Fri May 01 04:10:12 UTC 2009,http://twitter.com/pokutuna/statuses/1666396602
+@blankblank 仮想スタック機械の話してておもしろいよ,Fri May 01 02:47:32 UTC 2009,http://twitter.com/pokutuna/statuses/1665711600
+今日医者行くんだった,Fri May 01 01:24:30 UTC 2009,http://twitter.com/pokutuna/statuses/1664969906
+10時間くらい寝た,Fri May 01 00:22:54 UTC 2009,http://twitter.com/pokutuna/statuses/1664468475
+map派はcollectに迫害される運命か,Thu Apr 30 12:29:09 UTC 2009,http://twitter.com/pokutuna/statuses/1658351869
+スキャナほしい,Thu Apr 30 10:27:20 UTC 2009,http://twitter.com/pokutuna/statuses/1657794981
+みんなifまみれにしてるなか超エレガントなハミング符号化/復号のコードかけたああ,Thu Apr 30 08:34:40 UTC 2009,http://twitter.com/pokutuna/statuses/1657413328
+ねむい,Thu Apr 30 04:20:46 UTC 2009,http://twitter.com/pokutuna/statuses/1656260883
+ていうかEnumerableは大概好きだなー、他言語でごちゃっとなりがちなのが一行ですっきり行けること多いし、injectとか,Thu Apr 30 04:11:51 UTC 2009,http://twitter.com/pokutuna/statuses/1656200390
+ロリにも保護欲をかきたてるロリと、性欲を沸き上がらせるロリがあると思うけど、flatten! は間違いなく性欲のほうだな,Thu Apr 30 04:05:56 UTC 2009,http://twitter.com/pokutuna/statuses/1656160714
+flattenもかなりカワイイ、字面がカワイイ、破壊的だとさらにカワイイ、flatten!だよ、平らにしちゃいます！ って感じで,Thu Apr 30 04:03:29 UTC 2009,http://twitter.com/pokutuna/statuses/1656143774
+map好き、あとブロック付きsort,Thu Apr 30 04:00:57 UTC 2009,http://twitter.com/pokutuna/statuses/1656125455
+Rubyistは好きなメソッドが言えてこそ一人前なのか,Thu Apr 30 03:59:59 UTC 2009,http://twitter.com/pokutuna/statuses/1656118045
+ショルダーバッグって歩いてるとパンツずれますよね,Thu Apr 30 03:27:15 UTC 2009,http://twitter.com/pokutuna/statuses/1655875941
+がっこーでもいくかー,Thu Apr 30 02:40:45 UTC 2009,http://twitter.com/pokutuna/statuses/1655494027
+1回しか出席せずに73点取れたんだから今日やすんでもだいじょうぶ,Thu Apr 30 00:57:08 UTC 2009,http://twitter.com/pokutuna/statuses/1654589377
+どう考えてもこの時間帯の方が頭さえてる,Wed Apr 29 19:27:59 UTC 2009,http://twitter.com/pokutuna/statuses/1651795725
+Gaucheを「がうちぇ」と読むのと、Pythonを「ぴちょん」と読むののどっちが恥ずかしいか、僕は後者のほうが恥ずいと思いますね、ええ,Wed Apr 29 18:58:43 UTC 2009,http://twitter.com/pokutuna/statuses/1651539649
+ウッホホーーーイ,Wed Apr 29 18:57:00 UTC 2009,http://twitter.com/pokutuna/statuses/1651524865
+課題やろう・・・,Wed Apr 29 17:35:50 UTC 2009,http://twitter.com/pokutuna/statuses/1650821365
+Alcohol driven (酒駆動開発),Wed Apr 29 16:14:51 UTC 2009,http://twitter.com/pokutuna/statuses/1650119599
+兵庫県なう,Wed Apr 29 12:48:24 UTC 2009,http://twitter.com/pokutuna/statuses/1648452407
+う,Wed Apr 29 12:21:24 UTC 2009,http://twitter.com/pokutuna/statuses/1648290330
+シロクマさんは処方箋を書く人、xevraさんはプリントアウトして通院を勧める人,Wed Apr 29 07:01:23 UTC 2009,http://twitter.com/pokutuna/statuses/1646970386
+まっくぶっくおちてないかなー,Wed Apr 29 06:29:15 UTC 2009,http://twitter.com/pokutuna/statuses/1646828202
+エレガントなコード達が例外処理に汚されていく！,Wed Apr 29 05:01:11 UTC 2009,http://twitter.com/pokutuna/statuses/1646367503
+名刺のデザイン考えてて、使ってるEmacsのカラーテーマにちなもうかと思ったけど、背景黒だしネオン街の名刺みたいになるのは避けられなさそう,Tue Apr 28 20:57:43 UTC 2009,http://twitter.com/pokutuna/statuses/1642618337
+そのりんしゃんぱいはわたしの・・・,Tue Apr 28 19:04:53 UTC 2009,http://twitter.com/pokutuna/statuses/1641628663
+中国語は謝謝と下栽だけ分かります,Tue Apr 28 18:46:13 UTC 2009,http://twitter.com/pokutuna/statuses/1641469790
+ちいさい http://twitpic.com/45vl1,Tue Apr 28 16:40:24 UTC 2009,http://twitter.com/pokutuna/statuses/1640362178
+折り畳んで超薄くできるホッチキス、100均に売ってたから買った,Tue Apr 28 16:36:39 UTC 2009,http://twitter.com/pokutuna/statuses/1640328434
+明日休みだし生原酒こうた,Tue Apr 28 09:20:40 UTC 2009,http://twitter.com/pokutuna/statuses/1637568019
+@mesigahama ポテトL 529,Tue Apr 28 08:39:18 UTC 2009,http://twitter.com/pokutuna/statuses/1637416739
+ゴールデンウィークだからって足元見やがって,Tue Apr 28 08:25:23 UTC 2009,http://twitter.com/pokutuna/statuses/1637366010
+なんでマクドクーポンないの,Tue Apr 28 08:08:08 UTC 2009,http://twitter.com/pokutuna/statuses/1637302125
+地デ鹿の乗るソリを同じ種族たる地デ鹿が引いてるし彼らの文化には奴隷制度の存在があると思われる,Tue Apr 28 08:04:20 UTC 2009,http://twitter.com/pokutuna/statuses/1637287912
+かえるぞー,Tue Apr 28 07:51:08 UTC 2009,http://twitter.com/pokutuna/statuses/1637236055
+どんな名刺作ろうかな,Tue Apr 28 05:28:09 UTC 2009,http://twitter.com/pokutuna/statuses/1636590736
+こーひーのみたい,Tue Apr 28 04:01:50 UTC 2009,http://twitter.com/pokutuna/statuses/1636028225
+おきれました,Tue Apr 28 00:09:59 UTC 2009,http://twitter.com/pokutuna/statuses/1634096548
+luckyや！,Mon Apr 27 16:39:31 UTC 2009,http://twitter.com/pokutuna/statuses/1630301965
+オライリーの本って結構国ごとに変わるのか、英語ハチドリ本にはwhy the luckey stiffの挿絵があるみたい,Mon Apr 27 16:38:55 UTC 2009,http://twitter.com/pokutuna/statuses/1630297115
+フランス人は関数型言語好き,Mon Apr 27 16:30:13 UTC 2009,http://twitter.com/pokutuna/statuses/1630224465
+わりとふつうにみれるなこれ,Mon Apr 27 15:55:51 UTC 2009,http://twitter.com/pokutuna/statuses/1629937790
+おーニコ動アプリがiPhoneきてる,Mon Apr 27 15:47:38 UTC 2009,http://twitter.com/pokutuna/statuses/1629869733
+僕は1日2回精子出して血が混じるレベルですね,Mon Apr 27 13:54:48 UTC 2009,http://twitter.com/pokutuna/statuses/1628967708
+マリエは1日5回…,Mon Apr 27 13:51:40 UTC 2009,http://twitter.com/pokutuna/statuses/1628944467
+定額給付金ゲットー,Mon Apr 27 13:39:08 UTC 2009,http://twitter.com/pokutuna/statuses/1628853023
+後輩と喋るの難しい、世間話が出来ない,Mon Apr 27 12:26:01 UTC 2009,http://twitter.com/pokutuna/statuses/1628384872
+今日はなんか清楚系の女の子と昼飯を食べたし概ね楽しい一日でした,Mon Apr 27 12:24:56 UTC 2009,http://twitter.com/pokutuna/statuses/1628378963
+ちゃんとおきれた！,Mon Apr 27 00:50:09 UTC 2009,http://twitter.com/pokutuna/statuses/1624835031
+ReFe2をEmacsのAnythingから参照できるようにして快適過ぎてびっくりだ、コード書くのにネットがほぼ必須だったけどこれならあんまり要らない,Sun Apr 26 15:36:49 UTC 2009,http://twitter.com/pokutuna/statuses/1621038345
+おちんぽケチャップ：血尿あるいは精液に血が混ざること,Sun Apr 26 12:15:37 UTC 2009,http://twitter.com/pokutuna/statuses/1620065851
+おきたしつかれた,Sun Apr 26 05:05:54 UTC 2009,http://twitter.com/pokutuna/statuses/1618574302
+くそねむい,Sat Apr 25 13:59:09 UTC 2009,http://twitter.com/pokutuna/statuses/1612753068
+WEB+DB50読んでる,Sat Apr 25 12:57:34 UTC 2009,http://twitter.com/pokutuna/statuses/1612456506
+CJKV(くじゃこぶー),Sat Apr 25 12:35:45 UTC 2009,http://twitter.com/pokutuna/statuses/1612365100
+おちんぽケチャップ…,Sat Apr 25 12:25:49 UTC 2009,http://twitter.com/pokutuna/statuses/1612325369
+電車の窓超曇ってる、暑そう,Sat Apr 25 00:25:34 UTC 2009,http://twitter.com/pokutuna/statuses/1608956224
+前画面表示にして戻したら直った,Fri Apr 24 23:30:51 UTC 2009,http://twitter.com/pokutuna/statuses/1608576164
+まあ画面広いしいいか・・・,Fri Apr 24 23:10:25 UTC 2009,http://twitter.com/pokutuna/statuses/1608428015
+あれなんかFirefoxUpdateしたらWindowsでいうF10とか押したやつみたいに上下消えた,Fri Apr 24 23:10:07 UTC 2009,http://twitter.com/pokutuna/statuses/1608425701
+みんな給料もらってずるい,Fri Apr 24 15:28:05 UTC 2009,http://twitter.com/pokutuna/statuses/1604551515
+よく寝ました今日は休みだよ必然的に,Fri Apr 24 04:27:01 UTC 2009,http://twitter.com/pokutuna/statuses/1601026292
+iPhoneで一番イケてるpdfビューワーってなんだろ、とりあえずAirSharingで転送して読んでるけど,Thu Apr 23 21:13:41 UTC 2009,http://twitter.com/pokutuna/statuses/1597756704
+名刺作るの考えるか,Thu Apr 23 13:58:31 UTC 2009,http://twitter.com/pokutuna/statuses/1594227653
+だんこーがいの統計本とか届いた,Thu Apr 23 13:36:09 UTC 2009,http://twitter.com/pokutuna/statuses/1594062402
+裸で何が悪いんだ,Thu Apr 23 13:15:46 UTC 2009,http://twitter.com/pokutuna/statuses/1593918100
+ベイジアン麻雀みたいなのないのかなー,Thu Apr 23 12:33:21 UTC 2009,http://twitter.com/pokutuna/statuses/1593649195
+ぷっぷくぷー,Thu Apr 23 12:26:22 UTC 2009,http://twitter.com/pokutuna/statuses/1593608744
+Yahoo知恵袋しんでしまえ、やっとバグとれた,Thu Apr 23 09:42:15 UTC 2009,http://twitter.com/pokutuna/statuses/1592903875
+このエビてんぷら見るたびにうける http://twitpic.com/3tb90,Thu Apr 23 04:14:53 UTC 2009,http://twitter.com/pokutuna/statuses/1591465127
+よく寝坊した,Thu Apr 23 01:53:27 UTC 2009,http://twitter.com/pokutuna/statuses/1590415959
+かっこよく型渡す方法ないのかなー,Wed Apr 22 19:58:58 UTC 2009,http://twitter.com/pokutuna/statuses/1587644659
+@cxx おやすみおにいちゃん,Wed Apr 22 19:57:05 UTC 2009,http://twitter.com/pokutuna/statuses/1587630028
+二度とstring.hなんぞ使うかボケ,Wed Apr 22 19:43:14 UTC 2009,http://twitter.com/pokutuna/statuses/1587523352
+@cxx ワシ閃いたでーーー！　って感じだったのに！,Wed Apr 22 19:38:03 UTC 2009,http://twitter.com/pokutuna/statuses/1587481796
+int memcmp(const void *buf1, const void *buf2,size_t n);
+int eql(const void* x, const void* y, size_t bytes) ←ぼくのかんがえたやつ,Wed Apr 22 19:32:05 UTC 2009,http://twitter.com/pokutuna/statuses/1587433270
+@cxx ナニソレ・・・2時間ぐらいごちゃごちゃやって編み出したのに・・・,Wed Apr 22 19:27:16 UTC 2009,http://twitter.com/pokutuna/statuses/1587393854
+どうでもいいとここだわって汎化させようとしてレポートできてない,Wed Apr 22 19:23:00 UTC 2009,http://twitter.com/pokutuna/statuses/1587359890
+型渡せないって不便だなあほんと、なんか標準で型名が定数で割り当てられてたりしないのかな,Wed Apr 22 19:20:29 UTC 2009,http://twitter.com/pokutuna/statuses/1587339683
+void*で渡す2つの配列の一致判定は、とりあえずunsigned char*にしてバイト列で比較すれば、配列と配列とバイトサイズの3引数で書ける！,Wed Apr 22 19:19:06 UTC 2009,http://twitter.com/pokutuna/statuses/1587328515
+タピオカ大量に欲しいんだけど、どこの闇ブローカーに接触を試みればいいのか,Wed Apr 22 12:13:39 UTC 2009,http://twitter.com/pokutuna/statuses/1584063550
+ねむすぎ,Wed Apr 22 07:37:51 UTC 2009,http://twitter.com/pokutuna/statuses/1582973219
+名刺欲しい,Wed Apr 22 07:27:16 UTC 2009,http://twitter.com/pokutuna/statuses/1582932491
+6年分と3年分の雑誌PDFをどう消化しよう,Wed Apr 22 06:48:02 UTC 2009,http://twitter.com/pokutuna/statuses/1582774621
+WEB+DBの総集編と、SoftwareDesignのバックナンバー入り買ってしまった,Wed Apr 22 06:46:23 UTC 2009,http://twitter.com/pokutuna/statuses/1582767814
+一応コード書ける方と認識されてた,Wed Apr 22 06:04:52 UTC 2009,http://twitter.com/pokutuna/statuses/1582586454
+あーもっと怖いと思ってた,Wed Apr 22 05:59:23 UTC 2009,http://twitter.com/pokutuna/statuses/1582559878
+@mesigahama 何か食べた,Wed Apr 22 02:28:41 UTC 2009,http://twitter.com/pokutuna/statuses/1581168427
+ああなにゆえ人は登校せねばならない,Tue Apr 21 23:26:39 UTC 2009,http://twitter.com/pokutuna/statuses/1579692662
+寝るか寝られるか・・・！,Tue Apr 21 19:34:12 UTC 2009,http://twitter.com/pokutuna/statuses/1577770347
+まとめを作る過程で勉強できる派の輩はモチベになるし、ただ結果だけ欲しいヤツも得する,Tue Apr 21 18:12:38 UTC 2009,http://twitter.com/pokutuna/statuses/1577102886
+まとめ記事を収集してもいいけど、各自で本だの授業だのまとめを作って投稿しまくる系もいいな,Tue Apr 21 18:10:53 UTC 2009,http://twitter.com/pokutuna/statuses/1577088580
+まとめをまとめるウェブサービスないかな,Tue Apr 21 18:09:17 UTC 2009,http://twitter.com/pokutuna/statuses/1577075315
+フバレコ対メカフバレコ,Tue Apr 21 15:15:38 UTC 2009,http://twitter.com/pokutuna/statuses/1575648879
+TODO:強引に抱きしめる,Tue Apr 21 15:11:42 UTC 2009,http://twitter.com/pokutuna/statuses/1575616372
+ホームパイ売ってない死ぬしかない,Tue Apr 21 08:25:50 UTC 2009,http://twitter.com/pokutuna/statuses/1573492901
+私が当選した暁には、他人のしみチョコ食ったやつは死罪法案を成立させます,Tue Apr 21 08:08:24 UTC 2009,http://twitter.com/pokutuna/statuses/1573431712
+「あのオレオメロンのひと」,Tue Apr 21 07:57:45 UTC 2009,http://twitter.com/pokutuna/statuses/1573392351
+全身茶色系の装備だしゴキブリ扱いは免れない,Tue Apr 21 03:53:47 UTC 2009,http://twitter.com/pokutuna/statuses/1572185183
+It is rain!!!! Fuck!!!!!,Tue Apr 21 03:28:35 UTC 2009,http://twitter.com/pokutuna/statuses/1571995971
+大学の情報科の名前どんどん微妙になってく、変に横文字入れたりするのって求心力あるのかほんとに,Tue Apr 21 03:13:38 UTC 2009,http://twitter.com/pokutuna/statuses/1571874461
+履修かくにんした,Tue Apr 21 02:52:00 UTC 2009,http://twitter.com/pokutuna/statuses/1571703121
+1限だから起きれない理論は、「n限だから起きれない」に拡張可能と知る。,Tue Apr 21 02:11:45 UTC 2009,http://twitter.com/pokutuna/statuses/1571380045
+そもそも6時に寝るというスタイルが間違ってる,Tue Apr 21 01:46:49 UTC 2009,http://twitter.com/pokutuna/statuses/1571165281
+また遅刻した,Tue Apr 21 01:46:36 UTC 2009,http://twitter.com/pokutuna/statuses/1571163429
+北欧空戦史(学研M文庫)っていう真面目な軍事本買ったのにストライクウィッチーズのDVDだのサントラだのキャラソンだのファンブックだのがおすすめ商品に入ってて非常に憤慨しています。ちなみにサーニャちゃんとリーネちゃんが可愛いです。,Mon Apr 20 19:37:16 UTC 2009,http://twitter.com/pokutuna/statuses/1568200577
+スェンダーって書けばけいおんの影響だとは思われないぞ！,Mon Apr 20 17:50:38 UTC 2009,http://twitter.com/pokutuna/statuses/1567363550
+説明どおりの先に解約ボタン無いし、ご入金がないならサービス停止って書いてるから放置でいいのかなこれ,Mon Apr 20 17:31:53 UTC 2009,http://twitter.com/pokutuna/statuses/1567219023
+おためし期間でさくら解約したいんだけどそれっぽいボタンが見つからん,Mon Apr 20 17:28:53 UTC 2009,http://twitter.com/pokutuna/statuses/1567194914
+おれつばの人気投票とかどう考えてもかるら1位だろう,Mon Apr 20 17:17:01 UTC 2009,http://twitter.com/pokutuna/statuses/1567102113
+どんどんバランスボール椅子が低くなってきてる気がするから空気いれたらあら不思議,Mon Apr 20 17:06:45 UTC 2009,http://twitter.com/pokutuna/statuses/1567021402
+今Twitterめちゃくそ重かったんだけど,Mon Apr 20 16:58:23 UTC 2009,http://twitter.com/pokutuna/statuses/1566952858
+@fuba_recorder あとCMしかないよ,Mon Apr 20 16:39:05 UTC 2009,http://twitter.com/pokutuna/statuses/1566798300
+@fuba_recorder プロフェッショナル録画した？,Mon Apr 20 16:35:29 UTC 2009,http://twitter.com/pokutuna/statuses/1566770063
+僕のシスコンより姉のブラコンのほうが常軌を逸してるから大丈夫,Mon Apr 20 14:07:16 UTC 2009,http://twitter.com/pokutuna/statuses/1565593966
+そして熱い,Mon Apr 20 12:46:34 UTC 2009,http://twitter.com/pokutuna/statuses/1565057632
+たこやき買った、頑固オヤジ的なのを想像してたのにチャラい兄ちゃんだった…,Mon Apr 20 12:46:05 UTC 2009,http://twitter.com/pokutuna/statuses/1565054711
+「軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋、軟口蓋」「書評するのは？」「小飼弾」,Mon Apr 20 12:24:11 UTC 2009,http://twitter.com/pokutuna/statuses/1564932590
+@blankblank まーた姉自慢か,Mon Apr 20 12:15:55 UTC 2009,http://twitter.com/pokutuna/statuses/1564889619
+うまいぼう8本で命を繋いだ,Mon Apr 20 12:15:31 UTC 2009,http://twitter.com/pokutuna/statuses/1564887475
+ソフバの電波わるいなー,Mon Apr 20 09:42:00 UTC 2009,http://twitter.com/pokutuna/statuses/1564278948
+elsif を else if って書いててendの数が足らなくてハマった・・・,Mon Apr 20 08:16:10 UTC 2009,http://twitter.com/pokutuna/statuses/1564001046
+3時間前にgithubにpushしたLONPOSふぃーどくんが未だにRecently Updated Repositoriesにあるんだけどいいのかこれ,Mon Apr 20 06:22:55 UTC 2009,http://twitter.com/pokutuna/statuses/1563578456
+今日暑いな,Mon Apr 20 04:12:20 UTC 2009,http://twitter.com/pokutuna/statuses/1562916146
+さぼったー みたいなサービス無いの,Mon Apr 20 02:49:59 UTC 2009,http://twitter.com/pokutuna/statuses/1562374212
+そして遅刻してる,Mon Apr 20 02:49:43 UTC 2009,http://twitter.com/pokutuna/statuses/1562372531
+LONPOSフィード生成くんちゃんと動いてるよかった,Mon Apr 20 02:47:41 UTC 2009,http://twitter.com/pokutuna/statuses/1562358371
+毛根な時間化,Sun Apr 19 20:48:36 UTC 2009,http://twitter.com/pokutuna/statuses/1560474665
+あー・・・File.expand_path(__FILE__) いいじゃんと思ってたけど、シンボリックリンクから実行されたらそっちのパスになってしまうんだな・・・,Sun Apr 19 18:54:49 UTC 2009,http://twitter.com/pokutuna/statuses/1559734113
+10日間の社畜化洗脳から無事帰還した @teketeng も、今やネットすらできないほど精神が破壊され尽くしただけでなく口も利けなくなった。過酷な労働は人間から言葉すら奪う。,Sun Apr 19 16:22:12 UTC 2009,http://twitter.com/pokutuna/statuses/1558776290
+あれなんかtwitterのfaviconが変にみえる、上半分が輝いてる,Sun Apr 19 16:01:52 UTC 2009,http://twitter.com/pokutuna/statuses/1558658498
+File.expand_path(__FILE__) ってヘーヘーヘー！,Sun Apr 19 14:24:29 UTC 2009,http://twitter.com/pokutuna/statuses/1558141079
+ロンポスのフィード吐くやつページからpubDate取れない,Sun Apr 19 12:52:39 UTC 2009,http://twitter.com/pokutuna/statuses/1557760388
+あと何回身長ネタを見ればいいんだ・・・,Sun Apr 19 08:29:54 UTC 2009,http://twitter.com/pokutuna/statuses/1557007021
+ぼくもiPhoneの前京ぽんだなー,Sun Apr 19 05:10:33 UTC 2009,http://twitter.com/pokutuna/statuses/1556258033
+掃除機かけた,Sun Apr 19 05:08:45 UTC 2009,http://twitter.com/pokutuna/statuses/1556249312
+おねーちゃん、おなかすいたー,Sun Apr 19 04:05:14 UTC 2009,http://twitter.com/pokutuna/statuses/1555921778
+澪見てたらモリビト2号のフィギュア欲しい病が数年越しに再発,Sat Apr 18 18:35:22 UTC 2009,http://twitter.com/pokutuna/statuses/1552414302
+だんとつで澪だということが分かりましたね,Sat Apr 18 18:30:07 UTC 2009,http://twitter.com/pokutuna/statuses/1552379759
+先生かわいい,Sat Apr 18 18:18:12 UTC 2009,http://twitter.com/pokutuna/statuses/1552302273
+今けいおん見てるけどほんとにぶらばん！　と関係なさそうだ・・・,Sat Apr 18 18:11:34 UTC 2009,http://twitter.com/pokutuna/statuses/1552258466
+ペロン庁,Sat Apr 18 15:48:26 UTC 2009,http://twitter.com/pokutuna/statuses/1551343888
+縮小現実おもしろそう,Sat Apr 18 13:49:48 UTC 2009,http://twitter.com/pokutuna/statuses/1550651754
+玄箱の電源のやつ日記に書いたよー,Sat Apr 18 12:25:55 UTC 2009,http://twitter.com/pokutuna/statuses/1550301808
+@tairano 酷いヤツだ,Sat Apr 18 12:25:33 UTC 2009,http://twitter.com/pokutuna/statuses/1550300515
+ティファール温度設定とかできないのかな、毎回あんな真剣にボコボコにされてもこまる、95度ぐらいでいい,Sat Apr 18 07:50:43 UTC 2009,http://twitter.com/pokutuna/statuses/1549498455
+80万入ったはずの口座の金額が27万で何に使ったんだ俺とか思ってたけど給料振込が遅れてただけで記帳したら40万になってたよー,Sat Apr 18 07:32:11 UTC 2009,http://twitter.com/pokutuna/statuses/1549438073
+久々にC書いたらargv[1].atof;とか書いてもうダメだ,Sat Apr 18 07:26:52 UTC 2009,http://twitter.com/pokutuna/statuses/1549419820
+背景画像を焼死体にした,Sat Apr 18 07:20:15 UTC 2009,http://twitter.com/pokutuna/statuses/1549397288
+時砂って英訳出るのか・・・$14.99,Sat Apr 18 06:18:08 UTC 2009,http://twitter.com/pokutuna/statuses/1549163537
+むーくーーーりーーーー！,Sat Apr 18 03:52:02 UTC 2009,http://twitter.com/pokutuna/statuses/1548407191
+プンピピンププ,Fri Apr 17 13:07:08 UTC 2009,http://twitter.com/pokutuna/statuses/1541772356
+くんたまくんたま,Fri Apr 17 11:18:47 UTC 2009,http://twitter.com/pokutuna/statuses/1541235396
+なんだかんだで間に合っとる…,Fri Apr 17 01:58:53 UTC 2009,http://twitter.com/pokutuna/statuses/1538648390
+ダッシュで駅まで来て電車遅れるこの仕打ち,Fri Apr 17 01:31:08 UTC 2009,http://twitter.com/pokutuna/statuses/1538453288
+1分でも遅れたらネットで報告しろし,Fri Apr 17 01:25:16 UTC 2009,http://twitter.com/pokutuna/statuses/1538412207
+またJR遅れてるし,Fri Apr 17 01:23:37 UTC 2009,http://twitter.com/pokutuna/statuses/1538400878
+なんか来てる http://twitpic.com/3fg8b,Fri Apr 17 00:08:47 UTC 2009,http://twitter.com/pokutuna/statuses/1537897446
+ガバリ・ザバリ,Thu Apr 16 21:53:32 UTC 2009,http://twitter.com/pokutuna/statuses/1537031336
+あたまいたぶー,Thu Apr 16 13:02:10 UTC 2009,http://twitter.com/pokutuna/statuses/1533363984
+フーイイイイイイイン！,Thu Apr 16 12:44:58 UTC 2009,http://twitter.com/pokutuna/statuses/1533266181
+エントロピーがどうとか,Thu Apr 16 06:04:03 UTC 2009,http://twitter.com/pokutuna/statuses/1531817153
+昼飯がとんこつラーメンおにぎり3個のひとかわいそうです,Thu Apr 16 04:22:10 UTC 2009,http://twitter.com/pokutuna/statuses/1531312409
+@tairano たべた、5まである,Thu Apr 16 04:20:24 UTC 2009,http://twitter.com/pokutuna/statuses/1531302309
+とんこつラーメンおにぎり買った,Thu Apr 16 03:58:12 UTC 2009,http://twitter.com/pokutuna/statuses/1531170005
+@tairano あったかホーム？,Thu Apr 16 02:08:29 UTC 2009,http://twitter.com/pokutuna/statuses/1530431933
+きれいなカイジって第一部完してたのか…,Thu Apr 16 02:01:50 UTC 2009,http://twitter.com/pokutuna/statuses/1530382485
+@tairano お腹が出てるから,Wed Apr 15 11:01:37 UTC 2009,http://twitter.com/pokutuna/statuses/1524439012
+有職人種ども働きすぎてネットがおろそかになってる,Wed Apr 15 09:55:19 UTC 2009,http://twitter.com/pokutuna/statuses/1524222615
+どこにこんなにホコリがあったのかというぐらいとれた,Wed Apr 15 08:17:38 UTC 2009,http://twitter.com/pokutuna/statuses/1523919678
+ベンリブラシ、ベンリヘッド、ベンリホース、ベンリフック。こりゃ便利だ http://twitpic.com/3cezf,Wed Apr 15 07:14:35 UTC 2009,http://twitter.com/pokutuna/statuses/1523713466
+小口径の高速弾モードな、 http://twitpic.com/3ces1,Wed Apr 15 07:05:41 UTC 2009,http://twitter.com/pokutuna/statuses/1523682647
+完全に兵器 http://twitpic.com/3cep0,Wed Apr 15 07:02:08 UTC 2009,http://twitter.com/pokutuna/statuses/1523669743
+熱すぎだろこんなユニット外してゴミ捨てとか http://twitpic.com/3cejo,Wed Apr 15 06:56:07 UTC 2009,http://twitter.com/pokutuna/statuses/1523646470
+かっこいい、ブラスレイターに出てても違和感ない http://twitpic.com/3cehi,Wed Apr 15 06:53:08 UTC 2009,http://twitter.com/pokutuna/statuses/1523635470
+掃除機届いてる,Wed Apr 15 05:17:23 UTC 2009,http://twitter.com/pokutuna/statuses/1523230539
+毎週水曜を休みにするとほんと心の健康にいい,Wed Apr 15 04:47:58 UTC 2009,http://twitter.com/pokutuna/statuses/1523079202
+ぼえー,Wed Apr 15 04:22:38 UTC 2009,http://twitter.com/pokutuna/statuses/1522939488
+Gヒコロウの漫画の話する人なんてネット上でしか見たことないよ,Wed Apr 15 03:55:25 UTC 2009,http://twitter.com/pokutuna/statuses/1522775388
+歯医者した,Wed Apr 15 03:15:42 UTC 2009,http://twitter.com/pokutuna/statuses/1522520587
+新しい掃除機届くまで掃除しない,Tue Apr 14 17:14:21 UTC 2009,http://twitter.com/pokutuna/statuses/1518114981
+AppEngineでJava使えるようになって真っ先にみんなやったのがJRuby on Railsとかすごいうける,Tue Apr 14 16:26:20 UTC 2009,http://twitter.com/pokutuna/statuses/1517768904
+武将ヒゲ,Tue Apr 14 16:22:56 UTC 2009,http://twitter.com/pokutuna/statuses/1517744588
+新しい体重計デジタルで超すごい、飯食った直後と今で1kgやせてるし,Tue Apr 14 16:21:04 UTC 2009,http://twitter.com/pokutuna/statuses/1517730989
+ティファールじゃなくてティーファルだよねこれ,Tue Apr 14 13:15:33 UTC 2009,http://twitter.com/pokutuna/statuses/1516491251
+@hironao いえーい,Tue Apr 14 13:15:05 UTC 2009,http://twitter.com/pokutuna/statuses/1516488210
+ティファールとどいた http://twitpic.com/3az1a,Tue Apr 14 13:13:00 UTC 2009,http://twitter.com/pokutuna/statuses/1516476467
+くる度に日5のアニメのOPEDが流れてるショッピングモール,Tue Apr 14 08:58:13 UTC 2009,http://twitter.com/pokutuna/statuses/1515520109
+どこも人だらけや！！,Tue Apr 14 07:53:38 UTC 2009,http://twitter.com/pokutuna/statuses/1515322239
+授業混みすぎて席ない,Tue Apr 14 05:45:30 UTC 2009,http://twitter.com/pokutuna/statuses/1514849843
+金の亡者が集う奨学金書類提出列から脱出した,Tue Apr 14 05:41:30 UTC 2009,http://twitter.com/pokutuna/statuses/1514833783
+電波が3本しか立たないような軟弱な携帯端末なんぞ使ったことがないわ,Mon Apr 13 23:51:57 UTC 2009,http://twitter.com/pokutuna/statuses/1512796431
+父親がヒマすぎるせいか奨学金書類の準備のクオリティが高い、無駄に年金のやつ詳しくスクラップしてる,Mon Apr 13 22:22:27 UTC 2009,http://twitter.com/pokutuna/statuses/1512244973
+締切直前書類タイム！,Mon Apr 13 21:51:16 UTC 2009,http://twitter.com/pokutuna/statuses/1512064105
+歯が痛し,Mon Apr 13 13:04:38 UTC 2009,http://twitter.com/pokutuna/statuses/1508903939
+うまいぼー食ってる,Mon Apr 13 09:59:56 UTC 2009,http://twitter.com/pokutuna/statuses/1508290006
+山芋わさび持って行く,Mon Apr 13 00:39:47 UTC 2009,http://twitter.com/pokutuna/statuses/1506100442
+掃除機と体重計とティファール買った,Sun Apr 12 12:26:26 UTC 2009,http://twitter.com/pokutuna/statuses/1502648539
+ジャイアン…,Sun Apr 12 08:14:20 UTC 2009,http://twitter.com/pokutuna/statuses/1502019125
+姉の錬成とか数年前に通った道,Sun Apr 12 08:13:30 UTC 2009,http://twitter.com/pokutuna/statuses/1502017047
+母親とはがれんみてる,Sun Apr 12 08:08:54 UTC 2009,http://twitter.com/pokutuna/statuses/1502005500
+はがれんみる,Sun Apr 12 08:03:05 UTC 2009,http://twitter.com/pokutuna/statuses/1501990779
+@tairano おはよう,Sun Apr 12 05:12:15 UTC 2009,http://twitter.com/pokutuna/statuses/1501444450
+ダブル漬け物現象,Sat Apr 11 09:09:39 UTC 2009,http://twitter.com/pokutuna/statuses/1496213560
+カニクレーン買った,Sat Apr 11 06:07:35 UTC 2009,http://twitter.com/pokutuna/statuses/1495714000
+京都って関西のくせにエスカレータ寄る側おかしくない？,Sat Apr 11 04:10:37 UTC 2009,http://twitter.com/pokutuna/statuses/1495238341
+あああ僕の大事なものが…,Sat Apr 11 00:39:47 UTC 2009,http://twitter.com/pokutuna/statuses/1494192731
+今マジでムササビかモモンガがいた,Fri Apr 10 12:15:31 UTC 2009,http://twitter.com/pokutuna/statuses/1489941804
+胎内巡りはがっかりスポットと聞いていたけど夜くると真っ暗すぎてたのしい,Fri Apr 10 12:04:59 UTC 2009,http://twitter.com/pokutuna/statuses/1489904556
+夜の特別拝観…,Fri Apr 10 11:52:23 UTC 2009,http://twitter.com/pokutuna/statuses/1489861000
+ずっとおっちゃんのヘラさばき見てた,Fri Apr 10 11:25:16 UTC 2009,http://twitter.com/pokutuna/statuses/1489775947
+今日もう唐揚げ無いらしー,Fri Apr 10 10:07:14 UTC 2009,http://twitter.com/pokutuna/statuses/1489564616
+とんちんあった http://twitpic.com/33cs3,Fri Apr 10 09:58:53 UTC 2009,http://twitter.com/pokutuna/statuses/1489542402
+@kotoriko ありがとー行ってみる！,Fri Apr 10 09:49:19 UTC 2009,http://twitter.com/pokutuna/statuses/1489518539
+なんか安くてうまいとこないのかな京都駅,Fri Apr 10 09:44:30 UTC 2009,http://twitter.com/pokutuna/statuses/1489506325
+京都駅でけー！,Fri Apr 10 09:39:45 UTC 2009,http://twitter.com/pokutuna/statuses/1489494392
+京都,Fri Apr 10 09:33:13 UTC 2009,http://twitter.com/pokutuna/statuses/1489478314
+歯医者行くたびに歯の形状って本当に今のが最適なのかと思う。でこぼこ工夫すればもっとメンテナンス性よくなりそうだけど,Fri Apr 10 01:11:12 UTC 2009,http://twitter.com/pokutuna/statuses/1487443971
+おおおお？　ごっそり消えてた発言復活してる,Thu Apr 09 23:21:39 UTC 2009,http://twitter.com/pokutuna/statuses/1486849505
+奨学金の書類かこう,Thu Apr 09 17:31:17 UTC 2009,http://twitter.com/pokutuna/statuses/1484822905
+@teketeng は社畜化されてるし公認会計士はサビ残するしもうだめだ,Thu Apr 09 14:11:19 UTC 2009,http://twitter.com/pokutuna/statuses/1483649178
+パソコン触って八年、今さっきまでバッククオートがShift+@で打てること知らなかった。ずっと英字キーボードじゃないと打てないみたいな,Thu Apr 09 09:56:12 UTC 2009,http://twitter.com/pokutuna/statuses/1482587862
+ほげほげ,Thu Apr 09 06:02:47 UTC 2009,http://twitter.com/pokutuna/statuses/1481887327
+following消えてたら困るなー,Thu Apr 09 01:47:57 UTC 2009,http://twitter.com/pokutuna/statuses/1480698370
+あれ発言できる,Thu Apr 09 01:45:56 UTC 2009,http://twitter.com/pokutuna/statuses/1480688311
+あーあー,Thu Apr 09 01:45:39 UTC 2009,http://twitter.com/pokutuna/statuses/1480686814
+なんかうちには学科の内容に根ざしたサークルとかないよな,Thu Apr 09 01:33:03 UTC 2009,http://twitter.com/pokutuna/statuses/1480622952
+@tairano の発言も全部消えとるように見える,Wed Apr 08 10:46:40 UTC 2009,http://twitter.com/pokutuna/statuses/1475787650
+今までの発言全部消えてるように見えるんだけど・・・ http://twitter.com/pokutuna,Wed Apr 08 07:50:57 UTC 2009,http://twitter.com/pokutuna/statuses/1475274290
+あーあー,Wed Apr 08 07:50:24 UTC 2009,http://twitter.com/pokutuna/statuses/1475272617
+@hironao うひょひょひょ,Tue Apr 07 13:16:29 UTC 2009,http://twitter.com/pokutuna/statuses/1469403843
+うへへ,Tue Apr 07 12:53:14 UTC 2009,http://twitter.com/pokutuna/statuses/1469285830
+iとかjとかuとかvとかyとかgとか紛らわしくなければもっと数学は発展していた,Tue Apr 07 05:21:09 UTC 2009,http://twitter.com/pokutuna/statuses/1467816048
+折りたたみちゃりんこ欲しいけど買っても乗る機会ないような,Mon Apr 06 16:13:11 UTC 2009,http://twitter.com/pokutuna/statuses/1463671526
+21歳,Mon Apr 06 15:59:18 UTC 2009,http://twitter.com/pokutuna/statuses/1463591974
+新入生を出し抜くには大学行きと書いてなくても止まるバスに乗るしかない,Mon Apr 06 01:40:26 UTC 2009,http://twitter.com/pokutuna/statuses/1460244045
+がっこーいこう,Mon Apr 06 01:22:59 UTC 2009,http://twitter.com/pokutuna/statuses/1460155851
+耐衝撃性の低い電源になったけど、地震の時とか勝手に止まってよろしいかも,Mon Apr 06 00:19:30 UTC 2009,http://twitter.com/pokutuna/statuses/1459834519
+一晩しても自作電源ケーブルは温度的に問題なかったけど、角度で点いたり点かなかったりする・・・,Sun Apr 05 23:52:53 UTC 2009,http://twitter.com/pokutuna/statuses/1459702096
+しばらく動かしてケーブルの接点とか熱くなってなきゃこのまま使おう,Sun Apr 05 16:14:30 UTC 2009,http://twitter.com/pokutuna/statuses/1457503652
+時々起動しない。怖い。,Sun Apr 05 15:56:28 UTC 2009,http://twitter.com/pokutuna/statuses/1457422819
+でもこれ、レンタルサーバーの転送量だとかCPU時間がどうこうが精神衛生上良くないから自宅鯖マシンを復活させたかったのに、次は家燃える不安と戦わなくてはならんことに,Sun Apr 05 15:02:03 UTC 2009,http://twitter.com/pokutuna/statuses/1457194102
+電気ってチョロイな,Sun Apr 05 15:00:22 UTC 2009,http://twitter.com/pokutuna/statuses/1457186841
+ははははははははははは！　俺の玄箱が！　電源ユニット破壊した玄箱が復活したぞおおおおおおお,Sun Apr 05 14:55:25 UTC 2009,http://twitter.com/pokutuna/statuses/1457167069
+え？　マジで？　こんなんでいいの？,Sun Apr 05 14:51:35 UTC 2009,http://twitter.com/pokutuna/statuses/1457151975
+ちゃんとHDD繋いでなかったら警告のLEDが規程の回数ついてる,Sun Apr 05 14:50:58 UTC 2009,http://twitter.com/pokutuna/statuses/1457149624
+うごいたあああああああああああああああああああああ,Sun Apr 05 14:50:25 UTC 2009,http://twitter.com/pokutuna/statuses/1457147556
+超絶不安な玄箱電源ケーブル作った… http://twitpic.com/2v8m6,Sun Apr 05 14:42:26 UTC 2009,http://twitter.com/pokutuna/statuses/1457117226
+日本橋きた,Sun Apr 05 07:24:07 UTC 2009,http://twitter.com/pokutuna/statuses/1455993559
+@teketeng 今日昼猪名寺で焼肉です,Sun Apr 05 01:27:58 UTC 2009,http://twitter.com/pokutuna/statuses/1454651798
+ずっと終了する終了すると言いつづけて使えてた初期バージョンの駅探がついに使えなくなってる！,Sun Apr 05 00:46:35 UTC 2009,http://twitter.com/pokutuna/statuses/1454467610
+http://www.taiseie.com/dengen/okb/okb2512g.html コレ欲しいんですがどうやって買えばいいんでしょう,Sat Apr 04 17:24:28 UTC 2009,http://twitter.com/pokutuna/statuses/1452430273
+坂の上の雲3年がかりで放送すんのか・・・,Sat Apr 04 13:55:25 UTC 2009,http://twitter.com/pokutuna/statuses/1451489999
+ノーマル黒箱買って電源ユニットだけ移植が一番安上がりかー、代替電源見つかったら誰かにあげるなりできるし,Sat Apr 04 09:07:11 UTC 2009,http://twitter.com/pokutuna/statuses/1450754943
+玄箱の電源ユニットおちてないかなあ,Sat Apr 04 09:02:51 UTC 2009,http://twitter.com/pokutuna/statuses/1450745504
+ThinkPadのファン止まってるんだけど大丈夫かコレ,Fri Apr 03 07:52:16 UTC 2009,http://twitter.com/pokutuna/statuses/1444055461
+これさえあればあらゆる物を済んだことにできるきがする！！！ http://twitpic.com/2r6j2,Fri Apr 03 07:13:40 UTC 2009,http://twitter.com/pokutuna/statuses/1443943668
+スカイクロラ今4巻目だけど、映画版は笹倉が女なのか…,Fri Apr 03 07:05:46 UTC 2009,http://twitter.com/pokutuna/statuses/1443920093
+歯をキャリキャリ削った,Fri Apr 03 03:17:21 UTC 2009,http://twitter.com/pokutuna/statuses/1442998327
+Rubyforgeつながらん,Thu Apr 02 19:23:29 UTC 2009,http://twitter.com/pokutuna/statuses/1440337448
+さくらさわってみてる,Thu Apr 02 19:17:26 UTC 2009,http://twitter.com/pokutuna/statuses/1440302354
+玄箱HGまだ1万切らないのかー,Thu Apr 02 18:41:57 UTC 2009,http://twitter.com/pokutuna/statuses/1440094578
+ショボスペックでいいからやっすい静かで小さい鯖ないんかい、1万程度で。,Thu Apr 02 18:37:16 UTC 2009,http://twitter.com/pokutuna/statuses/1440067218
+電源ユニット運良く買えて2000円、HG本体買い直すなら1万3000円ほどだから、たいしたことしなきゃレンタルのがいいか・・・,Thu Apr 02 17:36:19 UTC 2009,http://twitter.com/pokutuna/statuses/1439704391
+まあさくらのお試しプラン申し込んでみましょう,Thu Apr 02 17:17:59 UTC 2009,http://twitter.com/pokutuna/statuses/1439595922
+要はコンセントから12Vと5V、1.5Aの電気を取れりゃいい・・・！！！,Thu Apr 02 17:11:20 UTC 2009,http://twitter.com/pokutuna/statuses/1439557331
+さくら月500円で借りるか・・・,Thu Apr 02 16:57:30 UTC 2009,http://twitter.com/pokutuna/statuses/1439474536
+適当に似た形の12V5V電源買って動かないかなー,Thu Apr 02 16:17:33 UTC 2009,http://twitter.com/pokutuna/statuses/1439237107
+販売終了情報げっと・・・代替品さがす,Thu Apr 02 15:29:02 UTC 2009,http://twitter.com/pokutuna/statuses/1438945678
+電子工作部品みたいなの良く知らないけど、千石の通販から消えてても店売りとかあるもんなんかな,Thu Apr 02 15:22:33 UTC 2009,http://twitter.com/pokutuna/statuses/1438905903
+うーんみつからんなあ・・・加賀コンポーネントのSPEC7251,Thu Apr 02 15:21:50 UTC 2009,http://twitter.com/pokutuna/statuses/1438901698
+電源ユニット今売ってないのおおお,Thu Apr 02 15:13:50 UTC 2009,http://twitter.com/pokutuna/statuses/1438852977
+千石電気に無い,Thu Apr 02 15:10:09 UTC 2009,http://twitter.com/pokutuna/statuses/1438830569
+どうすりゃいいんだ,Thu Apr 02 15:08:54 UTC 2009,http://twitter.com/pokutuna/statuses/1438822996
+テスターなんて無いよう,Thu Apr 02 15:06:45 UTC 2009,http://twitter.com/pokutuna/statuses/1438809649
+かんきょうできたのにこれだよ,Thu Apr 02 15:04:21 UTC 2009,http://twitter.com/pokutuna/statuses/1438795026
+玄箱の電源ぶっつぶしたっぽい、コンセント繋ぐとキーーって音がして電源押しても反応無い。煙でても動いてたのになー,Thu Apr 02 15:01:51 UTC 2009,http://twitter.com/pokutuna/statuses/1438779749
+もふもふもののふ！,Thu Apr 02 09:32:38 UTC 2009,http://twitter.com/pokutuna/statuses/1437401458
+玄箱静音化しようとしてvarをUSBメモリにつっこんでlnしたらリブートしたらマウントしてなくて楽しい感じになった,Wed Apr 01 19:19:48 UTC 2009,http://twitter.com/pokutuna/statuses/1433417711
+@teketeng 社畜化は順調ですか,Wed Apr 01 11:17:34 UTC 2009,http://twitter.com/pokutuna/statuses/1430713159
+血圧下がった！！ http://twitpic.com/2o6q0,Wed Apr 01 05:52:44 UTC 2009,http://twitter.com/pokutuna/statuses/1429736429
+ガコきました,Wed Apr 01 02:12:55 UTC 2009,http://twitter.com/pokutuna/statuses/1428675498
+今日も電車遅れてるんだけど,Wed Apr 01 01:24:06 UTC 2009,http://twitter.com/pokutuna/statuses/1428395261
+まあ12時までにはでるだろう、学校いこう,Wed Apr 01 00:59:56 UTC 2009,http://twitter.com/pokutuna/statuses/1428257201
+尿でないにょ,Wed Apr 01 00:48:30 UTC 2009,http://twitter.com/pokutuna/statuses/1428195425
+iPhoneのServersManけっこうイケてるんじゃないのこれ,Wed Apr 01 00:30:09 UTC 2009,http://twitter.com/pokutuna/statuses/1428096429
+定額給付星もらった・・・,Wed Apr 01 00:02:36 UTC 2009,http://twitter.com/pokutuna/statuses/1427945383
+尿とかとらねば,Tue Mar 31 23:54:56 UTC 2009,http://twitter.com/pokutuna/statuses/1427903735
+朝だーーーーーーーーーーーーーーー！！！！！！！！！,Tue Mar 31 21:46:26 UTC 2009,http://twitter.com/pokutuna/statuses/1427181422
+めし http://twitpic.com/2mxh4,Tue Mar 31 12:18:40 UTC 2009,http://twitter.com/pokutuna/statuses/1423928919
+今日は俺がパスタをゆで俺がピザを焼き俺ひとりで食うデーだ,Tue Mar 31 11:45:02 UTC 2009,http://twitter.com/pokutuna/statuses/1423803057
+@teketeng トメルミン買ったけど6錠500円は高いよ,Tue Mar 31 11:40:37 UTC 2009,http://twitter.com/pokutuna/statuses/1423787835
+どうやら僕 @teketeng に童貞奪われるらしい,Tue Mar 31 11:40:09 UTC 2009,http://twitter.com/pokutuna/statuses/1423786142
+今日もイノベーションした,Tue Mar 31 09:44:58 UTC 2009,http://twitter.com/pokutuna/statuses/1423447161
+メーリングリストにもぽくつなさんが作ってくれましたとかいうあるまじき所業,Tue Mar 31 05:14:05 UTC 2009,http://twitter.com/pokutuna/statuses/1422662651
+研究室でぽくつなぽくつな言われる,Tue Mar 31 04:50:42 UTC 2009,http://twitter.com/pokutuna/statuses/1422573900
+フバレコ生理来んのか…,Tue Mar 31 02:24:44 UTC 2009,http://twitter.com/pokutuna/statuses/1421874195
+Skype、TwitterFon、はてなtouchのアイコンが被ってていい,Tue Mar 31 02:24:10 UTC 2009,http://twitter.com/pokutuna/statuses/1421871440
+初回重いがいいかんじ,Tue Mar 31 02:19:09 UTC 2009,http://twitter.com/pokutuna/statuses/1421845566
+おおおきてる、今落とし中,Tue Mar 31 02:08:44 UTC 2009,http://twitter.com/pokutuna/statuses/1421790743
+SkypeiPhoneがバズってる、アプリでたのかな,Tue Mar 31 02:07:08 UTC 2009,http://twitter.com/pokutuna/statuses/1421782397
+おまえらどうせ半分フードコートみたいになってる田舎コンビニなんて使ったこともないんだろ！！！,Tue Mar 31 02:06:36 UTC 2009,http://twitter.com/pokutuna/statuses/1421779736
+20分何もない屋外で待機,Tue Mar 31 01:46:46 UTC 2009,http://twitter.com/pokutuna/statuses/1421673710
+電車ついた瞬間バス出る,Tue Mar 31 01:42:27 UTC 2009,http://twitter.com/pokutuna/statuses/1421650721
+JRが一分以上遅れたら公式に書いといて欲しいんだけどないのかな,Tue Mar 31 01:29:25 UTC 2009,http://twitter.com/pokutuna/statuses/1421582054
+人身事故かー,Tue Mar 31 01:26:09 UTC 2009,http://twitter.com/pokutuna/statuses/1421565811
+ねえ電車ないんだけど…,Tue Mar 31 01:24:32 UTC 2009,http://twitter.com/pokutuna/statuses/1421557339
+@tairano 「ぴちょん！（Pythonの意）」,Mon Mar 30 15:27:05 UTC 2009,http://twitter.com/pokutuna/statuses/1418314765
+ピザくいてえな,Sun Mar 29 22:42:19 UTC 2009,http://twitter.com/pokutuna/statuses/1414430763
+トルフィン「アシェラッド死んだし実家帰るか」　で終わらないことをいのる,Sun Mar 29 20:23:54 UTC 2009,http://twitter.com/pokutuna/statuses/1413783803
+ちゃんとiptables先生がsshアタックREJECTしてて良かったー,Sun Mar 29 18:44:24 UTC 2009,http://twitter.com/pokutuna/statuses/1413321482
+@tairano Cygwinはタダですよ,Sun Mar 29 18:17:47 UTC 2009,http://twitter.com/pokutuna/statuses/1413200313
+@tairano 一度コンピュータについておしえるひつようがありそうですね,Sun Mar 29 18:15:34 UTC 2009,http://twitter.com/pokutuna/statuses/1413190242
+@tairano 無駄だと思うけどドライバ見つけた、明日でいいかなー,Sun Mar 29 18:07:37 UTC 2009,http://twitter.com/pokutuna/statuses/1413153949
+@blankblank また姉自慢か！！！！！！！！！！！！！！！！！1,Sun Mar 29 18:06:35 UTC 2009,http://twitter.com/pokutuna/statuses/1413149282
+@tairano たえろ！！,Sun Mar 29 17:41:40 UTC 2009,http://twitter.com/pokutuna/statuses/1413035875
+リボンズキャノン,Sun Mar 29 12:01:05 UTC 2009,http://twitter.com/pokutuna/statuses/1411821727
+純粋種と三十路は釣り合わないとのスタッフの見方,Sun Mar 29 08:32:32 UTC 2009,http://twitter.com/pokutuna/statuses/1411402230
+ティエリア女体化は…？,Sun Mar 29 08:24:25 UTC 2009,http://twitter.com/pokutuna/statuses/1411383487
+グラハムエーカー上級大尉が生きておられた！！！！！,Sun Mar 29 08:23:10 UTC 2009,http://twitter.com/pokutuna/statuses/1411380981
+たああ,Sun Mar 29 08:21:41 UTC 2009,http://twitter.com/pokutuna/statuses/1411377525
+背景見ろ！ コーラさがせ！！,Sun Mar 29 08:20:13 UTC 2009,http://twitter.com/pokutuna/statuses/1411374360
+ブシドーは,Sun Mar 29 08:19:17 UTC 2009,http://twitter.com/pokutuna/statuses/1411372404
+マリナイスマイーールと子供達,Sun Mar 29 08:16:48 UTC 2009,http://twitter.com/pokutuna/statuses/1411367203
+エクシアきたあ,Sun Mar 29 08:15:52 UTC 2009,http://twitter.com/pokutuna/statuses/1411365113
+量子化ならしょうがない,Sun Mar 29 08:12:59 UTC 2009,http://twitter.com/pokutuna/statuses/1411358793
+量子化かあー,Sun Mar 29 08:12:16 UTC 2009,http://twitter.com/pokutuna/statuses/1411357289
+はれるやあえああ,Sun Mar 29 08:06:37 UTC 2009,http://twitter.com/pokutuna/statuses/1411345567
+ブシドーの登場が待たれる,Sun Mar 29 08:06:30 UTC 2009,http://twitter.com/pokutuna/statuses/1411345204
+変形！！！！,Sun Mar 29 08:04:41 UTC 2009,http://twitter.com/pokutuna/statuses/1411341319
+リボンズキャノンっていったよな？,Sun Mar 29 08:02:00 UTC 2009,http://twitter.com/pokutuna/statuses/1411335200
+ガンキャノンはじまった,Sun Mar 29 08:00:43 UTC 2009,http://twitter.com/pokutuna/statuses/1411332227
+たまねぎ食いすぎた,Sat Mar 28 12:20:07 UTC 2009,http://twitter.com/pokutuna/statuses/1406607562
+ようやくiptablesにいろんなモジュールつっこめた段階だよ,Sat Mar 28 08:12:55 UTC 2009,http://twitter.com/pokutuna/statuses/1406093848
+3回ぐらいカーネルとモジュールmakeして結局投げて他人のを切り貼りしていけるかどうかやったらいけたしコラ,Sat Mar 28 08:11:03 UTC 2009,http://twitter.com/pokutuna/statuses/1406090178
+Linuxのversion.h書き換えるなんて今までで一番Hackっぽいことしてる日だ,Fri Mar 27 15:52:47 UTC 2009,http://twitter.com/pokutuna/statuses/1401649108
+make終わらんしみんなコナンコナンいうしもうこんな人生うんざりだ,Fri Mar 27 13:02:45 UTC 2009,http://twitter.com/pokutuna/statuses/1400702676
+makeとか怖いよう,Fri Mar 27 10:56:57 UTC 2009,http://twitter.com/pokutuna/statuses/1400230595
+iptablesのいろんなモジュールがごっそり無いからカーネル再構築しようとしてるけどうまくいくんかこれ・・・,Fri Mar 27 10:45:19 UTC 2009,http://twitter.com/pokutuna/statuses/1400196609
+ペペローソン・・・,Fri Mar 27 09:47:08 UTC 2009,http://twitter.com/pokutuna/statuses/1400041529
+スカイクロラってレシプロ機の話だったのか…ずっとジェット機だと,Thu Mar 26 03:38:24 UTC 2009,http://twitter.com/pokutuna/statuses/1392380942
+お姉ちゃんが、ここ感触ある？ ここは？ みたいに口の中つつきまくる,Thu Mar 26 03:08:54 UTC 2009,http://twitter.com/pokutuna/statuses/1392243440
+今日は麻酔したから口きけない設定で通そう,Thu Mar 26 03:04:58 UTC 2009,http://twitter.com/pokutuna/statuses/1392224352
+鼻水でててもわからん,Thu Mar 26 03:03:23 UTC 2009,http://twitter.com/pokutuna/statuses/1392216600
+麻酔した、から口の天井、上唇、鼻に至るまで変なかんじ,Thu Mar 26 03:02:22 UTC 2009,http://twitter.com/pokutuna/statuses/1392211865
+うおさっき曇りのち雨だったから傘持ってきたのに、曇りのち晴れに改竄されとる,Wed Mar 25 01:24:02 UTC 2009,http://twitter.com/pokutuna/statuses/1385340482
+hddtempでハードディスクの温度取得したら℃とか名前ごと返すようになっててファン制御スクリプトガリガリいじったあと-nオプションで値だけ取れること知った,Tue Mar 24 22:37:53 UTC 2009,http://twitter.com/pokutuna/statuses/1384482770
+なぜかXMLパーサになる夢をみた、なぜかネットワーク対応でXMLファイルとDOMクエリを受け取って動く。狭さ(謎)故に並列して動くことができずキューがどんどん溜まっていった,Tue Mar 24 16:30:19 UTC 2009,http://twitter.com/pokutuna/statuses/1382591363
+いえかえる,Tue Mar 24 10:11:37 UTC 2009,http://twitter.com/pokutuna/statuses/1380992790
+化学科の研究室いったけどあっちのが理系臭出しててムカつく、白衣ほしい,Tue Mar 24 06:21:57 UTC 2009,http://twitter.com/pokutuna/statuses/1380448261
+なんかズボンが変だと思ったらベルトがなかった,Tue Mar 24 01:23:43 UTC 2009,http://twitter.com/pokutuna/statuses/1379160020
+なんでetchだけRubyまわりのパッケージのバージョン古いんだ,Mon Mar 23 17:46:05 UTC 2009,http://twitter.com/pokutuna/statuses/1376772921
+玄箱から火花出た,Mon Mar 23 17:11:28 UTC 2009,http://twitter.com/pokutuna/statuses/1376585796
+ぱこ,Mon Mar 23 14:17:28 UTC 2009,http://twitter.com/pokutuna/statuses/1375647614
+酒飲むと音楽聞きたくなる,Mon Mar 23 12:43:50 UTC 2009,http://twitter.com/pokutuna/statuses/1375227652
+姉に押しつぶされたい,Mon Mar 23 12:42:26 UTC 2009,http://twitter.com/pokutuna/statuses/1375222175
+おなかいつぱいすぎ,Mon Mar 23 12:26:53 UTC 2009,http://twitter.com/pokutuna/statuses/1375164893
+26人すきやき http://twitpic.com/2dg1x,Mon Mar 23 10:17:09 UTC 2009,http://twitter.com/pokutuna/statuses/1374792292
+残骸,Mon Mar 23 06:37:18 UTC 2009,http://twitter.com/pokutuna/statuses/1374308733
+osigoto///,Mon Mar 23 04:32:15 UTC 2009,http://twitter.com/pokutuna/statuses/1373958755
+俺よかJRのが時間にルーズ,Mon Mar 23 02:12:48 UTC 2009,http://twitter.com/pokutuna/statuses/1373386872
+結局今日の研究室の飲み会の詳細なんもわからん,Mon Mar 23 02:06:03 UTC 2009,http://twitter.com/pokutuna/statuses/1373357666
+12分遅れとか,Mon Mar 23 01:52:31 UTC 2009,http://twitter.com/pokutuna/statuses/1373297735
+また電車遅れてるしさー,Mon Mar 23 01:51:11 UTC 2009,http://twitter.com/pokutuna/statuses/1373292133
+とりあえずがっこういく・・・,Mon Mar 23 01:18:23 UTC 2009,http://twitter.com/pokutuna/statuses/1373148725
+高校のころ適当によくわからんままDebian化した玄箱がクラッシュして、もっぺんDebian化してるけど何やってるかずいぶんわかるようになったなー,Sun Mar 22 14:37:53 UTC 2009,http://twitter.com/pokutuna/statuses/1370520342
+みんな乱交乱交言ってる！！,Sun Mar 22 14:05:12 UTC 2009,http://twitter.com/pokutuna/statuses/1370419533
+めっきり目が弱くなったきがする,Sun Mar 22 09:42:04 UTC 2009,http://twitter.com/pokutuna/statuses/1369855668
+もっと、あ、あれがソレスタルガンダム…！！ みたいな展開で終わると思ってたのに、バカカッコいいメカがくると思ってたのに…ガンキャノンかあー…,Sun Mar 22 08:28:56 UTC 2009,http://twitter.com/pokutuna/statuses/1369727318
+えええええなんだあのガンキャノン,Sun Mar 22 08:26:18 UTC 2009,http://twitter.com/pokutuna/statuses/1369722504
+リボンズガンダムか,Sun Mar 22 08:25:47 UTC 2009,http://twitter.com/pokutuna/statuses/1369721525
+ハロも真のイノベイターに,Sun Mar 22 08:19:15 UTC 2009,http://twitter.com/pokutuna/statuses/1369709299
+まさかラッセ復活とかあんのか、みんな死ぬとおもってたろうに,Sun Mar 22 08:16:07 UTC 2009,http://twitter.com/pokutuna/statuses/1369703358
+きたああああ,Sun Mar 22 08:12:32 UTC 2009,http://twitter.com/pokutuna/statuses/1369696662
+レインボー粒子！！！,Sun Mar 22 08:10:48 UTC 2009,http://twitter.com/pokutuna/statuses/1369693399
+さっさとハレルヤを出せ,Sun Mar 22 08:09:59 UTC 2009,http://twitter.com/pokutuna/statuses/1369691794
+さすがにこの修羅場で分離はないか,Sun Mar 22 08:06:42 UTC 2009,http://twitter.com/pokutuna/statuses/1369685901
+がんだむ,Sun Mar 22 08:03:04 UTC 2009,http://twitter.com/pokutuna/statuses/1369678917
+なんでか村名を考えてほしいという手紙がくるトラビアン,Sun Mar 22 07:54:55 UTC 2009,http://twitter.com/pokutuna/statuses/1369662984
+お腹空いたんじゃコラ,Sun Mar 22 06:44:26 UTC 2009,http://twitter.com/pokutuna/statuses/1369519884
+ほんとに黙られちまった,Sun Mar 22 06:24:19 UTC 2009,http://twitter.com/pokutuna/statuses/1369474612
+トウモロコシ小麦粉レコーダー黙れ,Sun Mar 22 06:18:36 UTC 2009,http://twitter.com/pokutuna/statuses/1369461519
+@fuba_recorder 血が.*出る|失業|原君|痛い|進まない|ハァ|＼\(＾o＾\)／|着る服が無い|あー|ねむい|鬱|ヘルプ|へるぷ|help|諦め|苦しい|つらい|希望がない|だめ|ダメ|駄目|死|しぬ|しにたい|自殺|たすけて|助けて|働きたくない|やだ|むり|無,Sun Mar 22 06:16:03 UTC 2009,http://twitter.com/pokutuna/statuses/1369455323
+ハアハアやっとできたっぽい,Sat Mar 21 16:10:30 UTC 2009,http://twitter.com/pokutuna/statuses/1366289656
+Save→Run Pipe→Edit→保存した奴と違う！！！　死ね！！！！,Sat Mar 21 15:23:13 UTC 2009,http://twitter.com/pokutuna/statuses/1366102633
+Save→No output→Edit→前々回のセーブしたパイプ　の謎現象にやられてさっぱりすすまん,Sat Mar 21 15:02:41 UTC 2009,http://twitter.com/pokutuna/statuses/1366024020
+Saveしたのが巻戻ってるんだが,Sat Mar 21 14:24:22 UTC 2009,http://twitter.com/pokutuna/statuses/1365888842
+SAVINGのままかえってこねえ,Sat Mar 21 14:08:37 UTC 2009,http://twitter.com/pokutuna/statuses/1365837188
+Pipes急におもくなった,Sat Mar 21 14:07:40 UTC 2009,http://twitter.com/pokutuna/statuses/1365834187
+ロンポスのカスみたいなウェブサイトから追加問題をスクレイピングしてRSSにしようとしてる,Sat Mar 21 12:34:40 UTC 2009,http://twitter.com/pokutuna/statuses/1365573725
+Yahoo Pipesで遊んでる,Sat Mar 21 12:19:39 UTC 2009,http://twitter.com/pokutuna/statuses/1365538098
+ぺろんぺろん,Sat Mar 21 09:34:30 UTC 2009,http://twitter.com/pokutuna/statuses/1365257192
+バランスボールの上で屁をこくと音が響いてたのしい,Fri Mar 20 16:49:43 UTC 2009,http://twitter.com/pokutuna/statuses/1361247279
+自宅回帰,Fri Mar 20 15:49:31 UTC 2009,http://twitter.com/pokutuna/statuses/1360921056
+バトルラインしてる http://twitpic.com/29zdp,Fri Mar 20 14:34:54 UTC 2009,http://twitter.com/pokutuna/statuses/1360505398
+おーるざきんぐずめん http://twitpic.com/29vt2,Fri Mar 20 12:24:17 UTC 2009,http://twitter.com/pokutuna/statuses/1359910708
+ネギを咀嚼することに疲弊した,Fri Mar 20 10:45:04 UTC 2009,http://twitter.com/pokutuna/statuses/1359603306
+ネギラーメン http://twitpic.com/29tfr,Fri Mar 20 10:10:27 UTC 2009,http://twitter.com/pokutuna/statuses/1359519466
+無駄にダッシュしてラーメン屋にきた,Fri Mar 20 10:06:21 UTC 2009,http://twitter.com/pokutuna/statuses/1359510129
+桃鉄はクソゲー,Fri Mar 20 09:28:11 UTC 2009,http://twitter.com/pokutuna/statuses/1359422426
+北へーゆこうらんららん,Fri Mar 20 06:23:05 UTC 2009,http://twitter.com/pokutuna/statuses/1358993367
+桃鉄してる,Fri Mar 20 06:14:08 UTC 2009,http://twitter.com/pokutuna/statuses/1358969756
+内定なし公認会計士、フリーターと化した豚、法科大学院へ進学するヤンキーと僕で桃鉄をやりつづける闇の集会,Fri Mar 20 03:02:27 UTC 2009,http://twitter.com/pokutuna/statuses/1358260631
+飢餓状態,Fri Mar 20 02:58:26 UTC 2009,http://twitter.com/pokutuna/statuses/1358241702
+遅刻は愛のように宿命,Fri Mar 20 02:43:15 UTC 2009,http://twitter.com/pokutuna/statuses/1358172515
+遊びに行くのも仕事もちゃんと平等に遅刻してるし私は分け隔てなく接しています,Fri Mar 20 02:41:17 UTC 2009,http://twitter.com/pokutuna/statuses/1358163453
+@kazuo どうもー、カエル可愛くてふぉろーしました,Fri Mar 20 02:36:41 UTC 2009,http://twitter.com/pokutuna/statuses/1358142145
+もっと箱小さくできるだろバトルライン http://twitpic.com/28s43,Thu Mar 19 13:26:39 UTC 2009,http://twitter.com/pokutuna/statuses/1354244478
+髪の毛ばらばらに,Thu Mar 19 08:49:29 UTC 2009,http://twitter.com/pokutuna/statuses/1353408819
+ウオーーー髪ジョキジョキしてやる！！！！！,Thu Mar 19 06:31:11 UTC 2009,http://twitter.com/pokutuna/statuses/1353087258
+家だ,Thu Mar 19 04:29:03 UTC 2009,http://twitter.com/pokutuna/statuses/1352705156
+どうしろと http://twitpic.com/28jfd,Thu Mar 19 04:14:52 UTC 2009,http://twitter.com/pokutuna/statuses/1352651522
+人類だった…,Thu Mar 19 04:11:55 UTC 2009,http://twitter.com/pokutuna/statuses/1352640395
+やばいマジ人の声聞こえる http://twitpic.com/28jbx,Thu Mar 19 04:09:47 UTC 2009,http://twitter.com/pokutuna/statuses/1352631691
+入坑者… http://twitpic.com/28ja9,Thu Mar 19 04:07:57 UTC 2009,http://twitter.com/pokutuna/statuses/1352624412
+… http://twitpic.com/28j3w,Thu Mar 19 03:59:59 UTC 2009,http://twitter.com/pokutuna/statuses/1352591836
+風きついし帰り方わからんしマジ楽しいぜよ,Thu Mar 19 03:31:31 UTC 2009,http://twitter.com/pokutuna/statuses/1352473418
+歯医者行ってきた、今日の席にはピカチュウが貼ってたなあ,Thu Mar 19 02:56:20 UTC 2009,http://twitter.com/pokutuna/statuses/1352316027
+おなかすいた,Thu Mar 19 01:30:48 UTC 2009,http://twitter.com/pokutuna/statuses/1351912413
+75cmのバランスボールほしい,Wed Mar 18 11:18:28 UTC 2009,http://twitter.com/pokutuna/statuses/1347728617
+もうちょいデカけりゃ言うことないのになー,Wed Mar 18 11:13:01 UTC 2009,http://twitter.com/pokutuna/statuses/1347713772
+ポヨポヨ生活たのしいいいいい,Wed Mar 18 11:12:49 UTC 2009,http://twitter.com/pokutuna/statuses/1347713275
+背中で乗ったらとまらずゴロゴロ倒れていってNASの箱がザックリ背中に刺さってアオオオオって言ったわ,Wed Mar 18 11:09:08 UTC 2009,http://twitter.com/pokutuna/statuses/1347703355
+ポヨンポヨンぐりんぐりんしてるけどいつかコケて頭割りそうだ,Wed Mar 18 10:57:53 UTC 2009,http://twitter.com/pokutuna/statuses/1347672574
+バランスボールで健康まっしぐら！！！,Wed Mar 18 10:57:12 UTC 2009,http://twitter.com/pokutuna/statuses/1347670829
+背筋伸びる！,Wed Mar 18 10:57:01 UTC 2009,http://twitter.com/pokutuna/statuses/1347670249
+座ってみたけどもうちょい高いほうがいいな、もっと空気入れるか・・・,Wed Mar 18 10:53:25 UTC 2009,http://twitter.com/pokutuna/statuses/1347661009
+20分でいけるじゃねえか・・・,Wed Mar 18 10:51:49 UTC 2009,http://twitter.com/pokutuna/statuses/1347656966
+できたあ… http://twitpic.com/27mb9,Wed Mar 18 10:51:32 UTC 2009,http://twitter.com/pokutuna/statuses/1347656245
+手を休めると空気入れからビュービュー風が逆流してくる地獄的作業,Wed Mar 18 10:49:49 UTC 2009,http://twitter.com/pokutuna/statuses/1347651671
+つかれた・・・,Wed Mar 18 10:49:16 UTC 2009,http://twitter.com/pokutuna/statuses/1347650334
+すでにこんぐらいなんだけど40分とか嘘だろ http://twitpic.com/27m4z,Wed Mar 18 10:38:44 UTC 2009,http://twitter.com/pokutuna/statuses/1347623315
+(最大65cmまで膨らませるのに約40分程かかります)　長すぎだろ・・・,Wed Mar 18 10:34:49 UTC 2009,http://twitter.com/pokutuna/statuses/1347613719
+これで俺もポヨンポヨン生活者だ,Wed Mar 18 10:33:05 UTC 2009,http://twitter.com/pokutuna/statuses/1347609523
+ふくらます！ http://twitpic.com/27m2n,Wed Mar 18 10:32:33 UTC 2009,http://twitter.com/pokutuna/statuses/1347608245
+キャノン先生けっこうデカ分厚い,Wed Mar 18 10:31:08 UTC 2009,http://twitter.com/pokutuna/statuses/1347604920
+バランスボールとかキャノン先生とか耳かきとか届いたし,Wed Mar 18 10:26:33 UTC 2009,http://twitter.com/pokutuna/statuses/1347593527
+「何でプログラマーは適当に入れる時にhogeとか入れるのか。pakoとかでもいいんじゃないのか」pakoを積極的に流行らせていきたい,Wed Mar 18 10:26:05 UTC 2009,http://twitter.com/pokutuna/statuses/1347592377
+生キャラメルバリボリゴクリ,Wed Mar 18 04:10:51 UTC 2009,http://twitter.com/pokutuna/statuses/1346609297
+戦略的登校,Wed Mar 18 02:00:22 UTC 2009,http://twitter.com/pokutuna/statuses/1346036557
+そういや免許取ってから一年半一度も運転してない,Wed Mar 18 01:49:09 UTC 2009,http://twitter.com/pokutuna/statuses/1345983886
+ウヘー,Wed Mar 18 01:23:20 UTC 2009,http://twitter.com/pokutuna/statuses/1345863193
+お腹痛かったり家でようとしたら荷物きたりして絶妙に間に合わない時間になった,Wed Mar 18 00:33:51 UTC 2009,http://twitter.com/pokutuna/statuses/1345631582
+あいふぉん3.0たのしみしみすぎるーー！,Tue Mar 17 21:10:24 UTC 2009,http://twitter.com/pokutuna/statuses/1344607618
+不在表死ね,Tue Mar 17 11:06:05 UTC 2009,http://twitter.com/pokutuna/statuses/1341527691
+バランスボールとっどいてるっかなー,Tue Mar 17 10:27:46 UTC 2009,http://twitter.com/pokutuna/statuses/1341427135
+@blankblank とWikiamoのiPhoneを振ればランダムでWikipediaの記事が表示される機能で熱いバトルを繰り広げた,Tue Mar 17 10:01:27 UTC 2009,http://twitter.com/pokutuna/statuses/1341364116
+生キャラメルの賞味期限がバイトのGoogleカレンダーに追加された,Tue Mar 17 06:14:56 UTC 2009,http://twitter.com/pokutuna/statuses/1340848159
+やべー研究室の生キャラメルが21日賞味期限や！　イソイデタベナイトーー！,Tue Mar 17 06:12:23 UTC 2009,http://twitter.com/pokutuna/statuses/1340841954
+バトルラインが発送された,Tue Mar 17 04:32:32 UTC 2009,http://twitter.com/pokutuna/statuses/1340547319
+投稿数のとこクリックだといろいろ消えてるけどふぁぼったーから飛んだら各ポストのページは生きてる,Tue Mar 17 04:09:33 UTC 2009,http://twitter.com/pokutuna/statuses/1340464539
+さっきしたはずのひろなお当てのreplyとか消えてるなあ,Tue Mar 17 02:38:46 UTC 2009,http://twitter.com/pokutuna/statuses/1340082889
+あれ・・・ポストがざっくり消えてる？,Tue Mar 17 02:37:34 UTC 2009,http://twitter.com/pokutuna/statuses/1340077635
+おしごとや,Tue Mar 17 02:30:19 UTC 2009,http://twitter.com/pokutuna/statuses/1340045011
+なぜ誰もエアコン26度設定に疑問をもたないのだ、シャツ1枚になって袖まくってるのに,Tue Mar 17 02:23:20 UTC 2009,http://twitter.com/pokutuna/statuses/1340012779
+JRが遅れて遅刻とアイマスのしすぎで遅刻だと僕のほうが罪軽いし,Tue Mar 17 02:06:27 UTC 2009,http://twitter.com/pokutuna/statuses/1339936546
+@blankblank がきてない、遅刻の大義を得た！,Tue Mar 17 01:56:30 UTC 2009,http://twitter.com/pokutuna/statuses/1339888611
+ふつうにうまいしこんなのセカキチじゃない,Tue Mar 17 01:55:23 UTC 2009,http://twitter.com/pokutuna/statuses/1339883414
+世界のキッチンから とろとろ桃のフリューニュ ヨーグルトテイストを買う,Tue Mar 17 01:30:26 UTC 2009,http://twitter.com/pokutuna/statuses/1339769636
+@hironao のうんこメッセージによって息をふきかえす！,Tue Mar 17 01:28:15 UTC 2009,http://twitter.com/pokutuna/statuses/1339759711
+僕みたいな線路に飛び込まない行儀を持ち合わせた人間の精神的健康を守るためJRは線路の周囲を有刺鉄線で囲うとか人はねてもそのまま走行可能な電車を作るとかしろや,Tue Mar 17 01:27:24 UTC 2009,http://twitter.com/pokutuna/statuses/1339755891
+iPhoneのバッテリ残り10%とか言ってるしもうダメだ、ネットから隔絶されたバス停で僕という個は死をむかえる！,Tue Mar 17 01:23:39 UTC 2009,http://twitter.com/pokutuna/statuses/1339739197
+バス出たじやねえかよ,Tue Mar 17 01:13:21 UTC 2009,http://twitter.com/pokutuna/statuses/1339692366
+朝ご飯をゆっくり食べれるとか長く寝れるとかメリットがあるから遅刻のワビサビがあるわけで、JRのカスのせいでバス停で待ち惚けて遅れた人間扱いなんて我慢ならん,Tue Mar 17 01:09:14 UTC 2009,http://twitter.com/pokutuna/statuses/1339673785
+ホントに日本かこの路線は,Tue Mar 17 00:55:39 UTC 2009,http://twitter.com/pokutuna/statuses/1339611048
+寝坊しなくてもJRが5分遅れたら俺が30分遅刻なんだっつの,Tue Mar 17 00:54:03 UTC 2009,http://twitter.com/pokutuna/statuses/1339604221
+デカすぎ http://twitpic.com/25gyu,Mon Mar 16 11:25:56 UTC 2009,http://twitter.com/pokutuna/statuses/1335793705
+養命酒と消臭力ブラックローズかってきた,Mon Mar 16 11:17:28 UTC 2009,http://twitter.com/pokutuna/statuses/1335771402
+まあものは試しだ,Mon Mar 16 10:39:03 UTC 2009,http://twitter.com/pokutuna/statuses/1335676268
+ちっさいボトルは高い,Mon Mar 16 10:37:21 UTC 2009,http://twitter.com/pokutuna/statuses/1335672358
+養命酒デカすぎ,Mon Mar 16 10:30:25 UTC 2009,http://twitter.com/pokutuna/statuses/1335656127
+@blankblank が帰りにアイマスについて説明してくれる,Mon Mar 16 10:24:06 UTC 2009,http://twitter.com/pokutuna/statuses/1335641671
+ねむい,Mon Mar 16 10:01:09 UTC 2009,http://twitter.com/pokutuna/statuses/1335590740
+もっとテクノロジーな発言をすべきだな,Mon Mar 16 09:31:59 UTC 2009,http://twitter.com/pokutuna/statuses/1335525842
+あ、やべこれも検索されたらひっかかってしまう,Mon Mar 16 09:30:32 UTC 2009,http://twitter.com/pokutuna/statuses/1335522784
+上司にぽくつな名で仕事メール送っちゃった☆,Mon Mar 16 09:30:14 UTC 2009,http://twitter.com/pokutuna/statuses/1335522159
+@hironao 30分ぐらいはまあ時計の見方でどうにでもなりますしね,Mon Mar 16 01:40:05 UTC 2009,http://twitter.com/pokutuna/statuses/1334157795
+遅刻なんてどこにでもある,Mon Mar 16 01:24:16 UTC 2009,http://twitter.com/pokutuna/statuses/1334094632
+良いハッカーは皆バランスボールの上でコードを書いているのだ,Sun Mar 15 17:48:23 UTC 2009,http://twitter.com/pokutuna/statuses/1332200479
+今週の防御者8位になったあああ,Sun Mar 15 15:09:59 UTC 2009,http://twitter.com/pokutuna/statuses/1331598292
+お姉ちゃんの敷き布団になりたい,Sun Mar 15 12:44:40 UTC 2009,http://twitter.com/pokutuna/statuses/1331189937
+たけしの万物創世記みたいなやつみてる,Sun Mar 15 12:39:35 UTC 2009,http://twitter.com/pokutuna/statuses/1331178776
+ロンポスロンポス,Sun Mar 15 09:19:56 UTC 2009,http://twitter.com/pokutuna/statuses/1330819283
+あれ…コーラが,Sun Mar 15 08:19:06 UTC 2009,http://twitter.com/pokutuna/statuses/1330718973
+パイロットはトランザム言うためだけに乗せてます,Sun Mar 15 08:18:32 UTC 2009,http://twitter.com/pokutuna/statuses/1330717935
+多すぎだろ,Sun Mar 15 08:16:16 UTC 2009,http://twitter.com/pokutuna/statuses/1330713805
+何か今日はCG感すごいな,Sun Mar 15 08:07:46 UTC 2009,http://twitter.com/pokutuna/statuses/1330698785
+防御ランク19位になったぜ・・・,Sun Mar 15 06:19:56 UTC 2009,http://twitter.com/pokutuna/statuses/1330488545
+しぬほどつかれた,Sun Mar 15 06:17:38 UTC 2009,http://twitter.com/pokutuna/statuses/1330483176
+インペ8000、カエザリ1000、ラム150、カタパ200を撃破あああ,Sun Mar 15 06:17:30 UTC 2009,http://twitter.com/pokutuna/statuses/1330482934
+周囲の大手同盟被害者の会から兵を結集しうちの村を守る・・・！　そして俺課金して防御UP買ってしまった・・・！,Sun Mar 15 05:00:28 UTC 2009,http://twitter.com/pokutuna/statuses/1330289366
+ガーデンズのフードコートレベル高い,Sat Mar 14 11:19:42 UTC 2009,http://twitter.com/pokutuna/statuses/1326603471
+ステーキチャーハンと生パスタ喰う,Sat Mar 14 11:01:17 UTC 2009,http://twitter.com/pokutuna/statuses/1326570061
+わっふるわっるふ http://twitpic.com/22znr,Sat Mar 14 08:51:35 UTC 2009,http://twitter.com/pokutuna/statuses/1326356284
+なんか電車おかしいぞ、今日から時刻表変わってるはずなんだけど路線検索が対応してないのか…？ 大事を取ってJR公式のやつで調べたんだけど,Sat Mar 14 01:53:55 UTC 2009,http://twitter.com/pokutuna/statuses/1325216268
+意外に寒い,Sat Mar 14 01:37:15 UTC 2009,http://twitter.com/pokutuna/statuses/1325151200
+靴が濡れてる,Sat Mar 14 01:30:48 UTC 2009,http://twitter.com/pokutuna/statuses/1325126183
+えらくつかれた、そして朝,Fri Mar 13 20:45:30 UTC 2009,http://twitter.com/pokutuna/statuses/1323850265
+ラング土砂地獄,Fri Mar 13 20:04:12 UTC 2009,http://twitter.com/pokutuna/statuses/1323634630
+もうとうぶんラング土砂いらん http://twitpic.com/22bt2,Fri Mar 13 20:02:10 UTC 2009,http://twitter.com/pokutuna/statuses/1323624051
+こんだけ作ってまだ材料あるんだけど http://twitpic.com/22ara,Fri Mar 13 19:36:21 UTC 2009,http://twitter.com/pokutuna/statuses/1323490760
+第二陣、食べても食べても生産が追いつくぜ http://twitpic.com/2299x,Fri Mar 13 19:00:57 UTC 2009,http://twitter.com/pokutuna/statuses/1323308215
+ぶおーん http://twitpic.com/2291f,Fri Mar 13 18:55:18 UTC 2009,http://twitter.com/pokutuna/statuses/1323278937
+おおおお http://twitpic.com/228f6,Fri Mar 13 18:39:43 UTC 2009,http://twitter.com/pokutuna/statuses/1323198012
+おおおすげええ,Fri Mar 13 18:36:46 UTC 2009,http://twitter.com/pokutuna/statuses/1323182888
+どう考えても作りすぎた。ラングドシャ200枚ぐらい焼かないと捏ねたやつが尽きないぞ,Fri Mar 13 18:30:06 UTC 2009,http://twitter.com/pokutuna/statuses/1323147300
+こんなんでできるんかいな http://twitpic.com/227s5,Fri Mar 13 18:22:01 UTC 2009,http://twitter.com/pokutuna/statuses/1323104680
+なんか今日はなかなか固くならないな,Fri Mar 13 17:46:58 UTC 2009,http://twitter.com/pokutuna/statuses/1322916752
+メレンゲつくっとる http://twitpic.com/225vp,Fri Mar 13 17:31:58 UTC 2009,http://twitter.com/pokutuna/statuses/1322838312
+クッキーでもつくるか,Fri Mar 13 16:31:50 UTC 2009,http://twitter.com/pokutuna/statuses/1322521676
+カゼビュウビュウでフクボトボトや,Fri Mar 13 10:30:18 UTC 2009,http://twitter.com/pokutuna/statuses/1321049830
+アメドバドバだ,Fri Mar 13 10:16:28 UTC 2009,http://twitter.com/pokutuna/statuses/1321016797
+バターむしゃむしゃしたいから買った,Fri Mar 13 10:14:28 UTC 2009,http://twitter.com/pokutuna/statuses/1321012152
+@tairano お、頭出てきた,Fri Mar 13 09:46:04 UTC 2009,http://twitter.com/pokutuna/statuses/1320946437
+@tairano ちゃんこたべるときは語尾をごわすにするのが古来からの慣わし,Fri Mar 13 09:32:36 UTC 2009,http://twitter.com/pokutuna/statuses/1320917783
+まあまあ働いた,Fri Mar 13 09:30:33 UTC 2009,http://twitter.com/pokutuna/statuses/1320913454
+生キャラメル食ったった！！ http://twitpic.com/21u3o,Fri Mar 13 06:09:48 UTC 2009,http://twitter.com/pokutuna/statuses/1320476390
+財布の中にためこんでたレシートたちを捨てたら相当薄くなった,Fri Mar 13 05:07:52 UTC 2009,http://twitter.com/pokutuna/statuses/1320329791
+のんだりくったり,Fri Mar 13 03:46:34 UTC 2009,http://twitter.com/pokutuna/statuses/1320058999
+田舎スクールについたで,Fri Mar 13 01:34:10 UTC 2009,http://twitter.com/pokutuna/statuses/1319503368
+なんかBylineのフィードと記事がいれかわってるのがある…,Fri Mar 13 01:05:01 UTC 2009,http://twitter.com/pokutuna/statuses/1319374880
+なんでこんな混んでるんだ,Fri Mar 13 00:54:09 UTC 2009,http://twitter.com/pokutuna/statuses/1319325980
+微妙なお腹痛さ,Fri Mar 13 00:50:00 UTC 2009,http://twitter.com/pokutuna/statuses/1319307911
+地獄定期買わないと,Fri Mar 13 00:44:20 UTC 2009,http://twitter.com/pokutuna/statuses/1319282833
+@hironao おきたおはよう,Fri Mar 13 00:41:20 UTC 2009,http://twitter.com/pokutuna/statuses/1319269763
+今日は仕事だ寝よう,Thu Mar 12 21:18:15 UTC 2009,http://twitter.com/pokutuna/statuses/1318308637
+ワシズさますごいな,Thu Mar 12 20:36:36 UTC 2009,http://twitter.com/pokutuna/statuses/1318093650
+iPhone Firmware 3.0は3/17発表かー,Thu Mar 12 20:32:56 UTC 2009,http://twitter.com/pokutuna/statuses/1318074294
+卵白は余ったら捨てて良い気がするけど卵黄はすごいもったいない気がするのはなぜだ,Thu Mar 12 19:43:38 UTC 2009,http://twitter.com/pokutuna/statuses/1317815164
+なんで毎日トラビアン1万人規模の敵から防衛戦しなきゃならんのだ,Thu Mar 12 10:36:37 UTC 2009,http://twitter.com/pokutuna/statuses/1315413907
+幼女にこんばんわされてうろたえる,Thu Mar 12 09:56:08 UTC 2009,http://twitter.com/pokutuna/statuses/1315321375
+この辺もヤンキーふえたなあ,Thu Mar 12 09:32:23 UTC 2009,http://twitter.com/pokutuna/statuses/1315272225
+僕が爆発した奥歯だと思っていたのは爆発した親知らずだった,Thu Mar 12 09:15:04 UTC 2009,http://twitter.com/pokutuna/statuses/1315234831
+歯医者のライトにポッチャマシールが貼ってたのがえらい気になったわ,Thu Mar 12 09:12:36 UTC 2009,http://twitter.com/pokutuna/statuses/1315229875
+歯医者にメモ見せて苦笑されるなど,Thu Mar 12 08:40:40 UTC 2009,http://twitter.com/pokutuna/statuses/1315162153
+あああ悪魔歯科の悪魔治療をうけにいかねば,Thu Mar 12 07:33:50 UTC 2009,http://twitter.com/pokutuna/statuses/1315025084
+17:30に歯医者予約してしまったあああ,Thu Mar 12 07:25:42 UTC 2009,http://twitter.com/pokutuna/statuses/1315008036
+朝ご飯のエビドリアの最後の一口をこぼした俺の気持ちが分かるか,Thu Mar 12 06:28:36 UTC 2009,http://twitter.com/pokutuna/statuses/1314882547
+綾小路きみまろが問題を出してそれに答えられればおにぎりが食べられる。僕はさっぱり答えられないそういう夢を見ましたよ,Thu Mar 12 06:17:17 UTC 2009,http://twitter.com/pokutuna/statuses/1314856209
+なつかしすぎて死ぬわ,Wed Mar 11 11:40:08 UTC 2009,http://twitter.com/pokutuna/statuses/1310146513
+W系！ 5人だったよなーと思いつつ全くデスサイズ思い出せなかった http://twitpic.com/1zyr2,Wed Mar 11 11:38:24 UTC 2009,http://twitter.com/pokutuna/statuses/1310141767
+初代世代、右のドムはトローペンのようなきもする http://twitpic.com/1zypk,Wed Mar 11 11:34:53 UTC 2009,http://twitter.com/pokutuna/statuses/1310132491
+0080系、水中が軒並みかっこいいぜ http://twitpic.com/1zyme,Wed Mar 11 11:27:21 UTC 2009,http://twitter.com/pokutuna/statuses/1310112702
+0083とZ世代これだけ http://twitpic.com/1zyk5,Wed Mar 11 11:22:42 UTC 2009,http://twitter.com/pokutuna/statuses/1310100813
+なつかしすぎてテンションあがりまくてる,Wed Mar 11 11:19:03 UTC 2009,http://twitter.com/pokutuna/statuses/1310091295
+なつかし箱開けてしまった http://twitpic.com/1zyed,Wed Mar 11 11:08:59 UTC 2009,http://twitter.com/pokutuna/statuses/1310066247
+地を這ういかなごの群れ！！！ http://twitpic.com/1zx8e,Wed Mar 11 09:17:14 UTC 2009,http://twitter.com/pokutuna/statuses/1309822039
+ややいやい,Tue Mar 10 16:38:45 UTC 2009,http://twitter.com/pokutuna/statuses/1306116308
+MacのDock風タスクトレイウザくて消したった,Tue Mar 10 16:28:14 UTC 2009,http://twitter.com/pokutuna/statuses/1306067020
+@blankblank 僕のPixvから好きに使っていいですよ http://www.pixiv.net/index.php?id=21106,Tue Mar 10 14:45:59 UTC 2009,http://twitter.com/pokutuna/statuses/1305628460
+おねえちゃんおねえちゃん,Tue Mar 10 07:31:50 UTC 2009,http://twitter.com/pokutuna/statuses/1304447370
+キョロちゃんクッキーってどこもチョコボールと関係ないじゃん,Tue Mar 10 07:25:59 UTC 2009,http://twitter.com/pokutuna/statuses/1304436337
+夢の中でひたすらマリオしてた、シナリオ分岐がどうこう,Tue Mar 10 05:57:09 UTC 2009,http://twitter.com/pokutuna/statuses/1304253465
+はてブお気に入りをいい感じに流し読みする方法ないかな,Mon Mar 09 19:23:31 UTC 2009,http://twitter.com/pokutuna/statuses/1301808928
+えらいこっちゃで,Mon Mar 09 17:56:30 UTC 2009,http://twitter.com/pokutuna/statuses/1301407096
+ち、ちちちちんこの幹に謎の腫瘍が,Mon Mar 09 17:50:19 UTC 2009,http://twitter.com/pokutuna/statuses/1301378838
+シャンプーにおれつばのせいで話題沸騰中のジンクピリチオン入ってた,Mon Mar 09 17:46:25 UTC 2009,http://twitter.com/pokutuna/statuses/1301361676
+CoD4、G36の存在意義がみえん,Mon Mar 09 16:21:46 UTC 2009,http://twitter.com/pokutuna/statuses/1300987217
+ハテブ棚が関西のリナカフェになるんや,Mon Mar 09 16:18:28 UTC 2009,http://twitter.com/pokutuna/statuses/1300972333
+@fuba_recorder もうアカン,Mon Mar 09 15:25:57 UTC 2009,http://twitter.com/pokutuna/statuses/1300741544
+いけません殿！　いけません！,Mon Mar 09 14:01:16 UTC 2009,http://twitter.com/pokutuna/statuses/1300398257
+変な道から帰ってるけどいつのまにこんな住宅街できたんや,Mon Mar 09 09:40:40 UTC 2009,http://twitter.com/pokutuna/statuses/1299681197
+歯医者さんに行った時見てもらうリスト作ってる…たぶん全部説明できなさそうだし,Mon Mar 09 09:23:59 UTC 2009,http://twitter.com/pokutuna/statuses/1299645992
+@azm02 禍々しいアイコンですね,Mon Mar 09 09:22:58 UTC 2009,http://twitter.com/pokutuna/statuses/1299643962
+ぽてとくう,Mon Mar 09 08:45:21 UTC 2009,http://twitter.com/pokutuna/statuses/1299572985
+@tairano 結局地肌にいいとか書いてるやつにした、釈然としない買い物だったなー,Mon Mar 09 08:42:14 UTC 2009,http://twitter.com/pokutuna/statuses/1299567574
+女性用シャンプーを買うより成年コミック買う方が精神的負荷軽いわ,Mon Mar 09 08:33:29 UTC 2009,http://twitter.com/pokutuna/statuses/1299551695
+歯ブラシも買ってポイントカード作ったら特典で歯ブラシついてきた！ 二刀流できるやんけ！,Mon Mar 09 08:31:43 UTC 2009,http://twitter.com/pokutuna/statuses/1299548318
+椿油とか意味あんの,Mon Mar 09 08:17:13 UTC 2009,http://twitter.com/pokutuna/statuses/1299521440
+こういうのって女性向けを買った方がなにこれいい匂いみたいなの期待できるよな,Mon Mar 09 08:12:32 UTC 2009,http://twitter.com/pokutuna/statuses/1299513414
+しゃんぷーかわねば,Mon Mar 09 08:09:01 UTC 2009,http://twitter.com/pokutuna/statuses/1299507387
+猛烈に帰り道を踏み外して散歩しようと思ったのに雨ふんのか,Mon Mar 09 07:40:05 UTC 2009,http://twitter.com/pokutuna/statuses/1299457917
+やっぱカスみたいな雑用するなら外のほうがはかどるなー,Mon Mar 09 07:32:57 UTC 2009,http://twitter.com/pokutuna/statuses/1299445597
+譜面書いたら帰るぞ,Mon Mar 09 07:01:10 UTC 2009,http://twitter.com/pokutuna/statuses/1299387438
+お姉ちゃんが使ったシーツを10cm &times; 15cm平方に裁断しマスクを作りたい,Mon Mar 09 06:44:34 UTC 2009,http://twitter.com/pokutuna/statuses/1299356225
+おお、生協のホームページが今日の日替わり定食を表示するようにリニューアルされてる、クソどうでもいいぜ,Mon Mar 09 05:23:35 UTC 2009,http://twitter.com/pokutuna/statuses/1299184962
+歯とか設計悪すぎだろ、目とか指とか脳とかほぼメンテフリーでこの稼働率と性能を誇るのに。
+歯とか自然界で相当柔らかい部類ものをすり潰す程度の機能なのにこのザマだ、石くらいブチ割れないと割りが合わない,Mon Mar 09 03:43:43 UTC 2009,http://twitter.com/pokutuna/statuses/1298917922
+とりあえず悪いとこ全部治してくださいって言おう,Mon Mar 09 03:39:19 UTC 2009,http://twitter.com/pokutuna/statuses/1298905359
+@hironao 歯はほっといたら治る！,Mon Mar 09 03:36:48 UTC 2009,http://twitter.com/pokutuna/statuses/1298898184
+僕も今週は歯医者行こう…,Mon Mar 09 03:35:34 UTC 2009,http://twitter.com/pokutuna/statuses/1298894573
+またJR遅れてんのか,Mon Mar 09 03:07:26 UTC 2009,http://twitter.com/pokutuna/statuses/1298804771
+とおもったけど持たないわ・・・19分で残り3%に,Mon Mar 09 02:47:21 UTC 2009,http://twitter.com/pokutuna/statuses/1298732912
+10分程度でカラになる摩耗し尽したはずのバッテリーがUbuntu入れたとたん1時間半ほど持つようになってる、さすがウブントゥだぜ,Mon Mar 09 02:39:19 UTC 2009,http://twitter.com/pokutuna/statuses/1298705574
+アウェイ局か・・・,Sun Mar 08 17:13:57 UTC 2009,http://twitter.com/pokutuna/statuses/1296890668
+ウーン,Sun Mar 08 16:21:55 UTC 2009,http://twitter.com/pokutuna/statuses/1296738252
+イェツラーって言いながら人参握りしめたらだいたいヴィルヘルムのコスプレ,Sun Mar 08 16:12:43 UTC 2009,http://twitter.com/pokutuna/statuses/1296712226
+もっと15インチぐらいのB5ノートほしい,Sun Mar 08 15:25:19 UTC 2009,http://twitter.com/pokutuna/statuses/1296585923
+M-x so-su-open RET tarako,Sun Mar 08 15:23:12 UTC 2009,http://twitter.com/pokutuna/statuses/1296580354
+M-x pasuta--yudero,Sun Mar 08 15:22:11 UTC 2009,http://twitter.com/pokutuna/statuses/1296577676
+そのうちEmacsで電子レンジ動かしたり紅茶作ったりできるようになるなこれは,Sun Mar 08 15:21:29 UTC 2009,http://twitter.com/pokutuna/statuses/1296575844
+Eclipse様で一番神々しい機能の定義部分にジャンプみたいなのないかなー,Sun Mar 08 15:19:22 UTC 2009,http://twitter.com/pokutuna/statuses/1296569895
+おおおすげえなんもいじってねーのに.rb開いたらメソッドリストとか出てくる賢し,Sun Mar 08 15:18:48 UTC 2009,http://twitter.com/pokutuna/statuses/1296568351
+ECB使ってみてるけどキーややこい、C-c . g d みたいに長いの使うのはじめてや,Sun Mar 08 15:16:06 UTC 2009,http://twitter.com/pokutuna/statuses/1296560970
+別にエロ動画のタイトル出るわけじゃなしおもしろさそこまでだな,Sun Mar 08 14:50:13 UTC 2009,http://twitter.com/pokutuna/statuses/1296490834
+他人のPC触ったときFirefoxのアドレスバーにhtt p:www.yourって入れる遊び開発って言おうとした,Sun Mar 08 14:48:42 UTC 2009,http://twitter.com/pokutuna/statuses/1296486795
+他人のPC触ったときFirefoxのアドレスバーにhttp://tinyurl.com/bt3r48,Sun Mar 08 14:48:01 UTC 2009,http://twitter.com/pokutuna/statuses/1296485086
+EmacsからSkypeChatできるようになったけどあんまし恩恵ないな・・・,Sun Mar 08 14:45:01 UTC 2009,http://twitter.com/pokutuna/statuses/1296477526
+Skype.el使ってみてるけど暗めのカラーテーマだと発言者のとこみずらい,Sun Mar 08 14:35:50 UTC 2009,http://twitter.com/pokutuna/statuses/1296454816
+入力文字数1位になるだけならAPIで値投げるだけでできるのでなんか別の軸なヤツをさ,Sun Mar 08 13:46:33 UTC 2009,http://twitter.com/pokutuna/statuses/1296335674
+Outputzおもしろいんだけどもうちょいソーシャル要素必要な気がするなあ,Sun Mar 08 13:45:46 UTC 2009,http://twitter.com/pokutuna/statuses/1296333953
+donateって寄付って意味だったのか、dominateとかdemolitionの仲間だと思ってたし,Sun Mar 08 13:08:49 UTC 2009,http://twitter.com/pokutuna/statuses/1296257772
+NHKスペシャル面白かったなー,Sun Mar 08 12:50:00 UTC 2009,http://twitter.com/pokutuna/statuses/1296221249
+えぬえちけーおもろい,Sun Mar 08 12:26:02 UTC 2009,http://twitter.com/pokutuna/statuses/1296177329
+ほんとに閉鎖環境でレゴつくったりするんや、プラネテスの影響ちゃうんか,Sun Mar 08 12:24:02 UTC 2009,http://twitter.com/pokutuna/statuses/1296173767
+トラビアンでカタパうちまくってる村名が童貞きもいプギャーになってるから童貞でごめんなさいと謝罪したら童貞カワユスになって大団円,Sun Mar 08 11:50:22 UTC 2009,http://twitter.com/pokutuna/statuses/1296113243
+CoD4のTDMってマジメリハリないよなーもっとゾクワクする間が欲しいというか人多いんじゃ,Sun Mar 08 10:59:26 UTC 2009,http://twitter.com/pokutuna/statuses/1296025995
+まだあの個人戦Shipment人居る・・・,Sun Mar 08 10:37:22 UTC 2009,http://twitter.com/pokutuna/statuses/1295992731
+CoD4する,Sun Mar 08 10:30:39 UTC 2009,http://twitter.com/pokutuna/statuses/1295982320
+kafeore,Sun Mar 08 10:13:45 UTC 2009,http://twitter.com/pokutuna/statuses/1295956250
+大佐あー,Sun Mar 08 08:21:47 UTC 2009,http://twitter.com/pokutuna/statuses/1295774574
+残り話数てきに三十路を絡めるのが難しいから,Sun Mar 08 08:15:33 UTC 2009,http://twitter.com/pokutuna/statuses/1295764535
+なんかいっぱいいたぞ,Sun Mar 08 08:11:32 UTC 2009,http://twitter.com/pokutuna/statuses/1295758222
+いつハレルヤさんでてくるんですか,Sun Mar 08 08:09:01 UTC 2009,http://twitter.com/pokutuna/statuses/1295753971
+@tairano さすが海沿いこっちは2500円から下がるレベルみたいだ,Sun Mar 08 08:05:07 UTC 2009,http://twitter.com/pokutuna/statuses/1295747803
+しらはどりだとー,Sun Mar 08 08:01:49 UTC 2009,http://twitter.com/pokutuna/statuses/1295742382
+@tairano また今年も高いとか騒いでる,Sun Mar 08 08:00:07 UTC 2009,http://twitter.com/pokutuna/statuses/1295739357
+フーッ！フーッ！！,Sun Mar 08 06:12:39 UTC 2009,http://twitter.com/pokutuna/statuses/1295548195
+ニャー,Sun Mar 08 06:08:00 UTC 2009,http://twitter.com/pokutuna/statuses/1295538920
+わさびの葉っぱむしゃりたい,Sat Mar 07 09:51:24 UTC 2009,http://twitter.com/pokutuna/statuses/1292270216
+お腹いっぱいだけどお茶漬け食べたいよう,Sat Mar 07 09:21:44 UTC 2009,http://twitter.com/pokutuna/statuses/1292225270
+おなかいっぱいすぎていたい,Sat Mar 07 05:25:19 UTC 2009,http://twitter.com/pokutuna/statuses/1291795505
+無防備な村に大手から偵察が入りすかさず同盟で集結し返り討ちを狙うも、ブンブン1万他の軍勢に壊滅させられるなど,Sat Mar 07 05:15:01 UTC 2009,http://twitter.com/pokutuna/statuses/1291771318
+@blankblank 無限におやつ食い続けたい,Sat Mar 07 04:46:02 UTC 2009,http://twitter.com/pokutuna/statuses/1291699376
+おやつ http://twitpic.com/1w9i9,Sat Mar 07 04:35:10 UTC 2009,http://twitter.com/pokutuna/statuses/1291671933
+ヒロコーヒー,Sat Mar 07 04:24:45 UTC 2009,http://twitter.com/pokutuna/statuses/1291643677
+食ったわん,Sat Mar 07 04:12:35 UTC 2009,http://twitter.com/pokutuna/statuses/1291611214
+そして僕4月生まれでござるよ…,Sat Mar 07 03:55:26 UTC 2009,http://twitter.com/pokutuna/statuses/1291562779
+いっかん100円じゃないでござる！,Sat Mar 07 03:49:05 UTC 2009,http://twitter.com/pokutuna/statuses/1291544874
+すしバーでござる！！,Sat Mar 07 03:39:35 UTC 2009,http://twitter.com/pokutuna/statuses/1291516984
+新しい神社とか御利益あんのか,Sat Mar 07 03:27:02 UTC 2009,http://twitter.com/pokutuna/statuses/1291482111
+子供叫びまくり,Sat Mar 07 02:10:15 UTC 2009,http://twitter.com/pokutuna/statuses/1291240592
+アスースとかインスパイロンとかカタカナで書かれてむずむずる,Sat Mar 07 02:00:54 UTC 2009,http://twitter.com/pokutuna/statuses/1291206979
+@hironao おやすみんこ,Fri Mar 06 19:21:46 UTC 2009,http://twitter.com/pokutuna/statuses/1289651530
+ねむいねる　,Fri Mar 06 19:14:51 UTC 2009,http://twitter.com/pokutuna/statuses/1289621661
+print "Content-Type: text/html\n\n" がいるなんてしるか,Fri Mar 06 18:33:43 UTC 2009,http://twitter.com/pokutuna/statuses/1289447922
+なんでMySQLのパッケージ入れるのにVLゴシックがremoveされてんの・・・,Fri Mar 06 18:22:42 UTC 2009,http://twitter.com/pokutuna/statuses/1289401197
+@blankblank ココ http://atpages.jp/,Fri Mar 06 16:57:26 UTC 2009,http://twitter.com/pokutuna/statuses/1289027974
+なんかやってみるために鯖復活させようとしたけど@pagesとかいう無料鯖でRubyもPythonも動くみたいだし鯖復活タスクがまた棚上げされた,Fri Mar 06 16:33:32 UTC 2009,http://twitter.com/pokutuna/statuses/1288920990
+両親が明日俺の誕生日だと思ってるみたいだけど僕4月生まれです・・・,Fri Mar 06 14:01:45 UTC 2009,http://twitter.com/pokutuna/statuses/1288290788
+人造ルビーほしいなー,Fri Mar 06 12:07:43 UTC 2009,http://twitter.com/pokutuna/statuses/1287956534
+寿司くいたいよ,Fri Mar 06 09:32:59 UTC 2009,http://twitter.com/pokutuna/statuses/1287624846
+牛乳無い,Fri Mar 06 08:09:33 UTC 2009,http://twitter.com/pokutuna/statuses/1287453528
+部屋のみみかき隠した奴出てこい,Fri Mar 06 05:17:32 UTC 2009,http://twitter.com/pokutuna/statuses/1287064946
+アイコンの灰色部分がびみょうにザラザラしててふぁぼったーみたいな灰色背景に表示されると地味に気になるな,Fri Mar 06 05:14:47 UTC 2009,http://twitter.com/pokutuna/statuses/1287057023
+姉は姉が必要な人間の所にはいない,Fri Mar 06 04:11:42 UTC 2009,http://twitter.com/pokutuna/statuses/1286861877
+一生寝たい,Fri Mar 06 03:52:44 UTC 2009,http://twitter.com/pokutuna/statuses/1286797081
+内定なし公認会計士、院試落ちた豚、国試落ちるてけでバンド結成の流れ,Thu Mar 05 12:23:31 UTC 2009,http://twitter.com/pokutuna/statuses/1283055707
+@teketeng が7,8日に控えた国試に備えてトラビアンをしていたところ、試験範囲に含まれないことに気づいたようです,Thu Mar 05 10:52:01 UTC 2009,http://twitter.com/pokutuna/statuses/1282849302
+いけてますね,Thu Mar 05 10:47:30 UTC 2009,http://twitter.com/pokutuna/statuses/1282840072
+日本語はどうですか,Thu Mar 05 10:47:10 UTC 2009,http://twitter.com/pokutuna/statuses/1282839314
+おーいけてる,Thu Mar 05 10:42:19 UTC 2009,http://twitter.com/pokutuna/statuses/1282829680
+Testing,Thu Mar 05 10:42:01 UTC 2009,http://twitter.com/pokutuna/statuses/1282829014
+hogehoge,Thu Mar 05 10:40:54 UTC 2009,http://twitter.com/pokutuna/statuses/1282826831
+父親が毎日住民票貰いに行ってるヤバイ,Thu Mar 05 07:01:29 UTC 2009,http://twitter.com/pokutuna/statuses/1282379009
+目隠しがとれとる,Thu Mar 05 05:35:08 UTC 2009,http://twitter.com/pokutuna/statuses/1282168313
+牛乳泡立てるやつ5000円とか1万とかすんのか,Thu Mar 05 04:52:14 UTC 2009,http://twitter.com/pokutuna/statuses/1282043992
+カプチーノの牛乳泡立てるやつほしい,Thu Mar 05 04:47:41 UTC 2009,http://twitter.com/pokutuna/statuses/1282029820
+おおお偵察145匹死んだ,Wed Mar 04 18:03:12 UTC 2009,http://twitter.com/pokutuna/statuses/1279554445
+1時間おきにカタパ70で3ヶ所づつ施設破壊してる,Wed Mar 04 14:47:53 UTC 2009,http://twitter.com/pokutuna/statuses/1278717237
+栗饅頭バリボリ,Wed Mar 04 12:06:25 UTC 2009,http://twitter.com/pokutuna/statuses/1278209064
+タスクバーをMacのDock風味にしたけどうーん・・・,Wed Mar 04 10:36:28 UTC 2009,http://twitter.com/pokutuna/statuses/1278025657
+@blankblank どこに行ってるのん,Wed Mar 04 10:35:42 UTC 2009,http://twitter.com/pokutuna/statuses/1278024143
+BeagleとBelugaややこしいな,Wed Mar 04 10:34:55 UTC 2009,http://twitter.com/pokutuna/statuses/1278022564
+いっぱい攻撃した,Wed Mar 04 09:24:36 UTC 2009,http://twitter.com/pokutuna/statuses/1277887761
+@blankblank まったく地名に関係ないけどよろしい,Wed Mar 04 08:24:58 UTC 2009,http://twitter.com/pokutuna/statuses/1277774114
+風呂の電気がオレンジになってていかがわしさ倍増,Wed Mar 04 05:38:23 UTC 2009,http://twitter.com/pokutuna/statuses/1277412596
+よくねた,Wed Mar 04 04:05:44 UTC 2009,http://twitter.com/pokutuna/statuses/1277138634
+2時間ほど部屋カラオケしたわ,Tue Mar 03 13:28:44 UTC 2009,http://twitter.com/pokutuna/statuses/1273663969
+うたいまくり,Tue Mar 03 13:11:43 UTC 2009,http://twitter.com/pokutuna/statuses/1273614216
+イエカエール,Tue Mar 03 10:34:08 UTC 2009,http://twitter.com/pokutuna/statuses/1273256652
+ボガーン(再帰書いてて頭爆発する音),Tue Mar 03 07:40:31 UTC 2009,http://twitter.com/pokutuna/statuses/1272925527
+21万スーパー紙出した,Tue Mar 03 04:06:18 UTC 2009,http://twitter.com/pokutuna/statuses/1272370095
+出せば金もらえるスーパー紙書く,Tue Mar 03 03:25:25 UTC 2009,http://twitter.com/pokutuna/statuses/1272224427
+がっこついた,Tue Mar 03 01:38:14 UTC 2009,http://twitter.com/pokutuna/statuses/1271853612
+なんで部屋の床に魚のしっぽがおちてんの,Tue Mar 03 00:28:11 UTC 2009,http://twitter.com/pokutuna/statuses/1271615736
+風俗関係の求人誌読んでるおもろい,Mon Mar 02 12:58:17 UTC 2009,http://twitter.com/pokutuna/statuses/1269064974
+いなかったー,Mon Mar 02 11:10:59 UTC 2009,http://twitter.com/pokutuna/statuses/1268825256
+ああ川を爆走する生物が二匹になってたらどうしよう,Mon Mar 02 10:57:28 UTC 2009,http://twitter.com/pokutuna/statuses/1268799343
+いえかえる,Mon Mar 02 10:14:02 UTC 2009,http://twitter.com/pokutuna/statuses/1268719821
+半年前のコードいじるこわさ,Mon Mar 02 08:24:05 UTC 2009,http://twitter.com/pokutuna/statuses/1268518586
+@blankblank が買った北海道チョコポテトがマズくてゲラゲラ,Mon Mar 02 08:02:22 UTC 2009,http://twitter.com/pokutuna/statuses/1268479252
+研究費でEeePCを消耗品扱いにする方法などを学ぶ,Mon Mar 02 05:37:23 UTC 2009,http://twitter.com/pokutuna/statuses/1268183718
+ボーカロイドの話してるうしろでWEB+DB読むおしごと,Mon Mar 02 04:14:49 UTC 2009,http://twitter.com/pokutuna/statuses/1267965283
+トラビアンして一ヶ月、はじめて偵察がきた。,Mon Mar 02 01:48:58 UTC 2009,http://twitter.com/pokutuna/statuses/1267507741
+寝坊したし
+覚書わすれたわん,Mon Mar 02 01:21:51 UTC 2009,http://twitter.com/pokutuna/statuses/1267422931
+うきー,Sun Mar 01 14:26:17 UTC 2009,http://twitter.com/pokutuna/statuses/1265469721
+@pygmyyy 結局謎のままあの道を通るたびに怯え続けることになります,Sun Mar 01 13:04:41 UTC 2009,http://twitter.com/pokutuna/statuses/1265311080
+Emacsのバックアップかんけいの設定がうまくいっとらん,Sun Mar 01 09:32:50 UTC 2009,http://twitter.com/pokutuna/statuses/1264996506
+ThinkPadのファンがやばい音してきた,Sat Feb 28 23:57:33 UTC 2009,http://twitter.com/pokutuna/statuses/1263729182
+冬の間は太陽がすこし地球に近づくとよい,Sat Feb 28 13:30:31 UTC 2009,http://twitter.com/pokutuna/statuses/1261976314
+さむい,Sat Feb 28 13:11:30 UTC 2009,http://twitter.com/pokutuna/statuses/1261941749
+あーレース,Sat Feb 28 11:33:05 UTC 2009,http://twitter.com/pokutuna/statuses/1261785221
+しょうろんぽーアルヨー http://twitpic.com/1qx4u,Sat Feb 28 09:55:49 UTC 2009,http://twitter.com/pokutuna/statuses/1261651598
+@tairano 「りょうくん何トメ〜？」(何トンといいたいらしい),Sat Feb 28 04:57:45 UTC 2009,http://twitter.com/pokutuna/statuses/1261146111
+ちょここすに没頭していた,Sat Feb 28 02:10:23 UTC 2009,http://twitter.com/pokutuna/statuses/1260705376
+今日も上半身二枚作戦,Sat Feb 28 01:31:07 UTC 2009,http://twitter.com/pokutuna/statuses/1260599184
+またJRおくれてるし,Sat Feb 28 01:30:36 UTC 2009,http://twitter.com/pokutuna/statuses/1260597740
+朝から4回カップケーキを作った,Sat Feb 28 00:24:52 UTC 2009,http://twitter.com/pokutuna/statuses/1260412223
+ジャケットじゃなくてフィルムだ,Fri Feb 27 12:05:31 UTC 2009,http://twitter.com/pokutuna/statuses/1257770532
+クリスタルジャケット滑りはいまいちだけどやたらクリアだなー,Fri Feb 27 11:47:28 UTC 2009,http://twitter.com/pokutuna/statuses/1257730820
+あーこわかったいえついた,Fri Feb 27 11:00:39 UTC 2009,http://twitter.com/pokutuna/statuses/1257639442
+くそデカい犬や猪の可能性もあるが…,Fri Feb 27 10:44:46 UTC 2009,http://twitter.com/pokutuna/statuses/1257610181
+そのまま下流にダッシュしていった,Fri Feb 27 10:43:58 UTC 2009,http://twitter.com/pokutuna/statuses/1257608770
+話が通じる相手じゃねえ上ってきたら確実にどちらかがしむしかない,Fri Feb 27 10:42:43 UTC 2009,http://twitter.com/pokutuna/statuses/1257606694
+やべえこええ久々にこんな怖い思いしたていうかしてる,Fri Feb 27 10:41:31 UTC 2009,http://twitter.com/pokutuna/statuses/1257604540
+おいおいおいおいいま川を人間大のものがじゃぶじゃぶ走って行ったぞ,Fri Feb 27 10:40:55 UTC 2009,http://twitter.com/pokutuna/statuses/1257603566
+新しい帰り道たのしい,Fri Feb 27 10:38:09 UTC 2009,http://twitter.com/pokutuna/statuses/1257598660
+家帰る俺帰る,Fri Feb 27 09:43:46 UTC 2009,http://twitter.com/pokutuna/statuses/1257500301
+タコがどこにもない http://twitpic.com/1pvqp,Fri Feb 27 03:26:30 UTC 2009,http://twitter.com/pokutuna/statuses/1256652541
+タコが入ってないとの評判のタコライスいく,Fri Feb 27 03:24:26 UTC 2009,http://twitter.com/pokutuna/statuses/1256645848
+学校ついたら研究室閉まってて @blankblank と途方にくれていた,Fri Feb 27 01:47:24 UTC 2009,http://twitter.com/pokutuna/statuses/1256331803
+たしかにパンケーキや…,Thu Feb 26 23:41:11 UTC 2009,http://twitter.com/pokutuna/statuses/1255907408
+おお？ http://twitpic.com/1pqew,Thu Feb 26 23:39:50 UTC 2009,http://twitter.com/pokutuna/statuses/1255902523
+フバレコに教えてもらったカップケーキ作ってるけどこれホントに膨らむんかいな,Thu Feb 26 23:37:14 UTC 2009,http://twitter.com/pokutuna/statuses/1255893632
+フィルムもついでにクリスタルにしたけどアンチグレアのが1000億倍いいわ,Thu Feb 26 22:50:48 UTC 2009,http://twitter.com/pokutuna/statuses/1255723955
+エアジャケにストラップ穴開けてやったぜ,Thu Feb 26 22:50:19 UTC 2009,http://twitter.com/pokutuna/statuses/1255722172
+開封後即ゴリゴリ,Thu Feb 26 22:12:10 UTC 2009,http://twitter.com/pokutuna/statuses/1255576355
+エアジャケに穴開けるか,Thu Feb 26 22:00:19 UTC 2009,http://twitter.com/pokutuna/statuses/1255529193
+起きたら風呂の水はないわネットは切れてるはお姉ちゃんはいないわ死のうかと思ったわ,Thu Feb 26 20:14:02 UTC 2009,http://twitter.com/pokutuna/statuses/1255098534
+ただいおまん,Thu Feb 26 08:31:12 UTC 2009,http://twitter.com/pokutuna/statuses/1252920516
+カエルクッションが1000円切ったら買おう,Thu Feb 26 07:37:11 UTC 2009,http://twitter.com/pokutuna/statuses/1252821560
+ファンシーショップに来ている,Thu Feb 26 07:31:21 UTC 2009,http://twitter.com/pokutuna/statuses/1252810639
+かえろー！,Thu Feb 26 06:28:34 UTC 2009,http://twitter.com/pokutuna/statuses/1252686058
+茶飲みすぎた,Thu Feb 26 06:22:35 UTC 2009,http://twitter.com/pokutuna/statuses/1252673780
+このシロップ黒蜜なんだけどないほうがいいな,Thu Feb 26 05:36:20 UTC 2009,http://twitter.com/pokutuna/statuses/1252568517
+ほー http://twitpic.com/1p6w8,Thu Feb 26 05:35:51 UTC 2009,http://twitter.com/pokutuna/statuses/1252567298
+カップル向けとおぼしき二人がけソファーで抹茶シフォン食う,Thu Feb 26 05:32:26 UTC 2009,http://twitter.com/pokutuna/statuses/1252558736
+無限に本読んでられるきっちゃてん探してるけどとにかくきっちゃてん多すぎだなー,Thu Feb 26 05:26:21 UTC 2009,http://twitter.com/pokutuna/statuses/1252543569
+人間医学社薬局かっこいい,Thu Feb 26 05:21:17 UTC 2009,http://twitter.com/pokutuna/statuses/1252530840
+さすが人件費で圧迫しまくった商品価格のデパート、めちゃくちゃ対応丁寧だったぜ,Thu Feb 26 05:10:38 UTC 2009,http://twitter.com/pokutuna/statuses/1252502656
+あれ今日はエレベーターガールいねえ,Thu Feb 26 05:05:41 UTC 2009,http://twitter.com/pokutuna/statuses/1252489204
+かばんかってしまったあああ,Thu Feb 26 05:04:41 UTC 2009,http://twitter.com/pokutuna/statuses/1252486341
+無限に本読んでられるきっちゃてんを探しています,Thu Feb 26 04:31:29 UTC 2009,http://twitter.com/pokutuna/statuses/1252392783
+なんかしばらくとんかつはいいわ,Thu Feb 26 04:24:30 UTC 2009,http://twitter.com/pokutuna/statuses/1252372776
+サービスランチ http://twitpic.com/1p5i8,Thu Feb 26 04:03:30 UTC 2009,http://twitter.com/pokutuna/statuses/1252310001
+また店員に気づいてもらえない現象が,Thu Feb 26 04:00:34 UTC 2009,http://twitter.com/pokutuna/statuses/1252300468
+悩んだ末ふつうのとんかつ,Thu Feb 26 03:57:47 UTC 2009,http://twitter.com/pokutuna/statuses/1252291273
+大阪で一人飯なんて滅多にないから変な物食いたい,Thu Feb 26 03:48:01 UTC 2009,http://twitter.com/pokutuna/statuses/1252260247
+昼飯なにがいいかなあ,Thu Feb 26 03:44:33 UTC 2009,http://twitter.com/pokutuna/statuses/1252249084
+てきとーにタッチパネル携帯触ったけど反応わるすぎだろ、たんに俺の指がiPhoneに最適化されたのか,Thu Feb 26 03:17:53 UTC 2009,http://twitter.com/pokutuna/statuses/1252162303
+飯どうしようかなー,Thu Feb 26 03:14:38 UTC 2009,http://twitter.com/pokutuna/statuses/1252151530
+あああかさぶたに指引っ掛けてざっくりいったああ,Thu Feb 26 03:12:47 UTC 2009,http://twitter.com/pokutuna/statuses/1252145684
+プログラミング学習シリーズのRubyいいなー 半分ぐらいメモリの仕組みとか圧縮とはとかめっちゃ説明してる,Thu Feb 26 02:25:59 UTC 2009,http://twitter.com/pokutuna/statuses/1251989164
+うめよどで立ち読みまくり,Thu Feb 26 02:19:06 UTC 2009,http://twitter.com/pokutuna/statuses/1251966690
+アンチグレア二枚入ったエアジャケセット売れや,Thu Feb 26 02:00:01 UTC 2009,http://twitter.com/pokutuna/statuses/1251902674
+人いないと思ったら木曜か,Thu Feb 26 01:42:28 UTC 2009,http://twitter.com/pokutuna/statuses/1251844395
+上二枚さむい,Thu Feb 26 01:15:20 UTC 2009,http://twitter.com/pokutuna/statuses/1251755354
+大阪いく,Thu Feb 26 00:43:26 UTC 2009,http://twitter.com/pokutuna/statuses/1251650523
+コレガのNASうっせえ,Wed Feb 25 22:35:33 UTC 2009,http://twitter.com/pokutuna/statuses/1251208393
+コヘーおもしろいやつだな,Wed Feb 25 13:19:31 UTC 2009,http://twitter.com/pokutuna/statuses/1249101473
+iPhone一括で買った人は安くならないのかなー,Wed Feb 25 10:57:26 UTC 2009,http://twitter.com/pokutuna/statuses/1248790439
+ゴミ袋のなかで掃除機袋を分解しグロ塊と格闘の末無変換キーを助け出すも、さながら助けた姫は魔王によって調教済みみたいなドロドロ,Wed Feb 25 10:25:51 UTC 2009,http://twitter.com/pokutuna/statuses/1248733934
+掃除機あけたけど見つからねえ,Wed Feb 25 10:18:55 UTC 2009,http://twitter.com/pokutuna/statuses/1248721040
+かなしい http://twitpic.com/1ol72,Wed Feb 25 10:09:46 UTC 2009,http://twitter.com/pokutuna/statuses/1248703995
+無変換キーが掃除機に食われた・・・　,Wed Feb 25 10:07:59 UTC 2009,http://twitter.com/pokutuna/statuses/1248700594
+掃除機で部屋吸い取りまくり！！,Wed Feb 25 09:54:51 UTC 2009,http://twitter.com/pokutuna/statuses/1248676426
+@tairano おおむねそうだね,Wed Feb 25 09:14:29 UTC 2009,http://twitter.com/pokutuna/statuses/1248604428
+@tairano アミーゴみたいなもの,Wed Feb 25 09:07:36 UTC 2009,http://twitter.com/pokutuna/statuses/1248591987
+@fuba_recorder ココア買ってきて,Wed Feb 25 09:06:05 UTC 2009,http://twitter.com/pokutuna/statuses/1248589195
+@fuba_recorder 甘いもの食べたい,Wed Feb 25 09:03:10 UTC 2009,http://twitter.com/pokutuna/statuses/1248584005
+まあ掃除機かけるか,Wed Feb 25 08:50:20 UTC 2009,http://twitter.com/pokutuna/statuses/1248560234
+gitを触りたいがために何作るか考える主客転倒,Wed Feb 25 08:49:37 UTC 2009,http://twitter.com/pokutuna/statuses/1248558840
+@tairano いってらっしゃい,Wed Feb 25 08:40:46 UTC 2009,http://twitter.com/pokutuna/statuses/1248543164
+紅茶マシーンがぶっこわれてて俺ぶちぎれ,Tue Feb 24 22:38:58 UTC 2009,http://twitter.com/pokutuna/statuses/1246792511
+githubをメモ置き場にするハック,Tue Feb 24 19:13:35 UTC 2009,http://twitter.com/pokutuna/statuses/1246000460
+Githubのアカウント作ってみた,Tue Feb 24 18:12:08 UTC 2009,http://twitter.com/pokutuna/statuses/1245777142
+帰れー,Tue Feb 24 09:27:55 UTC 2009,http://twitter.com/pokutuna/statuses/1244270356
+無音でポッキーを開封&咀嚼するソリューションが必要,Tue Feb 24 07:19:12 UTC 2009,http://twitter.com/pokutuna/statuses/1244049919
+おやつ買ってきたのに卒研発表の練習が後ろで始まって食えない,Tue Feb 24 07:18:35 UTC 2009,http://twitter.com/pokutuna/statuses/1244048832
+無視ドリブン,Tue Feb 24 04:37:17 UTC 2009,http://twitter.com/pokutuna/statuses/1243707187
+あるばいと,Tue Feb 24 01:46:40 UTC 2009,http://twitter.com/pokutuna/statuses/1243200620
+電車また遅れてるしJRは100億ボルトを流し続ける有刺鉄線で線路を囲めクソが,Tue Feb 24 00:55:01 UTC 2009,http://twitter.com/pokutuna/statuses/1243046168
+@magic_carpet @hironao いってきてます！,Tue Feb 24 00:53:33 UTC 2009,http://twitter.com/pokutuna/statuses/1243042063
+ガッコイテクルネー,Tue Feb 24 00:34:16 UTC 2009,http://twitter.com/pokutuna/statuses/1242985098
+無限に寝たい,Mon Feb 23 23:25:16 UTC 2009,http://twitter.com/pokutuna/statuses/1242770574
+ただいヌンコ,Mon Feb 23 10:51:18 UTC 2009,http://twitter.com/pokutuna/statuses/1240450068
+時間外でも気にせず下ろしてるけど、おやつ一回分と考えれば相当悔しい,Mon Feb 23 10:20:57 UTC 2009,http://twitter.com/pokutuna/statuses/1240402654
+今日はおやつタイムがなかったので餓死寸前や,Mon Feb 23 10:19:58 UTC 2009,http://twitter.com/pokutuna/statuses/1240400976
+かえるぞー,Mon Feb 23 09:31:10 UTC 2009,http://twitter.com/pokutuna/statuses/1240323899
+すごい中途半端に重複したクラスがお互いいじりあうところにあってギャーーーーってなってる,Mon Feb 23 05:17:25 UTC 2009,http://twitter.com/pokutuna/statuses/1239884324
+お仕事やー エアコンの温度が27度だったので22度にして地球を救った,Mon Feb 23 01:45:18 UTC 2009,http://twitter.com/pokutuna/statuses/1239032756
+金下ろせ俺,Mon Feb 23 00:52:57 UTC 2009,http://twitter.com/pokutuna/statuses/1238852350
+ガッコイクジュンビーノ,Sun Feb 22 23:59:41 UTC 2009,http://twitter.com/pokutuna/statuses/1238690658
+いろんな同盟に協定しようぜーって送ってる,Sun Feb 22 23:52:39 UTC 2009,http://twitter.com/pokutuna/statuses/1238670495
+これはチョコレート柿の種の亜種か,Sun Feb 22 21:45:45 UTC 2009,http://twitter.com/pokutuna/statuses/1238314136
+うす焼きショコラ食ったらなんか塩味でびっくらこいたわ！,Sun Feb 22 21:42:49 UTC 2009,http://twitter.com/pokutuna/statuses/1238306321
+日曜は寝てただけだ,Sun Feb 22 18:30:26 UTC 2009,http://twitter.com/pokutuna/statuses/1237787684
+またダブルオー時空か,Sun Feb 22 08:22:39 UTC 2009,http://twitter.com/pokutuna/statuses/1236695714
+がんだむ,Sun Feb 22 08:00:36 UTC 2009,http://twitter.com/pokutuna/statuses/1236664977
+スリープから復帰するとセンタースクロールきかなくなるな,Sat Feb 21 18:50:53 UTC 2009,http://twitter.com/pokutuna/statuses/1234878254
+服高いなー,Sat Feb 21 10:32:10 UTC 2009,http://twitter.com/pokutuna/statuses/1233848700
+@tairano の下ネタ見たい見たい,Sat Feb 21 10:10:15 UTC 2009,http://twitter.com/pokutuna/statuses/1233822492
+ぽっぽー,Sat Feb 21 09:58:34 UTC 2009,http://twitter.com/pokutuna/statuses/1233807270
+普通のチーズや…,Sat Feb 21 08:30:54 UTC 2009,http://twitter.com/pokutuna/statuses/1233694557
+デンマークチーズケーキ食う http://twitpic.com/1lrks,Sat Feb 21 08:28:54 UTC 2009,http://twitter.com/pokutuna/statuses/1233691621
+中華街やー！ http://twitpic.com/1lrd0,Sat Feb 21 08:04:15 UTC 2009,http://twitter.com/pokutuna/statuses/1233657962
+ジェスト4色あったあああ買ったああぁあ,Sat Feb 21 07:28:17 UTC 2009,http://twitter.com/pokutuna/statuses/1233607870
+視力検査マシーン！,Sat Feb 21 06:22:25 UTC 2009,http://twitter.com/pokutuna/statuses/1233503980
+白いのが出てくる！！ http://twitpic.com/1lq4q,Sat Feb 21 06:18:30 UTC 2009,http://twitter.com/pokutuna/statuses/1233496920
+超音波眼鏡洗浄した,Sat Feb 21 06:17:00 UTC 2009,http://twitter.com/pokutuna/statuses/1233494286
+取り皿祭りや http://twitpic.com/1lntu,Sat Feb 21 04:01:43 UTC 2009,http://twitter.com/pokutuna/statuses/1233217181
+ひるめし http://twitpic.com/1lnkj,Sat Feb 21 03:48:30 UTC 2009,http://twitter.com/pokutuna/statuses/1233186192
+さんのみやー,Sat Feb 21 01:47:08 UTC 2009,http://twitter.com/pokutuna/statuses/1232891088
+@blankblank おはよー！,Sat Feb 21 01:36:01 UTC 2009,http://twitter.com/pokutuna/statuses/1232863913
+裸で服買いに行ってその場で着れば荷物効率いい,Sat Feb 21 01:29:56 UTC 2009,http://twitter.com/pokutuna/statuses/1232848260
+ウエガハラとか懐かしいなー,Sat Feb 21 01:26:53 UTC 2009,http://twitter.com/pokutuna/statuses/1232840780
+@tairano はい,Sat Feb 21 01:26:34 UTC 2009,http://twitter.com/pokutuna/statuses/1232839962
+車内がくらいとiPhoneさらに目立つ,Sat Feb 21 01:23:18 UTC 2009,http://twitter.com/pokutuna/statuses/1232831801
+@tairano いやー服とか買ったらかさばると思って,Sat Feb 21 01:22:36 UTC 2009,http://twitter.com/pokutuna/statuses/1232829888
+周りコートなのにシャツ一枚とパーカーで浮いてる感ある,Sat Feb 21 01:18:13 UTC 2009,http://twitter.com/pokutuna/statuses/1232818415
+カスのJRと違って阪急はよい,Sat Feb 21 01:14:26 UTC 2009,http://twitter.com/pokutuna/statuses/1232808740
+今日は暖かいらしいので薄着出てたが多分凍死する,Sat Feb 21 01:11:04 UTC 2009,http://twitter.com/pokutuna/statuses/1232800110
+こんなん出てはじかれるんだがクソめ http://tinyurl.com/dguoh8,Fri Feb 20 19:57:45 UTC 2009,http://twitter.com/pokutuna/statuses/1231815888
+Vistaのエンブレムが貼られたThinkPadの天板に林檎シール貼ってUbuntu走らせてる冒涜的マシンや,Fri Feb 20 16:56:59 UTC 2009,http://twitter.com/pokutuna/statuses/1231171983
+YahooAuctionからのメールが真っ赤過ぎて怖いわ,Fri Feb 20 16:54:43 UTC 2009,http://twitter.com/pokutuna/statuses/1231163537
+給料でまっくぶっくかうかなー　でもiPhoneアプリ作らないならまあ今のままでいいっちゃいいし,Fri Feb 20 16:49:37 UTC 2009,http://twitter.com/pokutuna/statuses/1231144546
+5日連続出勤したわりに今週は作業進んでないなー,Fri Feb 20 09:32:04 UTC 2009,http://twitter.com/pokutuna/statuses/1230005753
+さむい,Fri Feb 20 09:27:38 UTC 2009,http://twitter.com/pokutuna/statuses/1229998207
+MacのACアダプタ1個1万すんのか,Fri Feb 20 08:19:41 UTC 2009,http://twitter.com/pokutuna/statuses/1229883419
+ThinkpadのACアダプタ買うか,Fri Feb 20 08:16:04 UTC 2009,http://twitter.com/pokutuna/statuses/1229877431
+よくよく考えたらこのアイコンはRedHatペンギンのつもりで数年前書いたんだった,Fri Feb 20 07:59:40 UTC 2009,http://twitter.com/pokutuna/statuses/1229849424
+しごとだーーー,Fri Feb 20 01:37:36 UTC 2009,http://twitter.com/pokutuna/statuses/1228956577
+今日もお仕事,Fri Feb 20 00:26:11 UTC 2009,http://twitter.com/pokutuna/statuses/1228748317
+プリンタドライバをalienしてインストールしてみたけどCUPS見つからんし違う動作報告のあるドライバでやったったわ！,Thu Feb 19 21:05:53 UTC 2009,http://twitter.com/pokutuna/statuses/1228098269
+Alienコマンドに感動してる,Thu Feb 19 21:01:57 UTC 2009,http://twitter.com/pokutuna/statuses/1228084912
+コップが汚いと評判だが全盛期の5%にも満たない http://twitpic.com/1km6o,Thu Feb 19 18:28:54 UTC 2009,http://twitter.com/pokutuna/statuses/1227590821
+@hironao だなー 実物触ってリフィルだけでいいやーってなったら悲しいし,Thu Feb 19 17:41:47 UTC 2009,http://twitter.com/pokutuna/statuses/1227429010
+未だにジェスト4色売ってるの見ない,Thu Feb 19 17:37:33 UTC 2009,http://twitter.com/pokutuna/statuses/1227414521
+P3dayo-,Thu Feb 19 17:21:00 UTC 2009,http://twitter.com/pokutuna/statuses/1227356500
+猛烈にチョコウェハース食いたいだろうが http://twitpic.com/1kf3g,Thu Feb 19 10:38:07 UTC 2009,http://twitter.com/pokutuna/statuses/1226212413
+仕事するとおやつ代がかさむ,Thu Feb 19 10:13:58 UTC 2009,http://twitter.com/pokutuna/statuses/1226170799
+ちょーねむかった、エアコン常時25度が悪い,Thu Feb 19 09:35:39 UTC 2009,http://twitter.com/pokutuna/statuses/1226104716
+ゼミ何言ってるかさっぱり,Thu Feb 19 02:11:03 UTC 2009,http://twitter.com/pokutuna/statuses/1225230102
+ヒゲジョリー,Thu Feb 19 01:31:29 UTC 2009,http://twitter.com/pokutuna/statuses/1225115155
+Shussher,Thu Feb 19 01:22:21 UTC 2009,http://twitter.com/pokutuna/statuses/1225089517
+ガムをバリボリ,Thu Feb 19 00:56:07 UTC 2009,http://twitter.com/pokutuna/statuses/1225014210
+どうせあの立方体的なワークスペースぐるんぐるんも期待されるだろうからそのうち入れる,Wed Feb 18 23:56:56 UTC 2009,http://twitter.com/pokutuna/statuses/1224861214
+Ratpoisonかー,Wed Feb 18 23:56:11 UTC 2009,http://twitter.com/pokutuna/statuses/1224859748
+@fuba どもども コレですよね、まっく買ったらやってみます http://tinyurl.com/d5g86s,Wed Feb 18 23:53:20 UTC 2009,http://twitter.com/pokutuna/statuses/1224854027
+そこそこ環境整ってきたしエロゲ以外うぶんつで生活する,Wed Feb 18 23:46:22 UTC 2009,http://twitter.com/pokutuna/statuses/1224835334
+なんか忘れてると思ったらTwitterクライアントか、Replyに気づかん,Wed Feb 18 23:44:11 UTC 2009,http://twitter.com/pokutuna/statuses/1224828580
+@fuba やってみるですよ,Wed Feb 18 23:43:49 UTC 2009,http://twitter.com/pokutuna/statuses/1224827519
+Terminal透過させるのかしこい！　ブラウザで調べたコマンドとか窓重なっててもストレスなくタイプできるじゃん,Wed Feb 18 23:21:07 UTC 2009,http://twitter.com/pokutuna/statuses/1224754056
+ダメもとでUbuntuのEclipseからWindowsで使ってるworkspaceを指定したら何も問題なく設定引き継げた,Wed Feb 18 23:11:00 UTC 2009,http://twitter.com/pokutuna/statuses/1224722133
+破城槌のごときホッチキス http://twitpic.com/1jtgn,Wed Feb 18 09:31:03 UTC 2009,http://twitter.com/pokutuna/statuses/1222278271
+DTD拡張したし帰ったる！,Wed Feb 18 09:27:15 UTC 2009,http://twitter.com/pokutuna/statuses/1222271878
+DTDについておべんきょう,Wed Feb 18 06:58:30 UTC 2009,http://twitter.com/pokutuna/statuses/1222022017
+平時より学校に行ってる,Wed Feb 18 00:54:56 UTC 2009,http://twitter.com/pokutuna/statuses/1221086544
+なんか腑に落ちないけどとりあえず2.6.27-7でやっていこう,Tue Feb 17 19:54:51 UTC 2009,http://twitter.com/pokutuna/statuses/1220120313
+Ubuntu2.6.27-11-genericだとThinkPadの明るさ調整効かないのに2.6.27-7なら効く・・・,Tue Feb 17 19:27:06 UTC 2009,http://twitter.com/pokutuna/statuses/1220025162
+だいたいできたなー,Tue Feb 17 17:03:04 UTC 2009,http://twitter.com/pokutuna/statuses/1219529937
+OfficeとかWinRARとか入れてる、iTunesが吹っ飛んでなくてよかった,Tue Feb 17 15:32:44 UTC 2009,http://twitter.com/pokutuna/statuses/1219216191
+タマゴスナック！！ http://twitpic.com/1ja8n,Tue Feb 17 11:03:19 UTC 2009,http://twitter.com/pokutuna/statuses/1218531353
+度が弱い眼鏡で一日中眠かった,Tue Feb 17 10:24:49 UTC 2009,http://twitter.com/pokutuna/statuses/1218465671
+やっと環境復活したぜ、All-in-Oneとかやるより自分で構成したほうがマシだった・・・,Tue Feb 17 04:11:03 UTC 2009,http://twitter.com/pokutuna/statuses/1217783049
+ついた,Tue Feb 17 02:12:01 UTC 2009,http://twitter.com/pokutuna/statuses/1217486385
+眼鏡忘れてニッチモ•サッチーモ,Tue Feb 17 01:24:56 UTC 2009,http://twitter.com/pokutuna/statuses/1217358674
+@blankblank 俺も遅いが電車も遅れてやばい,Tue Feb 17 01:23:08 UTC 2009,http://twitter.com/pokutuna/statuses/1217354203
+つか今日寒いな,Tue Feb 17 00:42:44 UTC 2009,http://twitter.com/pokutuna/statuses/1217253182
+次はEclipseの環境復活させるんや・・・,Tue Feb 17 00:41:07 UTC 2009,http://twitter.com/pokutuna/statuses/1217249205
+まだ・・・WindowsUpdateある・・・何回再起動させる気だ・・・,Tue Feb 17 00:27:01 UTC 2009,http://twitter.com/pokutuna/statuses/1217213410
+結局朝か！,Mon Feb 16 20:06:13 UTC 2009,http://twitter.com/pokutuna/statuses/1216428465
+ThinkVantageアップデートなんでこんなに遅いのよ,Mon Feb 16 19:57:06 UTC 2009,http://twitter.com/pokutuna/statuses/1216398788
+だうんろーどおそすぎ,Mon Feb 16 19:31:24 UTC 2009,http://twitter.com/pokutuna/statuses/1216318088
+新しいSkypeのUIがキモすぎて,Mon Feb 16 18:39:28 UTC 2009,http://twitter.com/pokutuna/statuses/1216144845
+大量のWindowsUpdateを見守るだけの簡単なお仕事,Mon Feb 16 17:16:29 UTC 2009,http://twitter.com/pokutuna/statuses/1215882473
+指紋登録してる…,Mon Feb 16 16:55:35 UTC 2009,http://twitter.com/pokutuna/statuses/1215816767
+Wubi経由しゃなきゃちゃんと輝度調節のやつもバインドされてるなあ,Mon Feb 16 16:55:03 UTC 2009,http://twitter.com/pokutuna/statuses/1215815006
+うぶんついれてる,Mon Feb 16 16:16:39 UTC 2009,http://twitter.com/pokutuna/statuses/1215694836
+ねてた,Mon Feb 16 16:13:24 UTC 2009,http://twitter.com/pokutuna/statuses/1215684570
+@sudori コケーッ！ コケコケ！ クコケーッ！,Mon Feb 16 13:42:31 UTC 2009,http://twitter.com/pokutuna/statuses/1215257929
+@blankblank あるある,Mon Feb 16 13:41:35 UTC 2009,http://twitter.com/pokutuna/statuses/1215255804
+なかなか初回起動のが終わらん,Mon Feb 16 13:40:57 UTC 2009,http://twitter.com/pokutuna/statuses/1215254358
+OS再インストールしてる,Mon Feb 16 13:38:52 UTC 2009,http://twitter.com/pokutuna/statuses/1215249317
+家だーーーーー！！！！！！！,Mon Feb 16 10:36:30 UTC 2009,http://twitter.com/pokutuna/statuses/1214906438
+iPhone、Twitter、箸ポテチ、コロッケうどんなどの僕が勧めたものを @blankblank は大層気に入ったようで、「なんでもいいから勧めてくれ」などと従順な態度を示すようになったが、エロゲして実姉と仲良くしろという意見は受け入れないアホなやつめ！,Mon Feb 16 08:08:05 UTC 2009,http://twitter.com/pokutuna/statuses/1214680749
+@blankblank を文明化することに成功した、いまやiPhoneを持ちポテチを箸で食べる。 http://twitpic.com/1iox1,Mon Feb 16 07:55:19 UTC 2009,http://twitter.com/pokutuna/statuses/1214660921
+おしごとおしごと,Mon Feb 16 05:32:11 UTC 2009,http://twitter.com/pokutuna/statuses/1214427092
+遅刻キャラを演じているのです,Mon Feb 16 02:10:09 UTC 2009,http://twitter.com/pokutuna/statuses/1213974345
+いえーい,Mon Feb 16 01:51:32 UTC 2009,http://twitter.com/pokutuna/statuses/1213925887
+そろそろ再インストールしたいなーWubi経由じゃなきゃもっとUbuntuちゃんとしてくれそうだし,Sun Feb 15 21:14:56 UTC 2009,http://twitter.com/pokutuna/statuses/1213277379
+コーダインルートがない深刻な脆弱性があるこのゲームコンプった,Sun Feb 15 17:16:35 UTC 2009,http://twitter.com/pokutuna/statuses/1212714363
+みつけたー http://twitpic.com/1i4qo,Sun Feb 15 11:34:51 UTC 2009,http://twitter.com/pokutuna/statuses/1212117794
+今日買った紅茶の葉でミルクチーつくろうとしてるけど、なんか賢くない気がする… http://twitpic.com/1hiki,Sat Feb 14 16:37:08 UTC 2009,http://twitter.com/pokutuna/statuses/1210055400
+フレッシュネス食った http://twitpic.com/1hddo,Sat Feb 14 11:06:51 UTC 2009,http://twitter.com/pokutuna/statuses/1209465283
+鮫拓や http://twitpic.com/1hc5z,Sat Feb 14 08:58:56 UTC 2009,http://twitter.com/pokutuna/statuses/1209310850
+マダツボミがサメむしゃむしゃ！ http://twitpic.com/1hc5m,Sat Feb 14 08:57:40 UTC 2009,http://twitter.com/pokutuna/statuses/1209309192
+サメで遊んでる http://twitpic.com/1hc4t,Sat Feb 14 08:54:37 UTC 2009,http://twitter.com/pokutuna/statuses/1209305400
+ゆうちゃんといっしょ,Sat Feb 14 08:43:58 UTC 2009,http://twitter.com/pokutuna/statuses/1209291867
+サメ買った http://twitpic.com/1hc1s,Sat Feb 14 08:41:18 UTC 2009,http://twitter.com/pokutuna/statuses/1209288529
+ぴざぴざ http://twitpic.com/1h989,Sat Feb 14 04:35:26 UTC 2009,http://twitter.com/pokutuna/statuses/1208929474
+@hironao ちょっとじめじめして暑い,Sat Feb 14 04:34:45 UTC 2009,http://twitter.com/pokutuna/statuses/1208928120
+晴れてきたー,Sat Feb 14 01:02:52 UTC 2009,http://twitter.com/pokutuna/statuses/1208474994
+プラチナぁ,Fri Feb 13 15:25:24 UTC 2009,http://twitter.com/pokutuna/statuses/1206641465
+そふぁーでねてさむいのでうえにあがるなど,Fri Feb 13 03:17:51 UTC 2009,http://twitter.com/pokutuna/statuses/1205146702
+朝帰り非行青年！,Thu Feb 12 23:18:20 UTC 2009,http://twitter.com/pokutuna/statuses/1204531089
+三田駅で菓子食ってる,Thu Feb 12 22:25:56 UTC 2009,http://twitter.com/pokutuna/statuses/1204370656
+@tairano 「寝そべった状態で～ う～～ ガシャーン！ ってするやつ」,Thu Feb 12 18:36:46 UTC 2009,http://twitter.com/pokutuna/statuses/1203593617
+ワンオーダーなのでしぶしぶ梅雑炊,Thu Feb 12 17:46:07 UTC 2009,http://twitter.com/pokutuna/statuses/1203406013
+みやもとむなしにいる,Thu Feb 12 17:44:45 UTC 2009,http://twitter.com/pokutuna/statuses/1203400851
+てざーとや http://twitpic.com/1g3sy,Thu Feb 12 13:03:54 UTC 2009,http://twitter.com/pokutuna/statuses/1202508534
+@teketeng まな板包丁家にあるん,Thu Feb 12 12:40:17 UTC 2009,http://twitter.com/pokutuna/statuses/1202455234
+@tairano 「なんか虐められっこの顔してるやーん」  くすん,Thu Feb 12 11:58:19 UTC 2009,http://twitter.com/pokutuna/statuses/1202369184
+@tairano いまでんしゃのった！,Thu Feb 12 09:20:40 UTC 2009,http://twitter.com/pokutuna/statuses/1202106103
+仕事の切れ目なので今日はiPhoneで遊びながら金貰える,Thu Feb 12 09:07:44 UTC 2009,http://twitter.com/pokutuna/statuses/1202085729
+@blankblank のiPhoneか貴様はー！ http://twitpic.com/1g1oi,Thu Feb 12 09:04:57 UTC 2009,http://twitter.com/pokutuna/statuses/1202081657
+1分も4時間も同じ遅刻だし1分遅れたようなもんだ,Thu Feb 12 05:43:50 UTC 2009,http://twitter.com/pokutuna/statuses/1201756337
+幼児性愛性脳炎,Thu Feb 12 04:21:20 UTC 2009,http://twitter.com/pokutuna/statuses/1201576634
+寝坊くらいだれにでもあること,Thu Feb 12 02:50:25 UTC 2009,http://twitter.com/pokutuna/statuses/1201351272
+近くの村の開拓者を計4人殺してて申し訳ない,Wed Feb 11 21:34:29 UTC 2009,http://twitter.com/pokutuna/statuses/1200456861
+弱くてニューゲーム,Wed Feb 11 21:33:40 UTC 2009,http://twitter.com/pokutuna/statuses/1200454215
+中学生か！　とか言われてる,Wed Feb 11 20:18:05 UTC 2009,http://twitter.com/pokutuna/statuses/1200206419
+@teketeng 「9歳より12歳かなー」,Wed Feb 11 20:15:50 UTC 2009,http://twitter.com/pokutuna/statuses/1200198929
+お姉ちゃんの枕の匂いで自慰をするとか全弟が通ってる道だと私は理解している,Wed Feb 11 15:18:58 UTC 2009,http://twitter.com/pokutuna/statuses/1199221516
+日和子かわいいいいいいいいいいいいいいいいいいいいいいいいいいいい,Wed Feb 11 14:51:31 UTC 2009,http://twitter.com/pokutuna/statuses/1199137291
+ThinkPadがうなっとる・・・,Wed Feb 11 14:50:39 UTC 2009,http://twitter.com/pokutuna/statuses/1199134744
+@blankblank がiPhone買ったので携帯もLANケーブルもおそろいになってしまった,Wed Feb 11 09:51:28 UTC 2009,http://twitter.com/pokutuna/statuses/1198573028
+Tumblrの検索、全角文字使えないのか・・・,Wed Feb 11 08:58:55 UTC 2009,http://twitter.com/pokutuna/statuses/1198499827
+祝日とか関係ない,Wed Feb 11 08:20:32 UTC 2009,http://twitter.com/pokutuna/statuses/1198447027
+久々にスパム来ていいGmailのアカウントに入ったらメール7万4000通溜まってた
+http://pokutuna.tumblr.com/post/77247617,Tue Feb 10 19:45:59 UTC 2009,http://twitter.com/pokutuna/statuses/1196571633
+絶対に許さない派とかいわれて噴き出すのが悲しい,Tue Feb 10 18:15:34 UTC 2009,http://twitter.com/pokutuna/statuses/1196278178
+薬飲んだか飲んでないか忘れた,Tue Feb 10 16:48:20 UTC 2009,http://twitter.com/pokutuna/statuses/1195989056
+おなかすいたよ,Tue Feb 10 11:21:42 UTC 2009,http://twitter.com/pokutuna/statuses/1195126220
+研究室に来たカードキー変換のお願いに添えられた英文がエキサイト翻訳レベルで一同騒然,Tue Feb 10 03:32:40 UTC 2009,http://twitter.com/pokutuna/statuses/1194297228
+飯や,Tue Feb 10 03:02:19 UTC 2009,http://twitter.com/pokutuna/statuses/1194218865
+かつては2時間の持続時間を誇るこのバッテリーもいまや10分ほどで死ぬ,Tue Feb 10 01:51:09 UTC 2009,http://twitter.com/pokutuna/statuses/1194021737
+@blankblank より早くきてしまった・・・,Tue Feb 10 01:48:45 UTC 2009,http://twitter.com/pokutuna/statuses/1194013560
+おおう昨日ただいま,Tue Feb 10 01:11:09 UTC 2009,http://twitter.com/pokutuna/statuses/1193901560
+終電帰宅,Mon Feb 09 14:28:09 UTC 2009,http://twitter.com/pokutuna/statuses/1191941296
+じつはtelnet以外でlinuxマシンいじるの初めて,Mon Feb 09 12:40:32 UTC 2009,http://twitter.com/pokutuna/statuses/1191689576
+麺ちょう太い http://twitpic.com/1eiru,Mon Feb 09 10:58:04 UTC 2009,http://twitter.com/pokutuna/statuses/1191513750
+わさびの葉の漬け物うめええ,Mon Feb 09 10:54:38 UTC 2009,http://twitter.com/pokutuna/statuses/1191508359
+特選三田牛肉うどんセット http://twitpic.com/1eiq0,Mon Feb 09 10:50:16 UTC 2009,http://twitter.com/pokutuna/statuses/1191501397
+まだ僕のうどん来ません,Mon Feb 09 10:38:30 UTC 2009,http://twitter.com/pokutuna/statuses/1191483283
+おでんと酒や http://twitpic.com/1eimt,Mon Feb 09 10:31:55 UTC 2009,http://twitter.com/pokutuna/statuses/1191473424
+うどん屋国太郎や http://twitpic.com/1eimc,Mon Feb 09 10:29:23 UTC 2009,http://twitter.com/pokutuna/statuses/1191469404
+あめふってやがる,Mon Feb 09 10:16:13 UTC 2009,http://twitter.com/pokutuna/statuses/1191450081
+対抗して俺のPCにもUbuntuいれるし,Mon Feb 09 10:12:34 UTC 2009,http://twitter.com/pokutuna/statuses/1191444811
+ISOファイルのことをイソとか読むアホ,Mon Feb 09 09:43:44 UTC 2009,http://twitter.com/pokutuna/statuses/1191402483
+他人の電話がかかってきたらすぐさまキチガイのフリして手を叩きながら奇声を上げる遊び開発,Mon Feb 09 09:09:20 UTC 2009,http://twitter.com/pokutuna/statuses/1191352182
+さむいさむいいったら電気ストーブが出てきたわ,Mon Feb 09 08:44:39 UTC 2009,http://twitter.com/pokutuna/statuses/1191316664
+750ccのバイクのエンジン押しかけに加担するなど,Mon Feb 09 08:06:29 UTC 2009,http://twitter.com/pokutuna/statuses/1191264949
+不全世界のアーキテクト読む,Mon Feb 09 03:30:23 UTC 2009,http://twitter.com/pokutuna/statuses/1190735548
+紅茶花伝は缶のほうが数倍うまい,Mon Feb 09 03:29:55 UTC 2009,http://twitter.com/pokutuna/statuses/1190733863
+ゆかねば,Mon Feb 09 02:32:50 UTC 2009,http://twitter.com/pokutuna/statuses/1190563002
+エロゲは生活を破壊する,Sun Feb 08 21:13:24 UTC 2009,http://twitter.com/pokutuna/statuses/1189772993
+小鳩かわいいいい,Sun Feb 08 19:44:40 UTC 2009,http://twitter.com/pokutuna/statuses/1189566294
+「うそ？　なに俺、ただの譫妄じゃん」,Sun Feb 08 19:09:39 UTC 2009,http://twitter.com/pokutuna/statuses/1189486524
+おれつばマジオススメ,Sun Feb 08 19:03:12 UTC 2009,http://twitter.com/pokutuna/statuses/1189472472
+ガルーダくんのぶっ飛び具合に感動している,Sun Feb 08 18:47:38 UTC 2009,http://twitter.com/pokutuna/statuses/1189437007
+一矢報いんぐ,Sun Feb 08 18:07:20 UTC 2009,http://twitter.com/pokutuna/statuses/1189347270
+亜衣かわいいいいい,Sun Feb 08 17:25:03 UTC 2009,http://twitter.com/pokutuna/statuses/1189253182
+多重人格は叙述トリと信じて読み続けております,Sun Feb 08 17:23:00 UTC 2009,http://twitter.com/pokutuna/statuses/1189248828
+まふらなしで冬を越せぬ体に調教された,Sun Feb 08 09:45:34 UTC 2009,http://twitter.com/pokutuna/statuses/1188521242
+@blankblank が今日後回しにしたもの あらうま堂でラーメンを食べる、立ち食い串カツを食べる、映画みる、ジェストを買う,Sun Feb 08 09:22:13 UTC 2009,http://twitter.com/pokutuna/statuses/1188494898
+JRもたまには時間通り来る！！,Sun Feb 08 09:16:07 UTC 2009,http://twitter.com/pokutuna/statuses/1188487142
+マフラー忘れた寒い,Sun Feb 08 09:03:22 UTC 2009,http://twitter.com/pokutuna/statuses/1188474406
+大阪来る度値下げしてないかチェックしよう…,Sun Feb 08 09:02:47 UTC 2009,http://twitter.com/pokutuna/statuses/1188473807
+エレベーター気まず楽しかった…,Sun Feb 08 09:01:54 UTC 2009,http://twitter.com/pokutuna/statuses/1188472782
+おおおおエレベーターガールなんていう生き物が,Sun Feb 08 08:53:43 UTC 2009,http://twitter.com/pokutuna/statuses/1188462942
+全然全館売り尽くしじゃねーし,Sun Feb 08 08:52:36 UTC 2009,http://twitter.com/pokutuna/statuses/1188461870
+ぐぐぐぐぐ,Sun Feb 08 08:48:42 UTC 2009,http://twitter.com/pokutuna/statuses/1188457789
+ネットで探しても見つからん,Sun Feb 08 08:47:54 UTC 2009,http://twitter.com/pokutuna/statuses/1188457039
+足元見やがって,Sun Feb 08 08:35:25 UTC 2009,http://twitter.com/pokutuna/statuses/1188443837
+おおお久々に欲しいと思うカバン見つけたら18000円おおおおお,Sun Feb 08 08:34:46 UTC 2009,http://twitter.com/pokutuna/statuses/1188442982
+デパートのフロアマップ見ても何を意味するのか分からん,Sun Feb 08 08:29:25 UTC 2009,http://twitter.com/pokutuna/statuses/1188435483
+ネイルバー…？,Sun Feb 08 08:21:15 UTC 2009,http://twitter.com/pokutuna/statuses/1188423249
+デパート価格のクソ高いカバン見てくる,Sun Feb 08 08:08:34 UTC 2009,http://twitter.com/pokutuna/statuses/1188403327
+解散した,Sun Feb 08 07:41:46 UTC 2009,http://twitter.com/pokutuna/statuses/1188369654
+男三人でクレープくっとる http://twitpic.com/1dx6x,Sun Feb 08 06:32:26 UTC 2009,http://twitter.com/pokutuna/statuses/1188289316
+腕疲れるくらいしかない尖ったデバイス http://twitpic.com/1dwvd,Sun Feb 08 06:03:56 UTC 2009,http://twitter.com/pokutuna/statuses/1188252472
+ヨドバシ梅田に来ておる,Sun Feb 08 05:32:32 UTC 2009,http://twitter.com/pokutuna/statuses/1188208455
+めちゃくちゃエネルギッシュなイケメンたちや…,Sun Feb 08 04:49:48 UTC 2009,http://twitter.com/pokutuna/statuses/1188143075
+無駄にオシャレな店や,Sun Feb 08 03:13:27 UTC 2009,http://twitter.com/pokutuna/statuses/1187974214
+卓越した遅刻センスで1分前到着,Sun Feb 08 02:59:55 UTC 2009,http://twitter.com/pokutuna/statuses/1187949286
+いまだに待ち合わせ場所が判明しない,Sun Feb 08 02:49:16 UTC 2009,http://twitter.com/pokutuna/statuses/1187930723
+飲み物がハネた跡とか。返り血とかならかっちょいいんだけど,Sun Feb 08 02:31:06 UTC 2009,http://twitter.com/pokutuna/statuses/1187897144
+なんだかこのコートもくたびれてきた。,Sun Feb 08 02:29:00 UTC 2009,http://twitter.com/pokutuna/statuses/1187892991
+絶対遅刻するつもりが間に合う！,Sun Feb 08 02:27:17 UTC 2009,http://twitter.com/pokutuna/statuses/1187889897
+朝ミルクティー,Sun Feb 08 01:56:42 UTC 2009,http://twitter.com/pokutuna/statuses/1187834026
+はっ、太陽だ、寝ねば溶ける,Sat Feb 07 22:17:09 UTC 2009,http://twitter.com/pokutuna/statuses/1187382813
+日も上らぬうちからタコを http://twitpic.com/1dioq,Sat Feb 07 18:37:17 UTC 2009,http://twitter.com/pokutuna/statuses/1186892267
+ベッドがべっどんだ,Sat Feb 07 17:19:48 UTC 2009,http://twitter.com/pokutuna/statuses/1186710509
+歯磨き粉は辛いからこそ化学変化が歯垢をそぎ落としているという実感につながるんじゃい論を展開するなど,Sat Feb 07 17:18:10 UTC 2009,http://twitter.com/pokutuna/statuses/1186706702
+見知らぬベンチャーのプログラマに誘われたがスーツなんて着ていく必要ないよな,Sat Feb 07 16:46:04 UTC 2009,http://twitter.com/pokutuna/statuses/1186631409
+ドーナツくいてえええ,Sat Feb 07 16:33:18 UTC 2009,http://twitter.com/pokutuna/statuses/1186602015
+腐れヌンコ,Sat Feb 07 15:09:01 UTC 2009,http://twitter.com/pokutuna/statuses/1186415927
+好きな動物はペガサスです,Sat Feb 07 13:11:02 UTC 2009,http://twitter.com/pokutuna/statuses/1186210940
+インスタントコーヒーはインスタントでうまい派,Sat Feb 07 12:24:47 UTC 2009,http://twitter.com/pokutuna/statuses/1186148063
+寝ても起きても夜・・・！,Sat Feb 07 12:24:24 UTC 2009,http://twitter.com/pokutuna/statuses/1186147571
+英雄木村カエザリスの誕生や,Sat Feb 07 05:53:17 UTC 2009,http://twitter.com/pokutuna/statuses/1185677914
+寝ようかとしたら目覚ましの電池が部屋のどこかに飛んでいったみたいだ,Fri Feb 06 21:05:42 UTC 2009,http://twitter.com/pokutuna/statuses/1184488382
+淫乱肉奴隷とか意外に久々に目にした,Fri Feb 06 16:34:11 UTC 2009,http://twitter.com/pokutuna/statuses/1183645766
+甘納豆うめえ、あの喉に来る甘さ,Fri Feb 06 16:04:53 UTC 2009,http://twitter.com/pokutuna/statuses/1183549498
+小鳩かわいいいいいいいい,Fri Feb 06 13:57:42 UTC 2009,http://twitter.com/pokutuna/statuses/1183169087
+小鳩かわいい,Fri Feb 06 13:55:00 UTC 2009,http://twitter.com/pokutuna/statuses/1183162191
+お姉ちゃんに死ぬまで甘やかされる現実ないかなー,Fri Feb 06 13:54:34 UTC 2009,http://twitter.com/pokutuna/statuses/1183161119
+ホワイトニング・クリア・クリーン！,Fri Feb 06 13:02:37 UTC 2009,http://twitter.com/pokutuna/statuses/1183034500
+メモリアル・サマービーチ・ロンリネス！,Fri Feb 06 12:58:27 UTC 2009,http://twitter.com/pokutuna/statuses/1183025290
+さながら雲間から差し込む一条の陽光のようだぜ,Fri Feb 06 12:57:28 UTC 2009,http://twitter.com/pokutuna/statuses/1183023292
+ダダダダダリウス,Fri Feb 06 12:55:19 UTC 2009,http://twitter.com/pokutuna/statuses/1183018996
+むぷむぷ,Fri Feb 06 12:53:55 UTC 2009,http://twitter.com/pokutuna/statuses/1183016098
+AURAみたいな実は中二病展開が来るのかとソワソワるなど,Fri Feb 06 11:34:29 UTC 2009,http://twitter.com/pokutuna/statuses/1182870317
+GoogleMap使ってのサバゲがしたい,Fri Feb 06 11:09:30 UTC 2009,http://twitter.com/pokutuna/statuses/1182829926
+私は学食のチキンソテー定食が食べたい,Fri Feb 06 10:58:36 UTC 2009,http://twitter.com/pokutuna/statuses/1182812352
+初めて起動時にセーブデータのフォルダの選択とかさせられてる！,Fri Feb 06 10:54:52 UTC 2009,http://twitter.com/pokutuna/statuses/1182806768
+おれつばが面白いらしいのでプレイするが・・・,Fri Feb 06 10:35:55 UTC 2009,http://twitter.com/pokutuna/statuses/1182777822
+きな が臭い→きなくさい　きな を砕いたもの→きなこ　子供が居るきな →きなこもち,Fri Feb 06 10:14:02 UTC 2009,http://twitter.com/pokutuna/statuses/1182744425
+浮気浮輪！,Fri Feb 06 09:35:59 UTC 2009,http://twitter.com/pokutuna/statuses/1182687742
+起きたのに夜！ 勝手にしろ！,Fri Feb 06 09:33:29 UTC 2009,http://twitter.com/pokutuna/statuses/1182683951
+@hironao もうこんな深夜か！！！,Thu Feb 05 17:22:28 UTC 2009,http://twitter.com/pokutuna/statuses/1180331886
+夜か！,Thu Feb 05 17:07:57 UTC 2009,http://twitter.com/pokutuna/statuses/1180286437
+ミルクパンは牛乳を温める鍋です～とかホザいた奴謝罪しろ http://twitpic.com/1c5l2,Thu Feb 05 09:20:50 UTC 2009,http://twitter.com/pokutuna/statuses/1179188031
+100円お菓子コーナーは無限に迷う魔界,Thu Feb 05 09:18:02 UTC 2009,http://twitter.com/pokutuna/statuses/1179183740
+結局SequencerManagerにおちつく…,Thu Feb 05 08:47:31 UTC 2009,http://twitter.com/pokutuna/statuses/1179136936
+Today, I would like to sequence you about 〜,Thu Feb 05 08:41:55 UTC 2009,http://twitter.com/pokutuna/statuses/1179128288
+@blankblank とerのつくクラスのmamagerはerが重なるけどいいのかという議題でMonky is cool.なクラスはCoolMonkyだとかワッフラーというウェブサービスじみた名前にいたるまで話が転びTakoyaki Iron .NETが誕生した。,Thu Feb 05 08:39:25 UTC 2009,http://twitter.com/pokutuna/statuses/1179124673
+たこ焼きアイロン.NET,Thu Feb 05 08:29:00 UTC 2009,http://twitter.com/pokutuna/statuses/1179109528
+破れて縫った箇所の直上からまた破れてきた、ジーパン。,Thu Feb 05 06:01:28 UTC 2009,http://twitter.com/pokutuna/statuses/1178885292
+コードの表記考えたヤツアホだろ、6で長6が、69で長6と9の音が増えといて、9で短7と長9が増えるとか一貫性無さ過ぎて殺したい,Thu Feb 05 05:57:41 UTC 2009,http://twitter.com/pokutuna/statuses/1178878414
+軟体動物のタコを用いた炊き込みご飯についてはたこめしをご覧ください,Thu Feb 05 03:45:52 UTC 2009,http://twitter.com/pokutuna/statuses/1178608011
+タコライスのくせにタコ入ってないというのを訂正された,Thu Feb 05 03:43:14 UTC 2009,http://twitter.com/pokutuna/statuses/1178602081
+やべえ・・・Javaで配列作る時[]で値囲んでてエラー吐く理由をしばらく考えた・・・,Thu Feb 05 02:54:22 UTC 2009,http://twitter.com/pokutuna/statuses/1178486927
+がんばってバスに乗った,Thu Feb 05 01:29:46 UTC 2009,http://twitter.com/pokutuna/statuses/1178289580
+はじめてノートのHDDデフラグかけるつもりが勝手にスケジューリングされてて昨日したことになっとる,Wed Feb 04 19:10:40 UTC 2009,http://twitter.com/pokutuna/statuses/1177230139
+トラビアンしてるとTwitterへのポストが減るなあ,Wed Feb 04 18:15:10 UTC 2009,http://twitter.com/pokutuna/statuses/1177059862
+マスクの内側にくしゃみするなんてパンツの中に精子出すようなもんだし、僕は後者は大丈夫ですけど,Wed Feb 04 11:58:16 UTC 2009,http://twitter.com/pokutuna/statuses/1176025367
+お腹空きし,Wed Feb 04 10:28:50 UTC 2009,http://twitter.com/pokutuna/statuses/1175885334
+今年の目標は歯医者に行くことです,Wed Feb 04 10:04:27 UTC 2009,http://twitter.com/pokutuna/statuses/1175849334
+カネカネキンコ,Wed Feb 04 09:48:36 UTC 2009,http://twitter.com/pokutuna/statuses/1175825102
+@tairano 早寝早起きするんや,Wed Feb 04 09:47:55 UTC 2009,http://twitter.com/pokutuna/statuses/1175824115
+今日は昨日より働いた,Wed Feb 04 09:21:09 UTC 2009,http://twitter.com/pokutuna/statuses/1175785125
+おなかいたい,Wed Feb 04 06:38:05 UTC 2009,http://twitter.com/pokutuna/statuses/1175550689
+研究室についたらゼミとかいう物騒なことしてたのでトラビアンできなかった,Wed Feb 04 04:27:13 UTC 2009,http://twitter.com/pokutuna/statuses/1175315169
+1日平均3枚くらい写真とってるし、1/4ぐらいをTwitterに上げてるみたいだけど記憶にない,Wed Feb 04 01:47:44 UTC 2009,http://twitter.com/pokutuna/statuses/1174939110
+ううむ,Wed Feb 04 01:42:47 UTC 2009,http://twitter.com/pokutuna/statuses/1174926523
+プログレスバーが進んでるように見えないんだけどキャンセルも&times;も押せない,Tue Feb 03 18:29:54 UTC 2009,http://twitter.com/pokutuna/statuses/1173724726
+VisualStudioのアンインストールが終わらん,Tue Feb 03 18:11:29 UTC 2009,http://twitter.com/pokutuna/statuses/1173669663
+ねむい,Tue Feb 03 16:48:19 UTC 2009,http://twitter.com/pokutuna/statuses/1173410831
+PEYAANって書くとかっこいいなAMRAAM的に,Tue Feb 03 13:08:01 UTC 2009,http://twitter.com/pokutuna/statuses/1172812466
+@blankblank のお姉ちゃんメール自慢にきれるなど,Tue Feb 03 10:26:15 UTC 2009,http://twitter.com/pokutuna/statuses/1172540618
+ていうか普通にぶっこわれとる,Tue Feb 03 06:59:51 UTC 2009,http://twitter.com/pokutuna/statuses/1172260822
+これを機にEclipseゴチャゴチャしたの一掃する,Tue Feb 03 06:51:12 UTC 2009,http://twitter.com/pokutuna/statuses/1172249086
+@blankblank がなんとかしてくれるまで不労所得タイムや,Tue Feb 03 06:47:09 UTC 2009,http://twitter.com/pokutuna/statuses/1172243381
+今日した仕事：焼肉食う、Subclipceアップデート、MIDI機器の配線に困って投げる,Tue Feb 03 06:45:04 UTC 2009,http://twitter.com/pokutuna/statuses/1172240258
+もういや http://twitpic.com/1b4ou,Tue Feb 03 05:35:46 UTC 2009,http://twitter.com/pokutuna/statuses/1172135327
+できたできた,Tue Feb 03 04:19:39 UTC 2009,http://twitter.com/pokutuna/statuses/1171991588
+SoruceForgeのさぶばーじょんにつなごうとしてもMalformed network dataって言われるんこ,Tue Feb 03 03:53:12 UTC 2009,http://twitter.com/pokutuna/statuses/1171934622
+研究室もいろいろあるんやなー,Tue Feb 03 03:16:32 UTC 2009,http://twitter.com/pokutuna/statuses/1171852677
+タダメシじやなかった！！！,Tue Feb 03 03:09:20 UTC 2009,http://twitter.com/pokutuna/statuses/1171836599
+ドリンクバーもついてこのお値段,Tue Feb 03 02:45:50 UTC 2009,http://twitter.com/pokutuna/statuses/1171784125
+ランチセット税込500えん http://twitpic.com/1b300,Tue Feb 03 02:39:15 UTC 2009,http://twitter.com/pokutuna/statuses/1171769350
+研究室に着くや否や焼肉,Tue Feb 03 02:19:06 UTC 2009,http://twitter.com/pokutuna/statuses/1171723926
+タダメシの予感…！,Tue Feb 03 02:15:24 UTC 2009,http://twitter.com/pokutuna/statuses/1171714815
+iPhoneのケツフタまた無い…,Tue Feb 03 02:10:30 UTC 2009,http://twitter.com/pokutuna/statuses/1171703421
+研究室ついたら速攻飯食う流れに,Tue Feb 03 02:09:32 UTC 2009,http://twitter.com/pokutuna/statuses/1171701169
+まだ缶コーヒー持てないくらい熱いんだけどおかしいだろ,Tue Feb 03 02:02:44 UTC 2009,http://twitter.com/pokutuna/statuses/1171687080
+あいふぉんで道に迷ったおばあちゃんを助けた。これで遅刻は正当化される。,Tue Feb 03 02:01:12 UTC 2009,http://twitter.com/pokutuna/statuses/1171683882
+缶コーヒー熱くて死ぬ,Tue Feb 03 01:39:59 UTC 2009,http://twitter.com/pokutuna/statuses/1171639037
+産むか産まれるかの関係,Tue Feb 03 00:58:55 UTC 2009,http://twitter.com/pokutuna/statuses/1171551103
+10時半ぐらいに来てと言われたら12時あたりまでセーフ,Tue Feb 03 00:49:16 UTC 2009,http://twitter.com/pokutuna/statuses/1171531202
+ねむいねたい,Tue Feb 03 00:26:17 UTC 2009,http://twitter.com/pokutuna/statuses/1171482444
+耳栓睡眠開始,Mon Feb 02 20:09:24 UTC 2009,http://twitter.com/pokutuna/statuses/1170829006
+@tairano う、あ、あああ、ああ…,Mon Feb 02 20:08:49 UTC 2009,http://twitter.com/pokutuna/statuses/1170827440
+階段のせいで左足親指が破壊された,Mon Feb 02 19:58:57 UTC 2009,http://twitter.com/pokutuna/statuses/1170799910
+「時間が経つとお腹すくよね～」,Mon Feb 02 19:31:52 UTC 2009,http://twitter.com/pokutuna/statuses/1170722387
+「コンパイラとかめっちゃ抽象化してるし、コンパイルするだけやん」,Mon Feb 02 19:14:23 UTC 2009,http://twitter.com/pokutuna/statuses/1170675434
+1日40回も出撃してた・・・,Mon Feb 02 18:48:17 UTC 2009,http://twitter.com/pokutuna/statuses/1170604380
+俺つば面白いのか・・・,Mon Feb 02 18:44:32 UTC 2009,http://twitter.com/pokutuna/statuses/1170593831
+いきなりママがこんな差し入れを… 手で剝けと http://twitpic.com/1aud2,Mon Feb 02 16:52:45 UTC 2009,http://twitter.com/pokutuna/statuses/1170280889
+廃人同盟に同盟員2人が襲われてる,Mon Feb 02 13:39:12 UTC 2009,http://twitter.com/pokutuna/statuses/1169761487
+7人の兵士に襲われるネズミが2人殺すとかネズミ強すぎだろ,Mon Feb 02 07:13:05 UTC 2009,http://twitter.com/pokutuna/statuses/1169155906
+イタ飯や,Mon Feb 02 05:05:25 UTC 2009,http://twitter.com/pokutuna/statuses/1168972258
+@teketeng 回避？ 留年回避？,Mon Feb 02 04:07:35 UTC 2009,http://twitter.com/pokutuna/statuses/1168867823
+あれtinyurlじゃなくてrubyurlになっとる,Mon Feb 02 04:03:43 UTC 2009,http://twitter.com/pokutuna/statuses/1168860494
+子供「じゅんばんいやだじゅんばんいやだじゅんばんいやだーー！！」,Mon Feb 02 03:48:36 UTC 2009,http://twitter.com/pokutuna/statuses/1168829047
+眠いと思ったら火山灰のせいか,Mon Feb 02 03:41:25 UTC 2009,http://twitter.com/pokutuna/statuses/1168812903
+トラビアン留年同盟、布団にいるはずなのに攻撃してたり、卒業試験直前まで出兵してる,Mon Feb 02 03:35:56 UTC 2009,http://twitter.com/pokutuna/statuses/1168799111
+お医者さん,Mon Feb 02 03:12:52 UTC 2009,http://twitter.com/pokutuna/statuses/1168730278
+@teketeng おい勉強しろ,Sun Feb 01 19:28:43 UTC 2009,http://twitter.com/pokutuna/statuses/1167496030
+まんじゅう怖いメソッド,Sun Feb 01 10:11:12 UTC 2009,http://twitter.com/pokutuna/statuses/1166579718
+全然揺れてない,Sat Jan 31 22:08:20 UTC 2009,http://twitter.com/pokutuna/statuses/1165438262
+9まで見た,Sat Jan 31 21:45:03 UTC 2009,http://twitter.com/pokutuna/statuses/1165390434
+銀狼怪奇ファイル,Sat Jan 31 18:00:20 UTC 2009,http://twitter.com/pokutuna/statuses/1164948516
+とらどらみてる,Sat Jan 31 16:58:28 UTC 2009,http://twitter.com/pokutuna/statuses/1164824487
+白ゴマと黒ゴマの味が違うとか言うヤツは出て来い,Sat Jan 31 13:13:44 UTC 2009,http://twitter.com/pokutuna/statuses/1164401731
+みんなでとらびあん,Sat Jan 31 10:18:43 UTC 2009,http://twitter.com/pokutuna/statuses/1164208968
+ぽうぽう,Sat Jan 31 08:17:36 UTC 2009,http://twitter.com/pokutuna/statuses/1164091161
+お腹すいたし布団から這い出る混沌にゃるらとなんとか,Sat Jan 31 07:32:08 UTC 2009,http://twitter.com/pokutuna/statuses/1164043356
+複数のキッチンタイマーに付箋でメモを貼り平行的に計るとか,Sat Jan 31 07:07:52 UTC 2009,http://twitter.com/pokutuna/statuses/1164015127
+@teketeng 携帯のタイマー的なのじゃだめなの,Sat Jan 31 07:05:40 UTC 2009,http://twitter.com/pokutuna/statuses/1164012622
+iPhoneで寝ながらトラビアンや,Sat Jan 31 05:46:52 UTC 2009,http://twitter.com/pokutuna/statuses/1163908918
+キリキリ働いてさっさと資源溜めろや,Fri Jan 30 21:45:35 UTC 2009,http://twitter.com/pokutuna/statuses/1162955025
+@teketeng 死んでる・・・！,Fri Jan 30 12:40:38 UTC 2009,http://twitter.com/pokutuna/statuses/1161483381
+トラビアン始めたや,Fri Jan 30 12:09:02 UTC 2009,http://twitter.com/pokutuna/statuses/1161429920
+フィンガーチョコばりぼりばりぼり,Fri Jan 30 09:19:37 UTC 2009,http://twitter.com/pokutuna/statuses/1161193807
+CoD4スババババ,Fri Jan 30 09:17:02 UTC 2009,http://twitter.com/pokutuna/statuses/1161190349
+掃除機びゅいーーーーーーん,Fri Jan 30 09:07:18 UTC 2009,http://twitter.com/pokutuna/statuses/1161178682
+@tairano おおむねそのような感じです,Fri Jan 30 08:41:47 UTC 2009,http://twitter.com/pokutuna/statuses/1161146476
+フィンガーチョコうめー,Fri Jan 30 08:37:12 UTC 2009,http://twitter.com/pokutuna/statuses/1161140784
+@tairano ぺろぺろ,Fri Jan 30 08:04:11 UTC 2009,http://twitter.com/pokutuna/statuses/1161098467
+着物マダムが刻み紅ショウガ買ってる…,Fri Jan 30 07:44:03 UTC 2009,http://twitter.com/pokutuna/statuses/1161072067
+@tairano そんな約束したっけ…って思ったけど思い出したよ！,Fri Jan 30 07:04:41 UTC 2009,http://twitter.com/pokutuna/statuses/1161020427
+バス混み過ぎ,Fri Jan 30 06:52:59 UTC 2009,http://twitter.com/pokutuna/statuses/1161004739
+確定申告してガッポガッポしたい,Fri Jan 30 03:48:30 UTC 2009,http://twitter.com/pokutuna/statuses/1160680482
+弟弟言ってるひと見つけた…,Fri Jan 30 03:42:02 UTC 2009,http://twitter.com/pokutuna/statuses/1160666416
+無性にヤクルト的なものが飲みたい,Fri Jan 30 03:34:31 UTC 2009,http://twitter.com/pokutuna/statuses/1160649676
+がっこーいく…,Fri Jan 30 03:15:22 UTC 2009,http://twitter.com/pokutuna/statuses/1160607122
+@teketeng の留年が濃厚になるにつれ留年ネタがヒートアップしていく,Thu Jan 29 22:12:36 UTC 2009,http://twitter.com/pokutuna/statuses/1159870984
+SPみおえた,Thu Jan 29 20:42:55 UTC 2009,http://twitter.com/pokutuna/statuses/1159614660
+「留年したその後か、留年したその後にしか戻れない！　ただし記憶はそのまま」,Thu Jan 29 20:03:54 UTC 2009,http://twitter.com/pokutuna/statuses/1159506369
+なぜかリセットとかいうドラマ見る流れに,Thu Jan 29 18:41:06 UTC 2009,http://twitter.com/pokutuna/statuses/1159270849
+俺は1日3度起きる！,Thu Jan 29 17:50:57 UTC 2009,http://twitter.com/pokutuna/statuses/1159124151
+@tairano おっはよー てけてんがめちゃくちゃ遊びたがってたヨ,Thu Jan 29 12:06:48 UTC 2009,http://twitter.com/pokutuna/statuses/1158247390
+ちょーむくり,Thu Jan 29 11:55:58 UTC 2009,http://twitter.com/pokutuna/statuses/1158230142
+ちょーねむい,Thu Jan 29 08:07:23 UTC 2009,http://twitter.com/pokutuna/statuses/1157922887
+@teketeng 言ってません,Thu Jan 29 06:58:25 UTC 2009,http://twitter.com/pokutuna/statuses/1157831857
+チョコフレークはやめだ、落として踏んだ時の環境負荷がただごとではない,Thu Jan 29 06:34:30 UTC 2009,http://twitter.com/pokutuna/statuses/1157797514
+@tairano そんなエロゲーみたいなこと出来るわけないじゃないですか,Thu Jan 29 06:32:31 UTC 2009,http://twitter.com/pokutuna/statuses/1157794491
+今日は麦チョコじゃなくてチョコフレーク,Thu Jan 29 06:21:03 UTC 2009,http://twitter.com/pokutuna/statuses/1157775388
+@tairano 追い越してしまうけどいいか,Thu Jan 29 06:15:42 UTC 2009,http://twitter.com/pokutuna/statuses/1157765429
+@tairano やーー！,Thu Jan 29 06:13:30 UTC 2009,http://twitter.com/pokutuna/statuses/1157761435
+いわしの天ぷらも買うた,Thu Jan 29 05:43:11 UTC 2009,http://twitter.com/pokutuna/statuses/1157709877
+無料で合法的に女子中学性の透けブラに参拝可能ゾーンや,Thu Jan 29 05:39:18 UTC 2009,http://twitter.com/pokutuna/statuses/1157703505
+おいなんか大量の中学生が公道爆走してて家帰るには混ざるしかないこの状況,Thu Jan 29 05:34:25 UTC 2009,http://twitter.com/pokutuna/statuses/1157695541
+おれもおっぱい大きくするために鳥肉買った,Thu Jan 29 05:32:37 UTC 2009,http://twitter.com/pokutuna/statuses/1157692666
+動いたけど次の駅でまた止まったよオイ,Thu Jan 29 05:12:31 UTC 2009,http://twitter.com/pokutuna/statuses/1157658107
+まだ電車動かないし外に居る鳥画像上げるしかない http://twitpic.com/18k48,Thu Jan 29 05:11:23 UTC 2009,http://twitter.com/pokutuna/statuses/1157656147
+まだ動きません,Thu Jan 29 05:05:17 UTC 2009,http://twitter.com/pokutuna/statuses/1157645387
+餓死するだろうが,Thu Jan 29 05:03:13 UTC 2009,http://twitter.com/pokutuna/statuses/1157641697
+JR止まったよオイ…,Thu Jan 29 05:01:54 UTC 2009,http://twitter.com/pokutuna/statuses/1157639313
+5連休！ 無限睡眠可能！ とか思ってたのに明日クソどうでもいいミーティングがあったの思い出してテンションだだ下がり！,Thu Jan 29 04:50:44 UTC 2009,http://twitter.com/pokutuna/statuses/1157618346
+どうかんがえても僕が研究室に雇われてるのは過大評価なんだけど,Thu Jan 29 04:26:58 UTC 2009,http://twitter.com/pokutuna/statuses/1157572036
+わーい時給上がった、でも働いてる割合は上がるので多分トントンだろう,Thu Jan 29 04:22:17 UTC 2009,http://twitter.com/pokutuna/statuses/1157562825
+試験終わったー…春休みの研究の打ち合わせや,Thu Jan 29 03:34:13 UTC 2009,http://twitter.com/pokutuna/statuses/1157454511
+あとは勇気で補えばいい(線形計画問題を,Thu Jan 29 00:48:44 UTC 2009,http://twitter.com/pokutuna/statuses/1157073204
+解法は覚えたしぶっつけ本番で過去問と同じ問題なら殺せる,Thu Jan 29 00:24:46 UTC 2009,http://twitter.com/pokutuna/statuses/1157014877
+そうとうマズイことが分かった,Wed Jan 28 23:05:38 UTC 2009,http://twitter.com/pokutuna/statuses/1156815152
+ニャーン,Wed Jan 28 17:47:09 UTC 2009,http://twitter.com/pokutuna/statuses/1155888394
+なんか弁当作ってってお願いしたらレシピのページとかブクマしてて罪悪感！,Wed Jan 28 17:37:33 UTC 2009,http://twitter.com/pokutuna/statuses/1155859468
+「てけの中の留年のDNAが・・・！」,Wed Jan 28 17:26:53 UTC 2009,http://twitter.com/pokutuna/statuses/1155825680
+バケツ崩す,Wed Jan 28 17:08:04 UTC 2009,http://twitter.com/pokutuna/statuses/1155770712
+試験勉強始めるのを座して待つばかり,Wed Jan 28 16:56:16 UTC 2009,http://twitter.com/pokutuna/statuses/1155735261
+アッティカしてる,Wed Jan 28 16:14:18 UTC 2009,http://twitter.com/pokutuna/statuses/1155604909
+おねえちゃんカウンセリングが始まった・・・,Wed Jan 28 15:17:56 UTC 2009,http://twitter.com/pokutuna/statuses/1155436895
+カッコイイコンパス普通に3000円とかする,Wed Jan 28 15:00:45 UTC 2009,http://twitter.com/pokutuna/statuses/1155388605
+薄くて頑丈でカッチョイイコンパスないかなー,Wed Jan 28 14:49:53 UTC 2009,http://twitter.com/pokutuna/statuses/1155358189
+コンパスほしいなー,Wed Jan 28 14:16:49 UTC 2009,http://twitter.com/pokutuna/statuses/1155271425
+そういえばあと7時間ぐらい後、300m南東でイリジウムフレア見れるんだった,Wed Jan 28 14:03:33 UTC 2009,http://twitter.com/pokutuna/statuses/1155237792
+試験12時間前！！！,Wed Jan 28 13:50:42 UTC 2009,http://twitter.com/pokutuna/statuses/1155207458
+レーザー砲ももうすぐ実用かあ,Wed Jan 28 13:09:00 UTC 2009,http://twitter.com/pokutuna/statuses/1155116963
+@teketeng まだ寝てんのか,Wed Jan 28 11:58:35 UTC 2009,http://twitter.com/pokutuna/statuses/1154988898
+チョコは溶けてたらだいたいうまい,Wed Jan 28 11:54:41 UTC 2009,http://twitter.com/pokutuna/statuses/1154982723
+ママがソーセージ菊菜チーズ春巻を量産しててワシはもう…,Wed Jan 28 11:21:57 UTC 2009,http://twitter.com/pokutuna/statuses/1154932165
+うめえ http://twitpic.com/186c7,Wed Jan 28 11:17:48 UTC 2009,http://twitter.com/pokutuna/statuses/1154925999
+餅チョコ春巻きや http://twitpic.com/186bq,Wed Jan 28 11:15:46 UTC 2009,http://twitter.com/pokutuna/statuses/1154922962
+5枚入り春巻きの皮ひっつきすぎてはがすだけで一苦労,Wed Jan 28 11:08:19 UTC 2009,http://twitter.com/pokutuna/statuses/1154912314
+日興証券から木曽ヒノキの箸が届いてエコが、CO2がどうこう言ってる。まあ証券会社が傾いても代わりはあるけど地球はそうじゃないもんなー、かしこい,Wed Jan 28 10:35:21 UTC 2009,http://twitter.com/pokutuna/statuses/1154867378
+刺身タベターイ,Wed Jan 28 10:29:42 UTC 2009,http://twitter.com/pokutuna/statuses/1154859623
+構成の管理→使用不可にする　でいいのか、戻し方は次必要なときに知るだろう,Wed Jan 28 09:48:46 UTC 2009,http://twitter.com/pokutuna/statuses/1154806605
+Eclipseで一時的にAptanaウゼーからオフったりするのどこだよ,Wed Jan 28 09:47:46 UTC 2009,http://twitter.com/pokutuna/statuses/1154805222
+試験終わってもなんか仕事いっぱいで正直終わらないほうが楽という,Wed Jan 28 09:36:10 UTC 2009,http://twitter.com/pokutuna/statuses/1154789710
+Tombloo、クッキーの取得とかがうまくいってない気がするけど、はてなIDとパス入力して設定させてくれてもいい気がする,Wed Jan 28 08:46:40 UTC 2009,http://twitter.com/pokutuna/statuses/1154725980
+Tomblooでフォトライフに上げてもあがってないんだけどどこにいってるんだ,Wed Jan 28 08:29:49 UTC 2009,http://twitter.com/pokutuna/statuses/1154704355
+耳栓外したらいままで寝た。耳から眠気成分は侵入して来るらしい,Wed Jan 28 07:52:15 UTC 2009,http://twitter.com/pokutuna/statuses/1154657268
+右耳栓隊が行方不明で実験中断,Wed Jan 28 01:51:30 UTC 2009,http://twitter.com/pokutuna/statuses/1153970978
+耳栓つけたまま勝手に目が覚めるまで寝て睡眠時間短縮に効果があるかガッテン流に実験する,Tue Jan 27 19:15:20 UTC 2009,http://twitter.com/pokutuna/statuses/1152934617
+@hironao みたいですねー、SMSのUIが改善とかリークだか分かんないやつで見たけど違いわかんない、おやしみ,Tue Jan 27 19:14:27 UTC 2009,http://twitter.com/pokutuna/statuses/1152932279
+寝よう,Tue Jan 27 19:08:13 UTC 2009,http://twitter.com/pokutuna/statuses/1152913471
+なにがかわったかわからん,Tue Jan 27 19:06:01 UTC 2009,http://twitter.com/pokutuna/statuses/1152907208
+更新終わった,Tue Jan 27 19:01:08 UTC 2009,http://twitter.com/pokutuna/statuses/1152892660
+ソフトウェアの更新中,Tue Jan 27 18:51:50 UTC 2009,http://twitter.com/pokutuna/statuses/1152867052
+あいぽんの新しいファーム何が変わったのかなー,Tue Jan 27 18:45:08 UTC 2009,http://twitter.com/pokutuna/statuses/1152848558
+てけ幼稚園の先生とかできそう,Tue Jan 27 18:26:54 UTC 2009,http://twitter.com/pokutuna/statuses/1152798364
+てけ「は？　おまえら・・・おまえら・・・・」,Tue Jan 27 18:25:23 UTC 2009,http://twitter.com/pokutuna/statuses/1152794183
+みんな自分勝手にプレイするので真面目に妨害するてけてんだけがコストを払い続ける素敵ゲー,Tue Jan 27 18:09:18 UTC 2009,http://twitter.com/pokutuna/statuses/1152749552
+アッティカ初勝利！！！！,Tue Jan 27 18:08:44 UTC 2009,http://twitter.com/pokutuna/statuses/1152748172
+アッティカとか繋げられるわけない,Tue Jan 27 17:40:58 UTC 2009,http://twitter.com/pokutuna/statuses/1152670916
+児ポキャラ,Tue Jan 27 17:18:37 UTC 2009,http://twitter.com/pokutuna/statuses/1152606712
+バケ充,Tue Jan 27 17:03:45 UTC 2009,http://twitter.com/pokutuna/statuses/1152564096
+「完璧な布陣 = パーフェクトマダム」,Tue Jan 27 16:56:44 UTC 2009,http://twitter.com/pokutuna/statuses/1152543131
+マジ接戦,Tue Jan 27 16:55:48 UTC 2009,http://twitter.com/pokutuna/statuses/1152540428
+http://twitpic.com/17un0 -,Tue Jan 27 16:55:33 UTC 2009,http://twitter.com/pokutuna/statuses/1152539749
+にゃぶったーにゃぶにゃぶ,Tue Jan 27 16:51:28 UTC 2009,http://twitter.com/pokutuna/statuses/1152528108
+バケツ崩し楽しいなー,Tue Jan 27 16:44:33 UTC 2009,http://twitter.com/pokutuna/statuses/1152508002
+今日は俺ピラニアペドロ強い！！！,Tue Jan 27 16:17:44 UTC 2009,http://twitter.com/pokutuna/statuses/1152429873
+豚「まずいな、食べる前に飲むって感じやな」,Tue Jan 27 16:10:19 UTC 2009,http://twitter.com/pokutuna/statuses/1152408536
+「チクアミ」,Tue Jan 27 16:05:23 UTC 2009,http://twitter.com/pokutuna/statuses/1152394441
+@teketeng そうや・・・！,Tue Jan 27 15:26:13 UTC 2009,http://twitter.com/pokutuna/statuses/1152283614
+ぱっつんぱんつ,Tue Jan 27 15:12:42 UTC 2009,http://twitter.com/pokutuna/statuses/1152245843
+陣地交換！,Tue Jan 27 12:42:35 UTC 2009,http://twitter.com/pokutuna/statuses/1151910280
+なんかみっちゃんが俺の食いたいものばっかり大量に買ってきて実は俺死ぬみたいな情報握ってるんじゃないの,Tue Jan 27 11:07:58 UTC 2009,http://twitter.com/pokutuna/statuses/1151768132
+楽しいとだいたい死ぬほど適当なことばっかり言うし,Tue Jan 27 08:17:40 UTC 2009,http://twitter.com/pokutuna/statuses/1151550744
+今日は麦チョコの生態について解説した,Tue Jan 27 07:50:59 UTC 2009,http://twitter.com/pokutuna/statuses/1151518638
+女子大生と飯食って麦チョコと久々のレポート用紙買った,Tue Jan 27 04:19:27 UTC 2009,http://twitter.com/pokutuna/statuses/1151195663
+ひょっこりひょうたんじーーま！,Tue Jan 27 01:27:24 UTC 2009,http://twitter.com/pokutuna/statuses/1150813298
+10時までにおきれるかなー,Mon Jan 26 21:56:49 UTC 2009,http://twitter.com/pokutuna/statuses/1150304077
+レポートとか未完成こそ熱い,Mon Jan 26 19:44:03 UTC 2009,http://twitter.com/pokutuna/statuses/1149949159
+@tairano 11時やで,Mon Jan 26 19:37:29 UTC 2009,http://twitter.com/pokutuna/statuses/1149932436
+@tairano おやすみんこ,Mon Jan 26 18:51:08 UTC 2009,http://twitter.com/pokutuna/statuses/1149809170
+@tairano ぽくっち・・・,Mon Jan 26 18:19:21 UTC 2009,http://twitter.com/pokutuna/statuses/1149723010
+ヒゲチョキ,Mon Jan 26 16:09:38 UTC 2009,http://twitter.com/pokutuna/statuses/1149373819
+留年はすればするほどいっぱい遊べるシステム,Mon Jan 26 11:10:19 UTC 2009,http://twitter.com/pokutuna/statuses/1148779575
+何が起こったんや・・・,Mon Jan 26 10:40:42 UTC 2009,http://twitter.com/pokutuna/statuses/1148743747
+てけがお茶家で作るとか言ってるしもうアカン・・・,Mon Jan 26 10:40:34 UTC 2009,http://twitter.com/pokutuna/statuses/1148743604
+http://f.hatena.ne.jp/pokutuna/20090126193120
+あああああてけがパスタゆでてるうううう　完成品しか口にしない怠惰な人間が調理始めるうううう,Mon Jan 26 10:38:42 UTC 2009,http://twitter.com/pokutuna/statuses/1148741350
+お腹すいてるけど夕食に差し支えるのでスープばかり飲む生活,Mon Jan 26 08:55:50 UTC 2009,http://twitter.com/pokutuna/statuses/1148620125
+おなかすいったっつーの！！！！！！！,Mon Jan 26 06:59:36 UTC 2009,http://twitter.com/pokutuna/statuses/1148485377
+ぼくのST31000333ASはだいじょうぶのようですはっはっは,Mon Jan 26 05:07:02 UTC 2009,http://twitter.com/pokutuna/statuses/1148331913
+Drive is not affected.やっほーーー,Mon Jan 26 05:03:24 UTC 2009,http://twitter.com/pokutuna/statuses/1148326171
+タコ焼きハウスから帰ってる,Mon Jan 26 00:00:03 UTC 2009,http://twitter.com/pokutuna/statuses/1147764529
+ねむい,Sun Jan 25 19:06:34 UTC 2009,http://twitter.com/pokutuna/statuses/1147211938
+たがさんよえええ http://twitpic.com/1745r,Sun Jan 25 18:04:32 UTC 2009,http://twitter.com/pokutuna/statuses/1147098190
+ゴキブリポーカーしてる,Sun Jan 25 17:51:41 UTC 2009,http://twitter.com/pokutuna/statuses/1147074002
+神の手で勝った…,Sun Jan 25 16:58:45 UTC 2009,http://twitter.com/pokutuna/statuses/1146979614
+「分身！」「ワイト四兄弟！」「固結びだー！」,Sun Jan 25 16:51:41 UTC 2009,http://twitter.com/pokutuna/statuses/1146967736
+マンチキンで戦闘の解決する時に「やったか！？」って言って介入の有無を確認する,Sun Jan 25 16:10:19 UTC 2009,http://twitter.com/pokutuna/statuses/1146891145
+「固  結  び  だ  ー ！」,Sun Jan 25 15:46:21 UTC 2009,http://twitter.com/pokutuna/statuses/1146852447
+ルール曖昧なとこ多いけどマンチキン熱い http://twitpic.com/17224,Sun Jan 25 14:33:23 UTC 2009,http://twitter.com/pokutuna/statuses/1146740732
+神の手で決着つくクソゲー,Sun Jan 25 13:38:12 UTC 2009,http://twitter.com/pokutuna/statuses/1146667944
+ワイト兄弟マジキチ,Sun Jan 25 12:20:14 UTC 2009,http://twitter.com/pokutuna/statuses/1146581431
+マンチキンはじめる,Sun Jan 25 11:25:57 UTC 2009,http://twitter.com/pokutuna/statuses/1146529768
+ガス無くなって破滅,Sun Jan 25 11:21:35 UTC 2009,http://twitter.com/pokutuna/statuses/1146525684
+サザエさんに一人だけジャンケン負けてパシリになった…,Sun Jan 25 10:04:00 UTC 2009,http://twitter.com/pokutuna/statuses/1146458847
+エイリアンの卵 http://twitpic.com/170f0,Sun Jan 25 09:52:05 UTC 2009,http://twitter.com/pokutuna/statuses/1146448596
+混ぜられない http://twitpic.com/170a9,Sun Jan 25 09:21:46 UTC 2009,http://twitter.com/pokutuna/statuses/1146422024
+具や
+ http://twitpic.com/1708u,Sun Jan 25 09:12:02 UTC 2009,http://twitter.com/pokutuna/statuses/1146413373
+たこやく http://twitpic.com/16zgd,Sun Jan 25 07:00:04 UTC 2009,http://twitter.com/pokutuna/statuses/1146280060
+JRまた遅れてるしこいつ,Sun Jan 25 06:12:28 UTC 2009,http://twitter.com/pokutuna/statuses/1146216651
+タコヤキ作りに行く,Sun Jan 25 05:18:18 UTC 2009,http://twitter.com/pokutuna/statuses/1146149098
+ほたるいかうまかった,Sat Jan 24 12:08:51 UTC 2009,http://twitter.com/pokutuna/statuses/1144430877
+ムッホー,Sat Jan 24 09:32:43 UTC 2009,http://twitter.com/pokutuna/statuses/1144286097
+@tairano ちゃん(三歳)の作品「わたしコアラだもん」 http://twitpic.com/16ham,Sat Jan 24 04:21:34 UTC 2009,http://twitter.com/pokutuna/statuses/1143903588
+あーあー,Sat Jan 24 03:18:35 UTC 2009,http://twitter.com/pokutuna/statuses/1143802052
+土曜日にテストとか警察沙汰,Sat Jan 24 01:41:45 UTC 2009,http://twitter.com/pokutuna/statuses/1143631052
+酒飲んでるし,Fri Jan 23 18:53:03 UTC 2009,http://twitter.com/pokutuna/statuses/1142701177
+電子工作したい,Fri Jan 23 16:51:28 UTC 2009,http://twitter.com/pokutuna/statuses/1142380135
+ポテチ箸で食うとか常識だろ、お前ら手をベトベトにしながら食うのか,Fri Jan 23 16:18:39 UTC 2009,http://twitter.com/pokutuna/statuses/1142288945
+100均でドアの上にフック付けるなんてマジ賢こしやー！ って思って買ったのに、遠すぎる… http://twitpic.com/166ej,Fri Jan 23 13:57:21 UTC 2009,http://twitter.com/pokutuna/statuses/1141938042
+オモシロ地名多い,Fri Jan 23 13:53:26 UTC 2009,http://twitter.com/pokutuna/statuses/1141930264
+実父のバラク・オバマ・シニア（Barack Obama, Sr.）（1936年 - 1982年）はケニアのニャンゴマ・コゲロ出身（生まれはニャンザ州ラチュオニョ県Kanyadhiang村[2]）のルオ族,Fri Jan 23 13:52:10 UTC 2009,http://twitter.com/pokutuna/statuses/1141927716
+今日も麦チョコ食って元気,Fri Jan 23 06:37:43 UTC 2009,http://twitter.com/pokutuna/statuses/1141340583
+壁とかクローゼットとかに掛けるフック買ってきたしこれで俺の人生も安泰だ,Fri Jan 23 06:35:45 UTC 2009,http://twitter.com/pokutuna/statuses/1141337940
+桐の木で遊びまくり,Fri Jan 23 06:03:15 UTC 2009,http://twitter.com/pokutuna/statuses/1141292276
+67歳とマクド飯してる,Fri Jan 23 04:57:59 UTC 2009,http://twitter.com/pokutuna/statuses/1141189315
+市役所来たし婚姻届でももらうか,Fri Jan 23 04:46:06 UTC 2009,http://twitter.com/pokutuna/statuses/1141168932
+それなら放尿の絵文字とか入れろや,Fri Jan 23 04:02:13 UTC 2009,http://twitter.com/pokutuna/statuses/1141086928
+こんなものiPhoneのキーボードにのせやがって,Fri Jan 23 04:01:34 UTC 2009,http://twitter.com/pokutuna/statuses/1141085624
+何この絵文字、ハートマークにHの文字の書いたピンクの建物、ラブホか、大衆はラブホを絵文字で使う習慣があるのか、人民はラブホに関する情報を絵文字を媒体に通信するのか、誰と誰が何のために！ うおおおお,Fri Jan 23 03:59:45 UTC 2009,http://twitter.com/pokutuna/statuses/1141081722
+コンピュータアーキテクチャ、授業でやったかどうかはともかく間違った事は書いてない！,Fri Jan 23 03:47:28 UTC 2009,http://twitter.com/pokutuna/statuses/1141056745
+駅ついた,Fri Jan 23 00:51:08 UTC 2009,http://twitter.com/pokutuna/statuses/1140692853
+試験勉強するたびに思うけど、俺結構賢い,Fri Jan 23 00:31:55 UTC 2009,http://twitter.com/pokutuna/statuses/1140652566
+@hironao ワーオ,Fri Jan 23 00:05:12 UTC 2009,http://twitter.com/pokutuna/statuses/1140595843
+今から筆箱開けて勉強始めるというロッケンロール,Fri Jan 23 00:03:12 UTC 2009,http://twitter.com/pokutuna/statuses/1140591142
+「コンボで出た」,Thu Jan 22 19:08:30 UTC 2009,http://twitter.com/pokutuna/statuses/1139869034
+今ちょっとイケメン声だしたよ～～！,Thu Jan 22 18:11:40 UTC 2009,http://twitter.com/pokutuna/statuses/1139724444
+「りょうくんはもっと3次元の人を見たほうがいいとおもう」,Thu Jan 22 17:47:41 UTC 2009,http://twitter.com/pokutuna/statuses/1139662172
+チョッチョアー,Thu Jan 22 17:31:27 UTC 2009,http://twitter.com/pokutuna/statuses/1139619791
+NOT賢し！,Thu Jan 22 17:12:42 UTC 2009,http://twitter.com/pokutuna/statuses/1139569306
+牡蠣小屋いきてえ,Thu Jan 22 16:07:37 UTC 2009,http://twitter.com/pokutuna/statuses/1139392610
+今日は1度も受けてないコンピュータアーキテクチャのテストやー,Thu Jan 22 15:44:27 UTC 2009,http://twitter.com/pokutuna/statuses/1139330412
+タコ焼きに餅入れたら、膨らんで内側から食い破って出てくる,Thu Jan 22 14:29:36 UTC 2009,http://twitter.com/pokutuna/statuses/1139141195
+ジャンジャンバリバリ,Thu Jan 22 14:25:03 UTC 2009,http://twitter.com/pokutuna/statuses/1139131071
+鼻ほじったらまだチョコ出てくるし,Thu Jan 22 13:23:06 UTC 2009,http://twitter.com/pokutuna/statuses/1139000265
+なんか僕の口座は常に30万前後になるよう世界の修正を受けてる！！！,Thu Jan 22 13:07:25 UTC 2009,http://twitter.com/pokutuna/statuses/1138972549
+CoD4 $37.49 → $1 = \92.23 → \3458 だったー,Thu Jan 22 13:01:33 UTC 2009,http://twitter.com/pokutuna/statuses/1138962294
+クレジットカードの請求着た、23607円も何使ったんだ・・・,Thu Jan 22 13:00:22 UTC 2009,http://twitter.com/pokutuna/statuses/1138960241
+なんか今日は
+調子いいしもうちょっと寝るか,Thu Jan 22 11:39:31 UTC 2009,http://twitter.com/pokutuna/statuses/1138838488
+6時間以上寝るぞヤッホイと思ったのに勝手に目が覚めた,Thu Jan 22 11:13:06 UTC 2009,http://twitter.com/pokutuna/statuses/1138804448
+@lylyco おきました！ 「ここではきものをぬげ」的な叙述アタックでしたね,Thu Jan 22 11:11:03 UTC 2009,http://twitter.com/pokutuna/statuses/1138801999
+目が覚めたけど、布団という大海で右の耳栓が遭難した,Thu Jan 22 11:09:19 UTC 2009,http://twitter.com/pokutuna/statuses/1138799717
+ねむいしねる,Thu Jan 22 05:31:25 UTC 2009,http://twitter.com/pokutuna/statuses/1138377073
+オモロイ http://hakutomoteru.com/,Thu Jan 22 05:27:22 UTC 2009,http://twitter.com/pokutuna/statuses/1138370603
+出てきた！！！！,Thu Jan 22 04:54:09 UTC 2009,http://twitter.com/pokutuna/statuses/1138313234
+違和感の場所は変わらないから、パフは右鼻の奥底で、体温でチョコだけ溶けて流れてきてる,Thu Jan 22 04:46:09 UTC 2009,http://twitter.com/pokutuna/statuses/1138298051
+これも個性,Thu Jan 22 04:43:11 UTC 2009,http://twitter.com/pokutuna/statuses/1138292969
+右鼻の鼻水がチョコのせいで茶色い・・・,Thu Jan 22 04:40:25 UTC 2009,http://twitter.com/pokutuna/statuses/1138288284
+麦パフ自体はまだ奥,Thu Jan 22 04:35:14 UTC 2009,http://twitter.com/pokutuna/statuses/1138278896
+鼻かんだら茶色いのきた・・・,Thu Jan 22 04:34:55 UTC 2009,http://twitter.com/pokutuna/statuses/1138278402
+麦チョコ食ってるときに咳き込んで、どう考えても鼻に何か入ってる感じになったんだけど,Thu Jan 22 04:30:35 UTC 2009,http://twitter.com/pokutuna/statuses/1138270499
+なんかマヨネーズがレイプされたあとみたいだ,Thu Jan 22 04:25:08 UTC 2009,http://twitter.com/pokutuna/statuses/1138260935
+コンビニ信者てけの冷蔵庫 http://f.hatena.ne.jp/pokutuna/20090122131848,Thu Jan 22 04:24:58 UTC 2009,http://twitter.com/pokutuna/statuses/1138260467
+てけでもさすがに冷蔵庫は持ってた、冷蔵庫のムダだ,Thu Jan 22 04:15:51 UTC 2009,http://twitter.com/pokutuna/statuses/1138243351
+コンビニ飯を食い続けるてけをせめて米ぐらい炊けと説得するも、家で炊いた米よりコンビニおにぎりのほうが美味いと主張、議論は平行線をたどる,Thu Jan 22 03:59:42 UTC 2009,http://twitter.com/pokutuna/statuses/1138210811
+中学:試験前日に勉強　高校:試験当日に勉強　大学:試験6時間前から勉強 → 酒飲みながら勉強,Thu Jan 22 03:50:36 UTC 2009,http://twitter.com/pokutuna/statuses/1138193457
+若鶏の黒酢あんかけと米を食う,Thu Jan 22 03:40:36 UTC 2009,http://twitter.com/pokutuna/statuses/1138172973
+お総菜屋とか一時間は迷って楽しい,Thu Jan 22 03:19:58 UTC 2009,http://twitter.com/pokutuna/statuses/1138129847
+SQL文もその場で編み出す,Wed Jan 21 23:14:45 UTC 2009,http://twitter.com/pokutuna/statuses/1137598591
+リレーショナル代数くらいその場で編み出す,Wed Jan 21 23:14:05 UTC 2009,http://twitter.com/pokutuna/statuses/1137597152
+こいつ飼うか,Wed Jan 21 21:23:48 UTC 2009,http://twitter.com/pokutuna/statuses/1137329175
+このあとコーヒーにダイブしかけたので机に追いやった,Wed Jan 21 21:00:08 UTC 2009,http://twitter.com/pokutuna/statuses/1137269136
+かわいい http://twitpic.com/15l9b,Wed Jan 21 20:58:18 UTC 2009,http://twitter.com/pokutuna/statuses/1137264167
+昨日もこのクモとテスト勉強しながら遊んでたし,Wed Jan 21 20:50:06 UTC 2009,http://twitter.com/pokutuna/statuses/1137244505
+ちっちゃいクモかわいい,Wed Jan 21 20:48:18 UTC 2009,http://twitter.com/pokutuna/statuses/1137240225
+「科目」がゲシュタルト崩壊したまま治らない,Wed Jan 21 18:30:04 UTC 2009,http://twitter.com/pokutuna/statuses/1136900725
+そろそろ勉強してやる,Wed Jan 21 16:50:39 UTC 2009,http://twitter.com/pokutuna/statuses/1136649847
+パソコン工房のSeagateご購入のお客様へみたいなページ消えとる,Wed Jan 21 15:33:48 UTC 2009,http://twitter.com/pokutuna/statuses/1136451343
+めっちゃボリューミー,Wed Jan 21 15:18:20 UTC 2009,http://twitter.com/pokutuna/statuses/1136412705
+@sugar0101 1センチぐらいになってやっぱり似合わないなと普通にジョリりました,Wed Jan 21 15:08:17 UTC 2009,http://twitter.com/pokutuna/statuses/1136388357
+@sugar0101 ヒゲという顔からあごの下にかけて生える毛ですねー,Wed Jan 21 15:00:26 UTC 2009,http://twitter.com/pokutuna/statuses/1136369214
+フバレコ、アマゾンも予約できるのか,Wed Jan 21 14:57:55 UTC 2009,http://twitter.com/pokutuna/statuses/1136362948
+剃ってつんつるてんになった,Wed Jan 21 14:56:32 UTC 2009,http://twitter.com/pokutuna/statuses/1136359663
+不思議と酒飲んでる,Wed Jan 21 08:40:25 UTC 2009,http://twitter.com/pokutuna/statuses/1135798762
+データベースけっこうやばそうやリレーショナル代数とか最適化処理木とか,Wed Jan 21 08:18:15 UTC 2009,http://twitter.com/pokutuna/statuses/1135773858
+ねむいねむいねむい,Wed Jan 21 08:15:37 UTC 2009,http://twitter.com/pokutuna/statuses/1135770880
+んんんんって言うのｗｗｗｗより2倍押さなきゃいけないから働いた感じがする,Wed Jan 21 08:03:34 UTC 2009,http://twitter.com/pokutuna/statuses/1135757106
+明日は1度しか出席してないデータベースのテストや,Wed Jan 21 07:23:57 UTC 2009,http://twitter.com/pokutuna/statuses/1135710978
+偏西風に負けた、雨普通に降っとる,Wed Jan 21 06:57:01 UTC 2009,http://twitter.com/pokutuna/statuses/1135678380
+恥ずかし攻撃される,Wed Jan 21 06:23:25 UTC 2009,http://twitter.com/pokutuna/statuses/1135635694
+相合い傘か！,Wed Jan 21 06:10:16 UTC 2009,http://twitter.com/pokutuna/statuses/1135617715
+眠い死ぬ,Wed Jan 21 03:29:18 UTC 2009,http://twitter.com/pokutuna/statuses/1135335754
+データ構造余裕やー,Wed Jan 21 02:29:31 UTC 2009,http://twitter.com/pokutuna/statuses/1135207030
+あいぽんのケツ蓋無くしたから新しいやつ出した,Tue Jan 20 23:19:12 UTC 2009,http://twitter.com/pokutuna/statuses/1134804768
+ちゃんきーべーこんちゃんきーべーこん,Tue Jan 20 23:01:28 UTC 2009,http://twitter.com/pokutuna/statuses/1134767051
+結局あんまし勉強してないけどアルゴリズムぐらいその場で編み出す！,Tue Jan 20 22:33:41 UTC 2009,http://twitter.com/pokutuna/statuses/1134702803
+エロゲのお風呂シーンて必ずといっていいほどアヒル隊長居るよな,Tue Jan 20 21:45:26 UTC 2009,http://twitter.com/pokutuna/statuses/1134587453
+試験まで5時間切ったしそろそろ手を付ける,Tue Jan 20 19:40:01 UTC 2009,http://twitter.com/pokutuna/statuses/1134284034
+結局SeagateのHDD問題はまだなんもないの、シリアルチェックもずっと止まってるし,Tue Jan 20 18:12:27 UTC 2009,http://twitter.com/pokutuna/statuses/1134046850
+就寝演説,Tue Jan 20 18:06:47 UTC 2009,http://twitter.com/pokutuna/statuses/1134028971
+パフってなんだよパフって,Tue Jan 20 17:53:50 UTC 2009,http://twitter.com/pokutuna/statuses/1133979617
+かれこれ1時間ぐらいフィード消化してるマズイぞ,Tue Jan 20 17:41:37 UTC 2009,http://twitter.com/pokutuna/statuses/1133928456
+フフン,Tue Jan 20 16:51:20 UTC 2009,http://twitter.com/pokutuna/statuses/1133671141
+試験12時間前からやる気なんて沸くわけないだろ,Tue Jan 20 12:56:13 UTC 2009,http://twitter.com/pokutuna/statuses/1133047622
+ゆりねうまい、さつま芋とじゃが芋混ぜたような味。半分の大きさで両方合わせた値段だけど,Tue Jan 20 12:27:26 UTC 2009,http://twitter.com/pokutuna/statuses/1132997989
+寝むい寝るか寝よう寝たれ,Tue Jan 20 08:39:04 UTC 2009,http://twitter.com/pokutuna/statuses/1132699136
+無限にチョトス食いたい,Tue Jan 20 06:20:42 UTC 2009,http://twitter.com/pokutuna/statuses/1132528628
+エントロピーは爆発しなかったけど僕のテストは爆発した,Tue Jan 20 06:01:55 UTC 2009,http://twitter.com/pokutuna/statuses/1132501559
+何食おう,Tue Jan 20 04:50:39 UTC 2009,http://twitter.com/pokutuna/statuses/1132386201
+くしゃみするときクシャミー！ っていうあの人元気かなー,Tue Jan 20 04:31:27 UTC 2009,http://twitter.com/pokutuna/statuses/1132354577
+おい、隣でバス待ってる子が喘ぎだしたぞ…俺のイケメンもここまできたか,Tue Jan 20 04:24:36 UTC 2009,http://twitter.com/pokutuna/statuses/1132342934
+ダウンジャケットってあれだろ、ビバンダムみたいなやつだろ,Tue Jan 20 04:19:01 UTC 2009,http://twitter.com/pokutuna/statuses/1132332574
+昨日今日を落としたと仮定すると、さすがに気合入れて勉強せねばという気分になる。かというとそうでもない,Tue Jan 20 03:52:33 UTC 2009,http://twitter.com/pokutuna/statuses/1132281237
+はあはあ、大門の頭で計算ミスしてるのをどれだけ甘く見てくれるかで見てくれても死ぬ,Tue Jan 20 03:41:05 UTC 2009,http://twitter.com/pokutuna/statuses/1132258763
+ノート読んでてどんどん発見がある、未開拓なところから問題ださないソリューションが求められる,Tue Jan 20 01:21:35 UTC 2009,http://twitter.com/pokutuna/statuses/1131976946
+手帳の四色ボールペンならあるのでテストで斎藤孝する,Tue Jan 20 00:59:51 UTC 2009,http://twitter.com/pokutuna/statuses/1131931447
+知識もペンもないとかマジ平和的なテストになる,Tue Jan 20 00:51:46 UTC 2009,http://twitter.com/pokutuna/statuses/1131915395
+おい筆箱どこや,Tue Jan 20 00:50:16 UTC 2009,http://twitter.com/pokutuna/statuses/1131912389
+去年から姿を見せなかった白猫が生きてた！,Tue Jan 20 00:41:27 UTC 2009,http://twitter.com/pokutuna/statuses/1131894296
+俺が単位取れたら認定したやつの責を問うべき重大事件,Tue Jan 20 00:27:09 UTC 2009,http://twitter.com/pokutuna/statuses/1131864720
+モウダメダ,Tue Jan 20 00:01:32 UTC 2009,http://twitter.com/pokutuna/statuses/1131812265
+ヤバイゾ、まあ3割なら取れるしふふーん,Mon Jan 19 22:08:24 UTC 2009,http://twitter.com/pokutuna/statuses/1131564097
+@tairano logが分かったところでどうにもならん！,Mon Jan 19 22:07:40 UTC 2009,http://twitter.com/pokutuna/statuses/1131562464
+計算力が異常に退化していてlogの計算すらおぼつかない！,Mon Jan 19 19:20:24 UTC 2009,http://twitter.com/pokutuna/statuses/1131173697
+べんきょうってまにあいませんねー,Mon Jan 19 18:48:50 UTC 2009,http://twitter.com/pokutuna/statuses/1131099114
+起きて風呂入って上がってPC付けた負けた,Mon Jan 19 17:33:23 UTC 2009,http://twitter.com/pokutuna/statuses/1130921253
+耳栓ぎゅぽ,Mon Jan 19 13:59:38 UTC 2009,http://twitter.com/pokutuna/statuses/1130442392
+2時半までに戻らなければ僕は死んだと考えて行動するんだ、いいな,Mon Jan 19 13:47:31 UTC 2009,http://twitter.com/pokutuna/statuses/1130420866
+多分今からやっても時間足らないくらいだろうけど、だるーく長くやるのとシッパリ短くするのとでパフォーマンスかわらないなら短くする！,Mon Jan 19 13:46:19 UTC 2009,http://twitter.com/pokutuna/statuses/1130418730
+アア、アアア、スコシ、ネムル,Mon Jan 19 13:30:02 UTC 2009,http://twitter.com/pokutuna/statuses/1130390922
+ねむい,Mon Jan 19 13:08:36 UTC 2009,http://twitter.com/pokutuna/statuses/1130356914
+おい講義資料リンク切れしてるとか殺す気か,Mon Jan 19 12:17:26 UTC 2009,http://twitter.com/pokutuna/statuses/1130284457
+わーいわーい http://twitpic.com/14mqe,Mon Jan 19 10:46:09 UTC 2009,http://twitter.com/pokutuna/statuses/1130165431
+うおおお抽選が当たって1000円タダマクドできる！！！,Mon Jan 19 10:40:42 UTC 2009,http://twitter.com/pokutuna/statuses/1130159336
+めちゃんこおなかすいた,Mon Jan 19 09:30:15 UTC 2009,http://twitter.com/pokutuna/statuses/1130078968
+そこそこできたつもりなのに噂では死んでる,Mon Jan 19 09:27:30 UTC 2009,http://twitter.com/pokutuna/statuses/1130076093
+単純な決定性チューリングマシンだし計算量とか領域量のオーダーはO(n)でだいたいあってるだろう,Mon Jan 19 06:46:37 UTC 2009,http://twitter.com/pokutuna/statuses/1129894157
+@hironao いってきま！,Mon Jan 19 05:57:35 UTC 2009,http://twitter.com/pokutuna/statuses/1129829952
+そろそろテスト行く,Mon Jan 19 05:53:50 UTC 2009,http://twitter.com/pokutuna/statuses/1129824271
+そろそろ勉強再開や,Mon Jan 19 02:56:28 UTC 2009,http://twitter.com/pokutuna/statuses/1129531339
+おおう,Mon Jan 19 01:13:11 UTC 2009,http://twitter.com/pokutuna/statuses/1129343664
+耳栓してみる,Sun Jan 18 22:17:33 UTC 2009,http://twitter.com/pokutuna/statuses/1129012886
+よし少し寝るぞ。みなさん、10時過ぎても僕のPostが無ければ地球の自転を止めたり地軸を傾けたりして兵庫県西宮市青葉台の僕を起こして下さい,Sun Jan 18 22:09:14 UTC 2009,http://twitter.com/pokutuna/statuses/1128997153
+試験勉強も同じで、全体俯瞰してあと2時間も勉強すれば合格すると確信したらもう試験2時間前までやる気失せる,Sun Jan 18 21:48:11 UTC 2009,http://twitter.com/pokutuna/statuses/1128958723
+僕が開発とかに向いてないのは、完成まで道が見えて作業に落とし込めると分かったら手を動かすのが嫌になるところだなあ,Sun Jan 18 21:47:22 UTC 2009,http://twitter.com/pokutuna/statuses/1128957260
+1/3ほど範囲なでたけど、いけるだろこれ,Sun Jan 18 21:14:56 UTC 2009,http://twitter.com/pokutuna/statuses/1128893994
+眠いけど集中したら頭働くし寝るか,Sun Jan 18 21:05:36 UTC 2009,http://twitter.com/pokutuna/statuses/1128875270
+判定可能とか認識可能とかもう定義の言葉遊びだろ,Sun Jan 18 20:17:26 UTC 2009,http://twitter.com/pokutuna/statuses/1128781688
+足腰！,Sun Jan 18 19:35:20 UTC 2009,http://twitter.com/pokutuna/statuses/1128703291
+かしこし！,Sun Jan 18 19:20:41 UTC 2009,http://twitter.com/pokutuna/statuses/1128677757
+「ぎょうざをぎょうさんつくる？」,Sun Jan 18 18:40:12 UTC 2009,http://twitter.com/pokutuna/statuses/1128607001
+意思疎通難しい,Sun Jan 18 18:14:40 UTC 2009,http://twitter.com/pokutuna/statuses/1128563325
+「メロンソーダみたいな、メロンサイダー？」(パトリック･コーラサワーの意),Sun Jan 18 18:11:35 UTC 2009,http://twitter.com/pokutuna/statuses/1128558287
+「なんちゃらソレイユ」(マリナ･イスマイールの意),Sun Jan 18 18:10:20 UTC 2009,http://twitter.com/pokutuna/statuses/1128556216
+おお、Twitterにつぶやくと @hironao にSMSで起こしてもらえるウェブサービスが,Sun Jan 18 17:39:09 UTC 2009,http://twitter.com/pokutuna/statuses/1128503608
+眠いよう,Sun Jan 18 17:36:15 UTC 2009,http://twitter.com/pokutuna/statuses/1128498683
+さすがにそろそろテスト勉強しないとマズイ,Sun Jan 18 17:32:04 UTC 2009,http://twitter.com/pokutuna/statuses/1128491404
+L4Dのパッケージは緑茶アイスを手づかみで食べてる図,Sun Jan 18 16:45:01 UTC 2009,http://twitter.com/pokutuna/statuses/1128410815
+オフロ,Sun Jan 18 16:00:18 UTC 2009,http://twitter.com/pokutuna/statuses/1128337680
+ヒゲでも剃るかなー,Sun Jan 18 15:52:35 UTC 2009,http://twitter.com/pokutuna/statuses/1128325831
+@tairano きゃー,Sun Jan 18 15:44:53 UTC 2009,http://twitter.com/pokutuna/statuses/1128313459
+プリント整理してたら一昨年の年賀状が出てきた。いつでも使えるデザインで年すらも本人の前で書くサービスに使ったやつ,Sun Jan 18 15:38:28 UTC 2009,http://twitter.com/pokutuna/statuses/1128303770
+@tairano ごめんなさい,Sun Jan 18 15:35:06 UTC 2009,http://twitter.com/pokutuna/statuses/1128298459
+@tairano 乳,Sun Jan 18 15:23:23 UTC 2009,http://twitter.com/pokutuna/statuses/1128280281
+@tairano 1モミ10円相当ぐらいか,Sun Jan 18 15:19:45 UTC 2009,http://twitter.com/pokutuna/statuses/1128274792
+@tairano 1秒100円,Sun Jan 18 15:15:56 UTC 2009,http://twitter.com/pokutuna/statuses/1128268918
+@tairano もう結構長いし,Sun Jan 18 15:11:34 UTC 2009,http://twitter.com/pokutuna/statuses/1128262480
+@tairano もっと伸ばせばじゅりじゅり問題は解決される,Sun Jan 18 14:59:13 UTC 2009,http://twitter.com/pokutuna/statuses/1128243898
+@tairano かわいいのに・・・,Sun Jan 18 14:55:17 UTC 2009,http://twitter.com/pokutuna/statuses/1128238803
+@tairano ごめんなさい,Sun Jan 18 14:46:59 UTC 2009,http://twitter.com/pokutuna/statuses/1128227079
+タフで、成熟していてだけは残ったぞ,Sun Jan 18 14:43:23 UTC 2009,http://twitter.com/pokutuna/statuses/1128222150
+@tairano タフで、成熟していて、積極的であるという点については異論は無いと！,Sun Jan 18 14:42:24 UTC 2009,http://twitter.com/pokutuna/statuses/1128220902
+試験まで約17時間あるぞ、そこから移動時間睡眠時間飯食べる遊ぶを引けば・・・ゼロ・・・！,Sun Jan 18 14:41:17 UTC 2009,http://twitter.com/pokutuna/statuses/1128219376
+@tairano ドコガダ,Sun Jan 18 14:29:59 UTC 2009,http://twitter.com/pokutuna/statuses/1128203560
+ランボー怒りの二次性徴,Sun Jan 18 14:25:11 UTC 2009,http://twitter.com/pokutuna/statuses/1128197723
+@tairano 私は、タフで、成熟していて、積極的で、支配的 http://gigazine.net/index.php?/news/comments/20080630_stubble/,Sun Jan 18 14:14:31 UTC 2009,http://twitter.com/pokutuna/statuses/1128183634
+ヒゲどうしよ,Sun Jan 18 14:05:41 UTC 2009,http://twitter.com/pokutuna/statuses/1128172435
+スマガの公式サイト久々にみたらなんかあるじゃねえかこれクソ楽しみじゃねえかコラ,Sun Jan 18 13:57:05 UTC 2009,http://twitter.com/pokutuna/statuses/1128161456
+3000ポストかー,Sun Jan 18 13:44:21 UTC 2009,http://twitter.com/pokutuna/statuses/1128145638
+さて勉強でも寝るか,Sun Jan 18 13:33:45 UTC 2009,http://twitter.com/pokutuna/statuses/1128133161
+湯豆腐食う,Sun Jan 18 11:27:39 UTC 2009,http://twitter.com/pokutuna/statuses/1128006218
+おお、今見たら64,020 文字で2位に落ちとる,Sun Jan 18 10:46:32 UTC 2009,http://twitter.com/pokutuna/statuses/1127971343
+おしっこ絵文字があったらもっと酷いことになってたのが想像に難くないので無くて良かった,Sun Jan 18 10:39:51 UTC 2009,http://twitter.com/pokutuna/statuses/1127965786
+わさびーふうめー,Sun Jan 18 10:37:31 UTC 2009,http://twitter.com/pokutuna/statuses/1127963904
+@hironao さっき終わった！ これから明日のテスト勉強する･･･,Sun Jan 18 10:35:58 UTC 2009,http://twitter.com/pokutuna/statuses/1127962677
+おかしいなーこの課題金曜に終わってるはずで明日テストなのになー,Sun Jan 18 10:31:07 UTC 2009,http://twitter.com/pokutuna/statuses/1127958471
+おお、課題してたら今日のアウトプット63,907 文字で1位や！ コードのファイル間でコピペしてるのカウントしてるせいだけど,Sun Jan 18 10:29:52 UTC 2009,http://twitter.com/pokutuna/statuses/1127957325
+夜空に流れる光を観測するつもりがうんこに観測をせがまれる！,Sun Jan 18 10:16:25 UTC 2009,http://twitter.com/pokutuna/statuses/1127946728
+上品に人工衛星の反射する太陽光を天体観測ウフフするためのiPhoneアプリ買った,Sun Jan 18 10:11:21 UTC 2009,http://twitter.com/pokutuna/statuses/1127942746
+最近どんどん下品度が上がってる,Sun Jan 18 10:05:00 UTC 2009,http://twitter.com/pokutuna/statuses/1127937379
+性徴厨,Sun Jan 18 09:07:19 UTC 2009,http://twitter.com/pokutuna/statuses/1127888645
+処女捨てたら一般に人気落ちるけど、生理は始まったらどうなるんだ・・・,Sun Jan 18 09:02:06 UTC 2009,http://twitter.com/pokutuna/statuses/1127884019
+BabyPrincessのブログ、生理始まったとか書かないかなー,Sun Jan 18 08:50:33 UTC 2009,http://twitter.com/pokutuna/statuses/1127874067
+続いて猫部長も！,Sun Jan 18 08:26:07 UTC 2009,http://twitter.com/pokutuna/statuses/1127852055
+でたあ！,Sun Jan 18 08:24:57 UTC 2009,http://twitter.com/pokutuna/statuses/1127850800
+撤退するにも捕まえたガンダム放置する理由無いだろ,Sun Jan 18 08:23:13 UTC 2009,http://twitter.com/pokutuna/statuses/1127848907
+即無力化！,Sun Jan 18 08:20:24 UTC 2009,http://twitter.com/pokutuna/statuses/1127846261
+ハレルヤ出さないとヤバイピンチだろ、出せよう,Sun Jan 18 08:19:50 UTC 2009,http://twitter.com/pokutuna/statuses/1127845628
+この歌が今後盛り上がりそうなシーンで繰り返し流れること考えたら気分沈む,Sun Jan 18 08:15:10 UTC 2009,http://twitter.com/pokutuna/statuses/1127841316
+テレビある部屋寒いつってんだろつってんだろが…！,Sun Jan 18 08:03:26 UTC 2009,http://twitter.com/pokutuna/statuses/1127830662
+マリナイスマイールと子供たち,Sun Jan 18 08:01:23 UTC 2009,http://twitter.com/pokutuna/statuses/1127828687
+へーあいぽんで090ナンバーとかあるのかー,Sun Jan 18 06:56:19 UTC 2009,http://twitter.com/pokutuna/statuses/1127763246
+Dの右の数字は別に未読とか関係なく来た数字か,Sun Jan 18 06:52:24 UTC 2009,http://twitter.com/pokutuna/statuses/1127759306
+@tairano おはようおはよう,Sun Jan 18 06:51:53 UTC 2009,http://twitter.com/pokutuna/statuses/1127758729
+@garandou わーわー,Sun Jan 18 06:50:34 UTC 2009,http://twitter.com/pokutuna/statuses/1127757346
+TweeterならTLにうんこ投げれる！,Sun Jan 18 06:46:05 UTC 2009,http://twitter.com/pokutuna/statuses/1127752266
+iPhoneから見たらうんこなのに・・・！,Sun Jan 18 06:41:28 UTC 2009,http://twitter.com/pokutuna/statuses/1127747329
+,Sun Jan 18 06:39:54 UTC 2009,http://twitter.com/pokutuna/statuses/1127745492
+うんこ爆弾　うんこガン　うんこ落雷,Sun Jan 18 06:34:38 UTC 2009,http://twitter.com/pokutuna/statuses/1127739543
+大人たちがうんこの投げ合いしてる・・・,Sun Jan 18 06:27:34 UTC 2009,http://twitter.com/pokutuna/statuses/1127731315
+大人の会話 http://twitpic.com/147sa,Sun Jan 18 06:18:59 UTC 2009,http://twitter.com/pokutuna/statuses/1127721349
+@hironao @chief_szk まったく面識のないやなかんさんに買ってもらうのをお待ちしています,Sun Jan 18 06:13:53 UTC 2009,http://twitter.com/pokutuna/statuses/1127714972
+絵文字キーボードオンにしてなかったからうんこ投げ返せず爆発してしまった,Sun Jan 18 06:08:30 UTC 2009,http://twitter.com/pokutuna/statuses/1127708298
+うんこ爆弾きたあ,Sun Jan 18 06:05:17 UTC 2009,http://twitter.com/pokutuna/statuses/1127704332
+ネットに個人情報ばらまいた,Sun Jan 18 06:03:12 UTC 2009,http://twitter.com/pokutuna/statuses/1127701544
+@hironao @chief_szk どうもどうも、時間的にはうんこんにちわですが,Sun Jan 18 05:55:15 UTC 2009,http://twitter.com/pokutuna/statuses/1127691128
+おはうんこ,Sun Jan 18 05:52:11 UTC 2009,http://twitter.com/pokutuna/statuses/1127687083
+久々に普通のベッドで寝よう,Sat Jan 17 21:34:56 UTC 2009,http://twitter.com/pokutuna/statuses/1126904796
+@tairano 豚肉カイロやー,Sat Jan 17 21:10:14 UTC 2009,http://twitter.com/pokutuna/statuses/1126860563
+なんかえらいしんどねむい,Sat Jan 17 21:00:27 UTC 2009,http://twitter.com/pokutuna/statuses/1126843944
+とりあえず刺さってるNASの電源抜いといた･･･,Sat Jan 17 19:26:25 UTC 2009,http://twitter.com/pokutuna/statuses/1126687972
+1台死に掛けて必死にサルベージしたデータが･･･これ消えたら曲とか全部吹っ飛んで死ぬ,Sat Jan 17 19:24:41 UTC 2009,http://twitter.com/pokutuna/statuses/1126685013
+やべえええSeagateの件こないだ買ったHDDがリストにはいっとる・・・,Sat Jan 17 19:21:24 UTC 2009,http://twitter.com/pokutuna/statuses/1126679443
+てけのおつかい　お題：うんこ（カレーパン　レトルトカレー　カレー粉　カレーうんこ） 　結果：http://f.hatena.ne.jp/pokutuna/20090118035704,Sat Jan 17 19:04:52 UTC 2009,http://twitter.com/pokutuna/statuses/1126651207
+眠いし,Sat Jan 17 18:48:05 UTC 2009,http://twitter.com/pokutuna/statuses/1126622353
+酢鶏まじ話になんねえ,Sat Jan 17 14:15:40 UTC 2009,http://twitter.com/pokutuna/statuses/1126156804
+@sudori コケーッ、コケコケ、クコーッ！,Sat Jan 17 14:04:26 UTC 2009,http://twitter.com/pokutuna/statuses/1126141657
+@sudori おいコラ,Sat Jan 17 14:02:03 UTC 2009,http://twitter.com/pokutuna/statuses/1126138614
+@sudori パンタロンとパンタグラフどっちが電車の上についてるか分かる？,Sat Jan 17 13:56:53 UTC 2009,http://twitter.com/pokutuna/statuses/1126131965
+@sudori 質問に答えろ鶏が,Sat Jan 17 13:51:13 UTC 2009,http://twitter.com/pokutuna/statuses/1126125145
+@sudori 目玉焼きと卵焼きどっちが好き？,Sat Jan 17 13:49:15 UTC 2009,http://twitter.com/pokutuna/statuses/1126122764
+もっと女たらし的言動を鍛えたい,Sat Jan 17 11:58:03 UTC 2009,http://twitter.com/pokutuna/statuses/1126004843
+オードリー好き、昔の春日がツッコミしてるコントとか見たら感慨深い,Sat Jan 17 11:35:32 UTC 2009,http://twitter.com/pokutuna/statuses/1125984488
+酒プログラミング,Sat Jan 17 11:28:44 UTC 2009,http://twitter.com/pokutuna/statuses/1125978632
+@hironao 薄いし一気に読むんだ！,Sat Jan 17 11:27:12 UTC 2009,http://twitter.com/pokutuna/statuses/1125977493
+モノマネもうモノマネじゃねーだろ,Sat Jan 17 11:14:31 UTC 2009,http://twitter.com/pokutuna/statuses/1125967016
+酒飲んでるしもう試験とか知るか,Sat Jan 17 10:54:50 UTC 2009,http://twitter.com/pokutuna/statuses/1125950625
+好き焼き食う,Sat Jan 17 10:45:36 UTC 2009,http://twitter.com/pokutuna/statuses/1125943255
+@fune 本体代を先に払うと月払う分減ったりいろいろあるけど結局2年で20万ちょいになるよー,Sat Jan 17 10:43:31 UTC 2009,http://twitter.com/pokutuna/statuses/1125941569
+これはいい動画 http://tinyurl.com/6cxeln,Sat Jan 17 08:29:29 UTC 2009,http://twitter.com/pokutuna/statuses/1125825743
+Skypeで発言が編集できることを利用して全てのはつげんをうんこにしていっている,Sat Jan 17 07:45:09 UTC 2009,http://twitter.com/pokutuna/statuses/1125785497
+薬指ってお姉さん指じゃん、なんでこんな大切なことに気づかなかったんだ・・・,Sat Jan 17 07:37:41 UTC 2009,http://twitter.com/pokutuna/statuses/1125778631
+@tairano 寝てなどいないと言っとろうが！,Sat Jan 17 07:06:46 UTC 2009,http://twitter.com/pokutuna/statuses/1125746780
+寝てなどいない,Sat Jan 17 07:03:42 UTC 2009,http://twitter.com/pokutuna/statuses/1125743512
+天涯の砦文庫版でたの1/9だったのか、狙わずにタイムリーなことした,Sat Jan 17 00:39:41 UTC 2009,http://twitter.com/pokutuna/statuses/1125136049
+土食えるよう進化したら土が食材の一種としてレシピに幅が広がるのに,Sat Jan 17 00:37:46 UTC 2009,http://twitter.com/pokutuna/statuses/1125132702
+@sugar0101 大昔見たことがある気がする！,Sat Jan 17 00:36:54 UTC 2009,http://twitter.com/pokutuna/statuses/1125131180
+アラブ人とか砂だらけのところに何年も住んでるんだから砂食えるよう進化したらいいのに,Sat Jan 17 00:34:15 UTC 2009,http://twitter.com/pokutuna/statuses/1125126535
+@sugar0101 イエーイ,Sat Jan 17 00:33:35 UTC 2009,http://twitter.com/pokutuna/statuses/1125125351
+このままヒゲ伸ばしてアラブ人目指すか,Sat Jan 17 00:28:22 UTC 2009,http://twitter.com/pokutuna/statuses/1125116238
+俺が何故ギリギリまで勉強しないのかというと1秒先の俺は今より数百倍賢いと信じているからさ！,Sat Jan 17 00:05:16 UTC 2009,http://twitter.com/pokutuna/statuses/1125071472
+自分のふぁぼられ見てるけど、コイツおもろいなーって感じですわ,Fri Jan 16 23:57:25 UTC 2009,http://twitter.com/pokutuna/statuses/1125054481
+おいまだGoogleReaderの色直ってないけどお前ら完全に忘れて慣れてしまっただろ！！！,Fri Jan 16 23:52:22 UTC 2009,http://twitter.com/pokutuna/statuses/1125045601
+そのウンヌンよ！,Fri Jan 16 23:47:57 UTC 2009,http://twitter.com/pokutuna/statuses/1125037309
+とりあえず試験期間の目標は8時間以上寝ないことにしよう,Fri Jan 16 23:29:25 UTC 2009,http://twitter.com/pokutuna/statuses/1125002356
+メディアマーカーきにくわねえ、バインダーのリストからワンクリックで読了とか状態変えれるようにしろや,Fri Jan 16 22:25:05 UTC 2009,http://twitter.com/pokutuna/statuses/1124872164
+えらいミステリぽいえすえふだった,Fri Jan 16 22:02:38 UTC 2009,http://twitter.com/pokutuna/statuses/1124823699
+たまたまポストした時間から分かった測定者も意図しない極めて自然に出た結果なので100ページ/hは混じりっけなしの速度！,Fri Jan 16 22:00:41 UTC 2009,http://twitter.com/pokutuna/statuses/1124819034
+メモしたり少しゴロるの入れて4時間で400ページちょいか、速いのか遅いのか,Fri Jan 16 21:56:32 UTC 2009,http://twitter.com/pokutuna/statuses/1124809535
+天涯の砦おもしろかたー,Fri Jan 16 21:52:44 UTC 2009,http://twitter.com/pokutuna/statuses/1124801134
+Sun Jun 07 14:50:57 +0900 2009
