@@ -28,7 +28,7 @@ def create_tables
 
 	ActiveRecord::Migration.create_table(:updates){ |t|
 		t.time :time, :null =>false
-		t.string :action, :null
+		t.string :action
 	}
 	
 end

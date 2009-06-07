@@ -38,8 +38,13 @@ catch(:exit){
 				e.elements['updated'].text =~ /(\d+)\-(\d+)\-(\d+)T(\d+):(\d+):(\d+)\+(.*)/
 				time = Time.utc($1,$2,$3,$4,$5,$6)
 				url =  e.elements['link[@rel="alternate"]/attribute::href'].to_s
-				Post.create(
-					:username => user, :message => text, :url => url, :time => time)
+
+				if Post.find_by_url(url) == nil
+					Post.create(
+						:username => user, :message => text, :url => url, :time => time)
+				else
+					#exist count & break
+				end
 			end
 			
 		rescue => e
