@@ -49,6 +49,8 @@ class YahooAPI
 				case arg
 				when Integer
 					return @chunks[arg]
+				when Range
+					return @chunks[arg]
 				when Symbol
 					if arg == :head || arg == :first
 						return @chunks[0]
@@ -104,6 +106,8 @@ class YahooAPI
 			def morphem(arg)
 				case arg
 				when Integer
+					return @morphems[arg]
+				when Range
 					return @morphems[arg]
 				when Symbol
 					if arg == :head || arg == :first
