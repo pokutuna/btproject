@@ -1,0 +1,3 @@
+#<NoMethodError: undefined method `user' for #<Twitter::User:0xb7699954>>
+#<ActiveRecord::StatementInvalid: Interrupt: : SELECT * FROM `trigrams` WHERE (w1='て' and w2='謎') >
+update Wed Jun 10 20:59:23 UTC 2009

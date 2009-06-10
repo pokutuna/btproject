@@ -1,11 +1,13 @@
 #!/usr/bin/ruby -Ku
 
+require 'logger'
 require 'yaml'
 
 require 'rubygems'
 gem 'twitter', '0.4.2'
 require 'twitter'
 
+require File.dirname(__FILE__)+'/create_trigram.rb'
 require File.dirname(__FILE__)+'/reply_action.rb'
 require File.dirname(__FILE__)+'/modules/twitterstring.rb'
 require File.dirname(__FILE__)+'/modules/timeconv.rb'
@@ -16,10 +18,10 @@ class Time; include TimeConv; end
 #load env
 $conf = YAML.load_file(File.dirname(__FILE__)+'/meka_pokutuna.conf')
 $last_time = Time.parse(File.open(File.dirname(__FILE__)+'/last_time'){ |f| f.gets})
+logger = Logger.new(File.dirname(__FILE__)+'/log', 'weekly')
 
-#login
-#twit = Twitter::Base.new(conf['twitter_id'], conf['passwd'], conf['proxy'])
-$twit = Twitter::Base.new($conf['twitter_id'], $conf['passwd'])
+
+$twit = Twitter::Base.new($conf['twitter_id'], $conf['passwd'], $conf['proxy'] || {})
 
 begin 
 	#get new replies
@@ -54,16 +56,30 @@ begin
 
 	#暫定クソ連呼
 	users.uniq.each do |u|
-		$twit.post("@#{u} #{'クソ'*(rand(9)+1)} が")
+		if rand <= 0.7 then
+			$twit.post("@#{u} #{'クソ'*(rand(9)+1)} が")
+			logger.info("replied to #{u}")
+		end
+	end
+
+	#post 3gram
+	while true
+		message = create_3gram
+		followers = $twit.followers.map{ |u| u.screen_name}
+		rest = (message.scan_reply_to - followers)
+		if rest == [] then
+			$twit.post(message)
+			break
+		end
 	end
 
 	#update time
 	File.open(File.dirname(__FILE__)+'/last_time','w'){ |f| f.puts Time.now.utc}
-
+	logger.info("update #{Time.now.utc.to_s}")
+	
 rescue => e
-	p 'hoge'
-	p e
-	p e.backtrace.to_s
+	p e.backtrace
+	logger.error($!)
 	#$twit.post("@#{conf['su']} #{e.backtrace.to_s}")
 end
 

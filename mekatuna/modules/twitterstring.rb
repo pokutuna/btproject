@@ -113,10 +113,14 @@ module TwitterString
 
 	def count_reply_to
 		dest = self.strip
-		return dest.scan(/@([0-9A-Za-z_])+/).size
+		return dest.scan(/@([0-9A-Za-z_]+)/).size
 	end
 
 	def scan_id
 		return self.scan(/([0-9A-Za-z_]+)/).flatten
+	end
+
+	def scan_reply_to
+		return self.scan(/@([0-9A-Za-z_]+)/).flatten
 	end
 end
