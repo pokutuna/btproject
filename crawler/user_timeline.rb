@@ -3,7 +3,7 @@
 require 'rexml/document'
 require 'open-uri'
 
-require File.dirname(__FILE__)+'/model_twitter_posts.rb'
+require File.dirname(__FILE__)+'/../dbfiles/twitter_posts.rb'
 require File.dirname(__FILE__)+'/../mekatuna/modules/twitterstring.rb'
 
 class String; include TwitterString; end
@@ -11,7 +11,7 @@ class String; include TwitterString; end
 Twitter = 'http://twitter.com/'
 Twitter_rss = 'http://twitter.com/statuses/user_timeline/'
 Twitter_rss_suffix = '.atom?page='
-connect_TwitterPostsDB
+connect_TwitterPostsDB_with_log
 
 user = 'pokutuna'
 

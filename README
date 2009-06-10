@@ -1,1 +1,8 @@
 適当に作ったやつを置いてるよー
+
+crawler/ : クローラとか作った奴置いていく予定
+lonpos/ : ロンポス無料問題収集
+mekatuna/ : TwitterBot @meka_pokutuna
+school/ : 授業で作った奴とか置いていくつもりがそのうち消す
+yahoo_api/ : Yahooテキスト解析とかのAPIの解析結果をラップするヤツ
+

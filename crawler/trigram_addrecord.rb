@@ -3,8 +3,8 @@
 require 'rubygems'
 require 'active_record'
 
-require File.dirname(__FILE__)+'/model_trigram.rb'
-require File.dirname(__FILE__)+'/model_twitter_posts.rb'
+require File.dirname(__FILE__)+'/../dbfiles/pokutuna_trigram.rb'
+require File.dirname(__FILE__)+'/../dbfiles/twitter_posts.rb'
 require File.dirname(__FILE__)+'/../yahoo_api/yahoo_api.rb'
 
 

@@ -1,10 +1,15 @@
-class YahooAPI
+module YahooAPI
 
 	class DependencyAnalyzer
 		include APIConfig
 		
 		RequestURL = 'http://jlp.yahooapis.jp/DAService/V1/parse'
 
+		def initialize(appid=nil, proxy={})
+			YahooAPI.set(appid, proxy)
+		end
+
+		
 		def self.parse(text)
 			raise UnintializedError if @@appid == nil
 			param = "?appid=#{@@appid}&sentence=#{URI.encode(text)}"

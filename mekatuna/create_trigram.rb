@@ -3,7 +3,7 @@
 require 'rubygems'
 require 'active_record'
 
-require File.dirname(__FILE__)+'/model_trigram.rb'
+require File.dirname(__FILE__)+'/../dbfiles/pokutuna_trigram.rb'
 
 connect_TrigramDB
 
