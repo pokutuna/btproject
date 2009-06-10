@@ -3,7 +3,7 @@
 require 'rexml/document'
 require 'open-uri'
 
-require File.dirname(__FILE__)+'/twitter_post_db.rb'
+require File.dirname(__FILE__)+'/model_twitter_posts.rb'
 require File.dirname(__FILE__)+'/../mekatuna/modules/twitterstring.rb'
 
 class String; include TwitterString; end
@@ -11,8 +11,12 @@ class String; include TwitterString; end
 Twitter = 'http://twitter.com/'
 Twitter_rss = 'http://twitter.com/statuses/user_timeline/'
 Twitter_rss_suffix = '.atom?page='
+connect_TwitterPostsDB
 
 user = 'pokutuna'
+
+buffer404 = Array.new
+count404 = 0
 
 catch(:exit){
 	begin
@@ -24,9 +28,6 @@ catch(:exit){
 		throw :exit
 	end
 
-	buffer404 = Array.new
-	count404 = 0
-	
 	for pagenum in 1..150
 		sleep 5
 		begin
@@ -43,7 +44,7 @@ catch(:exit){
 					Post.create(
 						:username => user, :message => text, :url => url, :time => time)
 				else
-					#exist count & break
+					throw :exit
 				end
 			end
 			
@@ -54,8 +55,8 @@ catch(:exit){
 			p e.class.to_s + e.message.to_s + e.backtrace.to_s
 		end
 	end
-	p buffer404
-	Update.create(:time => Time.new.utc, :action => 'Crawled')
+
 }
 
-
+p buffer404
+Update.create(:time => Time.new.utc, :action => 'Crawled')
