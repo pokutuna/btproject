@@ -5,12 +5,17 @@ class BaseDB < ActiveRecord::Base; end
 class TwitterPostsDB < BaseDB; end
 
 TwitterPostsDB.default_timezone = :utc
-twitter_posts_logger = TwitterPostsDB.logger = Logger.new(STDOUT)
+
 
 def connect_TwitterPostsDB
 	TwitterPostsDB.establish_connection(
 		:adapter => 'mysql', :database => 'twitter_posts', :username => 'root', :encoding => 'utf8')
 	true
+end
+
+def connect_TwitterPostsDB_with_log
+	twitter_posts_logger = TwitterPostsDB.logger = Logger.new(STDOUT)
+	connect_TwitterPostsDB
 end
 
 class Post < TwitterPostsDB
