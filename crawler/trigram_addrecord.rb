@@ -34,8 +34,8 @@ def add_trigram_by_id(id)
 					rec.save
 					p a+','+b+','+c+': '+rec.count.to_s
 				end
-				OnRecord.create(:url => post.url.to_s)
 			end
+			OnRecord.create(:url => post.url.to_s)
 		else
 			return false
 		end

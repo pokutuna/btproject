@@ -1,4 +1,22 @@
 SHUT_UP = /黙れ|静かに(?:しろ){0,1}/
+FOLLOW = /(?:フォロー|ふぉろー|follow|Follow)(?:して|しろ|しなさい){0,1}/
+
+def follow(reply)
+	targets = reply.text.without_reply_to.scan_id
+	targets.delete('follow')
+	followed_user = Array.new
+	failed_user = Array.new
+	targets.each do |t|
+		begin
+			$twit.create_friendship(t)
+			followed_user.push(t)
+		rescue => e
+			failed_user.push(t)
+		end
+	end
+	$twit.post("@#{reply.user.screen_name} #{followed_user.join(' ')}フォローした") unless followed_user.empty?
+	$twit.post("@#{reply.user.screen_name} #{t}フォローできない") unless failed_user.empty?
+end
 
 def shut_up(reply)
 	$twit.post("@#{reply.user.screen_name} はい…")
@@ -10,22 +28,10 @@ def analyze_command(reply)
 
 		#/follow
 		if text.include?('/follow') then
-			
 			text['/follow'] = ''
-			targets = text.scan_id
+			follow(reply)
 			
-			followed_user = Array.new
-			targets.each do |t|
-				begin
-					$twit.create_friendship(t)
-					followed_user.push(t)
-				rescue => e
-					$twit.post("@#{reply.user.screen_name} #{t}フォローできない")
-				end
-			end
-			$twit.post("@#{reply.user.screen_name} #{followed_user.join(' ')}フォローした") unless followed_user.empty?
-
-			#remove
+		#remove
 		elsif text.include?('remove') then
 			
 			text['/remove'] = ''
@@ -42,7 +48,7 @@ def analyze_command(reply)
 			end
 			$twit.post("@#{reply.user.screen_name} #{removed_user.join(' ')}removeした") unless removed_user.empty?
 			
-		#not found	
+			#not found	
 		else
 			$twit.post("@#{reply.user.screen_name} そんなコマンド無いよ")
 		end

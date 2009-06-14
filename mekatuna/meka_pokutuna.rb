@@ -38,15 +38,20 @@ begin
 	users = Array.new
 	
 	new_replies.reverse.each do |r|
-
+		message = r.text.without_reply_to
+		
 		#shut up
-		if r.text.without_reply_to =~ SHUT_UP then
+		if message =~ SHUT_UP then
 			shut_up(r)
 			break
 
 		#command
-		elsif r.text.without_reply_to[0..0] == '/' then
+		elsif message[0..0] == '/' then
 			analyze_command(r)
+
+		#follow
+		elsif message =~ FOLLOW then
+			follow(r)
 			
 		#else
 		else
@@ -80,6 +85,7 @@ begin
 rescue => e
 	p e.backtrace
 	logger.error($!)
+	logger.error(e.backtrace)
 	#$twit.post("@#{conf['su']} #{e.backtrace.to_s}")
 end
 
