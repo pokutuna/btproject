@@ -39,7 +39,7 @@ def default
 =end
 	br
 	p{
-		puts "平成15年4月15日1版訂正版"
+		puts "平成21年4月15日1版訂正版"
 	}
 	puts FOOTER
 end
