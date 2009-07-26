@@ -18,12 +18,6 @@ module YahooAPI
 			}
 		end
 
-		class DepArray < Array
-			def to_s
-				return self.join(',')
-			end
-		end
-
 		class Result
 			@chunks
 			@morphems
@@ -31,9 +25,10 @@ module YahooAPI
 			attr_accessor :chunks, :morphems, :xml
 			
 			def initialize(xml)
-				@chunks = DepArray.new
-				@morphems = DepArray.new
+				@chunks = Array.new
+				@morphems = Array.new
 				@xml = REXML::Document.new(xml)
+				
 				@xml.elements.each('//Chunk') do |c|
 					chunk = Chunk.new(c)
 					@chunks.push(chunk)
@@ -48,6 +43,12 @@ module YahooAPI
 						c.depend = Chunk.new(nil)
 					end
 				end
+
+				def @chunks.to_s
+					return self.join(',')
+				end
+
+				true
 			end
 
 			def chunk(arg)
@@ -75,17 +76,23 @@ module YahooAPI
 			
 			def initialize(chunk = nil)
 				unless chunk == nil
-					@morphems = DepArray.new
+					@morphems = Array.new
 					@id = chunk.elements['Id'].text.to_i
 					@depend = chunk.elements['Dependency'].text.to_i
 					chunk.elements.each('MorphemList/Morphem') do |m|
 						@morphems.push(Morphem.new(m))
 					end
 				else
-					@morphems = DepArray.new
+					@morphems = Array.new
 					@id = -1
 					@depend = ""
 				end
+
+				def @morphems.to_s
+					return self.join(',')
+				end
+
+				true
 			end
 
 			def nil?
