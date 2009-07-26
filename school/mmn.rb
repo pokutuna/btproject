@@ -111,30 +111,30 @@ class Event
 	def exec(symlator)
 		case @action
 		when :arrive
-#			puts "#{@time}: person arrived"
+			puts "#{@time}: person arrived"
 			@log[:line_size] = symlator.waiting.size
 			@log[:keinai] = symlator.count_busy_desk(@time) + symlator.waiting.size
 			unless desk = symlator.find_desk(@time) then
-#				puts "  desk is full. waiting: #{symlator.waiting.size}"
+				puts "  desk is full. waiting: #{symlator.waiting.size}"
 				symlator.waiting.push(self)
 			else
-#				puts "  desk #{desk.number} serves - ends #{desk.working_while}"
+				puts "  desk #{desk.number} serves - ends #{desk.working_while}"
 				new_event = desk.start_working(self)
 				symlator.add_event(new_event)
 				@log[:wait_time] = 0.0
 			end
 			
 		when :open
-#			puts "#{@time}: window open"
+			puts "#{@time}: window open"
 			if head_person = symlator.waiting.shift then
 				desk = symlator.find_desk(@time)
-#				puts "  desk #{desk.number} serves - ends #{desk.working_while}"
-#				puts "  person waited for #{@time - head_person.time}"
+				puts "  desk #{desk.number} serves - ends #{desk.working_while}"
+				puts "  person waited for #{@time - head_person.time}"
 				event = desk.start_working(self)
 				symlator.add_event(event)
 				head_person.log[:wait_time] = @time - head_person.time
 			else
-#				puts "  no people waiting"
+				puts "  no people waiting"
 			end
 
 		else
@@ -146,7 +146,7 @@ class Event
 end
 
 if $0 == __FILE__ then
-	a = MMNSimulator.new(5.0, [Desk.new(4.0), Desk.new(4.0)], 30)
+	a = MMNSimulator.new(3.5, [Desk.new(3.0), Desk.new(4.0)], 50)
 	p a.events.map{ |x| x.time}
 	a.process
 	puts '---------------'

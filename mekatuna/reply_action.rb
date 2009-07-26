@@ -15,7 +15,7 @@ def follow(reply)
 		end
 	end
 	$twit.post("@#{reply.user.screen_name} #{followed_user.join(' ')}フォローした") unless followed_user.empty?
-	$twit.post("@#{reply.user.screen_name} #{t}フォローできない") unless failed_user.empty?
+	$twit.post("@#{reply.user.screen_name} #{t}フォローできない") unless failed_user.reject{ |i| i==nil}.empty?
 end
 
 def shut_up(reply)

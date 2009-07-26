@@ -48,6 +48,10 @@ module YahooAPI
 					return self.join(',')
 				end
 
+				def @morphems.to_s
+					return self.join(',')
+				end
+				
 				true
 			end
 
@@ -75,21 +79,22 @@ module YahooAPI
 			attr_accessor :id, :depend, :morphems
 			
 			def initialize(chunk = nil)
+
+				@morphems = Array.new
+				
+				def @morphems.to_s
+					return self.join(',')
+				end
+				
 				unless chunk == nil
-					@morphems = Array.new
 					@id = chunk.elements['Id'].text.to_i
 					@depend = chunk.elements['Dependency'].text.to_i
 					chunk.elements.each('MorphemList/Morphem') do |m|
 						@morphems.push(Morphem.new(m))
 					end
 				else
-					@morphems = Array.new
 					@id = -1
 					@depend = ""
-				end
-
-				def @morphems.to_s
-					return self.join(',')
 				end
 
 				true
