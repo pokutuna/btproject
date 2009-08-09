@@ -16,6 +16,7 @@ class BDALogger
   end
   
   def inquiry
+    puts "Device Inquiry - #{Time.now.strftime('%Y-%m-%d %X')}"
     `hcitool scan`.each_line do |l|
       data = l.scan(/((?:[\dA-F]{2}:){5}[\dA-F]{2})\t(.+)/).flatten
       if data != [] then
@@ -27,7 +28,7 @@ class BDALogger
             raise Error, "Log file #{@logfile.path} is closed."
           end
         }
-        puts str
+        puts "\t"+str
       end
     end
   end
@@ -54,7 +55,8 @@ logger = BDALogger.new
 
 Thread.start{
   loop do
-    Thread.start{ logger.inquiry}
+    #Thread.start{ logger.inquiry}
+    logger.inquiry
     sleep WAIT_TIME
   end
 }
