@@ -57,6 +57,7 @@ Thread.start{
   loop do
     #Thread.start{ logger.inquiry}
     logger.inquiry
+    logger.refresh_date
     sleep WAIT_TIME
   end
 }
