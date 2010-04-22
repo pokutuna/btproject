@@ -1,0 +1,6 @@
+*.swp
+*~
+*.gem
+pkg
+bin/termtter.bat
+
