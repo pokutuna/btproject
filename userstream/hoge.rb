@@ -9,6 +9,8 @@ require 'json'
 USERNAME = 'pokutuna'
 puts 'input password:'
 PASSWORD = gets.chomp
+PROXY = 'proxy.kwansei.ac.jp'
+PORT = '8080'
 
 uri = URI.parse('http://chirpstream.twitter.com/2b/user.json')
 
@@ -26,27 +28,31 @@ module Net
 end
 
 
-
-Net::HTTP.Proxy('proxy.kwansei.ac.jp', '8080').start(uri.host, uri.port) do |http|
-  request = Net::HTTP::Get.new(uri.request_uri)
-  request.basic_auth(USERNAME, PASSWORD)
-  http.request(request) do |response|
-
-    response.each_line("\r\n") do |line|
-      File.open('./log.txt', 'a'){ |file|
-        file.puts line
-        status = JSON.parse(line) rescue next
-        puts status
-      }
+File.open('./log.txt', 'a'){ |file|  
+  begin
+    Net::HTTP.Proxy(PROXY, PORT).start(uri.host, uri.port) do |http|
+      request = Net::HTTP::Get.new(uri.request_uri)
+      request.basic_auth(USERNAME, PASSWORD)
+      http.request(request) do |response|
+        response.each_line("\r\n") do |line|
+          file.puts line
+          status = JSON.parse(line) rescue next
+          puts status
+        end
 =begin
       next unless status['text']
       user = status['user']
       puts "#{user['screen_name']}: #{status['text']}"
 =end
+      end
     end
-
+    
+  rescue Timeout::Error => ex
+    p "<-----!!!!! Timeout::Error!!!!!----->"
+    
+    retry
   end
-end
+}
 
 =begin
 /usr/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill': execution expired (Timeout::Error)
