@@ -1,3 +1,12 @@
+FileName
+
+Miwa
+[Username]/[Username]_yyyymmdd.csv
+
+Kono
+自由すぎるから調整
+
+
 FORMAT
 y/m/d \t h:m:s \t [NAME] \t [BDA]
 
@@ -11,6 +20,11 @@ y/m/d \t h:m:s \t [NAME] \t [BDA]
  
 合計時間: 検出回数に比例(*10sec)
 回数: 検出(+1）→ 非検出 → 検出(+1) の流れ 
+
+非検出と判断するまでの時間は？
+TODO:検証 10秒刻み信用できるか
+  教授のログどれ採用するか
+
 
 
  
