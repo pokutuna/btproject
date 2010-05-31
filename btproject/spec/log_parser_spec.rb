@@ -77,4 +77,9 @@ describe Logger do
   context 'when count by BDA' do
     it 'should return zero, unregistered BDA'
   end
+
+  context 'when set/geting Threshold' do
+    it 'should change by method'
+  end
+  
 end

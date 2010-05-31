@@ -44,17 +44,29 @@ end
 
 class Logger
   @@threshold = 60 * 5 #TODO
+
+  def Logger.set_threshold(th)
+    raise ArgumentError 'threshold must be Integer' unless Integer === th
+    @@threshold = th
+  end
+
+  def Logger.get_threshold
+    return @@threshold
+  end
+  
   @name
   @detect_count
   @meet_count
   @last_contact
-  attr_reader :name, :detect_count, :meet_count, :last_contact
-  
+  @record
+  attr_reader :name, :detect_count, :meet_count, :last_contact, :records
+
   def initialize(name)
     @name = name 
     @detect_count = Hash.new(0) #Hash bda => count
     @meet_count = Hash.new(0)
     @last_contact = Hash.new(Time.at(0)) #Hash bda => Time
+    @records = []
   end
   
   def add_record(record)
@@ -66,11 +78,14 @@ class Logger
     @meet_count[record.bda] += 1 if diff > @@threshold
     
     @last_contact[record.bda] = record.date
+
+    @records.push record
   end
 
   def count_byBDA(bda)
     return [@detect_count, @meet_count]
   end
+  
 end
 
 
