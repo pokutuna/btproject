@@ -53,37 +53,54 @@ class Logger
   def Logger.get_threshold
     return @@threshold
   end
+
   
   @name
-  @detect_count
-  @meet_count
-  @last_contact
-  @record
-  attr_reader :name, :detect_count, :meet_count, :last_contact, :records
+  @records
+  attr_reader :name, :records
 
   def initialize(name)
     @name = name 
-    @detect_count = Hash.new(0) #Hash bda => count
-    @meet_count = Hash.new(0)
-    @last_contact = Hash.new(Time.at(0)) #Hash bda => Time
     @records = []
   end
-  
-  def add_record(record)
-    raise ArgumentError unless Record === record
-    @detect_count[record.bda] += 1
-    
-    diff = record.date - @last_contact[record.bda]
-    raise RuntimeError 'added older record' if diff < 0
-    @meet_count[record.bda] += 1 if diff > @@threshold
-    
-    @last_contact[record.bda] = record.date
 
+    def add_record(record)
+    raise ArgumentError unless Record === record
     @records.push record
   end
 
-  def count_byBDA(bda)
-    return [@detect_count, @meet_count]
+  def sort_record
+    @records = @records.sort_by{ |r| r.date}
+  end
+
+  def analyze(&filter)
+    sort_record
+
+    detect_count = Hash.new(0) #Hash bda => count
+    meet_count = Hash.new(0)
+    last_contact = Hash.new(Time.at(0)) #Hash bda => Time
+
+    @records.each do |i|
+      if block_given? then
+        next if filter.call(i) == true
+      end
+      
+      detect_count[i.bda] += 1
+      
+      diff = i.date - last_contact[i.bda]
+      raise RuntimeError '' if diff < 0
+      meet_count[i.bda] += 1 if diff > @@threshold
+      
+      last_contact[i.bda] = i.date
+    end
+
+    result = Hash.new
+    keys = detect_count.keys
+    keys.each do |i|
+      result[i] = [detect_count[i], meet_count[i]]
+    end
+    
+    return result
   end
   
 end
