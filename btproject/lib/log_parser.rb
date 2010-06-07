@@ -82,7 +82,7 @@ class Logger
 
     @records.each do |i|
       if block_given? then
-        next if filter.call(i) == true
+        next unless filter.call(i) == true
       end
       
       detect_count[i.bda] += 1
