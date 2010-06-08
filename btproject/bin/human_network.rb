@@ -31,75 +31,109 @@ def read_log
 end
 
 
-def analyze_log(&filter)
+def analyze_log(file=nil, &filter)
   raise RuntimeError 'no logs read' if @loggers.empty?
   @loggers.each do |logger|
-    puts "analyzing #{logger.name}'s log"
+#    puts "analyzing #{logger.name}'s log"
     result = logger.analyze(&filter)
     result = result.to_a.sort_by{|i| i[1][0]}.reverse
     result = result.select{ |i| @bdas.include? i[0]}
     result.each do |i|
       name = @username[i[0]]
-      puts "  #{name} detect:#{i[1][0]}  meet:#{i[1][1]}"
+      #      puts "  #{name} detect:#{i[1][0]}  meet:#{i[1][1]}"
+      str = "#{logger.name} #{name} #{i[1][0]}" 
+      puts str
+      file.puts str unless file == nil
     end
     puts ""
   end
 end
 
+
+#put userlist
+File.open('userlist.txt','w'){ |file|
+  @username.each do |k,v|
+    file.puts v
+  end
+}
+
 read_log
 puts '-- all --'
-analyze_log
+File.open('log_all.txt','w'){ |file| analyze_log(file)}
 puts '---------'
+
+
 
 #sep1
 puts '-- 0600 to 1200 --'
-analyze_log{ |i| 6 <= i.date.hour && i.date.hour < 12}
+File.open('sep1_060000_120000.txt','w'){ |file|
+  analyze_log(file){ |i| 6 <= i.date.hour && i.date.hour < 12}
+}
+
 puts '-- 1200 to 1800 --'
-analyze_log{ |i| 12 <= i.date.hour && i.date.hour < 18}
+File.open('sep1_120000_180000.txt','w'){ |file|
+  analyze_log(file){ |i| 12 <= i.date.hour && i.date.hour < 18}
+}
+
 puts '-- 1800 to 2400 --'
-analyze_log{ |i| 18 <= i.date.hour && i.date.hour <= 23}
+File.open('sep1_180000_235959.txt','w'){ |file|
+  analyze_log(file){ |i| 18 <= i.date.hour && i.date.hour <= 23}
+}
 
 
 #sep2
 puts '-- 0900 to 1030 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 9, 10)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
-  a <= i.date && i.date <b
+File.open('sep2_090000_103000.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 9, 10)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
+    a <= i.date && i.date <b
+  }
 }
 
 puts '-- 1030 to 1230 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-  a <= i.date && i.date <b
+File.open('sep2_103000_123000.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
+    a <= i.date && i.date <b
+  }
 }
 
 puts '-- 1230 to 1500 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-  a <= i.date && i.date <b
+File.open('sep2_123000_150000.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
+    a <= i.date && i.date <b
+  }
 }
 
 puts '-- 1500 to 1630 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-  a <= i.date && i.date <b
+File.open('sep2_150000_163000.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
+    a <= i.date && i.date <b
+  }
 }
 
 puts '-- 1630 to 1800 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-  a <= i.date && i.date <b
+File.open('sep2_163000_180000.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
+    a <= i.date && i.date <b
+  }
 }
 
 puts '-- 1800 to 2359 --'
-analyze_log{ |i|
-  a = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-  b = Time.local(i.date.year, i.date.month, i.date.day, 23, 59)
-  a <= i.date && i.date <b
+File.open('sep2_180000_235900.txt','w'){ |file|
+  analyze_log(file){ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
+    b = Time.local(i.date.year, i.date.month, i.date.day, 23, 59)
+    a <= i.date && i.date <b
   }
+}
+
 
