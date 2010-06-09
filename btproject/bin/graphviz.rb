@@ -9,4 +9,5 @@ files = [
 
 files.each do |f|
   `dot -Tpng #{f} -o #{File.basename(f,'.txt')}.png`
+  `circo -Tpng #{f} -o #{File.basename(f,'.txt')}_c.png`
 end
