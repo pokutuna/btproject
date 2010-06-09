@@ -41,12 +41,22 @@ def analyze_log(file=nil, &filter)
     result.each do |i|
       name = @username[i[0]]
       #      puts "  #{name} detect:#{i[1][0]}  meet:#{i[1][1]}"
-      str = "#{logger.name} #{name} #{i[1][0]}" 
+      str = "#{logger.name} -> #{name} [weight = #{i[1][0]}, arrowsize = #{Math.sqrt(i[1][0])/10.0}];" 
       puts str
       file.puts str unless file == nil
     end
     puts ""
   end
+end
+
+
+def put_graphviz_header(file)
+  file.puts 'digraph sample{'
+  file.puts 'graph [size="40,30", concentrate=true];'
+end
+
+def put_graphviz_footer(file)
+  file.puts '}'
 end
 
 
@@ -59,7 +69,11 @@ File.open('userlist.txt','w'){ |file|
 
 read_log
 puts '-- all --'
-File.open('log_all.txt','w'){ |file| analyze_log(file)}
+File.open('log_all.txt','w'){ |file|
+  put_graphviz_header(file)  
+  analyze_log(file)
+  put_graphviz_footer(file)
+}
 puts '---------'
 
 
@@ -84,47 +98,57 @@ File.open('sep1_180000_235959.txt','w'){ |file|
 #sep2
 puts '-- 0900 to 1030 --'
 File.open('sep2_090000_103000.txt','w'){ |file|
+  put_graphviz_header(file)
   analyze_log(file){ |i|
     a = Time.local(i.date.year, i.date.month, i.date.day, 9, 10)
     b = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
     a <= i.date && i.date <b
   }
+  put_graphviz_footer(file)
 }
 
 puts '-- 1030 to 1230 --'
 File.open('sep2_103000_123000.txt','w'){ |file|
+  put_graphviz_header(file)
   analyze_log(file){ |i|
     a = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
     b = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
     a <= i.date && i.date <b
   }
+  put_graphviz_footer(file)  
 }
 
 puts '-- 1230 to 1500 --'
 File.open('sep2_123000_150000.txt','w'){ |file|
+  put_graphviz_header(file)
   analyze_log(file){ |i|
     a = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
     b = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
     a <= i.date && i.date <b
   }
+  put_graphviz_footer(file)
 }
 
 puts '-- 1500 to 1630 --'
 File.open('sep2_150000_163000.txt','w'){ |file|
+  put_graphviz_header(file)
   analyze_log(file){ |i|
     a = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
     b = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
     a <= i.date && i.date <b
   }
+  put_graphviz_footer(file)
 }
 
 puts '-- 1630 to 1800 --'
 File.open('sep2_163000_180000.txt','w'){ |file|
+  put_graphviz_header(file)
   analyze_log(file){ |i|
     a = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
     b = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
     a <= i.date && i.date <b
   }
+  put_graphviz_footer(file)
 }
 
 puts '-- 1800 to 2359 --'
