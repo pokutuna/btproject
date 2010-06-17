@@ -97,7 +97,7 @@ class Logger
     result = Hash.new
     keys = detect_count.keys
     keys.each do |i|
-      result[i] = [detect_count[i], meet_count[i]] #=> to be class
+      result[i] = [detect_count[i], meet_count[i]]
     end
     
     return result
