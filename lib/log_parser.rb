@@ -64,7 +64,7 @@ class Logger
     @records = []
   end
 
-    def add_record(record)
+  def add_record(record)
     raise ArgumentError unless Record === record
     @records.push record
   end
@@ -97,7 +97,9 @@ class Logger
     result = Hash.new
     keys = detect_count.keys
     keys.each do |i|
-      result[i] = [detect_count[i], meet_count[i]] #=> to be class
+#      result[i] = [detect_count[i], meet_count[i]] #=> to be class
+      result[i] =
+        { :detects => detect_count[i], :meets => meet_count[i]}
     end
     
     return result
@@ -105,16 +107,3 @@ class Logger
   
 end
 
-
-
-=begin
-File.open('../spec/sampledata/samplelog_day1.tsv'){ |f|
-  hoge = Logger.new('hoge')
-  f.each_line do |line|
-    hoge.add_record(Record.new(line.chomp)) unless line[0] == '#'
-  end
-  p hoge
-}
-=end
-
-    

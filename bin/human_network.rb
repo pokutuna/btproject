@@ -19,9 +19,9 @@ def read_log
     puts "reading #{k}'s log files"
     Dir.glob(File.expand_path(v[0])).each do |filename|
       File.open(filename){ |f|
-        puts '  '+File.basename(f.path)
+        puts '  '+file.basename(f.path)
         f.each_line do |line|
-          logger.add_record(Record.new(line.chomp)) unless line[0] == '#'
+          logger.add_record(record.new(line.chomp)) unless line[0] == '#'
         end
       }
     end
@@ -30,14 +30,14 @@ end
 
 
 def analyze_log(file=nil, &filter)
-  raise RuntimeError 'read no logs' if @loggers.empty?
+  raise runtimeerror 'read no logs' if @loggers.empty?
   dest = []
   @loggers.each do |logger|
     result = logger.analyze(&filter)
-    result = result.to_a.sort_by{|i| i[1][0]}.reverse
+    result = result.to_a.sort_by{|i| i[1][:detects]}.reverse
     result = result.select{ |i| @bdas.include? i[0]}
     result.each do |i|
-      dest.push [logger, i]
+      dest.push [logger, i] #kokokara
     end
   end
   return dest
@@ -48,7 +48,7 @@ def put_analyzed(result)
   result.each do |i|
     name = @username[i[1][0]]
     #      puts "  #{name} detect:#{i[1][1][0]}  meet:#{i[1][1][1]}"
-    str = "#{i[0].name} -> #{name} [weight = #{i[1][1][0]}, arrowsize = #{Math.sqrt(i[1][1][0])/10.0}];" 
+    str = "#{i[0].name} -> #{name} [weight = #{i[1][1][0]}, arrowsize = #{math.sqrt(i[1][1][0])/10.0}];" 
     puts str
     file.puts str unless file == nil
   end
@@ -66,7 +66,7 @@ end
 
 
 #put userlist
-File.open('userlist.txt','w'){ |file|
+file.open('userlist.txt','w'){ |file|
   @username.each do |k,v|
     file.puts v
   end
@@ -78,38 +78,20 @@ sep1_morning = lambda{ |i| 6 <= i.date.hour && i.date.hour < 12}
 sep1_evening = lambda{ |i| 12 <= i.date.hour && i.date.hour < 18}
 sep1_night = lambda{ |i| 18 <= i.date.hour && i.date.hour <= 23}
 
-sep2_0900_1030 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 9, 10)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
+def generate_timefilter(a_hour, a_min, b_hour, b_min)
+  lambda{ |i|
+    a = time.local(i.date.year, i.date.month, i.date.day, a_hour, a_min)
+    b = time.local(i.date.year, i.date.month, i.date.day, b_hour, b_min)
     a <= i.date && i.date <b
   }
+end
 
-sep2_1030_1230 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-    a <= i.date && i.date <b
-  }
-
-sep2_1230_1500 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-    a <= i.date && i.date <b
-  }
-sep2_1500_1630 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-    a <= i.date && i.date <b
-  }
-sep2_1630_1800 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-    a <= i.date && i.date <b
-}
-sep2_1800_2359 = lambda{ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 23, 59)
-    a <= i.date && i.date <b
-  }
+sep2_0900_1030 = generate_timefilter( 9,00, 10,30)
+sep2_1030_1230 = generate_timefilter(10,30, 12,30)
+sep2_1230_1500 = generate_timefilter(12,30, 15,00)
+sep2_1500_1630 = generate_timefilter(15,00, 16,30)
+sep2_1630_1800 = generate_timefilter(16,30, 18,00)
+sep2_1800_2359 = generate_timefilter(18,00, 23,59)
 
 sep1 = {
   'sep1_060000_120000' => sep1_morning,
