@@ -31,13 +31,13 @@ end
 
 def analyze_log(file=nil, &filter)
   raise runtimeerror 'read no logs' if @loggers.empty?
-  dest = []
+  dest = 
   @loggers.each do |logger|
     result = logger.analyze(&filter)
-    result = result.to_a.sort_by{|i| i[1][:detects]}.reverse
-    result = result.select{ |i| @bdas.include? i[0]}
+#    result = result.to_a.sort_by{|i| i[1][:detects]}.reverse
+    result = result.select{ |i| @bdas.include? #kokokara}
     result.each do |i|
-      dest.push [logger, i] #kokokara
+      dest.push [logger, i]
     end
   end
   return dest
@@ -65,12 +65,7 @@ def put_graphviz_footer(file)
 end
 
 
-#put userlist
-file.open('userlist.txt','w'){ |file|
-  @username.each do |k,v|
-    file.puts v
-  end
-}
+
 
 
 #separate pattern

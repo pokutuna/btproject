@@ -59,7 +59,7 @@ class Logger
   @records
   attr_reader :name, :records
 
-  def initialize(name)
+  def initialize(name=nil)
     @name = name 
     @records = []
   end
