@@ -68,8 +68,8 @@ def put_analyzed_graphviz(analyzed, file=nil)
 
   analyzed.each_key do |logger|
     str = logger.name
-    str = str + '[color = "#c0c0c0"]' if analyzed[logger].empty?
-    str = str + ';'
+    str += '[style = "filled", fillcolor = "#c0c0c0"]' if analyzed[logger].empty?
+    str += ';'
     puts str
     file.puts str unless file == nil
   end
@@ -90,7 +90,7 @@ def put_graphviz_header(file=nil)
   puts str
   file.puts str unless file == nil
   
-  str = 'graph [size="40,30", concentrate=true];'
+  str = 'graph [size="40,40", concentrate=true];'
   puts str
   file.puts str unless file ==nil
 end
