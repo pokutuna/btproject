@@ -7,7 +7,9 @@ require 'log_parser'
 
 OPTS = {}
 opt = OptionParser.new
-opt.on('-g'){ |v| OPTS[:g] = v}
+opt.on('-g'){ |b| OPTS[:g] = b}
+opt.on('-r'){ |b| OPTS[:r] = b}
+opt.on('-w'){ |b| OPTS[:w] = b}
 opt.parse!
 
 
@@ -63,9 +65,7 @@ def put_analyzed_count(analyzed, file=nil)
   end
 end
 
-def put_analyzed_graphviz(analyzed, file=nil)
-  put_graphviz_header(file)
-
+def put_graphviz_nodes(analyzed, file=nil)
   analyzed.each_key do |logger|
     str = logger.name
     str += '[style = "filled", fillcolor = "#c0c0c0"]' if analyzed[logger].empty?
@@ -73,9 +73,15 @@ def put_analyzed_graphviz(analyzed, file=nil)
     puts str
     file.puts str unless file == nil
   end
+end
 
-  analyzed.each do |logger, result|
-    result.each do |bda, data|
+
+def put_analyzed_graphviz(analyzed, file=nil)
+  put_graphviz_header(file)
+  put_graphviz_nodes(analyzed, file)
+  
+  analyzed.each do |logger,result|
+    result.each do |bda,data|
       str = "#{logger.name} -> #{@bda_to_name[bda]} [weight = #{data[:detects]}, arrowsize = #{Math.sqrt(data[:detects])/10.0}];"
       puts str
       file.puts str unless file == nil
@@ -85,12 +91,63 @@ def put_analyzed_graphviz(analyzed, file=nil)
 end
 
 
-def put_graphviz_header(file=nil)
+def put_analyzed_rank(analyzed, file=nil)
+  put_graphviz_header(file, false)
+  put_graphviz_nodes(analyzed, file)
+
+  def _put_sorted_rank(color, sorted)
+    sorted.slice(0,3).each_with_index do |i, idx|
+      str = "#{logger.name} -> #{@bda_to_name[i[0]]} [weight = #{i[1][:detects]}, color = \"#{color},#{1.0-(idx/2.0)},1.0\"];"
+      puts str
+      file.puts str unless file == nil
+    end
+  end
+
+  analyzed.each do |logger,result|
+    sorted = result.to_a.sort_by{ |i| i[1][:detects]}.reverse
+    _put_sorted_rank(color, sorted)
+    sorted = result.to_a.sort_by{ |i| i[1][:meets]}.reverse
+    _put_sorted_rank(color, sorted)
+  end
+  
+  put_graphviz_footer(file)
+end
+
+
+def put_analyzed_weight(analyzed, file=nil)
+  put_graphviz_header(file)
+  put_graphviz_nodes(analyzed, file)
+
+  #calc meets weight
+  detects, meets = 0, 0
+  analyzed.each_value do |result|
+    result.each_value do |data|
+      detects += data[:detects]
+      meets += data[:meets]
+    end
+  end
+  meets_weight = detects / meets.to_f
+
+  analyzed.each do |logger,result|
+    result.each do |bda,data|
+      str = "#{logger.name} -> #{@bda_to_name[bda]} [weight = #{data[:detects]}, arrowsize = #{Math.sqrt(data[:detects]+data[:meets]*meets_weight)/10.0}];"
+      puts str
+      file.puts str unless file == nil
+    end
+  end
+  put_graphviz_footer(file)
+end
+
+
+def put_graphviz_header(file=nil, con=true)
   str = 'digraph sample{'
   puts str
   file.puts str unless file == nil
-  
-  str = 'graph [size="40,40", concentrate=true];'
+  if con then
+    str = 'graph [size="40,40", concentrate=true];'
+  else
+    str = 'graph [size="40,40", concentrate=false];'
+  end
   puts str
   file.puts str unless file ==nil
 end
@@ -148,6 +205,10 @@ if __FILE__ == $0 then
   put_method = nil
   if OPTS[:g] == true
     put_method = method(:put_analyzed_graphviz)
+  elsif OPTS[:r] == true
+    put_method = method(:put_analyzed_rank)
+  elsif OPTS[:w] == true
+    put_method = method(:put_analyzed_weight)
   else
     put_method = method(:put_analyzed_count)
   end
