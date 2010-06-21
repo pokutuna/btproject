@@ -7,6 +7,7 @@ files = [
   'sep2_163000_180000.txt'
 ]
 
+
 files.each do |f|
   `dot -Tpng #{f} -o #{File.basename(f,'.txt')}.png`
   `circo -Tpng #{f} -o #{File.basename(f,'.txt')}_c.png`

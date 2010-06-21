@@ -43,15 +43,15 @@ end
 
 
 class Logger
-  @@threshold = 60 * 5 #TODO
+  @@meets_threshold = 60 * 5 #TODO
 
-  def Logger.set_threshold(th)
+  def Logger.meets_threshold=(th)
     raise ArgumentError 'threshold must be Integer' unless Integer === th
-    @@threshold = th
+    @@meets_threshold = th
   end
 
-  def Logger.get_threshold
-    return @@threshold
+  def Logger.meets_threshold
+    return @@meets_threshold
   end
 
   
@@ -59,12 +59,12 @@ class Logger
   @records
   attr_reader :name, :records
 
-  def initialize(name)
+  def initialize(name=nil)
     @name = name 
     @records = []
   end
 
-    def add_record(record)
+  def add_record(record)
     raise ArgumentError unless Record === record
     @records.push record
   end
@@ -89,7 +89,7 @@ class Logger
       
       diff = i.date - last_contact[i.bda]
       raise RuntimeError '' if diff < 0
-      meet_count[i.bda] += 1 if diff > @@threshold
+      meet_count[i.bda] += 1 if diff > @@meets_threshold
       
       last_contact[i.bda] = i.date
     end
@@ -97,7 +97,8 @@ class Logger
     result = Hash.new
     keys = detect_count.keys
     keys.each do |i|
-      result[i] = [detect_count[i], meet_count[i]]
+      result[i] =
+        { :detects => detect_count[i], :meets => meet_count[i]}
     end
     
     return result
@@ -105,16 +106,3 @@ class Logger
   
 end
 
-
-
-=begin
-File.open('../spec/sampledata/samplelog_day1.tsv'){ |f|
-  hoge = Logger.new('hoge')
-  f.each_line do |line|
-    hoge.add_record(Record.new(line.chomp)) unless line[0] == '#'
-  end
-  p hoge
-}
-=end
-
-    

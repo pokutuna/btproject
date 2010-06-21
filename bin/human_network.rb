@@ -2,14 +2,20 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
 
 require 'yaml'
-
+require 'optparse'
 require 'log_parser'
+
+OPTS = {}
+opt = OptionParser.new
+opt.on('-g'){ |v| OPTS[:g] = v}
+opt.parse!
 
 
 @users = YAML.load(ARGF.read)
-@bdas = @users.map{ |k,v| v[1]}
-@username = Hash.new("")
-@users.each { |k,v| @username[v[1]] = k }
+
+@bdas = @users.map{ |k,v| v[1]} # BDA List
+@bda_to_name = {}
+@users.each { |k,v| @bda_to_name[v[1]] = k }
 @loggers = []
 
 
@@ -31,133 +37,143 @@ def read_log
 end
 
 
-def analyze_log(file=nil, &filter)
-  raise RuntimeError 'no logs read' if @loggers.empty?
+def analyze_log(&filter)
+  raise RuntimeError 'read no logs' if @loggers.empty?
+  dest = Hash.new
   @loggers.each do |logger|
-#    puts "analyzing #{logger.name}'s log"
     result = logger.analyze(&filter)
-    result = result.to_a.sort_by{|i| i[1][0]}.reverse
-    result = result.select{ |i| @bdas.include? i[0]}
-    result.each do |i|
-      name = @username[i[0]]
-      #      puts "  #{name} detect:#{i[1][0]}  meet:#{i[1][1]}"
-      str = "#{logger.name} -> #{name} [weight = #{i[1][0]}, arrowsize = #{Math.sqrt(i[1][0])/10.0}];" 
+    dest[logger] = result
+  end
+  return dest
+end
+
+
+def put_analyzed_count(analyzed, file=nil)
+  analyzed.each do |logger,result|
+    str = logger.name + "---"
+    puts str
+    file.puts str unless file == nil
+
+    sorted = result.to_a.sort_by{ |i| i[1][:detects]}.reverse
+    sorted.each do |i|
+      str = "#{@bda_to_name[i[0]]} detect: #{i[1][:detects]} meet: #{i[1][:meets]}"
       puts str
       file.puts str unless file == nil
     end
-    puts ""
   end
 end
 
+def put_analyzed_graphviz(analyzed, file=nil)
+  put_graphviz_header(file)
 
-def put_graphviz_header(file)
-  file.puts 'digraph sample{'
-  file.puts 'graph [size="40,30", concentrate=true];'
-end
-
-def put_graphviz_footer(file)
-  file.puts '}'
-end
-
-
-#put userlist
-File.open('userlist.txt','w'){ |file|
-  @username.each do |k,v|
-    file.puts v
+  analyzed.each_key do |logger|
+    str = logger.name
+    str += '[style = "filled", fillcolor = "#c0c0c0"]' if analyzed[logger].empty?
+    str += ';'
+    puts str
+    file.puts str unless file == nil
   end
-}
 
-read_log
-puts '-- all --'
-File.open('log_all.txt','w'){ |file|
-  put_graphviz_header(file)  
-  analyze_log(file)
+  analyzed.each do |logger, result|
+    result.each do |bda, data|
+      str = "#{logger.name} -> #{@bda_to_name[bda]} [weight = #{data[:detects]}, arrowsize = #{Math.sqrt(data[:detects])/10.0}];"
+      puts str
+      file.puts str unless file == nil
+    end
+  end
   put_graphviz_footer(file)
-}
-puts '---------'
+end
 
 
+def put_graphviz_header(file=nil)
+  str = 'digraph sample{'
+  puts str
+  file.puts str unless file == nil
+  
+  str = 'graph [size="40,40", concentrate=true];'
+  puts str
+  file.puts str unless file ==nil
+end
 
-#sep1
-puts '-- 0600 to 1200 --'
-File.open('sep1_060000_120000.txt','w'){ |file|
-  analyze_log(file){ |i| 6 <= i.date.hour && i.date.hour < 12}
-}
-
-puts '-- 1200 to 1800 --'
-File.open('sep1_120000_180000.txt','w'){ |file|
-  analyze_log(file){ |i| 12 <= i.date.hour && i.date.hour < 18}
-}
-
-puts '-- 1800 to 2400 --'
-File.open('sep1_180000_235959.txt','w'){ |file|
-  analyze_log(file){ |i| 18 <= i.date.hour && i.date.hour <= 23}
-}
+def put_graphviz_footer(file=nil)
+  puts '}'
+  file.puts '}' unless file == nil
+end
 
 
-#sep2
-puts '-- 0900 to 1030 --'
-File.open('sep2_090000_103000.txt','w'){ |file|
-  put_graphviz_header(file)
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 9, 10)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
-    a <= i.date && i.date <b
+#separate pattern
+users_included = lambda { |i| @bdas.include?(i.bda) }
+
+sep1_morning = lambda{ |i| 
+  @bdas.include?(i.bda) && (6 <= i.date.hour && i.date.hour < 12)}
+sep1_evening = lambda{ |i|
+  @bdas.include?(i.bda) && (12 <= i.date.hour && i.date.hour < 18)}
+sep1_night = lambda{ |i|
+  @bdas.include?(i.bda) && (18 <= i.date.hour && i.date.hour <= 23)}
+
+def generate_timefilter(a_hour, a_min, b_hour, b_min)
+  lambda{ |i|
+    a = Time.local(i.date.year, i.date.month, i.date.day, a_hour, a_min)
+    b = Time.local(i.date.year, i.date.month, i.date.day, b_hour, b_min)
+    @bdas.include?(i.bda) && (a <= i.date && i.date <b)
   }
-  put_graphviz_footer(file)
+end
+
+sep2_0900_1030 = generate_timefilter( 9,00, 10,30)
+sep2_1030_1230 = generate_timefilter(10,30, 12,30)
+sep2_1230_1500 = generate_timefilter(12,30, 15,00)
+sep2_1500_1630 = generate_timefilter(15,00, 16,30)
+sep2_1630_1800 = generate_timefilter(16,30, 18,00)
+sep2_1800_2359 = generate_timefilter(18,00, 23,59)
+
+sep1 = {
+  'sep1_060000_120000' => sep1_morning,
+  'sep1_120000_180000' => sep1_evening,
+  'sep1_180000_235959' => sep1_night}
+
+sep2 = {
+  'sep2_090000_103000' => sep2_0900_1030,
+  'sep2_103000_123000' => sep2_1030_1230,
+  'sep2_123000_150000' => sep2_1230_1500,
+  'sep2_150000_163000' => sep2_1500_1630,
+  'sep2_163000_180000' => sep2_1630_1800,
+  'sep2_180000_235900' => sep2_1800_2359
 }
 
-puts '-- 1030 to 1230 --'
-File.open('sep2_103000_123000.txt','w'){ |file|
-  put_graphviz_header(file)
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 10, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-    a <= i.date && i.date <b
+
+
+
+if __FILE__ == $0 then
+  read_log
+  put_method = nil
+  if OPTS[:g] == true
+    put_method = method(:put_analyzed_graphviz)
+  else
+    put_method = method(:put_analyzed_count)
+  end
+  
+  puts '-- all --'
+  File.open('log_all.txt','w'){ |file|
+    put_method.call(analyze_log(&users_included), file)
   }
-  put_graphviz_footer(file)  
-}
+  puts '---------'
 
-puts '-- 1230 to 1500 --'
-File.open('sep2_123000_150000.txt','w'){ |file|
-  put_graphviz_header(file)
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 12, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-    a <= i.date && i.date <b
-  }
-  put_graphviz_footer(file)
-}
+  #sep1
+  sep1.each do |k,v|
+    puts '---' + k + '---'
+    File.open(k+'.txt','w'){ |file|
+      put_method.call(analyze_log(&v), file)
+    }
+  end
 
-puts '-- 1500 to 1630 --'
-File.open('sep2_150000_163000.txt','w'){ |file|
-  put_graphviz_header(file)
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 15, 00)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-    a <= i.date && i.date <b
-  }
-  put_graphviz_footer(file)
-}
 
-puts '-- 1630 to 1800 --'
-File.open('sep2_163000_180000.txt','w'){ |file|
-  put_graphviz_header(file)
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 16, 30)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-    a <= i.date && i.date <b
-  }
-  put_graphviz_footer(file)
-}
+  #sep2
+  sep2.each do |k,v|
+    puts '---' + k + '---'
+    File.open(k+'.txt','w'){ |file|
+      put_method.call(analyze_log(&v), file)
+    }
+  end
 
-puts '-- 1800 to 2359 --'
-File.open('sep2_180000_235900.txt','w'){ |file|
-  analyze_log(file){ |i|
-    a = Time.local(i.date.year, i.date.month, i.date.day, 18, 00)
-    b = Time.local(i.date.year, i.date.month, i.date.day, 23, 59)
-    a <= i.date && i.date <b
-  }
-}
-
+end
 
