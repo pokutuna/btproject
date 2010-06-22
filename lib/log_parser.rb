@@ -23,7 +23,7 @@ class Record < BDAPair
     begin
       ary = line.split("\t")
     rescue ArgumentError
-      ary = NKF("-w -S -m0", line).split("\t")
+      ary = NKF.nkf("-w -S -m0", line).split("\t")
     end
     
     if ary.length > 3 then
