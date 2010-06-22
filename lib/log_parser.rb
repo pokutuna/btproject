@@ -2,6 +2,7 @@
 
 require 'date'
 require 'time'
+require 'nkf'
 
 class BDAPair
   @name
@@ -19,7 +20,12 @@ class Record < BDAPair
   attr_reader :date
 
   def initialize(line)
-    ary = line.split("\t")
+    begin
+      ary = line.split("\t")
+    rescue ArgumentError
+      ary = NKF("-w -S -m0", line).split("\t")
+    end
+    
     if ary.length > 3 then
       ary[0]+= ' ' +ary[1]
       ary.delete_at(1)
