@@ -127,6 +127,8 @@ def put_analyzed_weight(analyzed, file=nil)
     end
   end
   meets_weight = detects / meets.to_f
+  p meets_weight
+  gets
 
   analyzed.each do |logger,result|
     result.each do |bda,data|
