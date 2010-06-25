@@ -35,7 +35,8 @@ def read_log
         end
       }
     end
-  }  
+  }
+  return @loggers
 end
 
 
