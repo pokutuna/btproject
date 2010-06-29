@@ -50,7 +50,8 @@ end
 
 class Logger
   @@meets_threshold = 60 * 5 #TODO
-
+  @@time_threshold = 40
+  
   def Logger.meets_threshold=(th)
     raise ArgumentError 'threshold must be Integer' unless Integer === th
     @@meets_threshold = th
@@ -60,6 +61,12 @@ class Logger
     return @@meets_threshold
   end
 
+  def Logger.time_threshold=(sec)
+    @@time_threshold = sec
+  end
+  def Logger.time_threshold
+    return @@time_threshold
+  end
   
   @name
   @records
@@ -135,5 +142,9 @@ class Logger
     return dest
   end
 
+  def analyze_time(records=nil, &filter)
+    records = create_record_list(records, &filter)
+    
+  end
 end
 
