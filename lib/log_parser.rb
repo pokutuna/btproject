@@ -79,36 +79,61 @@ class Logger
     @records = @records.sort_by{ |r| r.date}
   end
 
-  def analyze(&filter)
-    sort_record
+  def create_record_list(recs=nil, &filter)
+    if recs == nil then
+      sort_record
+      recs = @records
+    end
+    
+    if block_given? then
+      recs = recs.collect{ |i| filter.call(i) == true}
+    end
 
+    return recs
+  end
+
+  def analyze(&filter)
+    recrods = create_record_list(&filter)
+    merge_sub = lambda{ |k,s,o| s.merge(o)}
+
+    results =[
+      analyze_detect(records),
+      analyze_meet(records)]
+
+    dest = Hash.new
+    results.each { |h| dest.merge!(h, &merge_sub)}
+    return dest
+  end
+
+  def analyze_detect(records=nil, &filter)
+    records = create_record_list(records, &filter)
     detect_count = Hash.new(0) #Hash bda => count
+    
+    records.each do |i|
+      detect_count[i.bda] += 1
+    end
+
+    dest = Hash.new
+    detect_count.each { |k,v| dest[k] = { :detects => v} }
+    return dest
+  end
+  
+  def analyze_meet(records=nil, &filter)
+    records = create_record_list(records, &filter)
     meet_count = Hash.new(0)
     last_contact = Hash.new(Time.at(0)) #Hash bda => Time
 
-    @records.each do |i|
-      if block_given? then
-        next unless filter.call(i) == true
-      end
-      
-      detect_count[i.bda] += 1
-      
+    records.each do |i|
       diff = i.date - last_contact[i.bda]
       raise RuntimeError '' if diff < 0
       meet_count[i.bda] += 1 if diff > @@meets_threshold
-      
       last_contact[i.bda] = i.date
     end
-
-    result = Hash.new
-    keys = detect_count.keys
-    keys.each do |i|
-      result[i] =
-        { :detects => detect_count[i], :meets => meet_count[i]}
-    end
     
-    return result
+    dest = Hash.new
+    meet_count.each { |k,v| dest[k] = { :meets => v} }
+    return dest
   end
-  
+
 end
 

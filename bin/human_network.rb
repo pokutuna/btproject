@@ -106,9 +106,9 @@ def put_analyzed_rank(analyzed, file=nil)
 
   analyzed.each do |logger,result|
     sorted = result.to_a.sort_by{ |i| i[1][:detects]}.reverse
-    _put_sorted_rank(color, sorted)
+    _put_sorted_rank(1.0, sorted)
     sorted = result.to_a.sort_by{ |i| i[1][:meets]}.reverse
-    _put_sorted_rank(color, sorted)
+    _put_sorted_rank(0.66, sorted)
   end
   
   put_graphviz_footer(file)
