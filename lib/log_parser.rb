@@ -99,13 +99,20 @@ class Logger
     return recs
   end
 
+  def create_inner_result(name, result)
+    dest = Hash.new
+    result.each { |k,v| dest[k] = { name => v}}
+    return dest
+  end
+  
   def analyze(&filter)
     recrods = create_record_list(&filter)
     merge_sub = lambda{ |k,s,o| s.merge(o)}
 
     results =[
       analyze_detect(records),
-      analyze_meet(records)]
+      analyze_meet(records),
+      analyze_time(records) ]
 
     dest = Hash.new
     results.each { |h| dest.merge!(h, &merge_sub)}
@@ -120,9 +127,7 @@ class Logger
       detect_count[i.bda] += 1
     end
 
-    dest = Hash.new
-    detect_count.each { |k,v| dest[k] = { :detects => v} }
-    return dest
+    return create_inner_result(:detects, detect_count)
   end
   
   def analyze_meet(records=nil, &filter)
@@ -132,19 +137,27 @@ class Logger
 
     records.each do |i|
       diff = i.date - last_contact[i.bda]
-      raise RuntimeError '' if diff < 0
       meet_count[i.bda] += 1 if diff > @@meets_threshold
       last_contact[i.bda] = i.date
     end
-    
-    dest = Hash.new
-    meet_count.each { |k,v| dest[k] = { :meets => v} }
-    return dest
+
+    return create_inner_result(:meets, meet_count)
   end
 
   def analyze_time(records=nil, &filter)
     records = create_record_list(records, &filter)
-    
+    time_sum = Hash.new(0) #Hash bda => Time(sec)
+    last_contact = Hash.new
+
+    records.each do |i|
+      unless last_contact[i.bda] == nil
+        diff = i.date - last_contact[i.bda]
+        time_sum[i.bda] += diff if diff < @@time_threshold
+      end
+      last_contact[i.bda] = i.date
+    end
+
+    return create_inner_result(:time, )
   end
 end
 
