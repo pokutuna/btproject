@@ -138,7 +138,7 @@ class Logger
       last_contact[i.bda] = i.date
     end
 
-    return create_inner_result(:time, )
+    return create_inner_result(:time, time_sum)
   end
 end
 

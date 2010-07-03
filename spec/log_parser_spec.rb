@@ -65,6 +65,29 @@ end
 
 
 describe Logger do
+  context 'when analyze time' do
+    before(:all) do
+      @logger = Logger.new("user")
+      File.open(File.dirname(__FILE__)+'/sampledata/time.tsv'){ |file|
+        file.each_line do |line|
+          @logger.add_record(Record.new(line.chomp)) unless line[0] == '#'
+        end
+      }
+      
+      @result = @logger.analyze_time
+    end
+    
+    it 'should calc summed time' do
+      @result["00:00:00:00:00:0A"][:time].should == 5*60.0
+    end
+
+    it 'should sum time separate by time_threshold' do
+      @result["00:00:00:00:00:0B"][:time].should == (4+3)*60.0
+    end
+  end
+  
+  
+  
   context 'when create new Logger object' do
     it 'should be empty Hashes'
     it 'should be zero, count default'
