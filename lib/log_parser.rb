@@ -98,6 +98,7 @@ class Logger
 
     dest = Hash.new
     results.each { |h| dest.merge!(h, &merge_sub)}
+    analyzed = true
     return dest
   end
 
@@ -141,5 +142,6 @@ class Logger
 
     return create_inner_result(:time, time_sum)
   end
+
 end
 

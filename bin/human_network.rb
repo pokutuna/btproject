@@ -3,6 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
 
 require 'yaml'
 require 'optparse'
+require 'fileutils'
 require 'log_parser'
 
 OPTS = {}
@@ -10,6 +11,7 @@ opt = OptionParser.new
 opt.on('-g'){ |b| OPTS[:g] = b}
 opt.on('-r'){ |b| OPTS[:r] = b}
 opt.on('-w'){ |b| OPTS[:w] = b}
+opt.on('-t'){ |b| OPTS[:t] = b}
 opt.parse!
 
 
@@ -141,6 +143,25 @@ def put_analyzed_weight(analyzed, file=nil)
   put_graphviz_footer(file)
 end
 
+@analyzed_container = []
+def put_analyze_time(analyzed, file=nil)
+  @analyzed_container.push analyzed
+end
+
+def lazy_analyze_time(file=nil)
+  put_graphviz_header(file)
+  
+  
+  @analyzed_container.each do |analyzed|
+    analyzed.each do |logger,result|
+      result.each do |bda,data|
+        
+      end
+    end
+  end
+  
+  put_graphviz_footer(file)
+end
 
 def put_graphviz_header(file=nil, con=true)
   str = 'digraph sample{'
@@ -200,24 +221,55 @@ sep2 = {
   'sep2_180000_235900' => sep2_1800_2359
 }
 
+sep3 = {
+  'sep3_0900_0930' => generate_timefilter( 9,00,  9,30),
+  'sep3_0930_1000' => generate_timefilter( 9,30, 10,00),
+  'sep3_1000_1030' => generate_timefilter(10,00, 10,30),
+  'sep3_1030_1100' => generate_timefilter(10,30, 11,00),
+  'sep3_1100_1130' => generate_timefilter(11,00, 11,30),
+  'sep3_1130_1200' => generate_timefilter(11,30, 12,00),
+  'sep3_1200_1230' => generate_timefilter(12,00, 12,30),
+  'sep3_1230_1300' => generate_timefilter(12,30, 13,00),
+  'sep3_1300_1330' => generate_timefilter(13,00, 13,30),
+  'sep3_1330_1400' => generate_timefilter(13,30, 14,00),
+  'sep3_1400_1430' => generate_timefilter(14,00, 14,30),
+  'sep3_1430_1500' => generate_timefilter(14,30, 15,00),
+  'sep3_1500_1530' => generate_timefilter(15,00, 15,30),
+  'sep3_1530_1600' => generate_timefilter(15,30, 16,00),
+  'sep3_1600_1630' => generate_timefilter(16,00, 16,30),
+  'sep3_1630_1700' => generate_timefilter(16,30, 17,00),
+  'sep3_1700_1730' => generate_timefilter(17,00, 17,30),
+  'sep3_1730_1800' => generate_timefilter(17,30, 18,00),
+  'sep3_1800_1830' => generate_timefilter(18,00, 18,30)
+}
 
 
 
 if __FILE__ == $0 then
   read_log
   put_method = nil
+  prefix = nil
   if OPTS[:g] == true
     put_method = method(:put_analyzed_graphviz)
+    prefix = 'detect'
   elsif OPTS[:r] == true
     put_method = method(:put_analyzed_rank)
+    prefix = 'rank'
   elsif OPTS[:w] == true
     put_method = method(:put_analyzed_weight)
+    prefix = 'weight'
+  elsif OPTS[:t] == true
+    put_method = method(:put_analyze_time)
+    prefix = 'time'
   else
     put_method = method(:put_analyzed_count)
+    prefix = 'count'
   end
-  
+
+  path = './'+prefix
+  FileUtils.mkdir_p(path) unless FileTest.exist?(path)
   puts '-- all --'
-  File.open('log_all.txt','w'){ |file|
+    File.open(path + '/log_all.txt','w'){ |file|
     put_method.call(analyze_log(&users_included), file)
   }
   puts '---------'
@@ -225,19 +277,43 @@ if __FILE__ == $0 then
   #sep1
   sep1.each do |k,v|
     puts '---' + k + '---'
-    File.open(k+'.txt','w'){ |file|
+    File.open(path + '/' + k+'.txt','w'){ |file|
       put_method.call(analyze_log(&v), file)
     }
   end
-
-
+  if prefix == 'time' then
+    File.open(path+'/sep1.txt','w'){ |file|
+      lazy_analyze_time(file)
+    }
+    @analyzed_container = []
+  end
+  
   #sep2
   sep2.each do |k,v|
     puts '---' + k + '---'
-    File.open(k+'.txt','w'){ |file|
+    File.open(path + '/' + k+'.txt','w'){ |file|
       put_method.call(analyze_log(&v), file)
     }
   end
-
+  if prefix == 'time' then
+    File.open(path+'/sep2.txt','w'){ |file|
+      lazy_analyze_time(file)
+    }
+    @analyzed_container = []
+  end
+  
+  #sep3
+  sep3.each do |k,v|
+    puts '---' + k + '---'
+    File.open(path+ '/' + k + '.txt', 'w'){ |file|
+      put_method.call(analyze_log(&v), file)
+    }
+  end
+  if prefix == 'time' then
+    File.open(path+'/sep3.txt','w'){ |file|
+      lazy_analyze_time(file)
+    }
+    @analyzed_container = []
+  end
 end
 
