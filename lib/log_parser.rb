@@ -64,17 +64,18 @@ class Logger
   end
 
   def sort_record
-    @records = @records.sort_by{ |r| r.date}
+    @records = @records.sort_by{ |r| r.date}.reverse
   end
 
   def create_record_list(recs=nil, &filter)
+
     if recs == nil then
       sort_record
       recs = @records
     end
     
     if block_given? then
-      recs = recs.collect{ |i| filter.call(i) == true}
+      recs = recs.select{ |i| filter.call(i) == true}
     end
 
     return recs
@@ -87,13 +88,13 @@ class Logger
   end
   
   def analyze(&filter)
-    recrods = create_record_list(&filter)
+    #recrods = create_record_list(&filter) # !!!bug!!!!
     merge_sub = lambda{ |k,s,o| s.merge(o)}
 
     results =[
-      analyze_detect(records),
-      analyze_meet(records),
-      analyze_time(records) ]
+      analyze_detect(records,&filter), # each take filter...
+      analyze_meet(records,&filter),
+      analyze_time(records,&filter) ]
 
     dest = Hash.new
     results.each { |h| dest.merge!(h, &merge_sub)}
