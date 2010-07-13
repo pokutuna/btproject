@@ -70,20 +70,6 @@ end
 
 
 describe Logger do
-  context 'when setting threhold' do
-    it 'should have default threshold' do
-      Logger.meets_threshold.should == 60*5
-      Logger.time_threshold == 60
-    end
-    
-    it 'should be mutable threshold' do
-      Logger.meets_threshold = 100
-      Logger.time_threshold = 200
-      Logger.meets_threshold.should == 100
-      Logger.time_threshold == 200
-    end
-  end
-  
   context 'when reading log' do
     before(:each) do
       @logger = Logger.new('test')  
