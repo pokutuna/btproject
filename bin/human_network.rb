@@ -61,7 +61,7 @@ def put_analyzed_count(analyzed, file=nil)
 
     sorted = result.to_a.sort_by{ |i| i[1][:detects]}.reverse
     sorted.each do |i|
-      str = "#{@bda_to_name[i[0]]} detect: #{i[1][:detects]} meet: #{i[1][:meets]}"
+      str = "#{@bda_to_name[i[0]]} detect: #{i[1][:detects]} meet: #{i[1][:meets]} time: #{i[1][:time]}"
       puts str
       file.puts str unless file == nil
     end
@@ -98,7 +98,7 @@ def put_analyzed_rank(analyzed, file=nil)
   put_graphviz_header(file, false)
   put_graphviz_nodes(analyzed, file)
 
-  def _put_sorted_rank(color, sorted)
+  def _put_sorted_rank(color, logger, sorted, file=nil)
     sorted.slice(0,3).each_with_index do |i, idx|
       str = "#{logger.name} -> #{@bda_to_name[i[0]]} [weight = #{i[1][:detects]}, color = \"#{color},#{1.0-(idx/2.0)},1.0\"];"
       puts str
@@ -108,9 +108,9 @@ def put_analyzed_rank(analyzed, file=nil)
 
   analyzed.each do |logger,result|
     sorted = result.to_a.sort_by{ |i| i[1][:detects]}.reverse
-    _put_sorted_rank(1.0, sorted)
+    _put_sorted_rank(1.0, logger, sorted, file)
     sorted = result.to_a.sort_by{ |i| i[1][:meets]}.reverse
-    _put_sorted_rank(0.66, sorted)
+    _put_sorted_rank(0.66,logger, sorted, file)
   end
   
   put_graphviz_footer(file)

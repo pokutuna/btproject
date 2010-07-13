@@ -41,7 +41,7 @@ end
 
 class Logger
   @@meets_threshold = 60 * 5 #TODO
-  @@time_threshold = 60
+  @@time_threshold = 60 * 2
   
   def Logger.meets_threshold=(th); @@meets_threshold = th end
   def Logger.meets_threshold; return @@meets_threshold; end
@@ -64,7 +64,7 @@ class Logger
   end
 
   def sort_record
-    @records = @records.sort_by{ |r| r.date}.reverse
+    @records = @records.sort_by{ |r| r.date}
   end
 
   def create_record_list(recs=nil, &filter)
@@ -99,6 +99,7 @@ class Logger
     dest = Hash.new
     results.each { |h| dest.merge!(h, &merge_sub)}
     analyzed = true
+#    p dest
     return dest
   end
 
@@ -129,12 +130,13 @@ class Logger
 
   def analyze_time(records=nil, &filter)
     records = create_record_list(records, &filter)
-    time_sum = Hash.new(0) #Hash bda => Time(sec)
-    last_contact = Hash.new
+    time_sum = Hash.new(0) #Hash bda => Int(sec)
+    last_contact = Hash.new #Hash bda => Time
 
     records.each do |i|
       unless last_contact[i.bda] == nil
         diff = i.date - last_contact[i.bda]
+#        raise RuntimeError, 'unsorted time' if diff < 0
         time_sum[i.bda] += diff if diff < @@time_threshold
       end
       last_contact[i.bda] = i.date
