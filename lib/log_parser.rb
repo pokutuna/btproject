@@ -17,9 +17,11 @@ class Record
       ary = NKF.nkf("-w -S -m0", line).chomp.split("\t")
     end
     
-    if ary.length > 3 then
+    if ary.length == 4 then
       ary[0]+= ' ' +ary[1]
       ary.delete_at(1)
+    elsif ary.length != 3
+      raise ArgumentError, 'invalid line'
     end
     
     @date = Time.parse(ary[0])
