@@ -3,6 +3,7 @@
 require 'date'
 require 'time'
 require 'nkf'
+require 'analyze_module'
 
 class Record
   @date
@@ -12,14 +13,16 @@ class Record
 
   def initialize(line)
     begin
-      ary = line.split("\t")
+      ary = line.chomp.split("\t")
     rescue ArgumentError
-      ary = NKF.nkf("-w -S -m0", line).split("\t")
+      ary = NKF.nkf("-w -S -m0", line).chomp.split("\t")
     end
     
-    if ary.length > 3 then
+    if ary.length == 4 then
       ary[0]+= ' ' +ary[1]
       ary.delete_at(1)
+    elsif ary.length != 3
+      raise ArgumentError, 'invalid line'
     end
     
     @date = Time.parse(ary[0])
@@ -40,15 +43,8 @@ end
 
 
 class Logger
-  @@meets_threshold = 60 * 5 #TODO
-  @@time_threshold = 60 * 2
-  
-  def Logger.meets_threshold=(th); @@meets_threshold = th end
-  def Logger.meets_threshold; return @@meets_threshold; end
+  include AnalyzeHumanNetwork
 
-  def Logger.time_threshold=(sec); @@time_threshold = sec; end
-  def Logger.time_threshold; return @@time_threshold; end
-  
   @name
   @records
   attr_reader :name, :records
@@ -58,6 +54,18 @@ class Logger
     @records = []
   end
 
+  def read_log(glob)
+    Dir.glob(File.expand_path(glob)).each do |filename|
+      File.open(filename){ |file|
+        file.each_line do |line|
+          next if line.strip[0] == '#' or line.strip == ''
+          record = Record.new(line)
+          add_record(record) unless record == nil
+        end
+      }
+    end
+  end
+  
   def add_record(record)
     raise ArgumentError unless Record === record
     @records.push record
@@ -65,84 +73,6 @@ class Logger
 
   def sort_record
     @records = @records.sort_by{ |r| r.date}
-  end
-
-  def create_record_list(recs=nil, &filter)
-
-    if recs == nil then
-      sort_record
-      recs = @records
-    end
-    
-    if block_given? then
-      recs = recs.select{ |i| filter.call(i) == true}
-    end
-
-    return recs
-  end
-
-  def create_inner_result(name, result)
-    dest = Hash.new
-    result.each { |k,v| dest[k] = { name => v}}
-    return dest
-  end
-  
-  def analyze(&filter)
-    #recrods = create_record_list(&filter) # !!!bug!!!!
-    merge_sub = lambda{ |k,s,o| s.merge(o)}
-
-    results =[
-      analyze_detect(records,&filter), # each take filter...
-      analyze_meet(records,&filter),
-      analyze_time(records,&filter) ]
-
-    dest = Hash.new
-    results.each { |h| dest.merge!(h, &merge_sub)}
-    analyzed = true
-#    p dest
-    return dest
-  end
-
-  def analyze_detect(records=nil, &filter)
-    records = create_record_list(records, &filter)
-    detect_count = Hash.new(0) #Hash bda => count
-    
-    records.each do |i|
-      detect_count[i.bda] += 1
-    end
-
-    return create_inner_result(:detects, detect_count)
-  end
-  
-  def analyze_meet(records=nil, &filter)
-    records = create_record_list(records, &filter)
-    meet_count = Hash.new(0)
-    last_contact = Hash.new(Time.at(0)) #Hash bda => Time
-
-    records.each do |i|
-      diff = i.date - last_contact[i.bda]
-      meet_count[i.bda] += 1 if diff > @@meets_threshold
-      last_contact[i.bda] = i.date
-    end
-
-    return create_inner_result(:meets, meet_count)
-  end
-
-  def analyze_time(records=nil, &filter)
-    records = create_record_list(records, &filter)
-    time_sum = Hash.new(0) #Hash bda => Int(sec)
-    last_contact = Hash.new #Hash bda => Time
-
-    records.each do |i|
-      unless last_contact[i.bda] == nil
-        diff = i.date - last_contact[i.bda]
-#        raise RuntimeError, 'unsorted time' if diff < 0
-        time_sum[i.bda] += diff if diff < @@time_threshold
-      end
-      last_contact[i.bda] = i.date
-    end
-
-    return create_inner_result(:time, time_sum)
   end
 
 end

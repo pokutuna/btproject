@@ -143,6 +143,7 @@ def put_analyzed_weight(analyzed, file=nil)
   put_graphviz_footer(file)
 end
 
+#TODO
 @analyzed_container = []
 def put_analyze_time(analyzed, file=nil)
   @analyzed_container.push analyzed

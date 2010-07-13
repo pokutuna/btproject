@@ -8,6 +8,7 @@ describe Record, 'when parsing log data' do
     @sample2 = '2009/11/20 17:8:0		00:22:F3:9C:37:D8'
     @sample3 = '2009/11/20	17:10:0	hoge-pc	00:1B:DC:00:04:18'
     @sample4 = '2009/11/20	17:8:0		00:1B:DC:00:0F:5B'
+    @manyTABs = "2009/11/20\t17:8:10\thoge\t00:00:00:00:00:0A\thoge"
   end
 
   it 'should parse a log line' do
@@ -35,6 +36,10 @@ describe Record, 'when parsing log data' do
     record = Record.new(@sample4)
     record.name.should == ''
     record.bda.should == '00:1B:DC:00:0F:5B'
+  end
+
+  it 'should raise exception parse invalid TABs' do
+    proc{ Record.new(@manyTABs) }.should raise_error(ArgumentError, 'invalid line')
   end
 
 end
@@ -65,15 +70,29 @@ end
 
 
 describe Logger do
+  context 'when reading log' do
+    before(:each) do
+      @logger = Logger.new('test')  
+    end
+    
+    it 'should read log by filepath' do
+      path = File.dirname(__FILE__)+'/sampledata/one_line.tsv'
+      @logger.read_log(path)
+      @logger.records.length.should == 1
+    end
+
+    it 'should ignore return(\n)' do
+      path = File.dirname(__FILE__)+'/sampledata/end_with_return.tsv'
+      @logger.read_log(path)
+      @logger.records.length.should == 1
+    end
+  end
+  
   context 'when analyze time' do
     before(:all) do
-      @logger = Logger.new("user")
-      File.open(File.dirname(__FILE__)+'/sampledata/time.tsv'){ |file|
-        file.each_line do |line|
-          @logger.add_record(Record.new(line.chomp)) unless line[0] == '#'
-        end
-      }
-      
+      @logger = Logger.new("test")
+      path = File.dirname(__FILE__)+'/sampledata/time.tsv'
+      @logger.read_log(path)
       @result = @logger.analyze_time
     end
     
@@ -86,25 +105,11 @@ describe Logger do
     end
   end
   
-  
-  
-  context 'when create new Logger object' do
-    it 'should be empty Hashes'
-    it 'should be zero, count default'
-    it 'should be Unix epoch time, last contact default'
-  end
-
   context 'when add_record' do
-    it 'should raise ArgumentError by adding other class'
-    it 'should raise RuntimeError by adding older record'
+    it 'should raise ArgumentError by adding other class' do
+      @logger = Logger.new('test')
+      proc{ @logger.add_record("hoge") }.should raise_error(ArgumentError)
+    end
   end
 
-  context 'when count by BDA' do
-    it 'should return zero, unregistered BDA'
-  end
-
-  context 'when set/geting Threshold' do
-    it 'should change by method'
-  end
-  
 end
