@@ -12,9 +12,9 @@ class Record
 
   def initialize(line)
     begin
-      ary = line.split("\t")
+      ary = line.chomp.split("\t")
     rescue ArgumentError
-      ary = NKF.nkf("-w -S -m0", line).split("\t")
+      ary = NKF.nkf("-w -S -m0", line).chomp.split("\t")
     end
     
     if ary.length > 3 then
@@ -58,13 +58,25 @@ class Logger
     @records = []
   end
 
+  def read_log(glob)
+    Dir.glob(File.expand_path(glob)).each do |filename|
+      File.open(filename){ |file|
+        file.each_line do |line|
+          next if line.strip[0] == '#' or line.strip == ''
+          record = Record.new(line)
+          add_record(record) unless record == nil
+        end
+      }
+    end
+  end
+  
   def add_record(record)
     raise ArgumentError unless Record === record
     @records.push record
   end
 
   def sort_record
-    @records = @records.sort_by{ |r| r.date}.reverse
+    @records = @records.sort_by{ |r| r.date}
   end
 
   def create_record_list(recs=nil, &filter)

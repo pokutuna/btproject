@@ -65,12 +65,31 @@ end
 
 
 describe Logger do
+  context 'when reading log' do
+    before(:each) do
+      @logger = Logger.new('user')  
+    end
+    
+    it 'should read log by filepath' do
+      path = File.dirname(__FILE__)+'/sampledata/one_line.tsv'
+      @logger.read_log(path)
+      @logger.records.length.should == 1
+    end
+
+    it 'should ignore return' do
+      path = File.dirname(__FILE__)+'/sampledata/end_with_return.tsv'
+      @logger.read_log(path)
+      @logger.records.length.should == 1
+    end
+  end
+  
   context 'when analyze time' do
     before(:all) do
       @logger = Logger.new("user")
       File.open(File.dirname(__FILE__)+'/sampledata/time.tsv'){ |file|
         file.each_line do |line|
-          @logger.add_record(Record.new(line.chomp)) unless line[0] == '#'
+          record = Record.new(line)
+          @logger.add_record(record) unless record
         end
       }
       
