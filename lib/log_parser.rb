@@ -30,6 +30,10 @@ class Record
     @bda = ary[2]
   end
 
+  def to_s
+    @date.to_s + ' ' + @name + ' ' + @bda
+  end
+  
   include Comparable
   def <=> (other)
     if Time === other
