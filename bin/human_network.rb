@@ -27,7 +27,7 @@ def read_log
   @users.each{ |k,v|
     logger = Logger.new(k)
     puts "--- reading #{k}'s log files ---"
-    logger.read_log(v[0])
+    logger.read_log(v[0], STDOUT)
     @loggers.push logger
   }
   return @loggers
@@ -143,17 +143,52 @@ end
 
 def lazy_analyze_time(file=nil)
   put_graphviz_header(file)
-  
+
+  logger_timelist = Hash.new{ |hash,key|
+    hash[key] = Hash.new{ |h,k| h[k] = []}
+  }#Hash[logger.name] => Hash[bda] => time
   
   @analyzed_container.each do |analyzed|
     analyzed.each do |logger,result|
       result.each do |bda,data|
-        
+        logger_timelist[logger.name][bda].push data[:time]
       end
     end
   end
-  
+
+  result = Hash.new{ |hash,key|
+    hash[key] = Hash.new{ |h,k| h[k] = Hash.new}
+  }
+  seps = @analyzed_container.length
+  p seps
+  logger_timelist.each do |name, timelist|
+    timelist.each do |bda, times|
+      ave = times.select{ |t| t != nil}.inject(&:+)
+      ave = 0.0 if ave == nil
+      ave = ave / seps
+      result[name][bda][:average] = ave
+      result[name][bda][:dispersion] = calc_dispersion(ave,times,seps)
+    end
+  end
+
+  result.each do |name, bdas|
+    puts '---' + name + '---'
+    file.puts name unless file == nil
+    bdas.each do |bda, data|
+      str = @bda_to_name[bda] + ' average:' + data[:average].to_s + ' dispersion:' + data[:dispersion].to_s
+      puts str
+      file.puts str unless file == nil 
+    end
+  end
+
   put_graphviz_footer(file)
+end
+
+def calc_dispersion(ave, items, size)
+  raise ArgumentError, 'invalid many items' if items.length > size
+  normalized = items.select{ |t| t != nil}
+  normalized.push(0.0) while normalized.length != size
+  return normalized.inject{ |sum, i| (ave - i) ** 2} / size
 end
 
 def put_graphviz_header(file=nil, con=true)
@@ -265,7 +300,12 @@ if __FILE__ == $0 then
     File.open(path + '/log_all.txt','w'){ |file|
     put_method.call(analyze_log(&users_included), file)
   }
-  puts '---------'
+  if prefix == 'time' then
+    File.open(path+'/all.txt','w'){ |file|
+      lazy_analyze_time(file)
+    }
+    @analyzed_container = []
+  end
 
   #sep1
   sep1.each do |k,v|

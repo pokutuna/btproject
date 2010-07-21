@@ -58,10 +58,10 @@ class Logger
     @records = []
   end
 
-  def read_log(glob, messageIO = STDOUT)
+  def read_log(glob, messageIO = nil)
     Dir.glob(File.expand_path(glob)).each do |filename|
       File.open(filename){ |file|
-        messageIO.puts File.basename(file.path)
+        messageIO.puts File.basename(file.path) unless messageIO == nil
         
         file.each_line do |line|
           next if line.strip[0] == '#' or line.strip == ''

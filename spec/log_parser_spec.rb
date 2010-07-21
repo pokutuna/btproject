@@ -91,9 +91,10 @@ describe Logger do
   context 'when analyze time' do
     before(:all) do
       @logger = Logger.new("test")
+      AnalyzeHumanNetwork.time_threshold = 60
       path = File.dirname(__FILE__)+'/sampledata/time.tsv'
       @logger.read_log(path)
-      @result = @logger.analyze_time
+      @result = @logger.analyze_time(@logger.records)
     end
     
     it 'should calc summed time' do
