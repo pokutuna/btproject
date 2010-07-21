@@ -54,9 +54,11 @@ class Logger
     @records = []
   end
 
-  def read_log(glob)
+  def read_log(glob, messageIO = STDOUT)
     Dir.glob(File.expand_path(glob)).each do |filename|
       File.open(filename){ |file|
+        messageIO.puts File.basename(file.path)
+        
         file.each_line do |line|
           next if line.strip[0] == '#' or line.strip == ''
           record = Record.new(line)
@@ -75,5 +77,13 @@ class Logger
     @records = @records.sort_by{ |r| r.date}
   end
 
+  def filter_records(&filter)
+    sort_record
+    if block_given?
+      record_list = @records.select{ |r| filter.call(r) == true}
+    else
+      @records
+    end
+  end
 end
 

@@ -17,7 +17,7 @@ opt.parse!
 
 @users = YAML.load(ARGF.read)
 
-@bdas = @users.map{ |k,v| v[1]} # BDA List
+@bdas = @users.map{ |k,v| v[1]}.delete_if{ |i| i==nil} # BDA List
 @bda_to_name = {}
 @users.each { |k,v| @bda_to_name[v[1]] = k }
 @loggers = []
@@ -26,24 +26,16 @@ opt.parse!
 def read_log
   @users.each{ |k,v|
     logger = Logger.new(k)
+    puts "--- reading #{k}'s log files ---"
+    logger.read_log(v[0])
     @loggers.push logger
-    
-    puts "reading #{k}'s log files"
-    Dir.glob(File.expand_path(v[0])).each do |filename|
-      File.open(filename){ |f|
-        puts '  '+File.basename(f.path)
-        f.each_line do |line|
-          logger.add_record(Record.new(line.chomp)) unless line[0] == '#'
-        end
-      }
-    end
   }
   return @loggers
 end
 
 
 def analyze_log(&filter)
-  raise RuntimeError 'read no logs' if @loggers.empty?
+  raise RuntimeError 'no loggers' if @loggers.empty?
   dest = Hash.new
   @loggers.each do |logger|
     result = logger.analyze(&filter)
