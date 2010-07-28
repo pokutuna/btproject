@@ -25,7 +25,10 @@ module GraphNetwork
   def nodes_to(node, weight=0.0)
     @nodes.select{ |n| has_edge?(n,node,weight)}
   end
-    
+
+  def linked_nodes(node, weight=0.0)
+    @nodes.select{ |n| both_direction?(node,n,weight)}
+  end
 end
 
 

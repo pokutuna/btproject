@@ -118,6 +118,7 @@ describe GraphNetwork, 'when only module' do
       (@graph.nodes_to(:D, 2.5)-[:A,:B]).should be_empty
     end
 
+    it 'should get nodes connected one node'
   end
   
 end
