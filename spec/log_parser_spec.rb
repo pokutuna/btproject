@@ -30,8 +30,6 @@ describe Record, 'when parsing log data' do
     record.bda.should == '00:1B:DC:00:04:18'
   end
 
-  it 'should mazide iketerunoka?'
-
   it 'should parse string has extra TAB without device name' do
     record = Record.new(@sample4)
     record.name.should == ''
