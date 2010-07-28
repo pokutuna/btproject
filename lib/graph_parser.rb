@@ -9,11 +9,15 @@ module GraphNetwork
   attr_reader :nodes, :node_size, :data
 
   def get(from, to)
-    raise NotImplementedError
+    raise NotImplementedError, 'get method must be implemented'
   end
   
   def has_edge?(form, to, weight=0.0)
     get(form, to).to_f > weight
+  end
+
+  def both_direction?(node_a, node_b, weight=0.0)
+    has_edge?(node_a, node_b, weight) & has_edge?(node_b, node_a, weight)
   end
 
   def nodes_from(node, weight=0.0)
@@ -54,8 +58,9 @@ class AdjacencyMatrix
       raise ArgumentError, 'invalid index order' if from != @nodes[col_idx]
       raise ArgumentError, 'invalid elements count' if data.length != @node_size
       data.each_with_index do |d, row_idx|
-        raise TypeError, 'link weight must be Numeric' unless d.is_a? Numeric
-        @matrix[from][@nodes[row_idx]] = d
+        weight = d.to_f
+        raise TypeError, 'link weight must be Numeric' unless weight.is_a? Numeric
+        @matrix[from][@nodes[row_idx]] = weight
       end
     end
   end
