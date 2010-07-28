@@ -17,7 +17,7 @@ module GraphNetwork
   end
 
   def both_direction?(node_a, node_b, weight=0.0)
-    has_edge?(node_a, node_b, weight) & has_edge?(node_b, node_a, weight)
+    has_edge?(node_a, node_b, weight) && has_edge?(node_b, node_a, weight)
   end
 
   def nodes_from(node, weight=0.0)
@@ -38,7 +38,7 @@ class AdjacencyMatrix
   end
 
   def initialize(csv)
-    @matrix = Hash.new{ |h,k| Hash.new} # matrix[from][to]
+    @matrix = Hash.new{ |h,k| h[k] = Hash.new} # matrix[from][to]
     parse_csv(csv)
     @data = @matrix
   end
@@ -51,6 +51,7 @@ class AdjacencyMatrix
   def parse_csv(csv)
     lines = csv.split("\n")
     @nodes = lines.shift.split(',')[1..-1].map(&:to_sym)
+    raise ArgumentError, 'node names must be unique' if @nodes != @nodes.uniq
     @node_size = nodes.length
     lines.each_with_index do |line, col_idx|
       data = line.split(',')
@@ -58,13 +59,13 @@ class AdjacencyMatrix
       raise ArgumentError, 'invalid index order' if from != @nodes[col_idx]
       raise ArgumentError, 'invalid elements count' if data.length != @node_size
       data.each_with_index do |d, row_idx|
+        raise TypeError, 'link weight must be Numeric' unless d =~ /\d+/
         weight = d.to_f
-        raise TypeError, 'link weight must be Numeric' unless weight.is_a? Numeric
         @matrix[from][@nodes[row_idx]] = weight
       end
     end
+    true
   end
-
 end
 
 class AdjacencyList
