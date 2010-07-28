@@ -12,6 +12,7 @@ opt.on('-g'){ |b| OPTS[:g] = b}
 opt.on('-r'){ |b| OPTS[:r] = b}
 opt.on('-w'){ |b| OPTS[:w] = b}
 opt.on('-t'){ |b| OPTS[:t] = b}
+opt.on('-n'){ |b| OPTS[:n] = b}
 opt.parse!
 
 
@@ -191,6 +192,27 @@ def calc_dispersion(ave, items, size)
   return normalized.inject{ |sum, i| (ave - i) ** 2} / size
 end
 
+
+def put_network(analyzed, file=nil)
+  names = @bda_to_name.values
+  file.print('detects')
+  names.each{ |n| file.print(','+n)}
+  
+  file.print "\n"
+  names.each do |n|
+    file.print n+','
+    logger = @loggers.detect{ |l| l.name == n}
+    names.each do |n|
+      bda = @bda_to_name.detect{ |k,v| v==n}.first
+      count = analyzed[logger][bda]
+      file.print (count ? count[:detects] : 0)
+      file.print ',' unless names.last == n
+    end
+    file.print "\n"
+  end
+end
+
+
 def put_graphviz_header(file=nil, con=true)
   str = 'digraph sample{'
   puts str
@@ -289,6 +311,9 @@ if __FILE__ == $0 then
   elsif OPTS[:t] == true
     put_method = method(:put_analyze_time)
     prefix = 'time'
+  elsif OPTS[:n] == true
+    put_method = method(:put_network)
+    prefix = 'net'
   else
     put_method = method(:put_analyzed_count)
     prefix = 'count'
