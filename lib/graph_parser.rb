@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-require 'csv'
-
 module GraphNetwork
   @nodes
   @node_size
@@ -66,11 +64,6 @@ class AdjacencyMatrix
     end
     true
   end
-end
-
-class AdjacencyList
-
-  include GraphNetwork
 end
 
 
