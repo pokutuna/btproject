@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'graph_analyzer'
 
 module GraphNetwork
   @nodes
@@ -6,6 +7,8 @@ module GraphNetwork
   @data
   attr_reader :nodes, :node_size, :data
 
+  include GraphAnalyzer
+  
   def get(from, to)
     raise NotImplementedError, 'get method must be implemented'
   end
@@ -15,7 +18,8 @@ module GraphNetwork
   end
 
   def both_direction?(node_a, node_b, weight=0.0)
-    has_edge?(node_a, node_b, weight) && has_edge?(node_b, node_a, weight)
+    has_edge?(node_a, node_b, weight) &&
+      has_edge?(node_b, node_a, weight)
   end
 
   def nodes_from(node, weight=0.0)
@@ -29,6 +33,7 @@ module GraphNetwork
   def linked_nodes(node, weight=0.0)
     @nodes.select{ |n| both_direction?(node,n,weight)}
   end
+
 end
 
 
