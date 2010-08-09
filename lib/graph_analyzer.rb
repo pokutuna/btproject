@@ -7,7 +7,7 @@ module GraphAnalyzer
     subgraphs = []
     (min_size..max_size).to_a.reverse.each do |nodesize|
       @nodes.combination(nodesize).each do |ns|
-        unless subgraphs.find{ |c| (c & ns) == ns} then
+        unless subgraphs.find{ |c| (ns & c).sort == ns.sort} then
           cond = block.call(ns)
           subgraphs.push ns if cond
         end
@@ -23,9 +23,14 @@ module GraphAnalyzer
   def clique?(nodes)
     nodes.each do |n|
       links = linked_nodes(n)
-      return false unless (links & (nodes-[n])) == nodes-[n]
+      return false unless (links & (nodes-[n])).sort == (nodes-[n]).sort # 比較あやしい
     end
     return true
+  end
+
+  def isolated_pserudo_clique?(nodes, deg_ave=0.9, deg_min=0.0)
+    pseudo_clique?(nodes,deg_ave,deg_min) &&
+      (count_edges_to_outside(nodes) < nodes.size)
   end
   
   def isolated_clique?(nodes)
@@ -34,15 +39,29 @@ module GraphAnalyzer
   end
 
   def pseudo_clique?(nodes, deg_ave=0.9, deg_min=0.0)
+    return false unless not_partite?(nodes)
     degrees = nodes.map{ |n| (linked_nodes(n) & nodes).size}
-    deg_ave <= (degrees.inject(&:+) / degrees.size) &&
-      deg_min <= degrees.min
+    nodes.size * deg_ave.to_f <= (degrees.inject(&:+) / degrees.size.to_f) &&
+      nodes.size * deg_min.to_f <= degrees.min
   end
 
   def count_edges_to_outside(clique)
     clique.inject(0) do |sum, n|
       sum + (linked_nodes(n) - clique).size
     end
+  end
+
+  def not_partite?(nodes)
+    raise ArgumentError if nodes.empty?
+    buf = [nodes.last]
+    last = []
+    while buf.sort != nodes.sort
+      
+      buf = (buf | buf.map{ |n| linked_nodes(n) & nodes}.flatten.uniq)
+      return false if (last & buf).sort == buf.sort
+      last = buf
+    end
+    return true
   end
 
   def edges_k_graph(n)

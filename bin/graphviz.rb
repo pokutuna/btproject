@@ -1,14 +1,9 @@
-files = [
-  'log_all.txt',
-  'sep2_090000_103000.txt',
-  'sep2_103000_123000.txt',
-  'sep2_123000_150000.txt',
-  'sep2_150000_163000.txt',
-  'sep2_163000_180000.txt'
-]
 
 
-files.each do |f|
+a = Dir.glob(File.expand_path(ARGV[0]))
+a.each do |f|
+  puts f
+  Dir.chdir(File.dirname(f))
   `dot -Tpng #{f} -o #{File.basename(f,'.txt')}.png`
   `circo -Tpng #{f} -o #{File.basename(f,'.txt')}_c.png`
 end
