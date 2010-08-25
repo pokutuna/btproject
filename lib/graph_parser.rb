@@ -23,16 +23,29 @@ module GraphNetwork
       has_edge?(node_b, node_a, weight)
   end
 
+  def either_direction?(node_a, node_b, weight=0.0)
+    has_edge?(node_a, node_b, weight) ||
+      has_edge?(node_b, node_a, weight)
+  end
+
   def nodes_from(node, weight=0.0)
     nodes = @nodes.select{ |n| has_edge?(node,n,weight)}
+    SubGraph.new(nodes, @graph)
   end
 
   def nodes_to(node, weight=0.0)
-    @nodes.select{ |n| has_edge?(n,node,weight)}
+    nodes = @nodes.select{ |n| has_edge?(n,node,weight)}
+    SubGraph.new(nodes, @graph)
   end
 
   def linked_nodes(node, weight=0.0)
-    @nodes.select{ |n| both_direction?(node,n,weight)}
+    nodes = @nodes.select{ |n| both_direction?(node,n,weight)}
+    SubGraph.new(nodes, @graph)
+  end
+
+  def either_linked_nodes(node, weight=0.0)
+    nodes = @nodes.select{ |n| either_direction?(node,n,weight)}
+    SubGraph.new(nodes, @graph)
   end
 
 end
