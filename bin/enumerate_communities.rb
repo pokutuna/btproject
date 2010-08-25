@@ -25,23 +25,3 @@ Dir.glob('./net/*.txt').each do |path|
 
   puts "\n\n\n"
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

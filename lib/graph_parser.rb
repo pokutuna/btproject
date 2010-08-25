@@ -58,24 +58,24 @@ class SubGraph < Array
     @parent_graph = parent_graph
   end
 
-  alias :array_equals :== 
+  alias :array_equals :==;
   def ==(other)
-      (self.sort).array_equals(other.sort)
-  end
-  
-  alias :array_include? :include?
-  def include?(other)
-    (self & other) == other
+    (self.sort).array_equals(other.sort)
   end
 
   alias :array_minus :-
   def -(other)
-    self.sort.array_minus(other.sort)
+    SubGraph.new(self.sort.array_minus(other.sort), self)
   end
 
   alias :array_and :&
   def &(other)
-    self.sort.array_and(other.sort)
+    SubGraph.new(self.sort.array_and(other.sort), self)
+  end
+
+  alias :array_include? :include?
+  def include?(other)
+    (self & other) == other
   end
 
 end

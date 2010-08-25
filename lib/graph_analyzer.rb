@@ -28,7 +28,7 @@ module GraphAnalyzer
   end
 
   def clique?(nodes=self)
-    nodes = check_nodes(nodes)
+#    nodes = check_nodes(nodes)
     nodes.each do |n|
       links = linked_nodes(n)
       return false unless links.include?(nodes-[n])
@@ -53,6 +53,13 @@ module GraphAnalyzer
       nodes.size * deg_min.to_f <= degrees.min
   end
 
+  def pseudo_clique_density?(nodes=self, density=0.7)
+    return false unless not_partite?(nodes)
+    degrees = nodes.map{ |n| (linked_nodes(n) & nodes).size}
+    degrees = degrees.inject(&:+) / 2.0
+    (degrees / edges_k_graph(nodes.size).to_f) > density
+  end
+  
   def count_edges_to_outside(clique=self)
     clique.inject(0) do |sum, n|
       sum + (linked_nodes(n) - clique).size
@@ -63,7 +70,7 @@ module GraphAnalyzer
     raise ArgumentError if nodes.empty?
     buf = [nodes.last]
     last = []
-    while buf.sort != nodes.sort
+    while nodes != buf
       buf = (buf | buf.map{ |n| linked_nodes(n) & nodes}.flatten.uniq)
       return false if (last & buf).sort == buf.sort
       last = buf
