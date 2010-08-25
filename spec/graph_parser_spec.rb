@@ -47,6 +47,20 @@ EOS
 end
 
 
+describe SubGraph do
+  it 'should be a subclass of Array' do
+    SubGraph.new([1,2,3]).is_a?(Array).should be_true
+  end
+
+  it 'should compare equality like Set' do
+    (SubGraph.new([:a,:b,:c,:d]) == SubGraph.new([:c,:d,:a,:b])).should be_true
+  end
+
+  it 'should check include other SubGraph' do
+    SubGraph.new([:a,:b,:c,:d,:e]).include?([:b,:c]).should be_true
+  end
+end
+
 
 describe GraphNetwork, 'when only module' do
   it 'should raise NotImplementedError' do

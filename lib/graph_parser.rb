@@ -5,7 +5,8 @@ module GraphNetwork
   @nodes
   @node_size
   @data
-  attr_reader :nodes, :node_size, :data
+  @graph
+  attr_reader :nodes, :node_size, :data, :graph
 
   include GraphAnalyzer
   
@@ -23,7 +24,7 @@ module GraphNetwork
   end
 
   def nodes_from(node, weight=0.0)
-    @nodes.select{ |n| has_edge?(node,n,weight)}
+    nodes = @nodes.select{ |n| has_edge?(node,n,weight)}
   end
 
   def nodes_to(node, weight=0.0)
@@ -36,6 +37,31 @@ module GraphNetwork
 
 end
 
+class SubGraph < Array
+  @parent_graph
+  
+  def initialize(ary, parent_graph=nil)
+    super(ary)
+    @parent_graph = parent_graph
+  end
+
+  alias :array_equals :== ;
+  def ==(other)
+      (self.sort).array_equals(other.sort)
+  end
+  
+  alias :array_include? :include?
+  def include?(other)
+    (self & other).sort == other
+  end
+
+#  alias :array_minus :-
+#  def  -(other)
+#    raise ArgumentError unless SubGraph === other
+#    return self.sort.arry_minus(other.sort)
+#  end
+
+end
 
 class AdjacencyMatrix
 
@@ -47,6 +73,7 @@ class AdjacencyMatrix
     @matrix = Hash.new{ |h,k| h[k] = Hash.new} # matrix[from][to]
     parse_csv(csv)
     @data = @matrix
+    @graph = self
   end
 
   include GraphNetwork
