@@ -7,9 +7,10 @@ module GraphAnalyzer
     subgraphs = []
     (min_size..max_size).to_a.reverse.each do |nodesize|
       @nodes.combination(nodesize).each do |ns|
-        unless subgraphs.find{ |c| (ns & c).sort == ns.sort} then
-          cond = block.call(ns)
-          subgraphs.push ns if cond
+        sub = SubGraph.new(ns, self)
+        unless subgraphs.find{ |s| s.include?(sub) } then
+          cond = block.call(sub)
+          subgraphs.push sub if cond
         end
       end
     end
@@ -56,7 +57,6 @@ module GraphAnalyzer
     buf = [nodes.last]
     last = []
     while buf.sort != nodes.sort
-      
       buf = (buf | buf.map{ |n| linked_nodes(n) & nodes}.flatten.uniq)
       return false if (last & buf).sort == buf.sort
       last = buf
