@@ -58,25 +58,29 @@ class SubGraph < Array
     @parent_graph = parent_graph
   end
 
-  alias :array_equals :== ;
+  alias :array_equals :== 
   def ==(other)
       (self.sort).array_equals(other.sort)
   end
   
   alias :array_include? :include?
   def include?(other)
-    (self & other).sort == other
+    (self & other) == other
   end
 
-#  alias :array_minus :-
-#  def  -(other)
-#    raise ArgumentError unless SubGraph === other
-#    return self.sort.arry_minus(other.sort)
-#  end
+  alias :array_minus :-
+  def -(other)
+    self.sort.array_minus(other.sort)
+  end
+
+  alias :array_and :&
+  def &(other)
+    self.sort.array_and(other.sort)
+  end
 
 end
 
-class AdjacencyMatrix
+class AdjacencyMatrix < SubGraph
 
   def self.open(path)
     self.new(File.open(path).read)
@@ -87,6 +91,8 @@ class AdjacencyMatrix
     parse_csv(csv)
     @data = @matrix
     @graph = self
+    super(@nodes, self)
+    true
   end
 
   include GraphNetwork

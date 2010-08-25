@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 
 module GraphAnalyzer
-
+  def check_nodes(nodes)
+    unless nodes.is_a? SubGraph
+      nodes = SubGraph.new(nodes, self)
+    end
+    return nodes
+  end
+  
   def local_maximum(min_size=3, max_size=@node_size, &block)
     raise ArgumentError unless min_size < max_size
     subgraphs = []
     (min_size..max_size).to_a.reverse.each do |nodesize|
-      @nodes.combination(nodesize).each do |ns|
+      self.combination(nodesize).each do |ns|
         sub = SubGraph.new(ns, self)
         unless subgraphs.find{ |s| s.include?(sub) } then
           cond = block.call(sub)
@@ -20,39 +26,40 @@ module GraphAnalyzer
   def local_maximum_cliques(min_size=3, max_size=@node_size)
     local_maximum(min_size,max_size){ |ns| clique?(ns)}
   end
-  
-  def clique?(nodes)
+
+  def clique?(nodes=self)
+    nodes = check_nodes(nodes)
     nodes.each do |n|
       links = linked_nodes(n)
-      return false unless (links & (nodes-[n])).sort == (nodes-[n]).sort # 比較あやしい
+      return false unless links.include?(nodes-[n])
     end
     return true
   end
 
-  def isolated_pserudo_clique?(nodes, deg_ave=0.9, deg_min=0.0)
+  def isolated_pserudo_clique?(nodes=self, deg_ave=0.9, deg_min=0.0)
     pseudo_clique?(nodes,deg_ave,deg_min) &&
       (count_edges_to_outside(nodes) < nodes.size)
   end
   
-  def isolated_clique?(nodes)
+  def isolated_clique?(nodes=self)
     clique?(nodes) &&
       (count_edges_to_outside(nodes) < nodes.size)
   end
 
-  def pseudo_clique?(nodes, deg_ave=0.9, deg_min=0.0)
+  def pseudo_clique?(nodes=self, deg_ave=0.9, deg_min=0.0)
     return false unless not_partite?(nodes)
     degrees = nodes.map{ |n| (linked_nodes(n) & nodes).size}
     nodes.size * deg_ave.to_f <= (degrees.inject(&:+) / degrees.size.to_f) &&
       nodes.size * deg_min.to_f <= degrees.min
   end
 
-  def count_edges_to_outside(clique)
+  def count_edges_to_outside(clique=self)
     clique.inject(0) do |sum, n|
       sum + (linked_nodes(n) - clique).size
     end
   end
 
-  def not_partite?(nodes)
+  def not_partite?(nodes=self)
     raise ArgumentError if nodes.empty?
     buf = [nodes.last]
     last = []

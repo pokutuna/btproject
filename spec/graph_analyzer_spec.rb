@@ -15,7 +15,7 @@ describe GraphAnalyzer do
 
   it "should check nodes are clique" do
     @graph.clique?([:A,:B]).should == true
-    @graph.clique?([:A,:B,:C,:E]).should == true
+    @graph.clique?([:A,:B,:E,:C]).should == true
     @graph.clique?([:D]).should == true
     @graph.clique?([:A,:D]).should == false
   end
