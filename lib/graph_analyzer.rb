@@ -40,6 +40,11 @@ module GraphAnalyzer
     pseudo_clique?(nodes,deg_ave,deg_min) &&
       (count_edges_to_outside(nodes) < nodes.size)
   end
+
+  def isolated_pserudo_clique_density?(nodes=self, density=0.8)
+    pseudo_clique_density?(nodes,density) &&
+      (count_edges_to_outside(nodes) < nodes.size)
+  end
   
   def isolated_clique?(nodes=self)
     clique?(nodes) &&
@@ -53,7 +58,7 @@ module GraphAnalyzer
       nodes.size * deg_min.to_f <= degrees.min
   end
 
-  def pseudo_clique_density?(nodes=self, density=0.7)
+  def pseudo_clique_density?(nodes=self, density=0.8)
     return false unless not_partite?(nodes)
     degrees = nodes.map{ |n| (linked_nodes(n) & nodes).size}
     degrees = degrees.inject(&:+) / 2.0
