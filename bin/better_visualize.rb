@@ -5,8 +5,9 @@ require 'graph_analyzer'
 require 'graphviz'
 
 sample = ['sep3_1030_1100', 'sep3_1100_1130', 'sep3_1230_1300']
-hci = ['okuura','ushikoshi','kono','tokuami'].map(&:to_sym)
-net = ['EEEPC06','EEEPC13','EEEPC16','eeepc04','eeepc08','eeepc11','eeepc12','eeepc15','eeepc18'].map(&:to_sym)
+hci = ['okuura','ushikoshi','kono','tokuami']
+net = ['EEEPC06','EEEPC13','EEEPC16','eeepc04','eeepc08','eeepc11','eeepc12','eeepc15','eeepc18']
+[hci, net].each{ |strs| strs = strs.map(&:to_sym)}
 
 sample.map{ |s| "./net/#{s}.txt"}.each do |path|
   @graph = AdjacencyMatrix.open(path, :graph)
@@ -27,7 +28,7 @@ sample.map{ |s| "./net/#{s}.txt"}.each do |path|
   @nodes = Hash.new #symbol => GraphViz::Node
 
   #draw nodes with lab subgraph
-  def draw_nodes(group)
+  def draw_nodes(group, label)
     @viz.subgraph{ |c|
       c[:rank => 'same']
       group.each do |n|
@@ -39,28 +40,31 @@ sample.map{ |s| "./net/#{s}.txt"}.each do |path|
     }
   end
 
-  draw_nodes(hci)
-  draw_nodes(net)
+  draw_nodes(hci, "lab #1")
+  draw_nodes(net, "lab #2")
 
   cliques = [cliques, pseudo, isolated, ipc]
   colors = ["green", "blue", "red", "purple"]
   clique_names = %w[cliques pseudo isolated ipc]
 
-  
-  cliques.zip(colors, clique_names).each do |pair|
-    pair[0].each_with_index do |c, idx|
-      root = @viz.add_node("#{pair[2]+idx.to_s}",
-        :shape => "diamond",
-        :style => "filled",
-        :fillcolor => pair[1])
-      root[:root] = true
-      c.each do |n|
-        @viz.add_edge(root, @nodes[n],
-          :color => pair[1],
-          :fontcolor => pair[1])
+#  @viz.subgraph{ |sub|
+#    sub[:rank => "same"]
+#    sub[:root => "true"]
+    cliques.zip(colors, clique_names).each do |pair|
+      pair[0].each_with_index do |c, idx|
+        root = @viz.add_node("#{pair[2]+idx.to_s}",
+          :shape => "diamond",
+          :style => "filled",
+          :fillcolor => pair[1])
+        root[:root] = true
+        c.each do |n|
+          @viz.add_edge(root, @nodes[n],
+            :color => pair[1],
+            :fontcolor => pair[1])
+        end
       end
     end
-  end
+#  }
 
   print @viz.output(:canon => String)
   output_name = File.basename(path, ".*")

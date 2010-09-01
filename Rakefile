@@ -8,3 +8,4 @@ task :spec do
     t.spec_opts = ['--colour', '--format specdoc', '--loadby mtime', '--reverse', '--backtrace']
   end
 end
+

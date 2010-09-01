@@ -13,6 +13,10 @@ module GraphNetwork
   def get(from, to)
     raise NotImplementedError, 'get method must be implemented'
   end
+
+  def type
+    raise NotImplementedError, 'set graph direction type'
+  end
   
   def has_edge?(form, to, weight=0.0)
     get(form, to).to_f > weight
@@ -39,6 +43,14 @@ module GraphNetwork
   end
 
   def linked_nodes(node, weight=0.0)
+    if type == :digraph
+      both_linked_nodes(node, weight=0.0)
+    elsif type == :graph
+      either_linked_nodes(node, weight=0.0)
+    end
+  end
+
+  def both_linked_nodes(node, weight=0.0)
     nodes = @nodes.select{ |n| both_direction?(node,n,weight)}
     SubGraph.new(nodes, @graph)
   end
@@ -82,15 +94,16 @@ end
 
 class AdjacencyMatrix < SubGraph
 
-  def self.open(path)
-    self.new(File.open(path).read)
+  def self.open(path, type=:digraph)
+    self.new(File.open(path).read, type)
   end
 
-  def initialize(csv)
+  def initialize(csv, type=:digraph)
     @matrix = Hash.new{ |h,k| h[k] = Hash.new} # matrix[from][to]
     parse_csv(csv)
     @data = @matrix
     @graph = self
+    @type = type
     super(@nodes, self)
     true
   end
@@ -98,6 +111,10 @@ class AdjacencyMatrix < SubGraph
   include GraphNetwork
   def get(from, to)
     @matrix[from][to]
+  end
+
+  def type
+    @type
   end
   
   def parse_csv(csv)
@@ -119,10 +136,4 @@ class AdjacencyMatrix < SubGraph
     true
   end
 end
-
-
-
-
-
-
 
