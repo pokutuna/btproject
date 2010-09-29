@@ -1,0 +1,7 @@
+scan_interval: 20
+
+bt_scan: true
+bt_dev: hci0
+
+wifi_scan: true
+wifi_dev: eth0

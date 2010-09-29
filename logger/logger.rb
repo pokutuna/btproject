@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 # -*- coding: utf-8 -*-
 
 require 'date'
@@ -48,7 +49,8 @@ class HumanNetworkLogger
     dir = FileUtils.mkdir_p(@LOG_DIR + '/' + @today).first
     @bda_file.close unless @bda_file == nil
     @wifi_file.close unless @wifi_file == nil
-    
+
+    output_device_info(dir)
     if @config['bt_scan'] then
       @bda_file = File.open(dir+'/bda'+@today+'.tsv','a')
       puts_log(@bda_file, "[LOGGER_BDA]#{@bda}")
@@ -59,6 +61,16 @@ class HumanNetworkLogger
     end
   end
 
+  def output_device_info(dir)
+    File.open(dir+'/device_info.txt','a'){ |file|
+      file.puts '--- bluetooth device information ---'
+      file.puts `hciconfig #{@config['bt_dev']} -a`
+      file.puts '--- wifi device information ---'
+      file.puts `ifconfig #{@config['wifi_dev']}`
+      file.puts '--- end ---'
+    }
+  end
+  
   def bluetooth_scan
     now = Time.now.strftime('%Y/%m/%d %X')
     info = '[BT_SCAN]' + now
@@ -75,7 +87,7 @@ class HumanNetworkLogger
   def wifi_scan
     now = Time.now.strftime('%Y/%m/%d %X')
     info = '[WIFI_SCAN]' + now
-    data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan 2>/dev/null`, Kconv::UTF8)
+    data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan`, Kconv::UTF8)
     address = data.scan(/Address:\s([\w:]*)/).flatten
     essid = data.scan(/ESSID:"([^"]*)"/).flatten
     signal = data.scan(/Signal level=([-\d]*?)\sdBm/).flatten
@@ -99,7 +111,7 @@ class HumanNetworkLogger
         puts_log(@bda_file, btdata['log'])
       end
 
-      if @config['wf_scan'] then
+      if @config['wifi_scan'] then
         wfdata = wifi_scan
         puts_log(@wifi_file, wfdata['info'])
         puts_log(@wifi_file, wfdata['log'])
