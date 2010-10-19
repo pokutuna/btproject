@@ -41,6 +41,10 @@ class HumanNetworkLogger
     end
     @bda = `hciconfig #{@config['bt_dev']} name}`.scan(/BD\sAddress:\s([\w:]*)/).flatten.first
     @LOG_DIR = @LOGGER_DIR + '/logdata/' + @dev_name + '/' + @bda
+
+    $meta_logger.debug('load virsion')
+    version = YAML.load_file(@LOGGER_DIR+'/version.yaml')
+    @version = version['version']
   end
 
   def daily_update
@@ -51,13 +55,16 @@ class HumanNetworkLogger
     @wifi_file.close unless @wifi_file == nil
 
     output_device_info(dir)
+
     if @config['bt_scan'] then
       @bda_file = File.open(dir+'/bda'+@today+'.tsv','a')
+      puts_log(@bda_file, "[LOGGER_VERSION]#{@version}")
       puts_log(@bda_file, "[LOGGER_BDA]#{@bda}")
     end
     
     if @config['wifi_scan'] then
       @wifi_file = File.open(dir+'/wifi'+@today+'.tsv','a')
+      puts_log(@wifi_file, "[LOGGER_VERSION]#{@version}")
     end
   end
 
@@ -102,7 +109,7 @@ class HumanNetworkLogger
     puts msg
     file.puts msg
   end
-  
+
   def start
     loop do
       if @config['bt_scan'] then
