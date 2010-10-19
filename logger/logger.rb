@@ -110,6 +110,10 @@ class HumanNetworkLogger
     file.puts msg
   end
 
+  def sleep_interval
+    sleep (@config['scan_interval'] + rand(11) - 5)
+  end
+
   def start
     loop do
       if @config['bt_scan'] then
@@ -125,7 +129,7 @@ class HumanNetworkLogger
       end
 
       daily_update if @today != Date.today.strftime("%Y%m%d")
-      sleep @config['scan_interval']
+      sleep_interval
     end
 
   rescue => e
