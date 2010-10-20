@@ -12,13 +12,12 @@ files = FileList.new do |f|
   f.exclude "**/*#"
 end
 
-task 'default' => 'repackage'
+task 'default' => 'package'
 task 'withconfig' => ['addconfig', 'repackage']
 
 task 'addconfig' do
   files.include 'config.yaml'
 end
-
 
 
 version = YAML.load_file('version.yaml')['version']
@@ -28,6 +27,11 @@ Rake::PackageTask.new('logger', version) do |p|
   p.need_zip = true
 end
 
+Rake::PackageTask.new('latest_logger', :noversion) do |p|
+  p.package_dir = './pkg'
+  p.package_files = files
+  p.need_zip = true
+end
 
 
 
