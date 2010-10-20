@@ -1,4 +1,5 @@
 #!/bin/sh
-wget http://ns.hcilab.jp/~tokuami/latest_logger.zip
-unzip -o ./latest_logger.zip
-rm ./latest_logger.zip
+wget http://ns.hcilab.jp/~tokuami/logger.zip || http_proxy="http://proxy.ksc.kwansei.ac.jp:8080" wget http://ns.hcilab.jp/~tokuami/logger.zip
+unzip -o ./logger.zip -d ./tmp
+cp -r ./tmp/logger/* ./
+rm -r ./logger.zip ./tmp
