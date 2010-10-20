@@ -11,7 +11,7 @@ files = FileList.new do |f|
   f.exclude "**/*~"
   f.exclude "**/*#"
 end
-
+task 'all' => ['repackage', 'upload']
 task 'default' => 'package'
 task 'withconfig' => ['addconfig', 'repackage']
 
@@ -27,11 +27,13 @@ Rake::PackageTask.new('logger', version) do |p|
   p.need_zip = true
 end
 
-Rake::PackageTask.new('latest_logger', :noversion) do |p|
+Rake::PackageTask.new('logger', :noversion) do |p|
   p.package_dir = './pkg'
   p.package_files = files
   p.need_zip = true
 end
 
-
+task 'upload' do
+  sh "scp ./pkg/*.zip tokuami@ns.hcilab.jp:~/public_html/"
+end
 
