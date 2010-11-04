@@ -4,10 +4,10 @@ import org.scalatest.BeforeAndAfterEach
 import org.scalatest.BeforeAndAfterAll
 import java.sql._
 
-class SQLiteSpec extends Spec with MustMatchers with BeforeAndAfterEach with BeforeAndAfterAll {
-  
+class SQLiteFileSpec extends Spec with MustMatchers with BeforeAndAfterEach with BeforeAndAfterAll {
   var conn: Connection = null
   var stat: Statement = null
+
   override def beforeAll = {
     Class.forName("org.sqlite.JDBC")
     conn = DriverManager.getConnection("jdbc:sqlite:test.db")
@@ -16,7 +16,7 @@ class SQLiteSpec extends Spec with MustMatchers with BeforeAndAfterEach with Bef
   override def afterAll = {
     conn.close
   }
-  
+
   describe("SQLiteJDBC"){
     describe("(when file)"){
       it("should locate project root"){
@@ -25,5 +25,15 @@ class SQLiteSpec extends Spec with MustMatchers with BeforeAndAfterEach with Bef
       }
     }
   }
-  
 }
+
+class SQLiteTimeSpec extends Spec with MustMatchers with BeforeAndAfterEach with BeforeAndAfterAll{
+
+}
+
+
+
+
+
+
+
