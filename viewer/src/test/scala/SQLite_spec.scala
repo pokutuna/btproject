@@ -1,5 +1,5 @@
 import java.sql._
-import org.btproject.SpecHelper
+import org.btproject.test.SpecHelper
 
 class SQLiteFileSpec extends SpecHelper { 
   var conn: Connection = null

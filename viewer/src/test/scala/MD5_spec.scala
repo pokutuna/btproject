@@ -2,7 +2,7 @@ import java.security.MessageDigest
 import java.security.DigestInputStream
 import java.io.BufferedInputStream
 import java.io.FileInputStream
-import org.btproject.SpecHelper
+import org.btproject.test.SpecHelper
 
 class MD5SumSpec extends SpecHelper { 
 
@@ -17,16 +17,16 @@ class MD5SumSpec extends SpecHelper {
       stream.close()
     }
   }
-  
-  describe("md5sum checksum Java Implemention"){
+
+  describe("md5sum checksum"){
     it("should return checksum same as md5sum(1) of Linux"){
-      md5sum("test_resrouce/hogetext_a.txt") must be ("c59548c3c576228486a1f0037eb16a1b")
+      md5sum("test_resource/hogetext_a.txt") must be ("c59548c3c576228486a1f0037eb16a1b")
     }
     it("should generate same checksum from same inner text instead of different filename"){
-      md5sum("test_resrouce/hogetext_a.txt") must be (md5sum("test_resrouce/hogetext_b.txt"))
+      md5sum("test_resource/hogetext_a.txt") must be (md5sum("test_resource/hogetext_b.txt"))
     }
     it("should generate different checksum from different inner text"){
-      md5sum("test_resrouce/hogetext_a.txt") must not be (md5sum("test_resrouce/piyotext.txt"))
+      md5sum("test_resource/hogetext_a.txt") must not be (md5sum("test_resource/piyotext.txt"))
     }
   }
 }

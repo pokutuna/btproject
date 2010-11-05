@@ -1,4 +1,4 @@
-import org.btproject.SpecHelper
+import org.btproject.test.SpecHelper
 
 class ScalaSpec extends SpecHelper { 
 

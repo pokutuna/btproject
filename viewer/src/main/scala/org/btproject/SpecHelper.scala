@@ -1,4 +1,4 @@
-package org.btproject
+package org.btproject.test
 
 import org.scalatest.Spec
 import org.scalatest.matchers.MustMatchers

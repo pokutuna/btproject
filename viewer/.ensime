@@ -2,7 +2,7 @@
 
 (
 
-:project-package "btproject"
+:project-package "org.btproject"
 
 :use-sbt t
 
