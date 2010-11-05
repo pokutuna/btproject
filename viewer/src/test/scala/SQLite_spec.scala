@@ -7,7 +7,7 @@ class SQLiteFileSpec extends SpecHelper {
 
   override def beforeAll = {
     Class.forName("org.sqlite.JDBC")
-    conn = DriverManager.getConnection("jdbc:sqlite:test.db")
+    conn = DriverManager.getConnection("jdbc:sqlite:test_resource/sqlitetest.db")
     stat = conn.createStatement()
   }
   override def afterAll = {
