@@ -1,10 +1,7 @@
-import org.scalatest.Spec
-import org.scalatest.matchers.MustMatchers
-import org.scalatest.BeforeAndAfterEach
-import org.scalatest.BeforeAndAfterAll
 import java.sql._
+import org.btproject.SpecHelper
 
-class SQLiteFileSpec extends Spec with MustMatchers with BeforeAndAfterEach with BeforeAndAfterAll {
+class SQLiteFileSpec extends SpecHelper { 
   var conn: Connection = null
   var stat: Statement = null
 
@@ -15,6 +12,7 @@ class SQLiteFileSpec extends Spec with MustMatchers with BeforeAndAfterEach with
   }
   override def afterAll = {
     conn.close
+    stat.close
   }
 
   describe("SQLiteJDBC"){
@@ -27,9 +25,6 @@ class SQLiteFileSpec extends Spec with MustMatchers with BeforeAndAfterEach with
   }
 }
 
-class SQLiteTimeSpec extends Spec with MustMatchers with BeforeAndAfterEach with BeforeAndAfterAll{
-
-}
 
 
 

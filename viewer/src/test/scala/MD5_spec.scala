@@ -2,10 +2,9 @@ import java.security.MessageDigest
 import java.security.DigestInputStream
 import java.io.BufferedInputStream
 import java.io.FileInputStream
-import org.scalatest.Spec
-import org.scalatest.matchers.MustMatchers
+import org.btproject.SpecHelper
 
-class MD5SumSpec extends Spec with MustMatchers {
+class MD5SumSpec extends SpecHelper { 
 
   def md5sum(filename: String): String = {
     val stream = new FileInputStream(filename)
