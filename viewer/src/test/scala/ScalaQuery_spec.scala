@@ -1,4 +1,5 @@
 import org.btproject.test.SpecHelper
+import org.btproject.util._
 import org.scalaquery.session._
 import org.scalaquery.session.Database._
 import org.scalaquery.session.Database.threadLocalSession
@@ -9,14 +10,14 @@ import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 import java.io._
 
-class ScalaQuerySpec extends SpecHelper {
+class ScalaQuerySpec extends SpecHelper with TimestampUtil{
   val dbFile = new File("test_resource/scalaquery.db")
   if(dbFile.exists) dbFile.delete()
   val db = Database.forURL("jdbc:sqlite:test_resource/scalaquery.db", driver="org.sqlite.JDBC")
 
   override def beforeAll = { 
     db withSession {
-      (Categories.ddl) create
+      (Categories.ddl ++ Logs.ddl) create
     }
   }
   
@@ -61,18 +62,31 @@ class ScalaQuerySpec extends SpecHelper {
     //     (for(c <- Categories if c.id is 5) yield c.id.count).first should be(1) //2
     //   }
     // }
-
+    
   }
 
-  import java.sql.Date
-  case class Timestamp(id: Int, time: Date) 
-  object Timestamps extends ExtendedTable[Timestamp]("timestamps"){
-    def id = column[Int]("id", O NotNull, O AutoInc)
-    def time = column[Date]("time", O NotNull)
-    def * = id ~ time <> (Timestamp, Timestamp.unapply _)
+  import java.sql.Timestamp
+  case class Log(str:String, time: Timestamp)
+  object Logs extends BasicTable[Log]("logs"){
+    def str = column[String]("str", O NotNull)
+    def time = column[Timestamp]("time", O NotNull)
+    def * = str ~ time <> (Log, Log.unapply _)
   }
 
+  describe("Insert with Date Class"){
+    it("insert Timestamp class"){ 
+      db withSession{
+        Logs insertAll(
+          Log("a", "2010/04/07 0:0:0"),
+          Log("b", "2010/05/10 12:0:0"),
+          Log("c", "2010/05/10 12:0:5"),
+          Log("d", "1990/1/1 0:0:0")
+        )
 
-
-  
+        val q = for(l <- Logs if l.str is "a") yield l.*
+        q.first.str must be ("a")
+        q.first.time must be (stringToTimestamp("2010/04/07 00:00:00"))
+      }
+    }
+  }
 }
