@@ -19,7 +19,7 @@ class SQLiteFileSpec extends SpecHelper {
     describe("(when file)"){
       it("should locate project root"){
         val rowCount: Int = stat.executeQuery("select count(*) from manga;").getInt(1)
-        rowCount must be (5)
+        rowCount should be (5)
       }
     }
   }
