@@ -95,7 +95,7 @@ class HumanNetworkLogger
   def wifi_scan
     now = Time.now.strftime('%Y/%m/%d %X')
     info = '[WIFI_SCAN]' + now
-    data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan`, Kconv::UTF8)
+    data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan 2>&1`, Kconv::UTF8)
     if data.include?("Interface doesn't support scanning.") then
       `return_one(){ return 1; }; return_one`
       return
