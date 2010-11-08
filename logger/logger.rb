@@ -97,7 +97,7 @@ class HumanNetworkLogger
     info = '[WIFI_SCAN]' + now
     data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan`, Kconv::UTF8)
     if data.include?("Interface doesn't support scanning.") then
-      $? = 0
+      `return_one(){ return 1; }; return_one`
       return
     end
     address = data.scan(/Address:\s([\w:]*)/).flatten
