@@ -96,6 +96,10 @@ class HumanNetworkLogger
     now = Time.now.strftime('%Y/%m/%d %X')
     info = '[WIFI_SCAN]' + now
     data = Kconv.kconv(`iwlist #{@config['wifi_dev']} scan`, Kconv::UTF8)
+    if data.include?("Interface doesn't support scanning.") then
+      $? = 0
+      return
+    end
     address = data.scan(/Address:\s([\w:]*)/).flatten
     essid = data.scan(/ESSID:"([^"]*)"/).flatten
     signal = data.scan(/Signal level=([-\d]*?)\sdBm/).flatten
@@ -114,13 +118,13 @@ class HumanNetworkLogger
   def puts_alert(type=nil)
     str = case type
           when :bt_scan
-            "Bluetooth Scanning Error, BT device enabled?\nPlease check BT device or restart this logger"
+            "Bluetooth Scanning Error, BT device enabled?\nPlease check BT device or restart this logger."
           when :wifi_scan
-            "Wifi Scanning Error, WiFi device enabled?\nPlease check WiFi device or restart this logger"
+            "Wifi Scanning Error, WiFi device enabled?\nPlease check WiFi device or restart this logger."
           when :initializing
-            "Error Occured in Initializing"
+            "Error Occured in Initializing."
           else
-            "Unknown Error Occurred, Please check logger & devices"
+            "Unknown Error Occurred, Please check logger & devices."
           end
     puts str
     $meta_logger.error("puts alert message: #{str}")
