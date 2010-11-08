@@ -10,6 +10,7 @@ files = FileList.new do |f|
   f.exclude "latest_logger"
   f.exclude "**/*~"
   f.exclude "**/*#"
+  f.exclude "delete_annotation.rb"
 end
 task 'all' => ['repackage', 'upload']
 task 'default' => 'package'
