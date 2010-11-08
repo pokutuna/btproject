@@ -17,6 +17,7 @@ class HumanNetworkLogger
     load_config
     daily_update
   rescue => e
+    puts_alert(:initializing)
     $meta_logger.fatal('initializing error')
     raise e
   end
@@ -110,6 +111,21 @@ class HumanNetworkLogger
     file.puts msg
   end
 
+  def puts_alert(type=nil)
+    str = case type
+          when :bt_scan
+            "Bluetooth Scanning Error, BT device enabled?\nPlease check BT device or restart this logger"
+          when :wifi_scan
+            "Wifi Scanning Error, WiFi device enabled?\nPlease check WiFi device or restart this logger"
+          when :initializing
+            "Error Occured in Initializing"
+          else
+            "Unknown Error Occurred, Please check logger & devices"
+          end
+    puts str
+    $meta_logger.error("puts alert message: #{str}")
+  end
+
   def sleep_interval
     sleep (@config['scan_interval'] + rand(11) - 5)
   end
@@ -118,14 +134,22 @@ class HumanNetworkLogger
     loop do
       if @config['bt_scan'] then
         btdata = bluetooth_scan
-        puts_log(@bda_file, btdata['info'])
-        puts_log(@bda_file, btdata['log'])
+        if $? == 0 then 
+          puts_log(@bda_file, btdata['info'])
+          puts_log(@bda_file, btdata['log'])
+        else
+          puts_alert(:bt_scan)
+        end
       end
 
       if @config['wifi_scan'] then
         wfdata = wifi_scan
-        puts_log(@wifi_file, wfdata['info'])
-        puts_log(@wifi_file, wfdata['log'])
+        if $? == 0 then
+          puts_log(@wifi_file, wfdata['info'])
+          puts_log(@wifi_file, wfdata['log'])
+        else
+          puts_alert(:wifi_scan)
+        end
       end
 
       daily_update if @today != Date.today.strftime("%Y%m%d")
