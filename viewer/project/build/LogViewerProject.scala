@@ -5,4 +5,5 @@ class LogViewerProject(info: ProjectInfo) extends DefaultProject(info){
   val sqliteJDBC = "org.xerial" % "sqlite-jdbc" % "3.7.2"
   val scalaTest = "org.scalatest" % "scalatest" % "1.2"
   val scalaQuery = "org.scalaquery" %% "scalaquery" % "0.9.0"
+  val h2DataBaseEngine = "com.h2database" % "h2" % "1.2.144"
 }

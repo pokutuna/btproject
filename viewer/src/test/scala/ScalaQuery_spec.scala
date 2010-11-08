@@ -13,8 +13,9 @@ import java.io._
 class ScalaQuerySpec extends SpecHelper with TimestampUtil{
   val dbFile = new File("test_resource/scalaquery.db")
   if(dbFile.exists) dbFile.delete()
-  val db = Database.forURL("jdbc:sqlite:test_resource/scalaquery.db", driver="org.sqlite.JDBC")
-
+//  val db = Database.forURL("jdbc:sqlite:test_resource/scalaquery.db", driver="org.sqlite.JDBC")
+//  val db = Database.forURL("jdbc:h2:mem:test1;DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
+  val db = Database.forURL("jdbc:h2:"+dbFile.getPath+";DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
   override def beforeAll = { 
     db withSession {
       (Categories.ddl ++ Logs.ddl) create
@@ -56,7 +57,18 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
       }
     }
 
-    it("could update")(pending)// {
+    it("should find comparison query"){
+      db withSession{
+        val q = Categories where(_.id > 3)
+        q.list must be (List(Category(4,"four")))
+        val q2 = for{ c <- Categories
+                     if c.id > 2
+                     if c.id < 4} yield c.*
+        q2.list must be (List(Category(3,"three")))
+      }
+    }
+    
+    it("should updateable")(pending)// {
     //   db withSession{
     //     var q = for(c <- Categories if c.id is 1) yield c.id
     //     (for(c <- Categories if c.id is 5) yield c.id.count).first should be(1) //2
@@ -74,7 +86,7 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
   }
 
   describe("Insert with Date Class"){
-    it("insert Timestamp class"){ 
+    it("should insert Timestamp class"){ 
       db withSession{
         Logs insertAll(
           Log("a", "2010/04/07 0:0:0"),
@@ -86,6 +98,13 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
         val q = for(l <- Logs if l.str is "a") yield l.*
         q.first.str must be ("a")
         q.first.time must be (stringToTimestamp("2010/04/07 00:00:00"))
+      }
+    }
+    
+    it("should filter by Timestamp"){
+      db withSession{
+        val q = for(l <- Logs if l.time > stringToTimestamp("2010/04/07 0:0:0")) yield l.str
+        q.list() must be (List("b","c"))
       }
     }
   }
