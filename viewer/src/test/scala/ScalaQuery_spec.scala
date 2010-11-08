@@ -11,11 +11,12 @@ import org.scalaquery.ql.extended._
 import java.io._
 
 class ScalaQuerySpec extends SpecHelper with TimestampUtil{
-  val dbFile = new File("test_resource/scalaquery.db")
+  val path = "test_resource/scalaquery"
+  val dbFile = new File(path+".h2.db")
   if(dbFile.exists) dbFile.delete()
 //  val db = Database.forURL("jdbc:sqlite:test_resource/scalaquery.db", driver="org.sqlite.JDBC")
 //  val db = Database.forURL("jdbc:h2:mem:test1;DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
-  val db = Database.forURL("jdbc:h2:"+dbFile.getPath+";DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
+  val db = Database.forURL("jdbc:h2:"+path+";DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
   override def beforeAll = { 
     db withSession {
       (Categories.ddl ++ Logs.ddl) create
@@ -92,7 +93,8 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
           Log("a", "2010/04/07 0:0:0"),
           Log("b", "2010/05/10 12:0:0"),
           Log("c", "2010/05/10 12:0:5"),
-          Log("d", "1990/1/1 0:0:0")
+          Log("d", "1990/1/1 0:0:0"),
+          Log("e", "2010/04/07 0:0:0")
         )
 
         val q = for(l <- Logs if l.str is "a") yield l.*
@@ -105,6 +107,16 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
       db withSession{
         val q = for(l <- Logs if l.time > stringToTimestamp("2010/04/07 0:0:0")) yield l.str
         q.list() must be (List("b","c"))
+      }
+    }
+
+    it("should sort by orderBy method"){
+      db withSession{
+        val q = for{ 
+          d <- for(l <-Logs if l.time > stringToTimestamp("1990/1/1 0:0:0 ")) yield l;
+          _ <- Query.orderBy(d.time) >> Query.orderBy(d.str desc)
+        } yield d.str
+        q.list must be (List("e", "a", "b", "c"))
       }
     }
   }
