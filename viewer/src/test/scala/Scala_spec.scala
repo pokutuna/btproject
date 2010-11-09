@@ -72,7 +72,22 @@ class ScalaSpec extends SpecHelper {
     biggerContextBound(4,5) should be (bigger(4,5))
     biggerContextBound("e","f") should be (bigger("e","f"))
   }
+}
 
+
+import scala.xml.XML
+import scala.xml.parsing._
+
+class XMLParsingSpec extends SpecHelper {
+  val xmlPath = "test_resource/config_sample.xml"
+  val xml = XML.loadFile(xmlPath)
   
-
+  describe("Scala XML Parser"){
+    it("should scrape strings"){
+      (xml \\ "log_dir").text must be ("logdata_root/log")
+      (xml \\ "users" \ "name").length must be (3)
+      val names = for(n <- (xml \\ "users" \ "name")) yield n.text
+      names must be (List("hoge","piyo","fuga"))
+    }
+  }
 }

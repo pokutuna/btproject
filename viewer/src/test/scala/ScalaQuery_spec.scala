@@ -16,7 +16,7 @@ class ScalaQuerySpec extends SpecHelper with TimestampUtil{
   if(dbFile.exists) dbFile.delete()
 //  val db = Database.forURL("jdbc:sqlite:test_resource/scalaquery.db", driver="org.sqlite.JDBC")
 //  val db = Database.forURL("jdbc:h2:mem:test1;DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
-  val db = Database.forURL("jdbc:h2:"+path+";DB_CLOSE_DELAY=-1", driver = "org.h2.Driver")
+  val db = Database.forURL("jdbc:h2:"+path, driver = "org.h2.Driver")
   override def beforeAll = { 
     db withSession {
       (Categories.ddl ++ Logs.ddl) create
