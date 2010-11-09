@@ -81,7 +81,7 @@ import scala.xml.parsing._
 class XMLParsingSpec extends SpecHelper {
   val xmlPath = "test_resource/config_sample.xml"
   val xml = XML.loadFile(xmlPath)
-  
+
   describe("Scala XML Parser"){
     it("should scrape strings"){
       (xml \\ "log_dir").text must be ("logdata_root/log")

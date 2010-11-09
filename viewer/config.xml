@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logviewer>
+  <log_dir>logdata_root/log</log_dir>
+  <db_name>logdb</db_name>
+  <users>
+    <name>hoge</name>
+  </users>
+</logviewer>
+
