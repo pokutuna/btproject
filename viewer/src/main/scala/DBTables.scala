@@ -39,7 +39,7 @@ trait DBTables{
 
   case class NamedAddr(addr:String, name:String)
   object NamedAddrs extends ExtendedTable[NamedAddr]("namedaddrs"){
-    def addr = column[String]("addr", O PrimaryKey)
+    def addr = column[String]("addr")
     def name = column[String]("name")
     def * = addr ~ name <> (NamedAddr, NamedAddr.unapply _)
   }

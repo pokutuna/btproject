@@ -50,7 +50,6 @@ object DBMigration extends DBTables {
             BDARecords.forInsert.insertAll(
               BDARecord(None, log.logedBy, line.time, line.addr)
               )
-            (BDARecords.logedBy ~ BDARecords.time ~ BDARecords.bda).insert(log.logedBy, line.time, line.addr)
                                 
             val n = NamedAddr(line.addr, line.name)
             val q = for(na <- NamedAddrs
