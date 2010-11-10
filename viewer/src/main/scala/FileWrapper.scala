@@ -20,8 +20,10 @@ class FileWrapper(val file:JFile) {
         if(pattern.findFirstIn(f.getName) != None) List(new FileWrapper(f)) else List()
       }
     }
-    expandThis(this.file)
+    expandThis(this.file).toList
   }
+
+  def getLines: Iterator[String] = Source.fromFile(this.file).getLines
 
   def foreachLine(proc:String => Unit): Unit = {
     val src = Source.fromFile(this.file)

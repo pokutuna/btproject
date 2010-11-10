@@ -43,6 +43,10 @@ class SimpleDataFormatSpec extends SpecHelper {
       d.get(Calendar.MINUTE) should be (59)
       d.get(Calendar.SECOND) should be (59)
     }
+
+    it("should throw error when parsing failed"){
+      evaluating{ sdf.parse("2010/hoge/fuga 1:1:1") } should produce [java.text.ParseException]
+    }
   }
 
   describe("(when formatting)"){
