@@ -3,7 +3,6 @@ package org.btproject.util
 import scala.io.Source
 import scala.util.matching.Regex
 import java.io.{ File => JFile, _ }
-import org.btproject.util.MD5MessageDigest
 
 object FileWrapper {
   def apply(path:String):FileWrapper = new FileWrapper(new JFile(path))
