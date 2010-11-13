@@ -25,6 +25,10 @@ class FileWrapperSpec extends SpecHelper {
       FileWrapper(path).mkString must be (Some("nyanya"))
       (new java.io.File(path)).delete()
     }
-      
+    it("with md5"){
+      import org.btproject.util.MD5MessageDigest
+      val path = "test_resource/hogetext_a.txt"
+      FileWrapper(path).md5sum must be ("c59548c3c576228486a1f0037eb16a1b")
+    }
   }
 }
