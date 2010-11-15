@@ -14,8 +14,9 @@ import org.scalaquery.ql.TypeMapper._
 import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 
-object DBMigration extends DBTables {
+object DBMigration {
 
+  val bothLogFileNamePattern:Regex = """(bda|wifi)[0-9]{8}\.tsv""".r
   val bdaLogFileNamePattern:Regex = """bda[0-9]{8}\.tsv""".r
   val wifiLogFileNamePattern:Regex = """wifi[0-9]{8}\.tsv""".r 
 
@@ -24,12 +25,26 @@ object DBMigration extends DBTables {
     if(dbFile.exists) dbFile.delete()
   }
 
-  def makeTables(db:Database): Unit = {
-    tableList.foreach( table =>
+  def makeTables(db:Database):Unit = {
+    DBTables.tableList.foreach( table =>
       db withSession{ table.ddl(DBConnector.driverType).create }
-    )
+                             )
   }
 
+  def insertNamedAddr(na:NamedAddr, db:Database):Unit = {
+    if(na.name != ""){ 
+      db.withSession{
+        val a = for(a <- NamedAddrs
+                    if a.name is na.name
+                    if a.addr is na.addr) yield a.*
+        a.firstOption match {
+          case None => NamedAddrs.forInsert.insert(na)
+          case _ => 
+        }
+      }
+    }
+  }
+  
   def main(args:Array[String]) = {
     val cl = ConfigLoader.loadFile("config.xml")
     val logDir = FileWrapper(cl.logDir)
@@ -37,41 +52,36 @@ object DBMigration extends DBTables {
     val db = DBConnector(cl)
     makeTables(db)
 
-    logDir.expand(bdaLogFileNamePattern).foreach{ file =>
-      println(file.file.getPath)
-      val log = new LogFilePaser(file)
-      if(log.logedBy != ""){
-        
+    logDir.expand(bothLogFileNamePattern).foreach{ file =>
+      println("inserting :"+file.file.getPath)
+      try{ 
         db withSession{
-//          println("dbconnection"+db.toString())
-          log.logLines.foreach { line =>
-            val r = BDARecord(None, log.logedBy, line.time, line.addr)
-
-            BDARecords.forInsert.insertAll(
-              BDARecord(None, log.logedBy, line.time, line.addr)
-              )
-                                
-            val n = NamedAddr(line.addr, line.name)
-            val q = for(na <- NamedAddrs
-                        if na.addr == n.addr
-                        if na.name == n.name) yield na
-                                
-            q.firstOption match {
-              case None => NamedAddrs.insert(n)
-              case _ =>
-            }
-            
-          }
+          (new LogFilePaser(file)).logLines.foreach( _ match { 
+            case Left(e) =>
+              println("invalid log found: "+e)
+              InvalidRecords.insert(e.toDBColumn)
+            case Right(log) =>
+              log match {
+                case bda:BDADetectLog =>
+                  BDARecords.forInsert.insert(bda.toDBColumn)
+                  insertNamedAddr(bda.toNamedAddrs, db)
+                case wifi:WifiDetectLog =>
+                  WifiRecords.forInsert.insert(wifi.toDBColumn)
+                  insertNamedAddr(wifi.toNamedAddrs, db)
+                case anno:LogAnnotation =>
+                  AnnotationRecords.forInsert.insert(anno.toDBColumn)
+              }
+          })
         }
-      }
-      db withSession{
-        val q = (for(b <- BDARecords) yield b).list
-        println(q)
+      } catch {
+        case e => println(e)
       }
     }
 
+
     println("migrate db")
   }
+
 }
 
 

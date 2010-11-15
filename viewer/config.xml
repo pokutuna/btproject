@@ -3,7 +3,45 @@
   <log_dir>logdata_root/log</log_dir>
   <db_name>logdb</db_name>
   <users>
-    <name>hoge</name>
+    <user>
+      <name></name>
+      <twitter></twitter>
+      <devices>
+        <device_name></device_name>
+      </devices>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
+    <user>
+      <name></name>
+      <twitter></twitter>
+    </user>
   </users>
 </logviewer>
 

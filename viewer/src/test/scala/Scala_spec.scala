@@ -91,3 +91,57 @@ class XMLParsingSpec extends SpecHelper {
     }
   }
 }
+
+class PatternMatcherSpec extends SpecHelper {
+
+  describe("Pattern Matching"){
+    val fuga = "fuga"
+    val tup = ("a", "", "hoge", "piyo", fuga)
+    it("(when String)") {
+      val a = tup match {
+        case (a, "", h, p, f) => ""
+        case _ => None
+      }
+      a must be ("")
+
+      val b = tup match {
+        case (a, b, h, p, "fuga") => fuga
+        case _ => None
+      }
+      b must be ("fuga")
+    }
+
+  }
+
+}
+
+
+class TypeSystemSpec extends SpecHelper {
+  describe("Case class apply method"){
+    it("should be overridable"){
+      case class Hoge(a:String) {
+        var str = ""
+        def apply(a:String):Hoge = { str = a; this}
+      }
+      val a = Hoge("piyo")
+      a.str must not be ("piyo") //umu-
+    }
+  }
+  describe("Porimorphism"){
+    it("should match SubType"){
+      trait HogeTrait
+      class A extends HogeTrait
+      class B extends HogeTrait
+
+      val a = List(new A, new B, new A)
+      a.isInstanceOf[List[HogeTrait]] must be(true)
+      
+      val res = a(1) match {
+        case _:B => true
+        case _:HogeTrait => false
+        case _ => false
+      }
+      res must be (true)
+    }
+  }
+}

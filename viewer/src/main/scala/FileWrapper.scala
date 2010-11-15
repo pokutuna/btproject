@@ -55,7 +55,7 @@ class FileWrapper(val file:JFile) {
     }
   }
 
-  def md5sum(): String = {
+  def md5sum: String = {
     MD5MessageDigest(this.file.getPath)
   }
 

@@ -1,1 +1,0 @@
-pokutuna@pokutuna-desktop.348:1288057888
