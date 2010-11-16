@@ -27,7 +27,7 @@ class DBGraphSelector(val config:ConfigLoader) {
 
   def bdaToName(bda:String):Option[String] = {
     db.withSession{
-      val q  = for(log <- NamedAddrs if log.addr is bda) yield log.name
+      val q = for(na <- NamedAddrs.where(_.addr is bda)) yield na.name
       q.firstOption
     }
   }
@@ -35,10 +35,11 @@ class DBGraphSelector(val config:ConfigLoader) {
   import java.sql.Timestamp
   def getLogBetween(start:Timestamp, end:Timestamp) = {
     db.withSession{
-      val q = for(log <-BDARecords
-                if log.time < start && log.time < end) yield log
-      println(q.selectStatement)
-      q.list()
+      BDARecords.where(_.time between(start,end)).list
+//      val q = for(log <-BDARecords
+///                if log.time < start && log.time < end) yield log
+//      println(q.selectStatement)
+//      q.list()
     }
   }
 

@@ -74,8 +74,9 @@ object DBMigration {
           })
         }
       } catch {
-        case e => println(e)
-      }
+        case e => println(e.printStackTrace())
+          println("gave up parsing "+file.getPath)
+     } 
     }
 
 

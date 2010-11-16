@@ -4,8 +4,8 @@ import edu.uci.ics.jung.graph._
 import edu.uci.ics.jung.algorithms.layout._
 import edu.uci.ics.jung.visualization.BasicVisualizationServer
 import java.awt.Dimension
-import scala.collection.JavaConversions
-import scala.collection.JavaConverters
+// import scala.collection.JavaConversions
+// import scala.collection.JavaConverters
 import edu.uci.ics.jung.graph.util._
 import edu.uci.ics.jung.algorithms.transformation._
 
