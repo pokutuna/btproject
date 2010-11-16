@@ -32,6 +32,16 @@ class DBGraphSelector(val config:ConfigLoader) {
     }
   }
 
+  import java.sql.Timestamp
+  def getLogBetween(start:Timestamp, end:Timestamp) = {
+    db.withSession{
+      val q = for(log <-BDARecords
+                if log.time < start && log.time < end) yield log
+      println(q.selectStatement)
+      q.list()
+    }
+  }
+
   //TODO
 }
 

@@ -10,15 +10,16 @@ import edu.uci.ics.jung.graph.util._
 import edu.uci.ics.jung.algorithms.transformation._
 
 object GraphRenderer {
-  val graph:Graph[String,String] = new UndirectedSparseGraph[String,String]
+  val graph:Graph[Int,Int] = new UndirectedSparseGraph[Int,Int]
 
 //  FoldingTransformer.foldHypergraphEdges(graph,)
+
+  /*
   import org.btproject.model._
   import org.btproject._
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
   println("log "+db.sample.length+" lines")
 
-  val map = Map()
   db.sample.foreach{  log =>
     val a = db.bdaToName(log.logedBy).getOrElse(log.logedBy)
     val b = db.bdaToName(log.bda).getOrElse(log.bda)
@@ -27,9 +28,13 @@ object GraphRenderer {
     graph.addEdge(a+"to"+b, a, b)
                   }
   
-  
+  */
 
-  def getGraphPanel(d:Tuple2[Int,Int]):BasicVisualizationServer[String,String] = 
+  for(n <- 1 to 20) graph.addVertex(n)
+  import scala.util.Random
+  for(n <- 1 to 20) graph.addEdge(n,Random.nextInt(21), Random.nextInt(21))
+  
+  def getGraphPanel(d:Tuple2[Int,Int]):BasicVisualizationServer[Int,Int] = 
     new BasicVisualizationServer(new KKLayout(graph),d)
 
   implicit def tuple2Dimension(tuple:Tuple2[Int, Int]):Dimension =
