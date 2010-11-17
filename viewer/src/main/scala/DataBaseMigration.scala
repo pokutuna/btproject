@@ -28,7 +28,7 @@ object DBMigration {
   def makeTables(db:Database):Unit = {
     DBTables.tableList.foreach( table =>
       db withSession{ table.ddl(DBConnector.driverType).create }
-                             )
+    )
   }
 
   def insertNamedAddr(na:NamedAddr, db:Database):Unit = {
@@ -44,6 +44,38 @@ object DBMigration {
       }
     }
   }
+
+
+  def parseAndInsertFile(db:Database, file:FileWrapper):Unit = {
+    println("inserting :"+file.file.getPath)
+    try{ 
+      db withSession{
+        (new LogFilePaser(file)).logLines.foreach( _ match { 
+          case Left(e) =>
+            println("invalid log found: "+e)
+            InvalidRecords.insert(e.toDBColumn)
+          case Right(log) =>
+            log match {
+              case bda:BDADetectLog =>
+                BDARecords.forInsert.insert(bda.toDBColumn)
+              insertNamedAddr(bda.toNamedAddrs, db)
+              case wifi:WifiDetectLog =>
+                WifiRecords.forInsert.insert(wifi.toDBColumn)
+              insertNamedAddr(wifi.toNamedAddrs, db)
+              case anno:LogAnnotation =>
+                AnnotationRecords.forInsert.insert(anno.toDBColumn)
+            }
+        })
+      }
+    } catch {
+      case e => println(e.printStackTrace())
+      println("gave up parsing "+file.getPath)
+    } 
+  }
+
+  def insertTimespanDetects(db:Database):Unit = {
+
+  }
   
   def main(args:Array[String]) = {
     val cl = ConfigLoader.loadFile("config.xml")
@@ -53,30 +85,7 @@ object DBMigration {
     makeTables(db)
 
     logDir.expand(bothLogFileNamePattern).foreach{ file =>
-      println("inserting :"+file.file.getPath)
-      try{ 
-        db withSession{
-          (new LogFilePaser(file)).logLines.foreach( _ match { 
-            case Left(e) =>
-              println("invalid log found: "+e)
-              InvalidRecords.insert(e.toDBColumn)
-            case Right(log) =>
-              log match {
-                case bda:BDADetectLog =>
-                  BDARecords.forInsert.insert(bda.toDBColumn)
-                  insertNamedAddr(bda.toNamedAddrs, db)
-                case wifi:WifiDetectLog =>
-                  WifiRecords.forInsert.insert(wifi.toDBColumn)
-                  insertNamedAddr(wifi.toNamedAddrs, db)
-                case anno:LogAnnotation =>
-                  AnnotationRecords.forInsert.insert(anno.toDBColumn)
-              }
-          })
-        }
-      } catch {
-        case e => println(e.printStackTrace())
-          println("gave up parsing "+file.getPath)
-     } 
+      parseAndInsertFile(db,file)
     }
 
 

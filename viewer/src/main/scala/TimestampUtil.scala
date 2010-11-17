@@ -21,12 +21,16 @@ object TimestampUtil {
     val longTime = ts.getTime
     new Timestamp(longTime - (longTime % (MINUTE * spanMinutes)))
   }
+
+  def minutesLater(ts:Timestamp, minutes:Int):Timestamp = {
+    new Timestamp(ts.getTime + MINUTE * minutes)
+  }
 }
 
 trait TimestampUtil { 
   implicit def stringToTimestamp(s:String): Timestamp =
     TimestampUtil.parse(s)
-  
+
   implicit def timestampToString(t:Timestamp): String = 
     TimestampUtil.format(t)
 }

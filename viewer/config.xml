@@ -4,10 +4,11 @@
   <db_name>logdb</db_name>
   <users>
     <user>
-      <name></name>
-      <twitter></twitter>
+      <name>pokutuna</name>
+      <twitter>pokutuna</twitter>
       <devices>
-        <device_name></device_name>
+        <device_name>pokutuna-netwaker</device_name>
+        <device_addr></device_addr>
       </devices>
     </user>
     <user>

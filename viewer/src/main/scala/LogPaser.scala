@@ -13,7 +13,7 @@ object LogFilePaser {
 }
 
 class LogFilePaser(file:FileWrapper) {
-  val addrPattern = """([\d\w][\d\w]:){5}([\d\w][\d\w])"""
+  val addrPattern = """([\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2})""".r
   val unknownBDA = "00:00:00:00:00:00"
   
   private def searchLogedBy(file:FileWrapper):Option[String] = {
@@ -21,7 +21,12 @@ class LogFilePaser(file:FileWrapper) {
       """^\[LOGGER_BDA\]([\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2})$""".r
     file.getLines.collect{ case logedByPattern(by) => by}.toTraversable.headOption
   }
-  
+  private def getBDAFromPath(file:FileWrapper):Option[String] = {
+    file.getPath match {
+      case addrPattern(addr) => Some(addr)
+      case _ => None
+    }
+  }
   private def getAnotherLogFileSameDay:Option[FileWrapper] = {
     file.file.getName match {
       case n if n.startsWith("bda") =>
@@ -34,10 +39,10 @@ class LogFilePaser(file:FileWrapper) {
     }  
   }
 
-  val logedBy:String = allCatch.opt(searchLogedBy(file).getOrElse(
+  val logedBy:String = allCatch.opt(searchLogedBy(file).getOrElse(getBDAFromPath(file).getOrElse(
     getAnotherLogFileSameDay match {
       case Some(path) => searchLogedBy(path).getOrElse(unknownBDA)
-      case None => unknownBDA})).getOrElse(unknownBDA)
+      case None => unknownBDA}))).getOrElse(unknownBDA)
   if(logedBy == unknownBDA) println("set unknown BDA")
   
   val info:LogFileInfo = LogFileInfo(logedBy, file.file.getName, file.md5sum)
