@@ -6,7 +6,7 @@ import java.util.Date
 import java.sql.Timestamp
 
 object TimestampUtil {
-  val sdf = new SimpleDateFormat("yyy/MM/dd kk:mm:ss")
+  val sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss")
   def parse(str:String):Timestamp = {
     val d = sdf.parse(str)
     new Timestamp(d.getTime)
@@ -14,6 +14,11 @@ object TimestampUtil {
 
   def format(ts:Timestamp):String = {
     sdf.format(new Date(ts.getTime))
+  }
+
+  def cutOff(ts:Timestamp, spanMinutes:Int = 5):Timestamp = {
+    val longTime = ts.getTime
+    new Timestamp(longTime - (longTime % (60000 * spanMinutes)))
   }
 }
 
