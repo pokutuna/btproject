@@ -1,35 +1,56 @@
 package org.btproject.gui
 
 import scala.swing._
+import scala.swing.GridBagPanel._
 import java.awt.Graphics
 import java.awt.Graphics2D
 import java.awt.BasicStroke
 import java.awt.Color
-import javax.swing.JLabel
+import javax.swing.JPanel
 
 class UserTable {
+  val panel = new BoxPanel(Orientation.Vertical) {
+    for (n <- 1 to 10) contents += (new UserTimeline(n.toString)).panel
+    minimumSize = new Dimension(200,200)
+    size = new Dimension(200,size.height)
+  }
+}
 
-  val panel = new BoxPanel(Orientation.Horizontal) {
-    contents += new Label("pokutuna")
-    contents += Component.wrap(new DashLine)
-    border = new javax.swing.border.EtchedBorder
-    repaint
+
+class UserTimeline(name:String) {
+
+  val nameLabel = new Label(name) { 
+    border = new javax.swing.border.EtchedBorder    
   }
 
-  class DashLine extends JLabel { //iterate each user
-      //border = new javax.swing.border.EtchedBorder
-      var stroke:BasicStroke = null
-      override def paint(g:Graphics):Unit = {
-        val g2 = g.asInstanceOf[Graphics2D]
-        super.paint(g2);
-        val ary = (1f::2f::1f::4f::3f::Nil).toArray
-        if(stroke == null)
-          stroke = new BasicStroke(5f, BasicStroke.CAP_BUTT, BasicStroke.JOIN_MITER, 10f, ary, 0f)
-        g2.setStroke(stroke)
-        g2.setColor(Color.BLACK)
-        println(size)
-        println("hoge")
-        g2.drawLine(5, getHeight/2, getWidth-10, getHeight/2)
-      }
+  val timeLine = new Panel {
+    border = new javax.swing.border.EtchedBorder      
+    override def paintComponent(g:Graphics2D):Unit = {
+//      println (size)
+      super.paintComponent(g)
+      g.setColor(Color.WHITE)
+      g.fillRect(0,0,100,100)
+      g.setBackground(Color.BLACK)
     }
+  }
+
+  lazy val panel = new GridBagPanel {
+    
+    val c = new Constraints
+    c.fill = Fill.Both
+    c.anchor = Anchor.Center
+    c.gridwidth = 1
+    c.grid = (0,0)
+    c.weightx = 0.2
+    c.weighty = 0.5
+    layout(nameLabel) = c
+    
+    c.gridwidth = 4
+    c.weighty = 0.5    
+    c.grid = (1,0)
+    c.weightx = 0.8
+    layout(timeLine) = c
+  }
+
 }
+

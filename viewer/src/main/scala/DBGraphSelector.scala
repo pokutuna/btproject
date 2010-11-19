@@ -16,14 +16,34 @@ import java.sql.Timestamp
 
 class DBGraphSelector(val config:ConfigLoader) {
   val db:Database = DBConnector(config)
-
-  def bdaToName(bda:String):Option[String] = {
-    db.withSession{
-      val q = for(na <- NamedAddrs.where(_.addr is bda)) yield na.name
-      q.firstOption
+  
+  import scala.collection.mutable.Map
+  val nameCache = Map[String,String]()
+    
+  def addrToName(addr:String):String = {
+    nameCache.get(addr) match {
+      case None =>
+        db.withSession{ 
+          val q = (for(na <- NamedAddrs.where(_.addr is addr)) yield na.name).firstOption.getOrElse(addr)
+          nameCache += (addr -> q)
+          q
+        }
+      case Some(name) => name
     }
   }
 
+  def getBDADetectsBetween(start:Timestamp, end:Timestamp) = {
+    db.withSession{
+      BDATimespanDetects.where(_.time between(start,end)).list
+    }
+  }
+
+  def getWifiDetectsBetween(start:Timestamp, end:Timestamp) = {
+    db.withSession{
+      WifiTimespanDetects.where(_.time between(start,end)).list
+    }
+  }
+  
   def getBDARecordsBetween(start:Timestamp, end:Timestamp) = {
     db.withSession{
       BDARecords.where(_.time between(start,end)).list

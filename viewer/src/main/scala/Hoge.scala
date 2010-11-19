@@ -70,14 +70,29 @@ object Hoge extends TimestampUtil{
     }
 
     
+    }
+  }
+  
+  def main(args:Array[String]):Unit = {
+    db.withSession{
+      try {
+//        BDATimespanDetects.ddl(DBConnector.driverType).drop
+        WifiTimespanDetects.ddl(DBConnector.driverType).drop
+      } catch {
+        case e: Exception => println(e.printStackTrace())
+      }
+//      BDATimespanDetects.ddl(DBConnector.driverType).create
+      WifiTimespanDetects.ddl(DBConnector.driverType).create
+
+    
     val firstTimeWifi = (
       for{ a <- WifiRecords
           _ <- Query.orderBy(a.time)} yield a.time).first
     val endTimeWifi = {
       for{ a <- WifiRecords
-        _ <- Query.orderBy(a.time)} yield a.time}.first
+        _ <- Query.orderBy(a.time desc)} yield a.time}.first
     
-    start = firstTimeWifi
+    var start = firstTimeWifi
     while(start.before(endTimeWifi)){
       start = TimestampUtil.cutOff(start)
       println("wifiTimespan:"+start)
@@ -85,20 +100,8 @@ object Hoge extends TimestampUtil{
       start = TimestampUtil.minutesLater(start,15)
     }
     }
-  }
-  
-  def main(args:Array[String]):Unit = {
-    db.withSession{
-      try {
-        BDATimespanDetects.ddl(DBConnector.driverType).drop
-        WifiTimespanDetects.ddl(DBConnector.driverType).drop
-      } catch {
-        case e: Exception => println(e.printStackTrace())
-      }
-      BDATimespanDetects.ddl(DBConnector.driverType).create
-      WifiTimespanDetects.ddl(DBConnector.driverType).create
-    }
-    iterateTimeSpans()
+
+//    iterateTimeSpans()
   }
 }
 
