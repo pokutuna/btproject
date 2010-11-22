@@ -14,4 +14,6 @@ class LogViewerProject(info: ProjectInfo) extends DefaultProject(info){
   import Process._
   lazy val syncLogData = task { "sh ./logdata_root/sync.sh" !; None}
   lazy val downloadJung = task { "sh ./lib/download_jung2.sh" !; None}
+
+  override def mainClass = Some("org.btproject.gui.LogViewer")
 }
