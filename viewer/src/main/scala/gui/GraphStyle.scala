@@ -26,7 +26,7 @@ case class UserNode(label:String) extends Node {
 }
 
 case class WifiNode(label:String) extends Node {
-  def shape:Shape = new Rectangle2D.Double(-10, -10, 20, 20)
+  def shape:Shape = new Rectangle2D.Double(-5, -5, 10, 10)
   def color:Paint = Color.GREEN
 }
 

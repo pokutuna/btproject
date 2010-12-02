@@ -2,15 +2,14 @@ package org.btproject.gui
 
 import edu.uci.ics.jung.graph._
 import edu.uci.ics.jung.algorithms.layout._
-import edu.uci.ics.jung.visualization.BasicVisualizationServer
+import edu.uci.ics.jung.visualization._
 import java.awt.Dimension
-// import scala.collection.JavaConversions
-// import scala.collection.JavaConverters
 import edu.uci.ics.jung.graph.util._
 import edu.uci.ics.jung.algorithms.transformation._
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller
-import org.btproject.util.TimestampUtil
 import edu.uci.ics.jung.visualization.renderers._
+import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse
+  import org.btproject.util.TimestampUtil
 
 object GraphRenderer extends TimestampUtil{
 
@@ -20,7 +19,7 @@ object GraphRenderer extends TimestampUtil{
   val graph:Graph[Node,Int] = new UndirectedSparseGraph[Node,Int]
   println("loading")
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
-  val start = "2010/11/4 10:15:00"
+  val start = "2010/11/4 10:10:00"
   val end = "2010/11/4 10:40:00"
   val buf = db.getBDADetectsBetween(start,end)
   println("log "+buf.length+" lines")
@@ -41,8 +40,8 @@ object GraphRenderer extends TimestampUtil{
       if(detector.contains(name))
         new UserNode(db.addrToName(name))
         else OtherNode(db.addrToName(name)))
-    if(graph.addVertex(a) == false) println(a + "is already located")
-    if(graph.addVertex(b) == false) println(a + "is already located")                 
+//    if(graph.addVertex(a) == false) println(a + "is already located")
+//    if(graph.addVertex(b) == false) println(a + "is already located")                 
     graph.addVertex(a)
     graph.addVertex(b)
     i+=1
@@ -60,21 +59,16 @@ object GraphRenderer extends TimestampUtil{
 
 
 
-//  for(n <- 1 to 20) graph.addVertex(n.toString)
-//  import scala.util.Random
-//  for(n <- 1 to 20) graph.addEdge(n,Random.nextInt(21).toString, Random.nextInt(21).toString())
-  
   def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Int] = { 
-    val panel = new BasicVisualizationServer(new KKLayout(graph),d)
+    val panel = new VisualizationViewer(new KKLayout(graph),d)
     panel.getRenderContext.setVertexLabelTransformer(new ToStringLabeller)
     panel.getRenderContext().setVertexShapeTransformer(GraphStyle.nodeShape)
     panel.getRenderContext().setVertexFillPaintTransformer(GraphStyle.nodeColor)
     panel.getRenderer.getVertexLabelRenderer.setPosition(Renderer.VertexLabel.Position.AUTO)
+    panel.setGraphMouse(new DefaultModalGraphMouse)
     return panel
   }
 
-  implicit def tuple2Dimension(tuple:Tuple2[Int, Int]):Dimension =
-    new Dimension(tuple._1, tuple._2)
 
 }
 
