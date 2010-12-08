@@ -9,18 +9,24 @@ import edu.uci.ics.jung.algorithms.transformation._
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller
 import edu.uci.ics.jung.visualization.renderers._
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse
-  import org.btproject.util.TimestampUtil
+import org.btproject.util.TimestampUtil
+import org.btproject.graph._
+
+
 
 object GraphRenderer extends TimestampUtil{
 
   import org.btproject.model._
   import org.btproject._
 
+
   val graph:Graph[Node,Int] = new UndirectedSparseGraph[Node,Int]
   println("loading")
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
-  val start = "2010/11/4 10:10:00"
-  val end = "2010/11/4 10:40:00"
+//  val start = "2010/11/4 10:10:00"
+//  val end = "2010/11/4 10:40:00"
+  val start = "2010/11/4 12:00:00" 
+  val end = "2010/11/4 13:00:00"   
   val buf = db.getBDADetectsBetween(start,end)
   println("log "+buf.length+" lines")
 
@@ -57,7 +63,10 @@ object GraphRenderer extends TimestampUtil{
     graph.addEdge(i, a, b)
   }
 
-
+  val ce = new CliqueExtractor(graph)
+  import scala.collection.JavaConversions._
+  val users = graph.getVertices.filter(_.isInstanceOf[UserNode])
+  println(ce.localMaximums(3,users).toList)
 
   def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Int] = { 
     val panel = new VisualizationViewer(new KKLayout(graph),d)
