@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync -avz --stats tokuami@ns.hcilab.jp:~/human_network/ ${HOME}'/Dropbox/LifeLog Project/LogServerMirror/'
+rsync -avz -e "ssh -i ${HOME}/Dropbox/auth/synckey" tokuami@ns.hcilab.jp:~/human_network/ ${HOME}'/Dropbox/LifeLog Project/LogServerMirror/'
