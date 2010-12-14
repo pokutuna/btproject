@@ -10,7 +10,6 @@ import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 import java.sql.Timestamp
 
-
 trait DBColumns //Columns to Insert
 trait AddrPair
 

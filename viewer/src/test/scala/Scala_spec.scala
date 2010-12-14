@@ -97,19 +97,19 @@ class PatternMatcherSpec extends SpecHelper {
   describe("Pattern Matching"){
     val fuga = "fuga"
     val tup = ("a", "", "hoge", "piyo", fuga)
-    it("(when String)") {
-      val a = tup match {
-        case (a, "", h, p, f) => ""
-        case _ => None
-      }
-      a must be ("")
+      it("(when String)") {
+        val a = tup match {
+          case (a, "", h, p, f) => ""
+          case _ => None
+        }
+        a must be ("")
 
-      val b = tup match {
-        case (a, b, h, p, "fuga") => fuga
-        case _ => None
+        val b = tup match {
+          case (a, b, h, p, "fuga") => fuga
+          case _ => None
+        }
+        b must be ("fuga")
       }
-      b must be ("fuga")
-    }
 
   }
 
@@ -142,6 +142,19 @@ class TypeSystemSpec extends SpecHelper {
         case _ => false
       }
       res must be (true)
+    }
+  }
+}
+
+class SetSpec extends SpecHelper {
+  import scala.collection.mutable.Set
+  describe("Method example"){
+    it("should check subsets"){ 
+      val a = Set(1,2,3,4)
+      val b = Set(2,3,4)
+      b.subsetOf(a) must be (true)
+      a.subsetOf(b) must be (false)
+      (a-1).subsetOf(b) must be (true)
     }
   }
 }
