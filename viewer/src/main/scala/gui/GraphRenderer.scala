@@ -19,8 +19,7 @@ object GraphRenderer extends TimestampUtil{
   import org.btproject.model._
   import org.btproject._
 
-
-  val graph:Graph[Node,Int] = new UndirectedSparseGraph[Node,Int]
+  val graph:Graph[Node,Edge] = new UndirectedSparseGraph[Node,Edge]
   println("loading")
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
 //  val start = "2010/11/4 10:10:00"
@@ -46,12 +45,10 @@ object GraphRenderer extends TimestampUtil{
       if(detector.contains(name))
         new UserNode(db.addrToName(name))
         else OtherNode(db.addrToName(name)))
-//    if(graph.addVertex(a) == false) println(a + "is already located")
-//    if(graph.addVertex(b) == false) println(a + "is already located")                 
     graph.addVertex(a)
     graph.addVertex(b)
     i+=1
-    graph.addEdge(i, a, b)
+    graph.addEdge(IntEdge(i.toString), a, b)
   }
 
   val wifi = db.getWifiDetectsBetween(start,end)
@@ -60,7 +57,7 @@ object GraphRenderer extends TimestampUtil{
     val a = getNode(log.logedBy)(name => new UserNode(db.addrToName(name)))
     val b = getNode(log.addr)(name => new WifiNode(db.addrToName(name)))
     i+=1
-    graph.addEdge(i, a, b)
+    graph.addEdge(IntEdge(i.toString), a, b)
   }
 
   val ce = new CliqueExtractor(graph)
@@ -68,7 +65,7 @@ object GraphRenderer extends TimestampUtil{
   val users = graph.getVertices.filter(_.isInstanceOf[UserNode])
   println(ce.localMaximums(3,users).toList)
 
-  def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Int] = { 
+  def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Edge] = { 
     val panel = new VisualizationViewer(new KKLayout(graph),d)
     panel.getRenderContext.setVertexLabelTransformer(new ToStringLabeller)
     panel.getRenderContext().setVertexShapeTransformer(GraphStyle.nodeShape)
