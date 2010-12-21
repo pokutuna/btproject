@@ -156,5 +156,17 @@ class SetSpec extends SpecHelper {
       a.subsetOf(b) must be (false)
       (a-1).subsetOf(b) must be (true)
     }
+    it("should sum sets"){
+      val a = Set(1,2,3)
+      val b = Set(3,4,5)
+      (a ++ b) should be (Set(1,2,3,4,5))
+      (a | b) should be (Set(1,2,3,4,5))
+    }
+    it("should use as key of Map"){
+      val m = Map( Set(2,3,4) -> "hoge")
+      m.getOrElse(Set(2,3,4), "") should be ("hoge")
+      m.getOrElse(Set(3,4,2), "") should be ("hoge")
+      m.getOrElse(Set(1,2,3), "") should be ("")
+    }
   }
 }

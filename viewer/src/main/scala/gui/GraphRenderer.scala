@@ -22,10 +22,10 @@ object GraphRenderer extends TimestampUtil{
   val graph:Graph[Node,Edge] = new UndirectedSparseGraph[Node,Edge]
   println("loading")
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
-//  val start = "2010/11/4 10:10:00"
-//  val end = "2010/11/4 10:40:00"
-  val start = "2010/11/4 12:00:00" 
-  val end = "2010/11/4 13:00:00"   
+  val start = "2010/11/4 10:10:00"
+  val end = "2010/11/4 10:40:00"
+//  val start = "2010/11/4 12:00:00" 
+//  val end = "2010/11/4 13:00:00"   
   val buf = db.getBDADetectsBetween(start,end)
   println("log "+buf.length+" lines")
 
@@ -60,10 +60,11 @@ object GraphRenderer extends TimestampUtil{
     graph.addEdge(IntEdge(i.toString), a, b)
   }
 
-  val ce = new CliqueExtractor(graph)
+/*  val ce = new CliqueExtractor(graph)
   import scala.collection.JavaConversions._
   val users = graph.getVertices.filter(_.isInstanceOf[UserNode])
   println(ce.localMaximums(3,users).toList)
+*/
 
   def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Edge] = { 
     val panel = new VisualizationViewer(new KKLayout(graph),d)
