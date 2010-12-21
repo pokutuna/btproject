@@ -22,10 +22,12 @@ object GraphRenderer extends TimestampUtil{
   val graph:Graph[Node,Edge] = new UndirectedSparseGraph[Node,Edge]
   println("loading")
   val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
-  val start = "2010/11/4 10:10:00"
-  val end = "2010/11/4 10:40:00"
+//  val start = "2010/11/4 10:10:00"
+//  val end = "2010/11/4 10:40:00"
 //  val start = "2010/11/4 12:00:00" 
-//  val end = "2010/11/4 13:00:00"   
+//  val end = "2010/11/4 13:00:00"
+    val start = "2010/11/4 9:00:00"
+    val end = "2010/11/4 18:00:00"
   val buf = db.getBDADetectsBetween(start,end)
   println("log "+buf.length+" lines")
 

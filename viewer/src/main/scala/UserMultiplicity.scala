@@ -50,5 +50,5 @@ class MultiplicityCluster(clusters:MultiplicityCluster*) {
   val innerCluster = Set[MultiplicityCluster]()
   clusters.foreach(innerCluster += _)
 
-  override def toString:String = "MultiplicityCluster("+users.toString+")"
+  override def toString:String = "MultiplicityCluster("+innerCluster.map(_.users.map(_.addr)).toString+")"
 }

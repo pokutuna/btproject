@@ -31,4 +31,9 @@ case class OtherNode(label:String) extends Node {
   def color:Paint = Color.BLUE
 }
 
+case class JointNode(label:String) extends Node {
+  def shape:Shape = new Ellipse2D.Double(-3, -3, 6, 6)
+  def color:Paint = Color.GRAY
+}
+
 case class IntEdge(label:String) extends Edge
