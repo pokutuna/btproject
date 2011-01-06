@@ -12,16 +12,20 @@ case class UserData(addr:String, btDetects:Set[String], wifiDetects:Set[String])
 }
 
 object UserDataBuilder {
-  val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))  
+  lazy val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))  
 
   def timeBetween(begin:Timestamp, end:Timestamp):Iterable[UserData] = {
     val bda = db.getBDADetectsBetween(begin, end)
     val wifi = db.getWifiDetectsBetween(begin, end)
     val detector = bda.map(_.logedBy).toSet ++ wifi.map(_.logedBy).toSet
     detector.map{ addr =>
-      UserData(addr,
+      UserData(addr, 
                (bda.view filter(_.logedBy == addr) map(_.addr) force).toSet,
                (wifi.view filter(_.logedBy == addr) map(_.addr) force).toSet)
     }
   }
 }
+
+
+
+

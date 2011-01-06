@@ -33,9 +33,14 @@ object ClusteringViewer extends SimpleSwingApplication with TimestampUtil {
     val graph = new DelegateForest[Node,IntEdge]
 
     //addNodes
+//    val start = "2010/11/4 10:00:00"
+//    val end = "2010/11/4 11:00:00"
     val start = "2010/11/4 9:00:00"
     val end = "2010/11/4 18:00:00"
+
     val users = UserDataBuilder.timeBetween(start,end)
+    val db = UserDataBuilder.db
+    
     val multiplicity = new UserMultiplicity(users)
     multiplicity.cluster
 
@@ -46,18 +51,9 @@ object ClusteringViewer extends SimpleSwingApplication with TimestampUtil {
     graph.addVertex(t)
     setNodes(multiplicity.clusterPool.head, t)
 
-    val db = UserDataBuilder.db
-    
     def setNodes(cluster:MultiplicityCluster, parent:Node):Unit = {
       if (cluster.users.size == 1){
-//        val n = UserNode(cluster.users.head.addr)
-//        println(cluster.users.head.addr)
-        import scala.util.control.Exception._
-        val n = allCatch.opt(db.addrToName(cluster.users.head.addr)) match {
-          case Some(name) => UserNode(name)
-          case None => UserNode(cluster.users.head.addr)
-        }
-//        val n = UserNode(db.addrToName(cluster.users.head.addr))
+        val n = UserNode(db.addrToName(cluster.users.head.addr))
         graph.addVertex(n)
         i += 1
         graph.addEdge(IntEdge(i.toString), parent,n)
