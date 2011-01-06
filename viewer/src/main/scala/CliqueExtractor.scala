@@ -21,16 +21,20 @@ class CliqueExtractor[V,E](graph:Graph[V,E]) {
 
   def applyCombination(size:Int, nodes:Iterable[V])(f: Iterable[V] => Boolean):Iterable[Set[V]] = {
     val res = Combination(size, nodes).filter(f(_)).map(_.toSet)
-    println(res.toList)
     return res
   }
 
   def localMaximums(minSize:Int, nodes:Iterable[V]):Iterable[Set[V]] = {
     if (minSize > nodes.size) return List()
-    val cliques = (minSize to nodes.size toList).flatMap{ size => 
+
+    val buf = (minSize to nodes.size toList).flatMap{ size => 
       applyCombination(size, nodes)(isClique(_))
-    }
-    
+    }.toSet
+
+    val cliques = buf filter{ c => !((buf - c) exists{ c subsetOf _ }) }
+    println(buf)
+    println(cliques)
     cliques
   }
+
 }
