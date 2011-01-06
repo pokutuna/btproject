@@ -32,8 +32,6 @@ class CliqueExtractor[V,E](graph:Graph[V,E]) {
     }.toSet
 
     val cliques = buf filter{ c => !((buf - c) exists{ c subsetOf _ }) }
-    println(buf)
-    println(cliques)
     cliques
   }
 
