@@ -8,6 +8,7 @@ import scala.collection._
 import java.sql.Timestamp
 
 case class UserData(addr:String, btDetects:Set[String], wifiDetects:Set[String]) {
+  lazy val name:String = DBGraphSelector.getSelector.addrToName(addr)
   lazy val detects = btDetects ++ wifiDetects
 }
 
