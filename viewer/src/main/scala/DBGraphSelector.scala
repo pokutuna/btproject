@@ -14,6 +14,11 @@ import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 import java.sql.Timestamp
 
+object DBGraphSelector {
+  lazy val selector = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
+  def getSelector:DBGraphSelector = selector
+}
+
 class DBGraphSelector(val config:ConfigLoader) {
   val db:Database = DBConnector(config)
   

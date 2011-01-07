@@ -12,7 +12,7 @@ case class UserData(addr:String, btDetects:Set[String], wifiDetects:Set[String])
 }
 
 object UserDataBuilder {
-  lazy val db = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))  
+  val db = DBGraphSelector.getSelector
 
   def timeBetween(begin:Timestamp, end:Timestamp):Iterable[UserData] = {
     val bda = db.getBDADetectsBetween(begin, end)
@@ -25,7 +25,4 @@ object UserDataBuilder {
     }
   }
 }
-
-
-
 
