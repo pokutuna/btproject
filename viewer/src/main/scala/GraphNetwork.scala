@@ -36,4 +36,4 @@ case class JointNode(label:String) extends Node {
   def color:Paint = Color.GRAY
 }
 
-case class IntEdge(label:String) extends Edge
+case class IntEdge(label:String, value:Int) extends Edge

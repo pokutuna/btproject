@@ -39,14 +39,13 @@ object ClusteringViewer extends SimpleSwingApplication with TimestampUtil {
     val end = "2010/11/4 18:00:00"
 
     val users = UserDataBuilder.timeBetween(start,end)
-    val db = UserDataBuilder.db
-    
+    val db = DBGraphSelector.getSelector
+    val edge = new IntEdgeFactory
     val multiplicity = new UserMultiplicity(users)
     multiplicity.cluster
 
     multiplicity.clusterPool
 
-    var i:Int = 0
     val t = JointNode("top")
     graph.addVertex(t)
     setNodes(multiplicity.clusterPool.head, t)
@@ -55,13 +54,10 @@ object ClusteringViewer extends SimpleSwingApplication with TimestampUtil {
       if (cluster.users.size == 1){
         val n = UserNode(db.addrToName(cluster.users.head.addr))
         graph.addVertex(n)
-        i += 1
-        graph.addEdge(IntEdge(i.toString), parent,n)
+        graph.addEdge(edge.takeEdge, parent,n)
       } else {
-        i += 1        
-        val p = JointNode(i.toString())
-        i += 1
-        graph.addEdge(IntEdge(i.toString), parent, p)
+        val p = JointNode(edge.value.toString)
+        graph.addEdge(edge.takeEdge, parent, p)
         cluster.innerCluster.foreach{
           setNodes(_, p)
         }
