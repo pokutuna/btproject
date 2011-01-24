@@ -1,8 +1,8 @@
 package org.btproject.analysis
 
-import org.btproject.util.TimestampUtil
+import org.btproject.util.TimestampUtilImplicits._
 
-object Clustering extends TimestampUtil{
+object Clustering {
   def main(args: Array[String]) = {
     val start = "2010/11/4 10:00:00"
     val end = "2010/11/4 11:00:00"

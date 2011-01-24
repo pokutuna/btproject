@@ -27,7 +27,7 @@ object TimestampUtil {
   }
 }
 
-trait TimestampUtil { 
+object TimestampUtilImplicits {
   implicit def stringToTimestamp(s:String): Timestamp =
     TimestampUtil.parse(s)
 

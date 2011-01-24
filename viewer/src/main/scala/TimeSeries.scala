@@ -4,9 +4,9 @@ import org.btproject.util.TimestampUtil
 import org.btproject.model._
 import org.btproject.graph._
 import org.btproject.analysis._
-import org.btproject.util.TimestampUtil
+import org.btproject.util.TimestampUtilImplicits._
 
-object TimeSeries extends TimestampUtil {
+object TimeSeries extends {
   val db = DBGraphSelector.getSelector
 
   def printCommunities(start:String, end:String):Unit = { 

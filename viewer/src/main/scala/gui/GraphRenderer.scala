@@ -9,13 +9,13 @@ import edu.uci.ics.jung.algorithms.transformation._
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller
 import edu.uci.ics.jung.visualization.renderers._
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse
-import org.btproject.util.TimestampUtil
+import org.btproject.util.TimestampUtilImplicits._
 import org.btproject.model._
 import org.btproject.graph._
 import org.btproject.analysis._
 
 
-object GraphRenderer extends TimestampUtil{
+object GraphRenderer {
 
 //  val start = "2010/11/4 10:10:00";  val end = "2010/11/4 10:40:00"
   val start = "2010/11/4 12:00:00";  val end = "2010/11/4 13:00:00"

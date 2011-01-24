@@ -1,5 +1,6 @@
 import org.btproject.test.SpecHelper
 import org.btproject.util._
+import org.btproject.util.TimestampUtilImplicits._
 import org.scalaquery.session._
 import org.scalaquery.session.Database._
 import org.scalaquery.session.Database.threadLocalSession
@@ -10,7 +11,7 @@ import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 import java.io._
 
-class ScalaQuerySpec extends SpecHelper with TimestampUtil{
+class ScalaQuerySpec extends SpecHelper {
   val path = "test_resource/scalaquery"
   val dbFile = new File(path+".h2.db")
   if(dbFile.exists) dbFile.delete()

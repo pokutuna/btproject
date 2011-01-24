@@ -1,7 +1,7 @@
 package org.btproject.analysis
 
 import javax.swing.UIManager
-import org.btproject.util.TimestampUtil
+import org.btproject.util.TimestampUtilImplicits._
 import scala.swing._
 import edu.uci.ics.jung.graph._
 import edu.uci.ics.jung.algorithms.layout._
@@ -18,7 +18,7 @@ import org.btproject.gui._
 import org.btproject.model._
 import org.btproject._
 
-object ClusteringViewer extends SimpleSwingApplication with TimestampUtil {
+object ClusteringViewer extends SimpleSwingApplication {
   UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
   
   def top = new MainFrame{

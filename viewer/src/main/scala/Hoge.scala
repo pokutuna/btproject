@@ -1,6 +1,5 @@
 import org.btproject.db._
 
-
 import org.btproject.model._
 import org.btproject._
 import org.btproject.util._
@@ -15,8 +14,9 @@ import org.scalaquery.ql.basic.BasicDriver.Implicit._
 import org.scalaquery.ql.extended._
 import scala.collection.mutable.Map
 import java.sql.Timestamp
+import org.btproject.util.TimestampUtil
 
-object Hoge extends TimestampUtil{
+object Hoge {
   val selector = new DBGraphSelector(ConfigLoader.loadFile("config.xml"))
   val db = DBConnector(ConfigLoader.loadFile("config.xml"))
   
