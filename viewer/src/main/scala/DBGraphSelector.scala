@@ -37,15 +37,24 @@ class DBGraphSelector(val config:ConfigLoader) {
     }
   }
 
-  def getBDADetectsBetween(start:Timestamp, end:Timestamp) = {
+  def getBDADetectsBetween(start:Timestamp, end:Timestamp)(implicit logedBy:String = "") = {
     db.withSession{
-      BDATimespanDetects.where(_.time between(start,end)).list
+      if(logedBy == "") {
+        BDATimespanDetects.where(_.time between(start,end)).list
+      } else {
+        BDATimespanDetects.where(l => (l.time between(start,end)) && (l.logedBy is logedBy)).list
+      }
+
     }
   }
 
-  def getWifiDetectsBetween(start:Timestamp, end:Timestamp) = {
+  def getWifiDetectsBetween(start:Timestamp, end:Timestamp)(implicit logedBy:String = "") = {
     db.withSession{
-      WifiTimespanDetects.where(_.time between(start,end)).list
+      if (logedBy == "") { 
+        WifiTimespanDetects.where(_.time between(start,end)).list
+      } else {
+        WifiTimespanDetects.where(l => (l.time between(start,end)) && (l.logedBy is logedBy)).list
+      }
     }
   }
   
