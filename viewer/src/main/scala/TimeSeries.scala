@@ -22,27 +22,30 @@ object TimeSeries extends {
 
     cliques.foreach{ c =>
       val dat = datas.filter{ d => c.map(_.toString).contains(d.name)}
-      println("communitie")
-      println("user: " + c.map(_.toString))
-      println("  env_bt: " + dat.map(_.btDetects).reduceLeft(_ & _).map(db.addrToName(_)))
-      println("  env_bt_sum: " + dat.map(_.btDetects).reduceLeft(_ | _).map(db.addrToName(_)))
-      println("  env_wf: " + dat.map(_.wifiDetects).reduceLeft(_ & _).map(db.addrToName(_)))
-      println("  env_wf_sum: " + dat.map(_.wifiDetects).reduceLeft(_ | _).map(db.addrToName(_)))
+      println("clique: " + c.map(_.toString))
+      println("bt: " + dat.map(_.btDetects).reduceLeft(_ & _).map(db.addrToName(_)))
+//      println("bt_sum: " + dat.map(_.btDetects).reduceLeft(_ | _).map(db.addrToName(_)))
+      println("wf: " + dat.map(_.wifiDetects).reduceLeft(_ & _).map(db.addrToName(_)))
+//      println("wf_sum: " + dat.map(_.wifiDetects).reduceLeft(_ | _).map(db.addrToName(_)))
       println()
     }
+
+    import edu.uci.ics.jung.algorithms.scoring._
+    import scala.collection.JavaConversions._
+    val bet = new BetweennessCentrality(graph)
+    val rankedBetweeness = graph.getVertices.toSeq.sortWith(bet.getVertexScore(_).doubleValue > bet.getVertexScore(_).doubleValue())
+    rankedBetweeness.take(5).foreach{ x => println(x + ": " + bet.getVertexScore(x))}
   }
 
   def main(args: Array[String]) = {
-    TimeSeries.printCommunities(
-    "2010/11/4 11:45:00",
-    "2010/11/4 12:15:00")
-    println("-----")
-    TimeSeries.printCommunities(
-    "2010/11/4 12:00:00",
-    "2010/11/4 12:30:00")
-    println("-----")
-    TimeSeries.printCommunities(
-    "2010/11/4 12:15:00",
-    "2010/11/4 12:45:00")
+    import org.btproject.util._
+    val span = new TimeSpanGenerator("2010/11/4 11:45:00", 30, 15)
+
+    for(n <- 1 to 3){
+      val time = span.getSpan()
+      print(time._1 + " - " + time._2) 
+      TimeSeries.printCommunities(time._1, time._2)
+      println("-----")
+    }
   }
 }
