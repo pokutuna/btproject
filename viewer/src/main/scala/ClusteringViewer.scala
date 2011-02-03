@@ -35,8 +35,9 @@ object ClusteringViewer extends SimpleSwingApplication {
     //addNodes
 //    val start = "2010/11/4 10:00:00"
 //    val end = "2010/11/4 11:00:00"
-    val start = "2010/11/4 9:00:00"
-    val end = "2010/11/4 18:00:00"
+//    val start = "2010/11/4 9:00:00"
+//    val end = "2010/11/4 18:00:00"
+    val start = "2010/11/4 12:00:00";  val end = "2010/11/4 13:00:00"
 
     val users = UserDataBuilder.timeBetween(start,end)
     val db = DBGraphSelector.getSelector

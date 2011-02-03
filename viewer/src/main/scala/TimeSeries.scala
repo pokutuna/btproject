@@ -35,6 +35,8 @@ object TimeSeries extends {
     val bet = new BetweennessCentrality(graph)
     val rankedBetweeness = graph.getVertices.toSeq.sortWith(bet.getVertexScore(_).doubleValue > bet.getVertexScore(_).doubleValue())
     rankedBetweeness.take(5).foreach{ x => println(x + ": " + bet.getVertexScore(x))}
+    import org.btproject.gui.SimpleGraphViewer
+    (new SimpleGraphViewer("", graph)).startup(Array[String]())
   }
 
   def main(args: Array[String]) = {
