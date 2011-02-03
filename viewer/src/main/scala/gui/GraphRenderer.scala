@@ -26,25 +26,8 @@ object GraphRenderer {
   val datas = UserDataBuilder.timeBetween(start,end)
   val graph = GraphBuilder.buildFromUserDatas(datas)
 
-  //Clique
-  val ce = new CliqueExtractor(graph)
-  import scala.collection.JavaConversions._
-  val users = graph.getVertices.filter(_.isInstanceOf[UserNode])
-  val cliques = ce.localMaximums(2,users).toList
-  println("Cliqeus:" + cliques)
-
-  cliques.foreach{ c =>
-    val dat = datas.filter{ d => c.map(_.toString).contains(d.name)}
-    println("communitie")
-    println("  user: " + c.map(_.toString))
-    println("  env_bt: " + dat.map(_.btDetects).reduceLeft(_ & _).map(db.addrToName(_)))
-    println("  env_bt_sum: " + dat.map(_.btDetects).reduceLeft(_ | _).map(db.addrToName(_)))
-    println("  env_wf: " + dat.map(_.wifiDetects).reduceLeft(_ & _).map(db.addrToName(_)))
-    println("  env_wf_sum: " + dat.map(_.wifiDetects).reduceLeft(_ | _).map(db.addrToName(_)))
-
-    println()
-  }
-  
+  import org.btproject.analysis.TimeSeries
+  TimeSeries.printCommunities(start,end)
 
   def getGraphPanel(d:Dimension):BasicVisualizationServer[Node,Edge] = { 
     val panel = new VisualizationViewer(new KKLayout(graph),d)
