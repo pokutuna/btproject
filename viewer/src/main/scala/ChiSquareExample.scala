@@ -2,6 +2,7 @@ package org.btproject.analysis
 
 import org.btproject.db._
 import org.btproject.model._
+import org.btproject.util._
 import org.btproject.util.TimestampUtilImplicits._
 import java.sql.Timestamp
 import scala.collection.mutable.Map
@@ -80,12 +81,3 @@ object ChiSquareExample {
   }
 }
 
-class TimeSpanGenerator(var start:Timestamp, val widthMinutes:Int, val incMinutes:Int) {
-  import org.btproject.util.TimestampUtil._
-  var begin = start
-  def getSpan():Pair[Timestamp,Timestamp] = {
-    val span = (begin, minutesLater(begin, widthMinutes))
-    begin = minutesLater(begin, incMinutes)
-    return span
-  }
-}
