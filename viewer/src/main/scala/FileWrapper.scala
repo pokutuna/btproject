@@ -23,7 +23,9 @@ class FileWrapper(val file:JFile) {
     expandThis(this.file).toList
   }
 
-  def getLines: Iterator[String] = Source.fromFile(this.file).getLines
+  implicit val codec = scala.io.Codec.UTF8
+  
+  def getLines: Iterator[String] = Source.fromFile(this.file, "UTF-8").getLines
 
   def foreachLine(proc:String => Unit): Unit = {
     val src = Source.fromFile(this.file)
