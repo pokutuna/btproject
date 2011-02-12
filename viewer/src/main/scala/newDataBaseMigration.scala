@@ -57,13 +57,23 @@ object NewDBMigration {
     //bda
     FileWrapper(path).expand(bdaFileNamePattern).foreach { f =>
       println(f.file.getPath)
-      insertLogLines(userAddrID.get, DeviceType.Bluetooth, getLogLines(f))
+      try {
+        insertLogLines(userAddrID.get, DeviceType.Bluetooth, getLogLines(f))
+      } catch {
+        case e => e.printStackTrace
+        println("gave up parsing "+f.file.getPath)
+      }
     }
 
     //wifi
     FileWrapper(path).expand(wifiFileNamePattern).foreach { f =>
       println(f.file.getPath)
-      insertLogLines(userAddrID.get, DeviceType.WiFi, getLogLines(f))
+      try {      
+        insertLogLines(userAddrID.get, DeviceType.WiFi, getLogLines(f))
+      } catch {
+        case e => e.printStackTrace
+        println("gave up parsing "+f.file.getPath)
+      }
     }
   }
 
