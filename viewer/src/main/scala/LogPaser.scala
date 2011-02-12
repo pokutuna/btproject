@@ -8,6 +8,16 @@ import scala.collection.mutable._
 import scala.util.control.Exception._
 import scala.io.Source
 
+object AddressNormalizer {
+  val addrPattern = """([\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2})""".r
+  def apply(addr:String):String = {
+    addrPattern.findFirstIn(addr) match {
+      case Some(s) => s.toUpperCase
+      case None => throw new RuntimeException("Invalid format") 
+    }
+  }
+}
+  
 object LogFilePaser {
   def parse(file:FileWrapper) = new LogFilePaser(file)
 }
@@ -105,9 +115,12 @@ object DetectLog {
     (time,name,addr,signal) match {
       case (None,_,_,_) => Left(InvalidLog(rawLine, info))
       case (_,_,None,_) => Left(InvalidLog(rawLine, info))
-      case (Some(t),"n/a",Some(a),None) => Right(BDADetectLog(t,"",a,info))
-      case (Some(t),n,Some(a),None) => Right(BDADetectLog(t,n,a,info))
-      case (Some(t),n,Some(a),Some(s)) => Right(WifiDetectLog(t,n,a,s,info))
+      case (Some(t),"n/a",Some(a),None) =>
+        Right(BDADetectLog(t,"",AddressNormalizer(a),info))
+      case (Some(t),n,Some(a),None) =>
+        Right(BDADetectLog(t,n,AddressNormalizer(a),info))
+      case (Some(t),n,Some(a),Some(s)) =>
+        Right(WifiDetectLog(t,n,AddressNormalizer(a),s,info))
     }
   }
 }
