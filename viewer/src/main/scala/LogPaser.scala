@@ -99,7 +99,12 @@ object LogAnnotation extends LogLine {
   }
 }
 
-trait DetectLog extends LogLine
+trait DetectLog extends LogLine {
+  val time:Timestamp
+  val name:String
+  val addr:String
+}
+
 object DetectLog {
   val addrPattern = """([\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w]{2}:[\d\w][\d\w])""".r
   def apply(rawLine:String, info:LogFileInfo):Either[InvalidLog,DetectLog] = {
