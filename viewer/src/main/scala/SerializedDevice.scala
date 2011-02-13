@@ -46,4 +46,6 @@ case class SerializedDevice(devString:String) {
   def merge(sdev:SerializedDevice):SerializedDevice = {
     SerializedDevice(SerializedDevice.mergeDeviceString(devString, sdev.devString))
   }
+
+  def toIntSeq = SerializedDevice.toIntSeq(devString)
 }

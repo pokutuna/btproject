@@ -2,24 +2,19 @@ package org.btproject.analysis
 
 import org.btproject.util.TimestampUtil
 import org.btproject.model._
+import org.btproject.db._
 import org.btproject.graph._
 import org.btproject.analysis._
 import org.btproject.util.TimestampUtilImplicits._
 
-object TimeSeries extends {
-  val db = DBGraphSelector.getSelector
+object TimeSeries extends HasDBSelector {
 
   def printCommunities(start:String, end:String):Unit = { 
-    val datas = UserDataBuilder.timeBetween(start,end)
-    val graph = GraphBuilder.buildFromUserDatas(datas)
+    val datas = TimeSpanDetect.timeBetween(start,end)
+    val cliques = CliqueExtractor.extractFromTimeSpanDetects(1, datas)
+    println("Cliqeus:" + cliques.map{ _.map(selector.addrIDToName(_).get)})
 
-    //Clique
-    val ce = new CliqueExtractor(graph)
-    import scala.collection.JavaConversions._
-    val users = graph.getVertices.filter(_.isInstanceOf[UserNode])
-    val cliques = ce.localMaximums(2,users).toList
-    println("Cliqeus:" + cliques)
-
+    /*
     cliques.foreach{ c =>
       val dat = datas.filter{ d => c.map(_.toString).contains(d.name)}
       println("clique: " + c.map(_.toString))
@@ -37,11 +32,12 @@ object TimeSeries extends {
     rankedBetweeness.take(5).foreach{ x => println(x + ": " + bet.getVertexScore(x))}
     import org.btproject.gui.SimpleGraphViewer
     (new SimpleGraphViewer("", graph)).startup(Array[String]())
+    */
   }
 
   def main(args: Array[String]) = {
     import org.btproject.util._
-    val span = new TimeSpanGenerator("2010/11/4 11:45:00", 30, 15)
+    val span = new TimeSpanGenerator("2010/11/4 12:00:00", 60, 60)
 
     for(n <- 1 to 3){
       val time = span.getSpan()

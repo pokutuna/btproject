@@ -130,6 +130,8 @@ object NewDBMigration {
   }
 
   def main(args: Array[String]) = {
+    println("create database? [Y/n] ")
+    if (readLine() != "Y") exit()
     val cl = ConfigLoader.loadFile("config.xml")
     val db = DBConnector(cl)    
     val logDir = FileWrapper(cl.logDir)

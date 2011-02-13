@@ -14,6 +14,9 @@ object NewDBTables {
   val tableList = List(
     DeviceAddresses, InvertedDeviceAddresses, DeviceNames, DetectRecords
   )
+  val communityTableList = List(
+    PreCliques, CommunityRecords
+  )
 }
 
 import scala.Enumeration
@@ -24,7 +27,9 @@ object DeviceType extends Enumeration {
 }
 import DeviceType._
 
-case class DeviceAddress(addrID:Option[Int], address:String, deviceType:DeviceType.Value)
+case class DeviceAddress(addrID:Option[Int], address:String, deviceType:DeviceType.Value) {
+  lazy val deviceName = newDBSelector.getSelector.addrIDToName(addrID.get)
+}
 
 object DeviceAddresses extends ExtendedTable[DeviceAddress]("deviceAddresses") {
   def addrID = column[Int]("addrID", O PrimaryKey, O AutoInc)
@@ -74,7 +79,27 @@ object DetectRecords extends ExtendedTable[DetectRecord]("detectRecord") {
   def idxdr = index("idxdr", addrID ~ time, unique = true)
 }
 
-case class SerializedClique(devString:String)
+case class PreClique(cliqueID:Option[Int], devString:String)
 
-case class CommunityRecord(time:Timestamp, coreDevices:String, envDevices:String)
+object PreCliques extends ExtendedTable[PreClique]("preCliques") {
+  def cliqueID = column[Int]("cliqueID", O PrimaryKey, O AutoInc)
+  def devString = column[String]("devString")
+  def * = cliqueID.? ~ devString <> (PreClique, PreClique.unapply _)
+  def idxpc = index("idxpc", cliqueID ~ devString, unique = true)
+}
+
+case class CommunityRecord(time:Timestamp, window:Int, preCliqueID:Int, envDevices:String)
+
+object CommunityRecords extends ExtendedTable[CommunityRecord]("communityRecords") {
+  def time = column[Timestamp]("time")
+  def window = column[Int]("window")
+  def preCliqueID = column[Int]("preCliqueID")
+  def envDevices = column[String]("envDevices")
+  def * = time ~ window ~ preCliqueID ~ envDevices <>
+    (CommunityRecord, CommunityRecord.unapply _)
+  def forInsert = time ~ window ~ preCliqueID ~ envDevices <>
+    ({ (t, w, p, e) => CommunityRecord(t, w, p, e)},
+     { c:CommunityRecord => Some(c.time, c.window, c.preCliqueID, c.envDevices) })
+  def idx = index("idxcr", time ~ window ~ preCliqueID, unique = true)
+}
 

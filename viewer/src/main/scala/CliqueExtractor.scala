@@ -36,3 +36,37 @@ class CliqueExtractor[V,E](graph:Graph[V,E]) {
   }
 
 }
+
+import org.btproject.analysis._
+object CliqueExtractor {
+  def extractFromTimeSpanDetects(minSize:Int, detects:Seq[TimeSpanDetect]):Set[Set[Int]] = {
+    def isClique(nodes:Set[Int], neighborMap:Map[Int,Set[Int]]):Boolean = {
+      nodes.foreach { n =>
+        if(!((nodes - n) subsetOf neighborMap(n))) return false
+      }
+      true
+    }
+
+    if (minSize > detects.size) return Set[Set[Int]]()
+    val detectorIDs = detects.map(_.addrID)
+    val detectMap = detects.map { d =>
+      (d.addrID ->
+       d.detectDevices.map(_.addrID.get).filter(detectorIDs.contains(_)).toSet)}.toMap
+    val cliques = scala.collection.mutable.Set[Set[Int]]()
+
+    println(detectorIDs)
+    println(detectMap)
+  
+    (minSize to detects.size toList).reverse.foreach { size =>
+      Combination(size, detectorIDs).map(_.toSet)foreach{ comb =>
+        comb match {
+          case c if cliques.exists(c subsetOf _) =>
+          case c if isClique(c,detectMap) =>  cliques += comb
+          case _ =>
+        }
+      }
+    }
+    return cliques.toSet
+  }
+}
+

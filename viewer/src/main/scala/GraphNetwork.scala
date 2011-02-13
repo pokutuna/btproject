@@ -16,9 +16,9 @@ trait Edge extends EdgeStyle {
   val label:String
 }
 
-case class UserNode(label:String) extends Node {
+case class UserNode(label:String)(implicit degree:Int = 1) extends Node {
   def shape:Shape = new Ellipse2D.Double(-10, -10, 20, 20)
-  def color:Paint = Color.RED
+  def color:Paint = if (degree > 0) Color.RED else Color.GRAY
 }
 
 case class WifiNode(label:String) extends Node {
@@ -26,7 +26,7 @@ case class WifiNode(label:String) extends Node {
   def color:Paint = Color.GREEN
 }
 
-case class OtherNode(label:String) extends Node {
+case class BTNode(label:String) extends Node {
   def shape:Shape = new Ellipse2D.Double(-5,-5,10,10)
   def color:Paint = Color.BLUE
 }

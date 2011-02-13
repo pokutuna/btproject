@@ -20,7 +20,7 @@ object GraphBuilder {
       graph.addVertex(n)
                   
       d.btDetects.foreach{ addr =>
-        val o = if(detector.contains(addr)) UserNode(db.addrToName(addr)) else OtherNode(db.addrToName(addr))
+        val o = if(detector.contains(addr)) UserNode(db.addrToName(addr)) else BTNode(db.addrToName(addr))
         graph.addVertex(o)
         graph.addEdge(edge.takeEdge, n, o)
       }
@@ -30,6 +30,32 @@ object GraphBuilder {
         graph.addVertex(o)
         graph.addEdge(edge.takeEdge, n, o)
       }
+    }
+    graph
+  }
+
+  def buildFromTimeSpanDetects(datas:Iterable[TimeSpanDetect]):Graph[Node,Edge] = {
+    val edge = new IntEdgeFactory
+    val graph:Graph[Node,Edge] = (new GraphBuilder).graph
+    val userNodes = scala.collection.mutable.Map[String,Node]()
+    datas.foreach{ d =>
+      graph.addVertex(d.getNode)
+      userNodes += (d.deviceName.get -> d.getNode)
+    }
+
+    import org.btproject.db._
+    def addNodeAndEdge(from:Node, to:DeviceAddress, nodeGenerator:(String) => Node) = {
+      val name = to.deviceName.getOrElse(to.address)
+      val o:Node = userNodes.getOrElseUpdate(name,
+        { val n = nodeGenerator(name); graph.addVertex(n); n})
+      graph.addEdge(edge.takeEdge, from, o)
+    }
+  
+    datas foreach { d =>
+      val node = userNodes(d.deviceName.get)
+      graph.addVertex(node)
+      d.btDevices.foreach{ i => addNodeAndEdge(node, i, BTNode) }
+      d.wifiDevices.foreach{ i => addNodeAndEdge(node, i, WifiNode) }
     }
     graph
   }

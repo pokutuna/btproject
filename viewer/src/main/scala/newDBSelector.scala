@@ -27,28 +27,60 @@ class newDBSelector(val config:ConfigLoader) {
       case None => None
     }
   }
-  
+
+  private val cacheForAddrIDToDeviceAddress = scala.collection.mutable.Map[Int,Option[DeviceAddress]]()
   def addrIDToDeviceAddress(id:Int):Option[DeviceAddress] = {
-    db.withSession { DeviceAddresses.where(_.addrID is id).firstOption }
+    def takeFromDB(id:Int):Option[DeviceAddress] =
+      db.withSession { DeviceAddresses.where(_.addrID is id).firstOption }
+    
+    cacheForAddrIDToDeviceAddress.get(id) match {
+      case Some(n) => n
+      case None =>
+        val da = takeFromDB(id)
+        if (da != None) cacheForAddrIDToDeviceAddress += (id -> da)
+        return da
+    }
   }
 
+  private val cacheForAddrIDToAddress = scala.collection.mutable.Map[Int,Option[String]]()
   def addrIDToAddress(id:Int):Option[String] = {
-    db.withSession {
-      val q = for ( d <- DeviceAddresses if d.addrID is id) yield d.address
-      q.firstOption
+    def takeFromDB(id:Int) = { 
+      db.withSession {
+        val q = for ( d <- DeviceAddresses if d.addrID is id) yield d.address
+        q.firstOption
+      }
+    }
+
+    cacheForAddrIDToAddress.get(id) match {
+      case None =>
+        val address = takeFromDB(id)
+        if (address != None) cacheForAddrIDToAddress += (id -> address)
+        return address
+      case Some(n) => return n
     }
   }
 
+  private val cacheForAddrIDToName = scala.collection.mutable.Map[Int,Option[String]]()
   def addrIDToName(id:Int):Option[String] = {
-    db.withSession {
-      val q = for ( d <- DeviceNames if d.addrID is id) yield d.name
-      q.firstOption
+    def takeFromDB(id:Int):Option[String] = { 
+      db.withSession {
+        val q = for ( d <- DeviceNames if d.addrID is id) yield d.name
+        q.firstOption
+      }
+    }
+
+    cacheForAddrIDToName.get(id) match {
+      case None =>
+        val name = takeFromDB(id)
+        if (name != None) cacheForAddrIDToName += (id -> name)
+        return name
+      case Some(n) => return n
     }
   }
 
-  val cacheForAddressToAddrID = scala.collection.mutable.Map[String,Option[Int]]()
+  private val cacheForAddressToAddrID = scala.collection.mutable.Map[String,Option[Int]]()
   def addressToAddrID(address:String):Option[Int] = {
-    val takeFromDB:(String) => Option[Int] = { str =>
+    def takeFromDB(str:String):Option[Int] = {
       db.withSession {
         val q = for (inv <- InvertedDeviceAddresses if inv.address is str) yield inv.addrID
         q.firstOption
@@ -64,6 +96,23 @@ class newDBSelector(val config:ConfigLoader) {
     }
   }
 
+  private val cacheForDevStringToPreCliqueID = scala.collection.mutable.Map[String,Option[Int]]()
+  def devStringToPreCliqueID(devString:String):Option[Int] = {
+    def takeFromDB(str:String):Option[Int] = {
+      db.withSession {
+        val q = for (pc <- PreCliques if pc.devString is str) yield pc.cliqueID
+        q.firstOption()
+      }
+    }
+
+    cacheForDevStringToPreCliqueID.get(devString) match {
+      case None =>
+        val id = takeFromDB(devString)
+        if (id != None) cacheForDevStringToPreCliqueID += (devString -> id)
+        return id
+      case Some(n) => return n
+    }
+  }
 
   def addDeviceAddress(address:String, deviceType:DeviceType.Value):Unit = {
     if (addressToAddrID(address) == None) {
@@ -87,7 +136,6 @@ class newDBSelector(val config:ConfigLoader) {
             case Some(dn) if dn.name == "" || dn.name == "n/a." =>
               val q = for(d <- DeviceNames if d.addrID is id) yield d.name
               q.update(name)            
-              //println(dn + " updated to " + DeviceName(id, name))
             case _ =>
           }
         }
@@ -118,7 +166,18 @@ class newDBSelector(val config:ConfigLoader) {
       }
     }
   }
+
+//  def addCommunityRecord()
 }
+
+trait AddrIDMapping extends HasDBSelector {
+  val addrID:Int
+  lazy val toDeviceAddress:Option[DeviceAddress] = selector.addrIDToDeviceAddress(addrID)
+  lazy val deviceName:Option[String] = selector.addrIDToName(addrID)
+  lazy val address:Option[String] = selector.addrIDToAddress(addrID)
+}
+
+
 
 
 
