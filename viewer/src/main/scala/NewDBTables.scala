@@ -88,18 +88,19 @@ object PreCliques extends ExtendedTable[PreClique]("preCliques") {
   def idxpc = index("idxpc", cliqueID ~ devString, unique = true)
 }
 
-case class CommunityRecord(time:Timestamp, window:Int, preCliqueID:Int, envDevices:String)
+case class CommunityRecord(time:Timestamp, window:Int, preCliqueID:Int, envBT:String, envWF:String)
 
 object CommunityRecords extends ExtendedTable[CommunityRecord]("communityRecords") {
   def time = column[Timestamp]("time")
   def window = column[Int]("window")
   def preCliqueID = column[Int]("preCliqueID")
-  def envDevices = column[String]("envDevices")
-  def * = time ~ window ~ preCliqueID ~ envDevices <>
+  def envBT = column[String]("envBT")
+  def envWF = column[String]("envWF")
+  def * = time ~ window ~ preCliqueID ~ envBT ~ envWF <>
     (CommunityRecord, CommunityRecord.unapply _)
-  def forInsert = time ~ window ~ preCliqueID ~ envDevices <>
-    ({ (t, w, p, e) => CommunityRecord(t, w, p, e)},
-     { c:CommunityRecord => Some(c.time, c.window, c.preCliqueID, c.envDevices) })
+  def forInsert = time ~ window ~ preCliqueID ~ envBT ~ envWF <>
+    ({ (t, w, p, bt, wf) => CommunityRecord(t, w, p, bt, wf)},
+     { c:CommunityRecord => Some(c.time, c.window, c.preCliqueID, c.envBT, c.envWF) })
   def idx = index("idxcr", time ~ window ~ preCliqueID, unique = true)
 }
 

@@ -37,31 +37,53 @@ class CliqueExtractor[V,E](graph:Graph[V,E]) {
 
 }
 
+class SimpleGraph(map:Map[Int, Set[Int]]) {
+  val graph:UndirectedSparseGraph[Int,Int] = new UndirectedSparseGraph[Int,Int]()
+  val intFactory = new IntFactory()
+  import org.btproject.model._
+  val preDevs = UserDevice.addrIDs.foreach(graph.addVertex(_))
+  
+  for ( (k,v) <- map) {
+//    graph.addVertex(k)
+    v.foreach{ n => graph.addVertex(n); graph.addEdge(intFactory.take(), Seq(k, n))}
+  }
+  
+  class IntFactory {
+    var value = -1
+    def take():Int = { value += 1; return value }
+  }
+
+  import scala.util.control.Exception._
+  def isClique(nodes:Iterable[Int]):Boolean = {
+    val nodeSet = nodes.toSet
+    nodeSet.foreach { v =>
+      val links = allCatch opt (graph.getSuccessors(v).toSet) getOrElse(Set())
+      if (!(nodeSet - v).subsetOf(links)) return false
+    }
+    return true
+  }
+}
+
 import org.btproject.analysis._
 object CliqueExtractor {
+  import org.btproject.model._
+  val preDevs = UserDevice.addrIDs.toSet
+  
   def extractFromTimeSpanDetects(minSize:Int, detects:Seq[TimeSpanDetect]):Set[Set[Int]] = {
-    def isClique(nodes:Set[Int], neighborMap:Map[Int,Set[Int]]):Boolean = {
-      nodes.foreach { n =>
-        if(!((nodes - n) subsetOf neighborMap(n))) return false
-      }
-      true
-    }
 
     if (minSize > detects.size) return Set[Set[Int]]()
-    val detectorIDs = detects.map(_.addrID)
+    
     val detectMap = detects.map { d =>
       (d.addrID ->
-       d.detectDevices.map(_.addrID.get).filter(detectorIDs.contains(_)).toSet)}.toMap
+       d.detectDevices.map(_.addrID.get).filter(preDevs.contains(_)).toSet)}.toMap
+    val sg = new SimpleGraph(detectMap)
     val cliques = scala.collection.mutable.Set[Set[Int]]()
-
-    println(detectorIDs)
-    println(detectMap)
   
-    (minSize to detects.size toList).reverse.foreach { size =>
-      Combination(size, detectorIDs).map(_.toSet)foreach{ comb =>
+    (minSize to sg.graph.getVertices.size toList).reverse.foreach { size =>
+      Combination(size, sg.graph.getVertices).map(_.toSet)foreach{ comb => //empty target?
         comb match {
           case c if cliques.exists(c subsetOf _) =>
-          case c if isClique(c,detectMap) =>  cliques += comb
+          case c if sg.isClique(c) =>  cliques += comb
           case _ =>
         }
       }

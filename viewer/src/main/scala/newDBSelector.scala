@@ -167,7 +167,11 @@ class newDBSelector(val config:ConfigLoader) {
     }
   }
 
-//  def addCommunityRecord()
+  def addCommunityRecord(record:CommunityRecord) = {
+    db.withSession {
+      CommunityRecords.forInsert.insert(record)
+    }
+  }
 }
 
 trait AddrIDMapping extends HasDBSelector {

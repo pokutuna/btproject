@@ -25,6 +25,10 @@ object TimestampUtil {
   def minutesLater(ts:Timestamp, minutes:Int):Timestamp = {
     new Timestamp(ts.getTime + MINUTE * minutes)
   }
+
+  def minutesBefore(ts:Timestamp, minutes:Int):Timestamp = {
+    new Timestamp(ts.getTime - MINUTE * minutes)
+  }
 }
 
 object TimestampUtilImplicits {
