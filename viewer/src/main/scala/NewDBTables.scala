@@ -104,3 +104,28 @@ object CommunityRecords extends ExtendedTable[CommunityRecord]("communityRecords
   def idx = index("idxcr", time ~ window ~ preCliqueID, unique = true)
 }
 
+case class CommunityCount(preCliqueID:Int, count:Int)
+object CommunityCounts extends ExtendedTable[CommunityCount]("communityCounts") {
+  def preCliqueID = column[Int]("preCliqueID", O PrimaryKey)
+  def count = column[Int]("count")
+  def * = preCliqueID ~ count <> (CommunityCount, CommunityCount.unapply _)
+  def forInsert = preCliqueID ~ count <>
+    ({ (p, c) => CommunityCount(p, c)}, { p:CommunityCount => Some(p.preCliqueID, p.count)})
+}
+
+case class CliqueContain(clique:Int, inner:Int)
+object CliqueContains extends ExtendedTable[CliqueContain]("cliqueContains") {
+  def clique = column[Int]("clique")
+  def inner = column[Int]("inner")
+  def * = clique ~ inner <> (CliqueContain, CliqueContain.unapply _)
+  def forInsert = clique ~ inner <>
+    ({ (c, i) => CliqueContain(c, i)}, { c:CliqueContain => Some(c.clique, c.inner)})
+  def idx = index("idxcc", clique ~ inner, unique = true)
+}
+
+
+
+
+
+
+
