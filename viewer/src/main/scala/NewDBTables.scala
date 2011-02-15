@@ -113,6 +113,16 @@ object CommunityCounts extends ExtendedTable[CommunityCount]("communityCounts") 
     ({ (p, c) => CommunityCount(p, c)}, { p:CommunityCount => Some(p.preCliqueID, p.count)})
 }
 
+case class ParentalCommunityCount(preCliqueID:Int, countParental:Int)
+object ParentalCommunityCounts extends ExtendedTable[ParentalCommunityCount]("parentalCommunityCounts") {
+  def preCliqueID = column[Int]("preCliqueID", O PrimaryKey)
+  def countParental = column[Int]("countParental")
+  def * = preCliqueID ~ countParental <> (ParentalCommunityCount, ParentalCommunityCount.unapply _)
+  def forInsert = preCliqueID ~ countParental <>
+    ({ (p, c) => ParentalCommunityCount(p, c)},
+     { p:ParentalCommunityCount => Some(p.preCliqueID, p.countParental)})
+}
+
 case class CliqueContain(clique:Int, inner:Int)
 object CliqueContains extends ExtendedTable[CliqueContain]("cliqueContains") {
   def clique = column[Int]("clique")
