@@ -133,6 +133,34 @@ object CliqueContains extends ExtendedTable[CliqueContain]("cliqueContains") {
   def idx = index("idxcc", clique ~ inner, unique = true)
 }
 
+import org.btproject.util._
+case class CommunityInDayTime(inDayTime:Timestamp, cliqueID:Int, count:Int)
+object CommunityInDayTimes extends ExtendedTable[CommunityInDayTime]("communityInDayTimes") {
+  def inDayTime = column[Timestamp]("time")
+  def cliqueID = column[Int]("cliqueID")
+  def count = column[Int]("count")
+  def * = inDayTime ~ cliqueID ~ count <>
+    (CommunityInDayTime, CommunityInDayTime.unapply(_))
+  def forInsert = inDayTime ~ cliqueID ~ count <>
+  ({ (t, cl, co) => CommunityInDayTime(t, cl, co)},
+     { c:CommunityInDayTime => Some(c.inDayTime, c.cliqueID, c.count)})
+}
+
+case class MeetingCount(cliqueID:Int, target:Int, count:Int, countContinued:Int)
+object MeetingCounts extends ExtendedTable[MeetingCount]("meetingCount") {
+  def cliqueID = column[Int]("cliqueID")
+  def target = column[Int]("target")
+  def count = column[Int]("count")
+  def countContinued = column[Int]("countContinued")
+  def * = cliqueID ~ target ~ count ~ countContinued <>
+    (MeetingCount, MeetingCount.unapply _)
+  def forInsert = cliqueID ~ target ~ count ~ countContinued <>
+    ({ (id, tg, co, coc) => MeetingCount(id, tg, co, coc)},
+     { m:MeetingCount => Some(m.cliqueID, m.target, m.count, m.countContinued)})
+}
+
+
+
 
 
 

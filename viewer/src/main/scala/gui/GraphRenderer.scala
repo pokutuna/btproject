@@ -18,7 +18,8 @@ import org.btproject.analysis._
 object GraphRenderer {
 
 //  val start = "2010/11/4 10:10:00";  val end = "2010/11/4 10:40:00"
-  val start = "2010/11/4 12:00:00";  val end = "2010/11/4 13:00:00"
+//  val start = "2010/10/18 0:00:00";  val end = "2010/10/31 00:00:00"
+  val start = "2010/11/4 09:00:00";  val end = "2010/11/4 18:00:00"  
 //    val start = "2010/11/4 9:00:00";    val end = "2010/11/4 18:00:00"
 
   val t1 = System.currentTimeMillis()

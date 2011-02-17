@@ -13,6 +13,10 @@ class TimespanUtilSpec extends SpecHelper {
       val d = TimestampUtil.parse("2010/10/04 00:00:05")
       val e = TimestampUtil.parse("2010/10/04 00:09:00")
       TimestampUtil.cutOff(d,10) must be (TimestampUtil.cutOff(e,10))
+
+      val f = TimestampUtil.parse("2010/10/04 00:09:30")
+      TimestampUtil.diffSecond(b, c) must be (-1)
+      TimestampUtil.diffSecond(f, e) must be (30)
     }
   }
 }

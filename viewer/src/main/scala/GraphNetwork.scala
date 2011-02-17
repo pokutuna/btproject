@@ -31,9 +31,13 @@ case class BTNode(label:String) extends Node {
   def color:Paint = Color.BLUE
 }
 
-case class JointNode(label:String) extends Node {
+case class JointNode(label:String = "") extends Node {
   def shape:Shape = new Ellipse2D.Double(-3, -3, 6, 6)
   def color:Paint = Color.GRAY
 }
 
+case class ManualNode(label:String, width:Int, height:Int, color:Paint) extends Node {
+  def shape:Shape = new Ellipse2D.Double(-width/2, -height/2, width, height)
+}
+  
 case class IntEdge(label:String, value:Int) extends Edge
