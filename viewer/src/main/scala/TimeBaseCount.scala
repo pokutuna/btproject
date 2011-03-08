@@ -39,8 +39,8 @@ object TimeBaseCount extends HasDBSelector {
         }
       }
     }
+
   }
-  
   def calc = {
     val base = TimestampUtil.standardTimestamp    
     val spans = getDateSpans.foreach { span =>
@@ -54,9 +54,8 @@ object TimeBaseCount extends HasDBSelector {
         }
       }
     }
-
   }
-  
+    
   def getDateSpans = {
     ForLogDataCounts.getDateSpans
   }
@@ -64,6 +63,25 @@ object TimeBaseCount extends HasDBSelector {
   def main(args: Array[String]) = {
 //    makeTable
 //    calc
-    //todo something
+    selector.db.withSession {
+      val q = (for (indt <- CommunityInDayTimes) yield indt).list
+      val countMap3 = scala.collection.mutable.Map[Timestamp, Int]()
+      val countMap4 = scala.collection.mutable.Map[Timestamp, Int]()
+      val countMap5 = scala.collection.mutable.Map[Timestamp, Int]()
+      val countMap6 = scala.collection.mutable.Map[Timestamp, Int]()      
+      q.foreach{ r =>
+        if(r.cliqueID >= 12616) countMap6(r.inDayTime) = countMap6.get(r.inDayTime).getOrElse(0) + r.count
+        if(r.cliqueID >= 4048) countMap5(r.inDayTime) = countMap5.get(r.inDayTime).getOrElse(0) + r.count
+        if(r.cliqueID >= 988) countMap4(r.inDayTime) = countMap4.get(r.inDayTime).getOrElse(0) + r.count
+        if(r.cliqueID >= 172) countMap3(r.inDayTime) = countMap3.get(r.inDayTime).getOrElse(0) + r.count
+      }
+      val keys = countMap3.keys
+      val strs = keys.map{ k =>
+        (k, List(countMap3(k), countMap4.getOrElse(k, 0), countMap5.getOrElse(k, 0), countMap6.getOrElse(k,0)).mkString(","))
+      }.toList.sortWith(_._1.getTime < _._1.getTime)
+      FileWrapper("time_base.csv").write(strs.map(a => a._1 + "," + a._2).mkString("\n"))
+    }
+
+    
   }
 }

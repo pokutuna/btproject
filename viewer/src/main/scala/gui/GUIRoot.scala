@@ -12,7 +12,7 @@ object GUIRoot extends SimpleSwingApplication {
   def top = new MainFrame{
     title = "LogViewer"
     contents = new BorderPanel {
-      preferredSize = new java.awt.Dimension(1200,700)
+      preferredSize = new java.awt.Dimension(1200,800)
       //add ((new UserTable()).panel, BorderPanel.Position.West)
       add (new ScrollPane(right), BorderPanel.Position.Center)
 //      contents += ((new UserTable).panel, 
@@ -22,7 +22,7 @@ object GUIRoot extends SimpleSwingApplication {
 
   val right = new FlowPanel {
     border = new javax.swing.border.EtchedBorder
-    contents += Component.wrap(GraphRenderer.getGraphPanel(new Dimension(1200,700)))
+    contents += Component.wrap(GraphRenderer.getGraphPanel(new Dimension(500,400)))
   }
 
 }

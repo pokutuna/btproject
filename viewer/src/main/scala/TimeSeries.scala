@@ -9,7 +9,8 @@ import org.btproject.util.TimestampUtilImplicits._
 
 object TimeSeries extends HasDBSelector {
 
-  def printCommunities(start:String, end:String):Unit = { 
+  def printCommunities(start:String, end:String):Unit = {
+    println(start + " - " +  end)
     val datas = TimeSpanDetect.timeBetween(start,end)
     val cliques = CliqueExtractor.extractFromTimeSpanDetects(2, datas)
     println("Cliqeus:" + cliques.map{ _.map(selector.addrIDToName(_).get)})
@@ -48,14 +49,16 @@ object TimeSeries extends HasDBSelector {
   }
 
   def main(args: Array[String]) = {
-    import org.btproject.util._
-    val span = new TimeSpanGenerator("2010/11/4 12:00:00", 60, 60)
+/*    import org.btproject.util._
+    val span = new TimeSpanGenerator("2010/11/4 12:00:00", 30, 30)
     println("addrIDs" + UserDevice.addrIDs)
     for(n <- 1 to 3){
       val time = span.getSpan()
       println(time._1 + " - " + time._2) 
       TimeSeries.printCommunities(time._1, time._2)
       println("-----")
-    }
+    }      
+      */
+    TimeSeries.printCommunities("2010/11/4 12:00:00", "2010/11/4 12:20:00")
   }
 }

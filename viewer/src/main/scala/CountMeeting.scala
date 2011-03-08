@@ -94,8 +94,14 @@ object CountMeeting extends HasDBSelector {
         val baMeeting = (for(r <- MeetingCounts if ((r.cliqueID is devB) && (r.target is devA))) yield r.count).firstOption.getOrElse(0)
         val abDetect = DetectRecords.where(r => (r.devString like ("%(" + devB + ")%")) && (r.addrID is devA)).list.size
         val baDetect = DetectRecords.where(r => (r.devString like ("%(" + devA + ")%")) && (r.addrID is devB)).list.size
+        val test = DetectRecords.where(r => (r.devString like ("%(10)%")) && (r.addrID is 1)).list.size
         val meeting = List(abMeeting, baMeeting).max
-        val detect = List(abDetect, baDetect).max
+        val pair = SerializedDevice.mkString(comb)
+        println(comb + " : " + pair)
+        val pcid = PreCliques.where(_.devString is pair).first.cliqueID
+        val detect = //ParentalCommunityCounts.where(_.preCliqueID is pcid).first
+        List(abDetect, baDetect).max
+        println(abDetect + " " + baDetect)
         val str = devA + "," + devB + "," + meeting + "," + detect + "\n"
         print(str)
         str

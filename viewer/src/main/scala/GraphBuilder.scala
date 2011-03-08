@@ -38,6 +38,7 @@ object GraphBuilder {
     val edge = new IntEdgeFactory
     val graph:Graph[Node,Edge] = (new GraphBuilder).graph
     val userNodes = scala.collection.mutable.Map[String,Node]()
+    
     datas.foreach{ d =>
       graph.addVertex(d.getNode)
       userNodes += (d.deviceName.get -> d.getNode)
